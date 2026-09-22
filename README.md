@@ -61,4 +61,5 @@ ads-library-verify /path/to/this/repository
 
 The verifier checks the manifest, public dataset, approval boundary, credential-field exclusions,
 standalone interface, and every evidence screenshot. Browser profiles, cookies, passwords, session
-tokens, and local databases are never included in this repository.
+tokens, account-slot labels, ChatGPT conversation URLs, and local databases are never included in
+this repository.

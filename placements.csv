@@ -1,4 +1,22 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+c36030075211db9c98203f51,032909b12ec7f1a4be31c682,2026-09-22T22:38:33.929Z,Hero MotoCorp,Ad,answer_card,Hero Destini,Hero Destini scooter with 56.2 kmpl mileage,Travel and leisure,Intercity buses,complete_panel,True,I am comparing intercity bus booking options between Bengaluru and Chennai. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For Bengaluru → Chennai, switching between the main booking options is fairly easy because the route has heavy coverage.
+
+Provider/product	Current fare*	Switching difficulty	Best fit
+redBus	₹284+	Low	Maximum choice; 350+ daily buses across ~78 operators 
+redBus
+
+AbhiBus	₹294+	Low	Comparing private + RTC buses; promo offers available 
+AbhiBus
+
+KSRTC Karnataka	₹560+	Medium	Government-operated service; Airavat/Ambaari options, roughly 6–7 hrs 
+AbhiBus
++1
+
+*Fares are live starting prices and can change by date, seat and bus type.
+
+Practical switching: redBus ↔ AbhiBus is essentially just changing apps/sites and reselecting the same route. Moving to KSRTC is slightly more restrictive because you have fewer operator choices and fixed schedules, but the booking process remains straightforward.
+
+For a typical traveller, the biggest switching variable isn't the booking platform itself; it's boarding point, departure time, bus type and cancellation terms.",6e2fbb28d7685a8bcea7547d,evidence/d3461205b3bf4d6d194ad32b807d36e9a644b838b2e2e87f89736f0eeb8ee2af.png,d3461205b3bf4d6d194ad32b807d36e9a644b838b2e2e87f89736f0eeb8ee2af
 da0a780001b77f7cd55d4f56,6a0c390c0d7c74cca811dc5f,2026-09-22T22:35:21.436Z,UJ PALLAZZIO - Business Class Luxury Hotel,Ad,answer_card,Family Hotel in Tiruvannamalai,"Clean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now",Travel and leisure,Intercity buses,complete_panel,True,I am comparing intercity bus booking options between Bengaluru and Chennai. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For Bengaluru → Chennai, three practical options currently available in India:
 
 Provider	Current fare	Switching difficulty	Practical difference
