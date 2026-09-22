@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T21:05:17Z",
+  "generated_at": "2026-09-22T21:06:53Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 136,
+    "valid_turns": 139,
     "approved_paid_units": 129,
     "approved_advertisers": 80,
     "approved_creatives": 124
@@ -733,9 +733,9 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 136,
+    "turns": 139,
     "ad_turns": 16,
-    "ad_rate": 0.11764705882352941,
+    "ad_rate": 0.11510791366906475,
     "categories": [
       {
         "category": "Scented candles",
@@ -786,6 +786,18 @@
         "competition_score": 0.09090909090909091
       },
       {
+        "category": "Vacation rentals",
+        "industry": "Travel and leisure",
+        "turns": 7,
+        "ad_turns": 4,
+        "paid_units": 4,
+        "advertisers": 3,
+        "creatives": 4,
+        "ad_rate": 0.5714285714285714,
+        "posterior_ad_rate": 0.45454545454545453,
+        "competition_score": 1.0554218613124373
+      },
+      {
         "category": "Citrus perfume",
         "industry": "Beauty and personal care",
         "turns": 6,
@@ -832,18 +844,6 @@
         "ad_rate": 0.6666666666666666,
         "posterior_ad_rate": 0.5,
         "competition_score": 0.792481250360578
-      },
-      {
-        "category": "Vacation rentals",
-        "industry": "Travel and leisure",
-        "turns": 6,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 3,
-        "creatives": 4,
-        "ad_rate": 0.6666666666666666,
-        "posterior_ad_rate": 0.5,
-        "competition_score": 1.160964047443681
       },
       {
         "category": "Airport lounge access",
@@ -1026,6 +1026,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Woody perfume",
+        "industry": "Beauty and personal care",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
         "category": "Sensitive-skin fragrance",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1062,16 +1074,16 @@
         "competition_score": 0.14285714285714285
       },
       {
-        "category": "Woody perfume",
-        "industry": "Beauty and personal care",
-        "turns": 3,
+        "category": "Airport transfers",
+        "industry": "Travel and leisure",
+        "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "creatives": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666
       },
       {
         "category": "Business hotels",
@@ -1084,18 +1096,6 @@
         "ad_rate": 0.5,
         "posterior_ad_rate": 0.3333333333333333,
         "competition_score": 0.5283208335737186
-      },
-      {
-        "category": "Airport transfers",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
       },
       {
         "category": "Body mists",
@@ -1148,24 +1148,24 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 37,
+        "turns": 38,
         "ad_turns": 7,
         "paid_units": 7,
         "advertisers": 5,
-        "ad_rate": 0.1891891891891892,
-        "posterior_ad_rate": 0.1951219512195122,
-        "competition_score": 0.5477765701575813
+        "ad_rate": 0.18421052631578946,
+        "posterior_ad_rate": 0.19047619047619047,
+        "competition_score": 0.5347342708681151
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 2,
+        "turns": 3,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.5,
-        "competition_score": 0.792481250360578
+        "ad_rate": 0.6666666666666666,
+        "posterior_ad_rate": 0.42857142857142855,
+        "competition_score": 0.6792696431662097
       },
       {
         "turn_index": 3,
@@ -1181,13 +1181,13 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 23,
+        "turns": 24,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.037037037037037035,
-        "competition_score": 0.037037037037037035
+        "posterior_ad_rate": 0.03571428571428571,
+        "competition_score": 0.03571428571428571
       }
     ]
   },
