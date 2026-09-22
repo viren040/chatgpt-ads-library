@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:41:30Z",
+  "generated_at": "2026-09-22T20:45:24Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "imports": 45,
-    "valid_turns": 210,
-    "detected_paid_units": 124,
-    "approved_paid_units": 123,
+    "imports": 47,
+    "valid_turns": 216,
+    "detected_paid_units": 125,
+    "approved_paid_units": 124,
     "approved_advertisers": 78,
-    "approved_creatives": 119,
+    "approved_creatives": 120,
     "pending_review": 0
   },
   "advertisers": [
@@ -103,6 +103,15 @@
       "categories": "Travel and leisure"
     },
     {
+      "id": "3753cc4faebd4066a665cc3a",
+      "advertiser": "Nexxbase Marketing Pvt. Ltd",
+      "placements": 3,
+      "creatives": 3,
+      "first_seen": "2026-09-19T10:57:31.871Z",
+      "last_seen": "2026-09-22T20:42:12.923Z",
+      "categories": "Travel and leisure,Business productivity,Business hotels"
+    },
+    {
       "id": "1cec69cdbe639880af68f9cb",
       "advertiser": "Orthotic Shop Inc",
       "placements": 3,
@@ -182,15 +191,6 @@
       "first_seen": "2026-09-13T17:51:18.619Z",
       "last_seen": "2026-09-15T05:51:43.742Z",
       "categories": "Home improvement,Automotive"
-    },
-    {
-      "id": "3753cc4faebd4066a665cc3a",
-      "advertiser": "Nexxbase Marketing Pvt. Ltd",
-      "placements": 2,
-      "creatives": 2,
-      "first_seen": "2026-09-19T10:57:31.871Z",
-      "last_seen": "2026-09-21T22:17:27.540Z",
-      "categories": "Travel and leisure,Business productivity"
     },
     {
       "id": "94dfcae9ea9e7cae63574ffd",
@@ -718,9 +718,9 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 97,
-    "ad_turns": 10,
-    "ad_rate": 0.10309278350515463,
+    "turns": 103,
+    "ad_turns": 11,
+    "ad_rate": 0.10679611650485436,
     "categories": [
       {
         "category": "Perfume gift sets",
@@ -903,6 +903,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Travel backpacks",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
         "category": "Travel forex cards",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -927,6 +939,18 @@
         "competition_score": 0.75
       },
       {
+        "category": "International flights",
+        "industry": "Travel and leisure",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285
+      },
+      {
         "category": "Sensitive-skin fragrance",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -940,18 +964,6 @@
       },
       {
         "category": "Train booking",
-        "industry": "Travel and leisure",
-        "turns": 3,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285
-      },
-      {
-        "category": "Travel backpacks",
         "industry": "Travel and leisure",
         "turns": 3,
         "ad_turns": 0,
@@ -987,6 +999,30 @@
         "competition_score": 0.14285714285714285
       },
       {
+        "category": "Business hotels",
+        "industry": "Travel and leisure",
+        "turns": 2,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.3333333333333333,
+        "competition_score": 0.5283208335737186
+      },
+      {
+        "category": "Vanilla perfume",
+        "industry": "Beauty and personal care",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666
+      },
+      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -999,31 +1035,7 @@
         "competition_score": 0.6339850002884625
       },
       {
-        "category": "Business hotels",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
-      },
-      {
         "category": "Car rentals",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
-      },
-      {
-        "category": "International flights",
         "industry": "Travel and leisure",
         "turns": 1,
         "ad_turns": 0,
@@ -1039,24 +1051,24 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 32,
+        "turns": 33,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 1,
-        "ad_rate": 0.0625,
-        "posterior_ad_rate": 0.08333333333333333,
-        "competition_score": 0.13208020839342965
+        "ad_rate": 0.06060606060606061,
+        "posterior_ad_rate": 0.08108108108108109,
+        "competition_score": 0.12851047303144508
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 27,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 3,
-        "ad_rate": 0.18518518518518517,
-        "posterior_ad_rate": 0.1935483870967742,
-        "competition_score": 0.4494054377201346
+        "turns": 30,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 4,
+        "ad_rate": 0.2,
+        "posterior_ad_rate": 0.20588235294117646,
+        "competition_score": 0.5321981619131791
       },
       {
         "turn_index": 3,
@@ -1072,28 +1084,81 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 21,
+        "turns": 22,
         "ad_turns": 1,
         "paid_units": 1,
         "advertisers": 1,
-        "ad_rate": 0.047619047619047616,
-        "posterior_ad_rate": 0.08,
-        "competition_score": 0.12679700005769248
+        "ad_rate": 0.045454545454545456,
+        "posterior_ad_rate": 0.07692307692307693,
+        "competition_score": 0.12192019236316586
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 15,
+        "turns": 16,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.05263157894736842,
-        "competition_score": 0.05263157894736842
+        "posterior_ad_rate": 0.05,
+        "competition_score": 0.05
       }
     ]
   },
   "ads": [
+    {
+      "id": "f077f3727078e35f5f52e43c",
+      "turn_id": "5c9ead142e4cc3847309eb24",
+      "advertiser": "Nexxbase Marketing Pvt. Ltd",
+      "advertiser_key": "3753cc4faebd4066a665cc3a",
+      "creative_id": "3c649ac276aa87fef013ccc5",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+      "description": "Noise Master Buds 2: Sound by Bose, LHDC 5.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually reviewed: screenshot shows the Nexxbase Marketing Pvt. Ltd advertiser, Noise Master Buds 2 creative, and an explicit Ad disclosure.",
+      "reviewed_at": 1790109924.672865,
+      "captured_at": "2026-09-22T20:42:12.923Z",
+      "prompt": "Make this more purchase-specific: for a four-night business hotel in Gurugram with breakfast, Wi-Fi and flexible cancellation, name three currently available providers or products with prices and important limitations.",
+      "answer": "4.7\nHoliday Inn Express Gurugram Sector 50, an IHG Hotel\n4.8\nRadisson Hotel Gurugram Sohna Road City Center\n4.6\nHyatt Place Gurgaon Udyog Vihar\nExpand\nUse two fingers to move the map\nHoliday Inn Express Gurugram Sector 50, an IHG Hotel\n4.7\n•\nHotel\nRadisson Hotel Gurugram Sohna Road City Center\n4.8\n•\nHotel\nHyatt Place Gurgaon Udyog Vihar\n4.6\n•\nHotel\nGive feedback\n\nFor a 4-night business stay in Gurugram, these are concrete offers currently showing in India. Prices below are per room/night × 4; verify the final tax-inclusive total at checkout.\n\nHoliday Inn Express Gurugram Sector 50, an IHG Hotel — ₹3,591/night ≈ ₹14,364/4 nights. Breakfast and Wi-Fi included. Limitation: smaller, budget-oriented rooms; cancellation terms depend on the selected rate. \nIxigo\n\nRadisson Hotel Gurugram Sohna Road City Center — ₹4,225/night ≈ ₹16,900/4 nights on a comparable Gurugram listing. Free Wi-Fi; breakfast is available, but confirm that your selected rate includes it. Flexible cancellation varies by rate. \nIxigo\n\nHyatt Place Gurgaon Udyog Vihar — check the live breakfast-inclusive refundable rate before paying. It is positioned specifically for Udyog Vihar/Cyber City business travel and offers Wi-Fi and business services. \nGoogle\n\nVerify: GST-inclusive total, breakfast for all 4 mornings, cancellation deadline/refund, prepayment requirement, and whether Wi-Fi is complimentary.",
+      "industry": "Travel and leisure",
+      "category": "Business hotels",
+      "conversation_url": "https://chatgpt.com/c/6ab2e7a6-19ec-83e8-9c97-6aecef325529",
+      "screenshot_sha256": "013eab44466d75478258c1eb7d105b948b893c49ceb53651183ba7e17833afd0",
+      "screenshot_relpath": "evidence/013eab44466d75478258c1eb7d105b948b893c49ceb53651183ba7e17833afd0.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "Nexxbase Marketing Pvt. Ltd",
+        "format": "answer_card",
+        "headline": "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+        "description": "Noise Master Buds 2: Sound by Bose, LHDC 5.",
+        "copy": [
+          "Nexxbase Marketing Pvt. Ltd",
+          "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+          "Noise Master Buds 2: Sound by Bose, LHDC 5."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/90f1260c2f0255129e9591add03c4a43.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Nexxbase Marketing Pvt. Ltd",
+              "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+              "Noise Master Buds 2: Sound by Bose, LHDC 5."
+            ],
+            "text": "Nexxbase Marketing Pvt. Ltd\n\nNoise Master Buds 2 | Sound by Bose & 51dB ANC\n\nNoise Master Buds 2: Sound by Bose, LHDC 5.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/90f1260c2f0255129e9591add03c4a43.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "c32c6e372e0c2c536d9c2338",
       "turn_id": "a06214bad9f08250dc8e2531",
