@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T21:35:37Z",
+  "generated_at": "2026-09-22T21:59:43Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 186,
+    "valid_turns": 214,
     "approved_paid_units": 133,
     "approved_advertisers": 80,
     "approved_creatives": 127
@@ -733,21 +733,26 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 186,
+    "turns": 214,
     "ad_turns": 20,
-    "ad_rate": 0.10752688172043011,
+    "ad_rate": 0.09345794392523364,
+    "ad_rate_low": 0.06131459341623099,
+    "ad_rate_high": 0.13993989608439697,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 25,
+        "turns": 52,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 4,
         "creatives": 5,
-        "ad_rate": 0.24,
-        "posterior_ad_rate": 0.2413793103448276,
-        "competition_score": 0.6239564656913136
+        "ad_rate": 0.11538461538461539,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.3231203125901445,
+        "ad_rate_low": 0.05396895756082726,
+        "ad_rate_high": 0.22971918891062054,
+        "evidence_strength": "established"
       },
       {
         "category": "Pilgrimage travel",
@@ -759,7 +764,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.08333333333333333,
-        "competition_score": 0.08333333333333333
+        "competition_score": 0.08333333333333333,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.3244156195108769,
+        "evidence_strength": "directional"
       },
       {
         "category": "Scented candles",
@@ -771,7 +779,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.08333333333333333,
-        "competition_score": 0.08333333333333333
+        "competition_score": 0.08333333333333333,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.3244156195108769,
+        "evidence_strength": "directional"
       },
       {
         "category": "Summer fragrance",
@@ -783,7 +794,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.08333333333333333,
-        "competition_score": 0.08333333333333333
+        "competition_score": 0.08333333333333333,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.3244156195108769,
+        "evidence_strength": "directional"
       },
       {
         "category": "Perfume gift sets",
@@ -795,7 +809,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.09090909090909091,
-        "competition_score": 0.09090909090909091
+        "competition_score": 0.09090909090909091,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.35433884297520657,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Travel luggage",
@@ -807,7 +824,10 @@
         "creatives": 1,
         "ad_rate": 0.2857142857142857,
         "posterior_ad_rate": 0.2727272727272727,
-        "competition_score": 0.4322625001966789
+        "competition_score": 0.4322625001966789,
+        "ad_rate_low": 0.0822171657090155,
+        "ad_rate_high": 0.6410709098517873,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Unisex fragrance",
@@ -819,7 +839,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.09090909090909091,
-        "competition_score": 0.09090909090909091
+        "competition_score": 0.09090909090909091,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.35433884297520657,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Weekend getaways",
@@ -831,7 +854,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.09090909090909091,
-        "competition_score": 0.09090909090909091
+        "competition_score": 0.09090909090909091,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.35433884297520657,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Citrus perfume",
@@ -843,7 +869,10 @@
         "creatives": 2,
         "ad_rate": 0.3333333333333333,
         "posterior_ad_rate": 0.3,
-        "competition_score": 0.6
+        "competition_score": 0.6,
+        "ad_rate_low": 0.09676933255921683,
+        "ad_rate_high": 0.7000116786584712,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Domestic flights",
@@ -855,7 +884,10 @@
         "creatives": 1,
         "ad_rate": 0.16666666666666666,
         "posterior_ad_rate": 0.2,
-        "competition_score": 0.31699250014423125
+        "competition_score": 0.31699250014423125,
+        "ad_rate_low": 0.03005258587173032,
+        "ad_rate_high": 0.563509436563646,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Hostels",
@@ -867,7 +899,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.1,
-        "competition_score": 0.1
+        "competition_score": 0.1,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.3903430336530645,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Intercity buses",
@@ -879,7 +914,10 @@
         "creatives": 1,
         "ad_rate": 0.6666666666666666,
         "posterior_ad_rate": 0.5,
-        "competition_score": 0.792481250360578
+        "competition_score": 0.792481250360578,
+        "ad_rate_low": 0.29998832134152864,
+        "ad_rate_high": 0.9032306674407831,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Perfume miniatures",
@@ -891,7 +929,10 @@
         "creatives": 1,
         "ad_rate": 0.16666666666666666,
         "posterior_ad_rate": 0.2,
-        "competition_score": 0.31699250014423125
+        "competition_score": 0.31699250014423125,
+        "ad_rate_low": 0.03005258587173032,
+        "ad_rate_high": 0.563509436563646,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Airport lounge access",
@@ -903,7 +944,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Airport transfers",
@@ -915,7 +959,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Car fragrance",
@@ -927,7 +974,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Cruise holidays",
@@ -939,7 +989,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "International eSIM",
@@ -951,7 +1004,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "International flights",
@@ -963,7 +1019,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Luxury resorts",
@@ -975,7 +1034,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Niche perfume",
@@ -987,7 +1049,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Oud fragrance",
@@ -999,7 +1064,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Perfume discovery sets",
@@ -1011,7 +1079,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Solid perfume",
@@ -1023,7 +1094,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Travel backpacks",
@@ -1035,7 +1109,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Travel forex cards",
@@ -1047,7 +1124,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Vanilla perfume",
@@ -1059,7 +1139,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Wedding perfume",
@@ -1071,7 +1154,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Woody perfume",
@@ -1083,7 +1169,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Rose perfume",
@@ -1095,7 +1184,10 @@
         "creatives": 1,
         "ad_rate": 0.3333333333333333,
         "posterior_ad_rate": 0.2857142857142857,
-        "competition_score": 0.45284642877747316
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Sensitive-skin fragrance",
@@ -1107,7 +1199,10 @@
         "creatives": 1,
         "ad_rate": 0.3333333333333333,
         "posterior_ad_rate": 0.2857142857142857,
-        "competition_score": 0.45284642877747316
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Train booking",
@@ -1119,7 +1214,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Business hotels",
@@ -1131,7 +1229,10 @@
         "creatives": 1,
         "ad_rate": 0.5,
         "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.5283208335737186
+        "competition_score": 0.5283208335737186,
+        "ad_rate_low": 0.09452865480086614,
+        "ad_rate_high": 0.9054713451991339,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Premium deodorant",
@@ -1143,7 +1244,10 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Body mists",
@@ -1155,7 +1259,10 @@
         "creatives": 1,
         "ad_rate": 1.0,
         "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Car rentals",
@@ -1167,20 +1274,41 @@
         "creatives": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 59,
+        "turns": 70,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 5,
-        "ad_rate": 0.1016949152542373,
-        "posterior_ad_rate": 0.1111111111111111,
-        "competition_score": 0.31192832467306714
+        "ad_rate": 0.08571428571428572,
+        "posterior_ad_rate": 0.0945945945945946,
+        "competition_score": 0.2655606007351788,
+        "ad_rate_low": 0.03987612654032836,
+        "ad_rate_high": 0.17465876977827793,
+        "evidence_strength": "established"
       },
       {
         "turn_index": 2,
@@ -1191,18 +1319,24 @@
         "advertisers": 1,
         "ad_rate": 1.0,
         "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 51,
+        "turns": 59,
         "ad_turns": 8,
         "paid_units": 8,
         "advertisers": 6,
-        "ad_rate": 0.1568627450980392,
-        "posterior_ad_rate": 0.16363636363636364,
-        "competition_score": 0.4909090909090909
+        "ad_rate": 0.13559322033898305,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.42857142857142855,
+        "ad_rate_low": 0.07034090749685569,
+        "ad_rate_high": 0.24539898454917758,
+        "evidence_strength": "established"
       },
       {
         "turn_index": 3,
@@ -1213,18 +1347,24 @@
         "advertisers": 1,
         "ad_rate": 0.6666666666666666,
         "posterior_ad_rate": 0.42857142857142855,
-        "competition_score": 0.6792696431662097
+        "competition_score": 0.6792696431662097,
+        "ad_rate_low": 0.2076549551264879,
+        "ad_rate_high": 0.9385096847238394,
+        "evidence_strength": "exploratory"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 40,
+        "turns": 45,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 2,
-        "ad_rate": 0.05,
-        "posterior_ad_rate": 0.06818181818181818,
-        "competition_score": 0.13636363636363635
+        "ad_rate": 0.044444444444444446,
+        "posterior_ad_rate": 0.061224489795918366,
+        "competition_score": 0.12244897959183673,
+        "ad_rate_low": 0.012273869040444335,
+        "ad_rate_high": 0.14827779183880616,
+        "evidence_strength": "established"
       },
       {
         "turn_index": 4,
@@ -1235,18 +1375,24 @@
         "advertisers": 0,
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
+        "evidence_strength": "exploratory"
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 31,
+        "turns": 35,
         "ad_turns": 1,
         "paid_units": 1,
         "advertisers": 1,
-        "ad_rate": 0.03225806451612903,
-        "posterior_ad_rate": 0.05714285714285714,
-        "competition_score": 0.09056928575549462
+        "ad_rate": 0.02857142857142857,
+        "posterior_ad_rate": 0.05128205128205128,
+        "competition_score": 0.08128012824211056,
+        "ad_rate_low": 0.005061361365853362,
+        "ad_rate_high": 0.1453340909327131,
+        "evidence_strength": "established"
       }
     ]
   },
