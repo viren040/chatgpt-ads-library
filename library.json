@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T21:22:17Z",
+  "generated_at": "2026-09-22T21:29:45Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 165,
-    "approved_paid_units": 131,
+    "valid_turns": 178,
+    "approved_paid_units": 133,
     "approved_advertisers": 80,
-    "approved_creatives": 126
+    "approved_creatives": 127
   },
   "advertisers": [
     {
@@ -21,10 +21,10 @@
     {
       "id": "025aab1cc9385a7e85d0e57f",
       "advertiser": "trivago",
-      "placements": 7,
+      "placements": 8,
       "creatives": 7,
       "first_seen": "2026-09-20T18:32:25.529Z",
-      "last_seen": "2026-09-22T21:03:27.146Z",
+      "last_seen": "2026-09-22T21:27:06.328Z",
       "categories": "Travel and leisure,Vacation rentals"
     },
     {
@@ -73,6 +73,15 @@
       "categories": "Travel and leisure,Flight booking"
     },
     {
+      "id": "a222e2ba55abec4f9b12de68",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "placements": 3,
+      "creatives": 3,
+      "first_seen": "2026-09-21T06:24:21.524Z",
+      "last_seen": "2026-09-22T21:22:47.748Z",
+      "categories": "Commercial discovery,Travel and leisure,Vacation rentals"
+    },
+    {
       "id": "83d40ecd26a8ce9b174a1d9e",
       "advertiser": "Duke & D’Or",
       "placements": 3,
@@ -116,15 +125,6 @@
       "first_seen": "2026-09-11T20:37:59.783Z",
       "last_seen": "2026-09-15T07:48:36.482Z",
       "categories": "Sports and fitness,Support footwear"
-    },
-    {
-      "id": "a222e2ba55abec4f9b12de68",
-      "advertiser": "Agoda Company Pte. Ltd.",
-      "placements": 2,
-      "creatives": 2,
-      "first_seen": "2026-09-21T06:24:21.524Z",
-      "last_seen": "2026-09-22T09:28:55.599Z",
-      "categories": "Commercial discovery,Travel and leisure"
     },
     {
       "id": "df3827565973b1f7ae0d4f58",
@@ -733,10 +733,22 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 165,
-    "ad_turns": 18,
-    "ad_rate": 0.10909090909090909,
+    "turns": 178,
+    "ad_turns": 20,
+    "ad_rate": 0.11235955056179775,
     "categories": [
+      {
+        "category": "Vacation rentals",
+        "industry": "Travel and leisure",
+        "turns": 19,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 4,
+        "creatives": 5,
+        "ad_rate": 0.3157894736842105,
+        "posterior_ad_rate": 0.30434782608695654,
+        "competition_score": 0.7867277176107866
+      },
       {
         "category": "Pilgrimage travel",
         "industry": "Travel and leisure",
@@ -772,18 +784,6 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.08333333333333333,
         "competition_score": 0.08333333333333333
-      },
-      {
-        "category": "Vacation rentals",
-        "industry": "Travel and leisure",
-        "turns": 8,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 3,
-        "creatives": 4,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.4166666666666667,
-        "competition_score": 0.967470039536401
       },
       {
         "category": "Perfume gift sets",
@@ -1014,6 +1014,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Solid perfume",
+        "industry": "Beauty and personal care",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
         "category": "Travel backpacks",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -1122,18 +1134,6 @@
         "competition_score": 0.5283208335737186
       },
       {
-        "category": "Solid perfume",
-        "industry": "Beauty and personal care",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666
-      },
-      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -1162,13 +1162,13 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 51,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 4,
-        "ad_rate": 0.09803921568627451,
-        "posterior_ad_rate": 0.10909090909090909,
-        "competition_score": 0.28199590916958067
+        "turns": 55,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 5,
+        "ad_rate": 0.10909090909090909,
+        "posterior_ad_rate": 0.11864406779661017,
+        "competition_score": 0.33307600770174967
       },
       {
         "turn_index": 2,
@@ -1184,13 +1184,13 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 45,
+        "turns": 48,
         "ad_turns": 8,
         "paid_units": 8,
         "advertisers": 6,
-        "ad_rate": 0.17777777777777778,
-        "posterior_ad_rate": 0.1836734693877551,
-        "competition_score": 0.5510204081632654
+        "ad_rate": 0.16666666666666666,
+        "posterior_ad_rate": 0.17307692307692307,
+        "competition_score": 0.5192307692307692
       },
       {
         "turn_index": 3,
@@ -1206,13 +1206,13 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 35,
+        "turns": 39,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 2,
-        "ad_rate": 0.05714285714285714,
-        "posterior_ad_rate": 0.07692307692307693,
-        "competition_score": 0.15384615384615385
+        "ad_rate": 0.05128205128205128,
+        "posterior_ad_rate": 0.06976744186046512,
+        "competition_score": 0.13953488372093023
       },
       {
         "turn_index": 4,
@@ -1228,17 +1228,123 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 29,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.030303030303030304,
-        "competition_score": 0.030303030303030304
+        "turns": 31,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "ad_rate": 0.03225806451612903,
+        "posterior_ad_rate": 0.05714285714285714,
+        "competition_score": 0.09056928575549462
       }
     ]
   },
   "ads": [
+    {
+      "id": "78446261a75bc7d545a8eefd",
+      "turn_id": "c8a6e3b473b9d288184948e0",
+      "advertiser": "trivago",
+      "advertiser_key": "025aab1cc9385a7e85d0e57f",
+      "creative_id": "b4f61f3183c564c5ab0ed0d4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Cheap Hotels in Goa",
+      "description": "Good Goa rates, save up to 55%",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, trivago advertiser, and Cheap Hotels in Goa creative.",
+      "reviewed_at": 1790112570.239645,
+      "captured_at": "2026-09-22T21:27:06.328Z",
+      "prompt": "I need to decide today. Give a final shortlist for a serviced two-bedroom vacation rental in Goa for four adults, including exact prices, purchase terms, and the strongest alternative to each choice.",
+      "answer": "4.7\nEl Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season\n3.9\nMarsierra by Jaglax Homes - GOA\n5.0\nAlaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa\n4.6\nAlaya Stays by ELIVAAS Apartment\nCasa Goa 2BHK Apartment\nExpand\nUse two fingers to move the map\nEl Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season\n4.7\n•\nHoliday apartment rental\nMarsierra by Jaglax Homes - GOA\n3.9\n•\nLodging\nAlaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa\n5.0\n•\nVilla\nAlaya Stays by ELIVAAS Apartment\n4.6\n•\nVilla\nCasa Goa 2BHK Apartment\nServiced apartment\nGive feedback\n\nFor a decision today, the most purchase-ready options I can substantiate are below. Because you haven’t supplied stay dates, the totals are current listed rates, not a guaranteed quote for your dates.\n\nStay / provider\tCurrent price\tPurchase terms\tStrongest alternative\nEl Rocio by The Blue Kite, Assagao\t₹6,000/night + taxes\t2BHK, up to 4; daily housekeeping, pool, parking. ₹10,000 security deposit. Standard dates: full refund >30 days; 80% at 16–30 days; 50% at 8–15; none ≤7 days. \nzeitakuvillas.com\n\tMarsierra by Jaglax Homes — another fully serviced 2BHK option in Siolim.\nAlaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa, Candolim\tDate-specific quote required\tServiced 2BHK-style apartment; pool, kitchen and washing machine. Confirm unit-specific occupancy, deposit, cancellation and housekeeping before paying.\tAlaya Stays by ELIVAAS Apartment, Calangute.\nBOHO BAGA 2BHK, Baga\t₹4,275 + ₹214 taxes/night on the currently displayed rate\tSleeps 4; pool, kitchen, parking. Free cancellation/100% refund under the displayed cancellation deadline; ₹0 payment shown initially. \nMakeMyTrip\n\tCasa Goa 2BHK Apartment, Candolim.\n\nMy practical buying check: enter your exact dates and 4 adults before paying; confirm the final payable amount, deposit, cancellation deadline, housekeeping and parking. Goa apartment prices can change materially by date. MakeMyTrip currently lists 168 serviced apart-hotels in Goa. \nMakeMyTrip",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f165-3ee4-83ee-abd0-ec0e970a76c3",
+      "screenshot_sha256": "19968c837846760ba0427adad9052adb3009416b4108c27cb6658c88c5ea4808",
+      "screenshot_relpath": "evidence/19968c837846760ba0427adad9052adb3009416b4108c27cb6658c88c5ea4808.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "trivago",
+        "format": "answer_card",
+        "headline": "Cheap Hotels in Goa",
+        "description": "Good Goa rates, save up to 55%",
+        "copy": [
+          "trivago",
+          "Cheap Hotels in Goa",
+          "Good Goa rates, save up to 55%"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/cf685fd726be55c3804f93b183a84c8c.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "trivago",
+              "Cheap Hotels in Goa",
+              "Good Goa rates, save up to 55%"
+            ],
+            "text": "trivago\n\nCheap Hotels in Goa\n\nGood Goa rates, save up to 55%",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/cf685fd726be55c3804f93b183a84c8c.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "ee022a375801fad90f5d0f83",
+      "turn_id": "becdd091e77384cccdb85e37",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "advertiser_key": "a222e2ba55abec4f9b12de68",
+      "creative_id": "7ee8a1a52f12baf92b977b48",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Planning a trip to Calangute?",
+      "description": "Compare hotels in Calangute and read real reviews.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, Agoda advertiser, and Planning a trip to Calangute creative.",
+      "reviewed_at": 1790112570.2867131,
+      "captured_at": "2026-09-22T21:22:47.748Z",
+      "prompt": "I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.4\nRainforest Enclave Arpora\nExpand\nUse two fingers to move the map\nRainforest Enclave Arpora\n4.4\n•\nServiced apartment\nGive feedback\n\nFor four adults needing a genuine 2-bedroom serviced rental, these are three currently listed options worth comparing:\n\nOption\tIndicative price\tWhat differentiates it\nRainforest Enclave Arpora\t~₹7,020 + ₹1,474 taxes/night\tQuiet Arpora setting, pool, kitchen, washing machine; serviced-apartment feel. \nMakeMyTrip\n\nUnreal Living – 2BHK near Bawri, Assagao\tFrom ₹5,000/night\tLower-cost North Goa option, 2 baths, pool and kitchen; professionally managed. \nunrealestate.in\n\nAssagao El Rocio 2BHK\tFrom ₹6,500/night\tMultiple 2BHK units, shared pool, 2 bathrooms; useful if you want Assagao's quieter/café-heavy location. \nnjas.in\n\nKey trade-off: Assagao gives you the strongest combination of apartment space and location; Rainforest Enclave adds more hotel-like servicing; Unreal Living is the lowest listed starting price.\n\nPrices are indicative and can change substantially by dates, taxes and availability.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f15f-fd5c-83e8-8c58-bdac1d9674c3",
+      "screenshot_sha256": "7da97db8d836e5a34292365c9273b20aa4fbcc8568269068b5a86ff05bdc3fa6",
+      "screenshot_relpath": "evidence/7da97db8d836e5a34292365c9273b20aa4fbcc8568269068b5a86ff05bdc3fa6.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "Agoda Company Pte. Ltd.",
+        "format": "answer_card",
+        "headline": "Planning a trip to Calangute?",
+        "description": "Compare hotels in Calangute and read real reviews.",
+        "copy": [
+          "Agoda Company Pte. Ltd.",
+          "Planning a trip to Calangute?",
+          "Compare hotels in Calangute and read real reviews."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/50805a8eaff95d10b94e1433690d060f.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Agoda Company Pte. Ltd.",
+              "Planning a trip to Calangute?",
+              "Compare hotels in Calangute and read real reviews."
+            ],
+            "text": "Agoda Company Pte. Ltd.\n\nPlanning a trip to Calangute?\n\nCompare hotels in Calangute and read real reviews.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/50805a8eaff95d10b94e1433690d060f.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "9fa29a0c6a7a0f3e4656a306",
       "turn_id": "fe3cb60fff5d7146857e3eee",
