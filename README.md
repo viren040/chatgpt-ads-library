@@ -2,6 +2,8 @@
 
 A searchable, evidence-first library of paid placements observed in signed-in ChatGPT sessions.
 
+**Browse the live library:** https://viren040.github.io/chatgpt-ads-library/
+
 Open `index.html` through a static web server, or visit the GitHub Pages URL shown in this
 repository's About section.
 
