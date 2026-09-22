@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T23:04:43Z",
+  "generated_at": "2026-09-22T23:05:37Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,11 +11,11 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 322,
-    "approved_paid_units": 167,
+    "valid_turns": 324,
+    "approved_paid_units": 168,
     "approved_advertisers": 88,
     "approved_creatives": 151,
-    "complete_panel_paid_units": 54,
+    "complete_panel_paid_units": 55,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -174,6 +174,17 @@
       "categories": "Travel and leisure"
     },
     {
+      "id": "8848574dfbc6f190fb67e0a3",
+      "advertiser": "OfficeKit HR",
+      "placements": 3,
+      "creatives": 2,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:26:05.564Z",
+      "last_seen": "2026-09-22T23:04:42.576Z",
+      "categories": "HR management,Corporate travel"
+    },
+    {
       "id": "1cec69cdbe639880af68f9cb",
       "advertiser": "Orthotic Shop Inc",
       "placements": 3,
@@ -271,17 +282,6 @@
       "first_seen": "2026-09-13T17:51:18.619Z",
       "last_seen": "2026-09-15T05:51:43.742Z",
       "categories": "Home improvement,Automotive"
-    },
-    {
-      "id": "8848574dfbc6f190fb67e0a3",
-      "advertiser": "OfficeKit HR",
-      "placements": 2,
-      "creatives": 2,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:26:05.564Z",
-      "last_seen": "2026-09-22T22:59:29.147Z",
-      "categories": "HR management,Corporate travel"
     },
     {
       "id": "504ef25d14dd959439fe6a46",
@@ -991,12 +991,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 322,
-    "ad_turns": 54,
-    "ad_rate": 0.16770186335403728,
-    "ad_rate_low": 0.13086493432718485,
-    "ad_rate_high": 0.2123742346432597,
-    "paid_units": 54,
+    "turns": 324,
+    "ad_turns": 55,
+    "ad_rate": 0.1697530864197531,
+    "ad_rate_low": 0.13280064543094958,
+    "ad_rate_high": 0.2144450976352141,
+    "paid_units": 55,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1016,17 +1016,32 @@
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 31,
+        "turns": 32,
         "ad_turns": 15,
         "paid_units": 15,
         "advertisers": 5,
         "creatives": 8,
-        "ad_rate": 0.4838709677419355,
-        "posterior_ad_rate": 0.45714285714285713,
-        "competition_score": 1.2833622500834763,
-        "ad_rate_low": 0.3196998603127883,
-        "ad_rate_high": 0.6515988171302683,
+        "ad_rate": 0.46875,
+        "posterior_ad_rate": 0.4444444444444444,
+        "competition_score": 1.2477132986922685,
+        "ad_rate_low": 0.30869129901682335,
+        "ad_rate_high": 0.6355076206742619,
         "evidence_strength": "established"
+      },
+      {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 8,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 5,
+        "creatives": 5,
+        "ad_rate": 0.75,
+        "posterior_ad_rate": 0.5833333333333334,
+        "competition_score": 1.6376237045336026,
+        "ad_rate_low": 0.40926987910258916,
+        "ad_rate_high": 0.9285223111419724,
+        "evidence_strength": "directional"
       },
       {
         "category": "Pilgrimage travel",
@@ -1072,21 +1087,6 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.3244156195108769,
         "evidence_strength": "directional"
-      },
-      {
-        "category": "Corporate travel",
-        "industry": "Travel and leisure",
-        "turns": 7,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 5,
-        "creatives": 5,
-        "ad_rate": 0.7142857142857143,
-        "posterior_ad_rate": 0.5454545454545454,
-        "competition_score": 1.5312845029405113,
-        "ad_rate_low": 0.35892909014821267,
-        "ad_rate_high": 0.9177828342909844,
-        "evidence_strength": "exploratory"
       },
       {
         "category": "Perfume gift sets",
@@ -1678,15 +1678,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 108,
+        "turns": 109,
         "ad_turns": 23,
         "paid_units": 23,
         "advertisers": 12,
-        "ad_rate": 0.21296296296296297,
-        "posterior_ad_rate": 0.21428571428571427,
-        "competition_score": 0.8158617690123438,
-        "ad_rate_low": 0.14630847191772375,
-        "ad_rate_high": 0.2993360825235575,
+        "ad_rate": 0.21100917431192662,
+        "posterior_ad_rate": 0.21238938053097345,
+        "competition_score": 0.8086417533573672,
+        "ad_rate_low": 0.14492255462317266,
+        "ad_rate_high": 0.29677270669889294,
         "evidence_strength": "established"
       },
       {
@@ -1748,15 +1748,15 @@
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 3,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "ad_rate": 0.6666666666666666,
-        "posterior_ad_rate": 0.42857142857142855,
-        "competition_score": 0.8571428571428571,
-        "ad_rate_low": 0.2076549551264879,
-        "ad_rate_high": 0.9385096847238394,
+        "turns": 4,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 3,
+        "ad_rate": 0.75,
+        "posterior_ad_rate": 0.5,
+        "competition_score": 1.160964047443681,
+        "ad_rate_low": 0.3006360524426366,
+        "ad_rate_high": 0.9544139373553637,
         "evidence_strength": "exploratory"
       },
       {
@@ -1776,6 +1776,59 @@
     ]
   },
   "ads": [
+    {
+      "id": "56033fb204032831a88972e1",
+      "turn_id": "b7585339cf124f9852a6db5d",
+      "advertiser": "OfficeKit HR",
+      "advertiser_key": "8848574dfbc6f190fb67e0a3",
+      "creative_id": "27908c80afb93df1acfd9bca",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Simplify HR & Payroll with OfficeKit",
+      "description": "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-answer Ad disclosure, OfficeKit HR advertiser, and HR payroll creative.",
+      "reviewed_at": 1790118337.056711,
+      "captured_at": "2026-09-22T23:04:42.576Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company buying today, I’d put these three into the final quote round. I would not choose on subscription price alone because airline/hotel penalties and booking/service fees determine the real TCO.\n\nPurchase-ready shortlist\n\n1. ITILITE — strongest transparent-cost option\n\nTravel: $10/trip, or $7/trip using ITILITE Wallet; no platform, support or minimum-commitment fee. \nItilite\n+1\n\nChanges/cancellations: no extra ITILITE fee for modifications/support within a trip; airline/hotel penalties and fare differences still apply. \nItilite\n\nSupport: 24/7; ITILITE says live-agent response within 30 seconds. \nItilite\n\nVerify before paying: INR-equivalent trip fee, wallet terms, refund timeline, international/visa charges.\n\nBest for: 50-person startup/SME wanting predictable fees + strong automation.\n\n2. MakeMyTrip myBiz — strongest India/domestic option\n\nCorporate fares, GST invoices, expense management and advertised free cancellation/date-change on qualifying myBiz Special Fares. \nMakeMyTrip Biz\n\nBut these protections are fare-specific, so don't assume every booking qualifies.\n\nVerify: booking/service fee, cancellation/reissue fee, refund SLA, hotel cancellation window, GST/ITC treatment and dedicated-support SLA.\n\nBest for: predominantly domestic Indian travel.\n\n3. FCM Travel — strongest managed-service option\n\nDedicated travel consultant, 24/7 support, duty-of-care and negotiated corporate inventory. \nFCM Travel\n+1\n\nPricing is custom quote, so don't compare it with ITILITE's published trip fee without getting an apples-to-apples proposal.\n\nVerify: management/transaction fees, implementation fee, after-hours charges, cancellation/reissue fees and minimum annual spend.\n\nBest for: frequent international travel or when human intervention matters.\n\nMy buying process: ask all three to quote the same 100 flight bookings + 50 hotel nights + 20 cancellations/reissues. That will reveal the actual annual cost far better than headline pricing.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "a2103cd9b7c967d9ae1067d9b2ece82136432f029e4a2d7e8720da024f969fdd",
+      "screenshot_relpath": "evidence/a2103cd9b7c967d9ae1067d9b2ece82136432f029e4a2d7e8720da024f969fdd.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "OfficeKit HR",
+        "format": "answer_card",
+        "headline": "Simplify HR & Payroll with OfficeKit",
+        "description": "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",
+        "copy": [
+          "OfficeKit HR",
+          "Simplify HR & Payroll with OfficeKit",
+          "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/ed3e2f2420d05897a436b1282e4bbe33.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "OfficeKit HR",
+              "Simplify HR & Payroll with OfficeKit",
+              "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo."
+            ],
+            "text": "OfficeKit HR\n\nSimplify HR & Payroll with OfficeKit\n\nManage HR, payroll, attendance and employees in one secure platform. Book a free demo.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/ed3e2f2420d05897a436b1282e4bbe33.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "19391000ed6249321d9d7c7a",
       "turn_id": "2bc1ae2013fbc9ef9b5b4dac",

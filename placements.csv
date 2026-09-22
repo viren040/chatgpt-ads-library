@@ -1,4 +1,48 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+56033fb204032831a88972e1,b7585339cf124f9852a6db5d,2026-09-22T23:04:42.576Z,OfficeKit HR,Ad,answer_card,Simplify HR & Payroll with OfficeKit,"Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",Travel and leisure,Corporate travel,complete_panel,True,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company buying today, I’d put these three into the final quote round. I would not choose on subscription price alone because airline/hotel penalties and booking/service fees determine the real TCO.
+
+Purchase-ready shortlist
+
+1. ITILITE — strongest transparent-cost option
+
+Travel: $10/trip, or $7/trip using ITILITE Wallet; no platform, support or minimum-commitment fee. 
+Itilite
++1
+
+Changes/cancellations: no extra ITILITE fee for modifications/support within a trip; airline/hotel penalties and fare differences still apply. 
+Itilite
+
+Support: 24/7; ITILITE says live-agent response within 30 seconds. 
+Itilite
+
+Verify before paying: INR-equivalent trip fee, wallet terms, refund timeline, international/visa charges.
+
+Best for: 50-person startup/SME wanting predictable fees + strong automation.
+
+2. MakeMyTrip myBiz — strongest India/domestic option
+
+Corporate fares, GST invoices, expense management and advertised free cancellation/date-change on qualifying myBiz Special Fares. 
+MakeMyTrip Biz
+
+But these protections are fare-specific, so don't assume every booking qualifies.
+
+Verify: booking/service fee, cancellation/reissue fee, refund SLA, hotel cancellation window, GST/ITC treatment and dedicated-support SLA.
+
+Best for: predominantly domestic Indian travel.
+
+3. FCM Travel — strongest managed-service option
+
+Dedicated travel consultant, 24/7 support, duty-of-care and negotiated corporate inventory. 
+FCM Travel
++1
+
+Pricing is custom quote, so don't compare it with ITILITE's published trip fee without getting an apples-to-apples proposal.
+
+Verify: management/transaction fees, implementation fee, after-hours charges, cancellation/reissue fees and minimum annual spend.
+
+Best for: frequent international travel or when human intervention matters.
+
+My buying process: ask all three to quote the same 100 flight bookings + 50 hotel nights + 20 cancellations/reissues. That will reveal the actual annual cost far better than headline pricing.",27908c80afb93df1acfd9bca,evidence/a2103cd9b7c967d9ae1067d9b2ece82136432f029e4a2d7e8720da024f969fdd.png,a2103cd9b7c967d9ae1067d9b2ece82136432f029e4a2d7e8720da024f969fdd
 19391000ed6249321d9d7c7a,2bc1ae2013fbc9ef9b5b4dac,2026-09-22T23:03:05.777Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d compare the economics this way. The biggest issue is that travel “cost” is mostly fare + supplier penalties + TMC/service fees, not a fixed subscription.
 
 Option	Core fees	Cancellation / changes	Support	Best fit
