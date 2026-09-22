@@ -1,4 +1,201 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+a9454c204b2947ec6a3c3a5d,237d3a385c7690ab7b71a290,2026-09-22T23:31:48.711Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,"Stress-Free City Travel, Made Effortless","Vetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey.",Travel and leisure,Corporate travel,complete_panel,True,"I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, these are three currently available TMC-style options. Public pricing is limited, so the actual commercial quote needs verification.
+
+Option	Price	Reliability / support	Important limitations
+EaseMyTrip EMTDesk	₹0 service/convenience fee advertised; travel fare extra	24/7 support, corporate dashboard, policy/expense controls 
+EaseMyTrip
++1
+	Confirm fare markup, offline-agent fees, credit terms and cancellation handling
+FCM Travel India	Custom quote	24/7 human support, dedicated consultants/account management, global inventory 
+FCM Travel
++1
+	Enterprise-oriented; pricing/implementation fees aren't publicly disclosed
+Corporate Traveller India	Custom quote	SME-focused sister brand of FCM; local/global support 
+FCM Travel
+	Quote required; confirm India-specific service fees and after-hours support
+
+Purchase terms to verify: per-booking fee, GST/input-credit handling, cancellation/reissue fees, credit period, unused-ticket tracking, hotel markups, emergency support, and implementation cost.
+
+Practical shortlist: EMTDesk for transparent low-fee entry; FCM/Corporate Traveller if you need a more managed programme. 
+EaseMyTrip
++1",3bd2fe116e4b0dfa1c97c8b1,evidence/98b3c107677dc87660ef33c2d159f22d3d11b235e0ec0c3914b519c8ac798b38.png,98b3c107677dc87660ef33c2d159f22d3d11b235e0ec0c3914b519c8ac798b38
+431f9bed9665e5fe165fe6d3,e583ad363a9d5f1f28d70ccf,2026-09-22T23:28:51.376Z,UJ PALLAZZIO - Business Class Luxury Hotel,Ad,answer_card,Business Stays in Tiruvannamalai,"GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",Travel and leisure,Corporate travel,complete_panel,True,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, the purchase-ready shortlist is:
+
+Option	Cost / commercial terms	Cancellation / refund	Support	Best fit
+Yatra for Business	Quote-based. Travel Pro covers companies with <2,500 trips or <₹5 crore annual travel spend. 
+Yatra.com
+	Corporate fares can include free rescheduling, but fare difference applies. Refund follows airline policy. 
+Yatra.com
+	24/7 platform; support model depends on plan	Best for a typical 50-person Indian SME wanting simple implementation + flights/hotels/rail/cabs
+FCM Travel India	Quote-based TMC fee + travel spend	Supplier/FCM cancellation fees can apply; supplier penalties can reach 100%. Refund waits for supplier funds. 
+FCM Travel
+	24/7 emergency assistance, travel policy, safety, visa and expense support. 
+FCM Travel
+	Better suited to higher-volume / international travel
+Amex + TMC	Quote-based; Amex BTA centralises air spend rather than replacing the TMC	Airline/TMC rules apply	24/7 Global Assist; BTA includes up to ₹30 lakh business-travel accident insurance, subject to terms. 
+American Express
+	Finance-heavy companies wanting central billing + reconciliation
+What I'd ask for before signing
+
+Don't accept a generic quote. Get these in writing:
+
+₹ booking fee for domestic air, international air, hotels and cancellations.
+
+Any annual/minimum-spend commitment.
+
+Exact refund SLA after airline/supplier releases funds.
+
+Whether free rescheduling includes the TMC fee or only airline penalties.
+
+24/7 human support and escalation SLA.
+
+Credit terms and GST treatment.
+
+Dedicated account manager.
+
+Implementation/integration fees.
+
+Whether unused tickets/credits remain fully traceable.
+
+A sample monthly MIS + GST reconciliation report.
+
+For a 50-person company, I'd take Yatra's Travel Pro quote as the baseline and make FCM match the same transaction-fee and SLA structure. The deciding number should be total annual TMC fees + avoidable cancellation/reissue costs, not the advertised fare discount.",4636e8a09e6d1606a8c992eb,evidence/c7774fe9c50031f8f5e7b73d4beb600093497ca70b2a1b74f1333e2e43f447c5.png,c7774fe9c50031f8f5e7b73d4beb600093497ca70b2a1b74f1333e2e43f447c5
+41230db49fc902ce0e83a537,d5d2f666de58aff454426d7e,2026-09-22T23:27:23.985Z,Atlassian,Ad,answer_card,Make the switch to JSM,"Choose modern IT service management, powered by AI.",Travel and leisure,Corporate travel,complete_panel,True,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, the key point is that managed-travel pricing is usually quote-based, so the “total cost” is primarily your negotiated transaction fees plus the underlying airfare/hotel spend.
+
+Option	Fee structure / cost	Cancellation & refunds	Warranty / service protection	Support
+FCM Travel	Quote-based; request per-booking fees, implementation and account-management charges.	Supplier fare rules apply; FCM can manage changes/reissues.	No conventional product warranty; service levels should be contractual.	24/7 human support, India-specific platform, duty-of-care and disruption management. 
+FCM Travel
++1
+
+BCD Travel	Quote-based; negotiate online/offline transaction fees and programme-management costs.	Primarily governed by airline/hotel fare rules; require written reissue/refund SLA.	Contract/SLA rather than consumer-style warranty.	Dedicated account/service model; verify India after-hours coverage in proposal.
+Amex GBT / Egencia	Custom pricing; Egencia says fees average <4% of overall travel spend and online bookings have lower fees. 
+Egencia
+	Fare/supplier rules apply; unused-ticket handling is an important cost lever.	No conventional warranty; contractual service terms.	Amex provides 24/7 programme support; BTA centralises air spend and offers up to ₹30 lakh accident cover, subject to policy terms. 
+americanexpress.com
++1
+
+For procurement, demand these numbers: booking fee, offline/agent fee, cancellation/reissue fee, hotel cancellation handling, implementation fee, annual minimum/commitment, GST, unused-ticket credits, and 24/7 response SLA.
+
+Biggest hidden cost: cancellation/reissue handling and unused tickets—not the headline management fee.",d01930104988814ce4be0522,evidence/14b8ba4bac5b9ec2c43506ffb8434ae41c392c1c09756b903bb4698c188be44f.png,14b8ba4bac5b9ec2c43506ffb8434ae41c392c1c09756b903bb4698c188be44f
+04731e3dc5d4cd0feb758d21,9dbf24e75e7fa16cca61d907,2026-09-22T23:27:11.982Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d compare the strongest realistic options as Yatra for Business, FCM Travel India, and Amex/Amex GBT. The key point: these are generally quote-based services, so there is no reliable public “₹X per employee” price to compare.
+
+	Yatra for Business	FCM Travel India	Amex / Amex GBT
+Likely cost structure	Transaction fees + actual fare/hotel cost; negotiated corporate fares	Negotiated TMC/service fees + travel cost	TMC fees + travel cost; BTA/payment solution may have separate terms
+Published price	No fixed fee; transaction fee disclosed electronically 
+Yatra.com
+	Quote-based	Quote-based
+Cancellation	Corporate fares can offer free rescheduling; cancellation at “minimal cost,” but supplier rules still apply 
+Yatra.com
++1
+	Supplier cancellation/change charges can apply, potentially up to 100% of booking value 
+FCM Travel
+	Airline/supplier cancellation rules apply; refunds can take up to 8 weeks 
+American Express
+
+Warranty / guarantee	No product-style warranty; service governed by T&Cs	No product warranty; service/support commitment instead	No travel-product warranty; supplier terms govern
+Support	Online support; domestic flights 09:00–23:59 
+Yatra.com
+	24/7 emergency assistance and 24/7 traveller support 
+FCM Travel
++1
+	24/7 assistance; BTA also provides travel-insurance benefits up to ₹30 lakh, subject to exclusions 
+American Express
+
+Other value	Flights, hotels, rail, bus, cars, visas + approvals/MIS	Global inventory, negotiated hotel rates, duty-of-care and risk tools	Centralised air billing, reconciliation and potentially up to 51 days payment period 
+American Express
+What I’d put into the RFP
+
+For 50 employees, don't compare only the booking fee. Ask each provider for an all-in annual quote based on the same assumptions:
+
+500 / 1,000 / 1,500 annual trips
+
+Domestic vs international split
+
+Air + hotel + ground transport
+
+Booking fee per transaction
+
+Cancellation/change/reissue fee
+
+Out-of-hours assistance fee
+
+GST treatment
+
+Credit/payment terms
+
+Refund turnaround SLA
+
+Dedicated account manager
+
+24/7 emergency support
+
+Implementation/setup fee
+
+Any minimum annual commitment
+
+Important: FCM's cancellation language is materially worth checking because supplier penalties can reach 100% in some cases. Yatra's corporate fares specifically advertise free rescheduling on qualifying bookings. 
+Yatra.com
++1
+
+For a 50-person company, Yatra is positioned specifically for the mid-sized segment (<2,500 trips or ₹5 crore annual travel spend), while FCM provides a more full-service TMC setup with 24/7 support. 
+Yatra.com
++1
+
+If you give me your rough annual travel spend (e.g. ₹25L/₹50L/₹1Cr), I can turn this into a realistic ₹/year total-cost model for all three.",72292d55e9c327a435ee7df6,evidence/981711240c2ff639911af11406d3ae8ac82dcc8ad1738e247aa7570148083c90.png,981711240c2ff639911af11406d3ae8ac82dcc8ad1738e247aa7570148083c90
+28fdf4bba0d1af389c24dba1,43ea48ff5dbc1352c162f448,2026-09-22T23:25:40.256Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Make this more purchase-specific: for a managed business-travel service for a 50-person Indian company, name three currently available providers or products with prices and important limitations.","For a 50-person Indian company, these are purchase-ready options to request quotes for now:
+
+Provider/product	Current price	Important limitations
+FCM Travel / FCM Platform	Quote-only; no public India tariff	Pricing depends on booking mix and service model; verify transaction, implementation and 24/7-service fees. FCM offers India support, policy management, payments and traveller safety. 
+FCM Travel
++1
+
+BCD Travel	Quote-only	Ask specifically about management fees, online-booking/PNR fees and pass-through technology costs. BCD has India offices including Bengaluru. 
+BCD Travel
++1
+
+Amex GBT / Egencia	Quote-only	Pricing is customised; some payment products have separate fees. Amex's India Business Travel Account can consolidate air spend and offers up to ₹30 lakh accident cover, subject to terms. 
+Egencia
++1
+
+What to demand in each quote: ₹/booking, annual platform fee, implementation fee, after-hours support, cancellation/reissue charges, GST, and minimum commitment. None of these providers currently publishes a reliable all-in ₹/employee price for a 50-person Indian programme. 
+Egencia
++1",72292d55e9c327a435ee7df6,evidence/3bb89a7335364443c3dfec2938a37c4d9bb847ad12f285617a1a7117bb4ffe18.png,3bb89a7335364443c3dfec2938a37c4d9bb847ad12f285617a1a7117bb4ffe18
+1c066938673cc8b093008838,5843a8ec06dbce92262207a5,2026-09-22T23:25:28.848Z,pacific data integrators,Ad,answer_card,Can You Prove DPDP Now?,Find your control-evidence gaps before they become urgent.,Travel and leisure,Corporate travel,complete_panel,True,"Compare TwixAir LLC with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","TwixAir does not appear to be a managed corporate-travel service: its current site primarily sells consumer eSIMs, with no published corporate-travel pricing or India-specific TMC offering. 
+TwixAir
++1
+
+Option	Current price	Key exclusions / limitations	Best for
+TwixAir LLC	No corporate-TMC price published	No clear India corporate booking, policy controls or dedicated travel desk	Individual/international connectivity, not a 50-person TMC
+Yatra for Business	Quote-based	Enterprise pricing not publicly listed; service tier depends on travel volume	Indian SME needing flights, hotels, rail, bus + approvals
+FCM Travel India	Quote-based	Fees/service package negotiated; no public standard rate	Frequent domestic + international corporate travel
+Amex GBT	Quote-based	TMC/service fees and eligibility negotiated	Companies needing global support, centralized billing and spend control
+
+Yatra specifically supports mid-sized businesses below ₹5 crore annual travel spend, with negotiated fares, approval workflows and MIS. 
+Yatra.com
+ FCM and Amex GBT are established Indian corporate-travel players. 
+videc.co
+ Amex additionally offers centralized air-travel billing and up to 51-day payment terms. 
+americanexpress.com
+
+For a 50-person company, get all three TMCs to quote the same annual travel volume before comparing fees.",38b346fa74d1ef2d7b83d516,evidence/ecbc257e08276f2986dafff4c96b95817440140b02b04973281f91e7af0346f2.png,ecbc257e08276f2986dafff4c96b95817440140b02b04973281f91e7af0346f2
+6b7a0606d41491891536194c,be4ff41116d0b77b6e0a96d7,2026-09-22T23:23:49.278Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - eSIM, 60 Days, 60GB Data, 300 minutes Local + India Calls, Direct Dial to India [eSIM]",,Travel and leisure,Corporate travel,complete_panel,True,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, I’d shortlist these three:
+
+Provider	What differentiates it	Best fit
+FCM Travel India	Full TMC with India-specific booking, approvals, reporting, 24/7 support and global inventory. 
+FCM Travel
++1
+	Companies with frequent domestic + international travel
+Yatra for Business	India-focused corporate platform combining self-booking with managed travel, MICE and enterprise support. 
+Ken Research
+	Indian SMEs wanting local coverage and simpler implementation
+American Express GBT India	Strong global programme management plus centralized travel billing through its Business Travel Account; can consolidate air spend into one account. 
+American Express
++1
+	Companies prioritizing controls, finance visibility and global travel
+
+Pricing: Managed TMCs generally quote after assessing traveller volume, routes and service requirements rather than publishing a fixed ₹/employee price. Ask each for per-booking fees + monthly/annual management fees + cancellation/change charges.
+
+For 50 employees, I’d specifically request a 12-month all-in quote based on your actual expected flight/hotel volume rather than comparing headline fees.",6b8a50de5507bb3380f1aa78,evidence/065e58b97112b3a8fbe2ffd43628592014c56d92363193a2fe17796aae2dcdb7.png,065e58b97112b3a8fbe2ffd43628592014c56d92363193a2fe17796aae2dcdb7
 9d45769941578b388d856f1b,63c88ddd3fe188c4a2990227,2026-09-22T23:21:00.917Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, the purchase-ready shortlist is:
 
 MakeMyTrip myBiz — lowest-friction starting point. It has corporate fares, policy controls, GST invoices, expense management and advertised free date-change/cancellation on qualifying special fares. Its contract makes clear that airline/hotel rules still govern refunds, and its service fee is negotiated; a 1.5% payment-gateway fee can apply to wallet/card funding. 

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T23:22:02Z",
+  "generated_at": "2026-09-22T23:33:58Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,35 +11,35 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 346,
-    "approved_paid_units": 181,
-    "approved_advertisers": 90,
-    "approved_creatives": 161,
-    "complete_panel_paid_units": 68,
+    "valid_turns": 363,
+    "approved_paid_units": 188,
+    "approved_advertisers": 92,
+    "approved_creatives": 165,
+    "complete_panel_paid_units": 75,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
-      "id": "d11acd0c3697436b74d704d0",
-      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 10,
-      "creatives": 4,
-      "panel_placements": 10,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T23:00:44.793Z",
-      "categories": "Vacation rentals,Intercity buses"
-    },
-    {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 10,
-      "creatives": 9,
-      "panel_placements": 6,
+      "placements": 13,
+      "creatives": 10,
+      "panel_placements": 9,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T23:19:19.792Z",
+      "last_seen": "2026-09-22T23:27:11.982Z",
       "categories": "Travel and leisure,Corporate travel"
+    },
+    {
+      "id": "d11acd0c3697436b74d704d0",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "placements": 11,
+      "creatives": 5,
+      "panel_placements": 11,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:03:28.123Z",
+      "last_seen": "2026-09-22T23:31:48.711Z",
+      "categories": "Vacation rentals,Intercity buses,Corporate travel"
     },
     {
       "id": "7211144fa6d33a5359842018",
@@ -207,6 +207,17 @@
       "categories": "Sports and fitness,Support footwear"
     },
     {
+      "id": "c329e8e590b0a10eaab8ec7b",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+      "placements": 3,
+      "creatives": 2,
+      "panel_placements": 3,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:35:21.436Z",
+      "last_seen": "2026-09-22T23:28:51.376Z",
+      "categories": "Intercity buses,Corporate travel"
+    },
+    {
       "id": "504ef25d14dd959439fe6a46",
       "advertiser": "Zoho Corporation",
       "placements": 3,
@@ -317,17 +328,6 @@
       "categories": "Home improvement,Automotive"
     },
     {
-      "id": "c329e8e590b0a10eaab8ec7b",
-      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
-      "placements": 2,
-      "creatives": 2,
-      "panel_placements": 2,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:35:21.436Z",
-      "last_seen": "2026-09-22T23:19:07.503Z",
-      "categories": "Intercity buses,Corporate travel"
-    },
-    {
       "id": "94dfcae9ea9e7cae63574ffd",
       "advertiser": "50Hertz Tingly Foods",
       "placements": 1,
@@ -348,6 +348,17 @@
       "first_seen": "2026-09-11T22:12:48.437Z",
       "last_seen": "2026-09-11T22:12:48.437Z",
       "categories": "Online degrees"
+    },
+    {
+      "id": "41805db8eb323d5199cb8ae2",
+      "advertiser": "Atlassian",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:27:23.985Z",
+      "last_seen": "2026-09-22T23:27:23.985Z",
+      "categories": "Corporate travel"
     },
     {
       "id": "5facf1c8f3a87caaa73bf9c2",
@@ -1008,17 +1019,28 @@
       "first_seen": "2026-09-14T11:57:45.373Z",
       "last_seen": "2026-09-14T11:57:45.373Z",
       "categories": "Fashion and accessories"
+    },
+    {
+      "id": "59d736a35fa0e8d41185a2bf",
+      "advertiser": "pacific data integrators",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:25:28.848Z",
+      "last_seen": "2026-09-22T23:25:28.848Z",
+      "categories": "Corporate travel"
     }
   ],
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 346,
-    "ad_turns": 68,
-    "ad_rate": 0.19653179190751446,
-    "ad_rate_low": 0.15809004574043514,
-    "ad_rate_high": 0.24163828845424043,
-    "paid_units": 68,
+    "turns": 363,
+    "ad_turns": 75,
+    "ad_rate": 0.2066115702479339,
+    "ad_rate_low": 0.16813809329040733,
+    "ad_rate_high": 0.2512298300857856,
+    "paid_units": 75,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1036,6 +1058,21 @@
         "evidence_strength": "established"
       },
       {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 44,
+        "ad_turns": 26,
+        "paid_units": 26,
+        "advertisers": 11,
+        "creatives": 19,
+        "ad_rate": 0.5909090909090909,
+        "posterior_ad_rate": 0.5625,
+        "competition_score": 2.0814973414543645,
+        "ad_rate_low": 0.44409492646606574,
+        "ad_rate_high": 0.7231235612099317,
+        "evidence_strength": "established"
+      },
+      {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
         "turns": 32,
@@ -1048,21 +1085,6 @@
         "competition_score": 1.2477132986922685,
         "ad_rate_low": 0.30869129901682335,
         "ad_rate_high": 0.6355076206742619,
-        "evidence_strength": "established"
-      },
-      {
-        "category": "Corporate travel",
-        "industry": "Travel and leisure",
-        "turns": 29,
-        "ad_turns": 19,
-        "paid_units": 19,
-        "advertisers": 8,
-        "creatives": 15,
-        "ad_rate": 0.6551724137931034,
-        "posterior_ad_rate": 0.6060606060606061,
-        "competition_score": 2.013289754477189,
-        "ad_rate_low": 0.47344776507155983,
-        "ad_rate_high": 0.8005949125080951,
         "evidence_strength": "established"
       },
       {
@@ -1591,6 +1613,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Attar and alcohol-free fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Business hotels",
         "industry": "Travel and leisure",
         "turns": 2,
@@ -1700,104 +1737,469 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 118,
-        "ad_turns": 29,
-        "paid_units": 29,
+        "turns": 124,
+        "ad_turns": 31,
+        "paid_units": 31,
         "advertisers": 15,
-        "ad_rate": 0.2457627118644068,
-        "posterior_ad_rate": 0.2459016393442623,
-        "competition_score": 1.0051138134222146,
-        "ad_rate_low": 0.1769108428586466,
-        "ad_rate_high": 0.330646510294956,
+        "ad_rate": 0.25,
+        "posterior_ad_rate": 0.25,
+        "competition_score": 1.0218657103125848,
+        "ad_rate_low": 0.18207534390170776,
+        "ad_rate_high": 0.33294949934180607,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 6,
-        "ad_turns": 6,
-        "paid_units": 6,
-        "advertisers": 5,
+        "turns": 7,
+        "ad_turns": 7,
+        "paid_units": 7,
+        "advertisers": 6,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.7,
-        "competition_score": 1.9651484454403227,
-        "ad_rate_low": 0.6096569663469354,
-        "ad_rate_high": 0.9999999999999999,
+        "posterior_ad_rate": 0.7272727272727273,
+        "competition_score": 2.1818181818181817,
+        "ad_rate_low": 0.6456611570247934,
+        "ad_rate_high": 1,
         "evidence_strength": "exploratory"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 86,
-        "ad_turns": 13,
-        "paid_units": 13,
-        "advertisers": 10,
-        "ad_rate": 0.1511627906976744,
-        "posterior_ad_rate": 0.15555555555555556,
-        "competition_score": 0.5576608334455132,
-        "ad_rate_low": 0.09052037372996753,
-        "ad_rate_high": 0.24163755756244037,
+        "turns": 90,
+        "ad_turns": 14,
+        "paid_units": 14,
+        "advertisers": 11,
+        "ad_rate": 0.15555555555555556,
+        "posterior_ad_rate": 0.1595744680851064,
+        "competition_score": 0.5904956997033658,
+        "ad_rate_low": 0.09498189002638328,
+        "ad_rate_high": 0.24433031266410787,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 8,
-        "ad_turns": 7,
-        "paid_units": 7,
-        "advertisers": 4,
-        "ad_rate": 0.875,
-        "posterior_ad_rate": 0.6666666666666666,
-        "competition_score": 1.723308333814104,
-        "ad_rate_low": 0.5291051942301386,
-        "ad_rate_high": 0.9775830911367038,
+        "turns": 10,
+        "ad_turns": 9,
+        "paid_units": 9,
+        "advertisers": 5,
+        "ad_rate": 0.9,
+        "posterior_ad_rate": 0.7142857142857143,
+        "competition_score": 2.0052535157554314,
+        "ad_rate_low": 0.5958436145024278,
+        "ad_rate_high": 0.9821242504842788,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 69,
+        "turns": 71,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.07246376811594203,
-        "posterior_ad_rate": 0.0821917808219178,
-        "competition_score": 0.23074150044309075,
-        "ad_rate_low": 0.03134730921766905,
-        "ad_rate_high": 0.15867597418082852,
+        "ad_rate": 0.07042253521126761,
+        "posterior_ad_rate": 0.08,
+        "competition_score": 0.22458839376460835,
+        "ad_rate_low": 0.03045315340626454,
+        "ad_rate_high": 0.1544921176729214,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 6,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 5,
-        "ad_rate": 0.8333333333333334,
-        "posterior_ad_rate": 0.6,
-        "competition_score": 1.6844129532345624,
-        "ad_rate_low": 0.43649056343635395,
-        "ad_rate_high": 0.9699474141282697,
+        "turns": 7,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 6,
+        "ad_rate": 0.8571428571428571,
+        "posterior_ad_rate": 0.6363636363636364,
+        "competition_score": 1.9090909090909092,
+        "ad_rate_low": 0.48686549668097007,
+        "ad_rate_high": 0.9743210440510253,
         "evidence_strength": "exploratory"
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 53,
+        "turns": 54,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.05660377358490566,
-        "posterior_ad_rate": 0.07017543859649122,
-        "competition_score": 0.16294232244823592,
-        "ad_rate_low": 0.019436308927314183,
-        "ad_rate_high": 0.15370448936126319,
+        "ad_rate": 0.05555555555555555,
+        "posterior_ad_rate": 0.06896551724137931,
+        "competition_score": 0.1601329720611974,
+        "ad_rate_low": 0.019072922503838907,
+        "ad_rate_high": 0.15107451463482943,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "a9454c204b2947ec6a3c3a5d",
+      "turn_id": "237d3a385c7690ab7b71a290",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "3bd2fe116e4b0dfa1c97c8b1",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Stress-Free City Travel, Made Effortless",
+      "description": "Vetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.122012,
+      "captured_at": "2026-09-22T23:31:48.711Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, these are three currently available TMC-style options. Public pricing is limited, so the actual commercial quote needs verification.\n\nOption\tPrice\tReliability / support\tImportant limitations\nEaseMyTrip EMTDesk\t₹0 service/convenience fee advertised; travel fare extra\t24/7 support, corporate dashboard, policy/expense controls \nEaseMyTrip\n+1\n\tConfirm fare markup, offline-agent fees, credit terms and cancellation handling\nFCM Travel India\tCustom quote\t24/7 human support, dedicated consultants/account management, global inventory \nFCM Travel\n+1\n\tEnterprise-oriented; pricing/implementation fees aren't publicly disclosed\nCorporate Traveller India\tCustom quote\tSME-focused sister brand of FCM; local/global support \nFCM Travel\n\tQuote required; confirm India-specific service fees and after-hours support\n\nPurchase terms to verify: per-booking fee, GST/input-credit handling, cancellation/reissue fees, credit period, unused-ticket tracking, hotel markups, emergency support, and implementation cost.\n\nPractical shortlist: EMTDesk for transparent low-fee entry; FCM/Corporate Traveller if you need a more managed programme. \nEaseMyTrip\n+1",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "98b3c107677dc87660ef33c2d159f22d3d11b235e0ec0c3914b519c8ac798b38",
+      "screenshot_relpath": "evidence/98b3c107677dc87660ef33c2d159f22d3d11b235e0ec0c3914b519c8ac798b38.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Stress-Free City Travel, Made Effortless",
+        "description": "Vetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Stress-Free City Travel, Made Effortless",
+          "Vetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/ead85b9332d9f0ea.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Stress-Free City Travel, Made Effortless",
+              "Vetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nStress-Free City Travel, Made Effortless\n\nVetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/ead85b9332d9f0ea.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "431f9bed9665e5fe165fe6d3",
+      "turn_id": "e583ad363a9d5f1f28d70ccf",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+      "advertiser_key": "c329e8e590b0a10eaab8ec7b",
+      "creative_id": "4636e8a09e6d1606a8c992eb",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Business Stays in Tiruvannamalai",
+      "description": "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.125512,
+      "captured_at": "2026-09-22T23:28:51.376Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, the purchase-ready shortlist is:\n\nOption\tCost / commercial terms\tCancellation / refund\tSupport\tBest fit\nYatra for Business\tQuote-based. Travel Pro covers companies with <2,500 trips or <₹5 crore annual travel spend. \nYatra.com\n\tCorporate fares can include free rescheduling, but fare difference applies. Refund follows airline policy. \nYatra.com\n\t24/7 platform; support model depends on plan\tBest for a typical 50-person Indian SME wanting simple implementation + flights/hotels/rail/cabs\nFCM Travel India\tQuote-based TMC fee + travel spend\tSupplier/FCM cancellation fees can apply; supplier penalties can reach 100%. Refund waits for supplier funds. \nFCM Travel\n\t24/7 emergency assistance, travel policy, safety, visa and expense support. \nFCM Travel\n\tBetter suited to higher-volume / international travel\nAmex + TMC\tQuote-based; Amex BTA centralises air spend rather than replacing the TMC\tAirline/TMC rules apply\t24/7 Global Assist; BTA includes up to ₹30 lakh business-travel accident insurance, subject to terms. \nAmerican Express\n\tFinance-heavy companies wanting central billing + reconciliation\nWhat I'd ask for before signing\n\nDon't accept a generic quote. Get these in writing:\n\n₹ booking fee for domestic air, international air, hotels and cancellations.\n\nAny annual/minimum-spend commitment.\n\nExact refund SLA after airline/supplier releases funds.\n\nWhether free rescheduling includes the TMC fee or only airline penalties.\n\n24/7 human support and escalation SLA.\n\nCredit terms and GST treatment.\n\nDedicated account manager.\n\nImplementation/integration fees.\n\nWhether unused tickets/credits remain fully traceable.\n\nA sample monthly MIS + GST reconciliation report.\n\nFor a 50-person company, I'd take Yatra's Travel Pro quote as the baseline and make FCM match the same transaction-fee and SLA structure. The deciding number should be total annual TMC fees + avoidable cancellation/reissue costs, not the advertised fare discount.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "c7774fe9c50031f8f5e7b73d4beb600093497ca70b2a1b74f1333e2e43f447c5",
+      "screenshot_relpath": "evidence/c7774fe9c50031f8f5e7b73d4beb600093497ca70b2a1b74f1333e2e43f447c5.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+        "format": "answer_card",
+        "headline": "Business Stays in Tiruvannamalai",
+        "description": "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+        "copy": [
+          "UJ PALLAZZIO - Business Class Luxury Hotel",
+          "Business Stays in Tiruvannamalai",
+          "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/7c4d7cabe2fb5cc7928673798db23dcb.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "UJ PALLAZZIO - Business Class Luxury Hotel",
+              "Business Stays in Tiruvannamalai",
+              "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams."
+            ],
+            "text": "UJ PALLAZZIO - Business Class Luxury Hotel\n\nBusiness Stays in Tiruvannamalai\n\nGST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/7c4d7cabe2fb5cc7928673798db23dcb.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "41230db49fc902ce0e83a537",
+      "turn_id": "d5d2f666de58aff454426d7e",
+      "advertiser": "Atlassian",
+      "advertiser_key": "41805db8eb323d5199cb8ae2",
+      "creative_id": "d01930104988814ce4be0522",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Make the switch to JSM",
+      "description": "Choose modern IT service management, powered by AI.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.127548,
+      "captured_at": "2026-09-22T23:27:23.985Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, the key point is that managed-travel pricing is usually quote-based, so the “total cost” is primarily your negotiated transaction fees plus the underlying airfare/hotel spend.\n\nOption\tFee structure / cost\tCancellation & refunds\tWarranty / service protection\tSupport\nFCM Travel\tQuote-based; request per-booking fees, implementation and account-management charges.\tSupplier fare rules apply; FCM can manage changes/reissues.\tNo conventional product warranty; service levels should be contractual.\t24/7 human support, India-specific platform, duty-of-care and disruption management. \nFCM Travel\n+1\n\nBCD Travel\tQuote-based; negotiate online/offline transaction fees and programme-management costs.\tPrimarily governed by airline/hotel fare rules; require written reissue/refund SLA.\tContract/SLA rather than consumer-style warranty.\tDedicated account/service model; verify India after-hours coverage in proposal.\nAmex GBT / Egencia\tCustom pricing; Egencia says fees average <4% of overall travel spend and online bookings have lower fees. \nEgencia\n\tFare/supplier rules apply; unused-ticket handling is an important cost lever.\tNo conventional warranty; contractual service terms.\tAmex provides 24/7 programme support; BTA centralises air spend and offers up to ₹30 lakh accident cover, subject to policy terms. \namericanexpress.com\n+1\n\nFor procurement, demand these numbers: booking fee, offline/agent fee, cancellation/reissue fee, hotel cancellation handling, implementation fee, annual minimum/commitment, GST, unused-ticket credits, and 24/7 response SLA.\n\nBiggest hidden cost: cancellation/reissue handling and unused tickets—not the headline management fee.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "14b8ba4bac5b9ec2c43506ffb8434ae41c392c1c09756b903bb4698c188be44f",
+      "screenshot_relpath": "evidence/14b8ba4bac5b9ec2c43506ffb8434ae41c392c1c09756b903bb4698c188be44f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Atlassian",
+        "format": "answer_card",
+        "headline": "Make the switch to JSM",
+        "description": "Choose modern IT service management, powered by AI.",
+        "copy": [
+          "Atlassian",
+          "Make the switch to JSM",
+          "Choose modern IT service management, powered by AI."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/ce702b257f6f5a08b30e57c08ff224db.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Atlassian",
+              "Make the switch to JSM",
+              "Choose modern IT service management, powered by AI."
+            ],
+            "text": "Atlassian\n\nMake the switch to JSM\n\nChoose modern IT service management, powered by AI.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/ce702b257f6f5a08b30e57c08ff224db.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "04731e3dc5d4cd0feb758d21",
+      "turn_id": "9dbf24e75e7fa16cca61d907",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.128742,
+      "captured_at": "2026-09-22T23:27:11.982Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, I’d compare the strongest realistic options as Yatra for Business, FCM Travel India, and Amex/Amex GBT. The key point: these are generally quote-based services, so there is no reliable public “₹X per employee” price to compare.\n\n\tYatra for Business\tFCM Travel India\tAmex / Amex GBT\nLikely cost structure\tTransaction fees + actual fare/hotel cost; negotiated corporate fares\tNegotiated TMC/service fees + travel cost\tTMC fees + travel cost; BTA/payment solution may have separate terms\nPublished price\tNo fixed fee; transaction fee disclosed electronically \nYatra.com\n\tQuote-based\tQuote-based\nCancellation\tCorporate fares can offer free rescheduling; cancellation at “minimal cost,” but supplier rules still apply \nYatra.com\n+1\n\tSupplier cancellation/change charges can apply, potentially up to 100% of booking value \nFCM Travel\n\tAirline/supplier cancellation rules apply; refunds can take up to 8 weeks \nAmerican Express\n\nWarranty / guarantee\tNo product-style warranty; service governed by T&Cs\tNo product warranty; service/support commitment instead\tNo travel-product warranty; supplier terms govern\nSupport\tOnline support; domestic flights 09:00–23:59 \nYatra.com\n\t24/7 emergency assistance and 24/7 traveller support \nFCM Travel\n+1\n\t24/7 assistance; BTA also provides travel-insurance benefits up to ₹30 lakh, subject to exclusions \nAmerican Express\n\nOther value\tFlights, hotels, rail, bus, cars, visas + approvals/MIS\tGlobal inventory, negotiated hotel rates, duty-of-care and risk tools\tCentralised air billing, reconciliation and potentially up to 51 days payment period \nAmerican Express\nWhat I’d put into the RFP\n\nFor 50 employees, don't compare only the booking fee. Ask each provider for an all-in annual quote based on the same assumptions:\n\n500 / 1,000 / 1,500 annual trips\n\nDomestic vs international split\n\nAir + hotel + ground transport\n\nBooking fee per transaction\n\nCancellation/change/reissue fee\n\nOut-of-hours assistance fee\n\nGST treatment\n\nCredit/payment terms\n\nRefund turnaround SLA\n\nDedicated account manager\n\n24/7 emergency support\n\nImplementation/setup fee\n\nAny minimum annual commitment\n\nImportant: FCM's cancellation language is materially worth checking because supplier penalties can reach 100% in some cases. Yatra's corporate fares specifically advertise free rescheduling on qualifying bookings. \nYatra.com\n+1\n\nFor a 50-person company, Yatra is positioned specifically for the mid-sized segment (<2,500 trips or ₹5 crore annual travel spend), while FCM provides a more full-service TMC setup with 24/7 support. \nYatra.com\n+1\n\nIf you give me your rough annual travel spend (e.g. ₹25L/₹50L/₹1Cr), I can turn this into a realistic ₹/year total-cost model for all three.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "981711240c2ff639911af11406d3ae8ac82dcc8ad1738e247aa7570148083c90",
+      "screenshot_relpath": "evidence/981711240c2ff639911af11406d3ae8ac82dcc8ad1738e247aa7570148083c90.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "28fdf4bba0d1af389c24dba1",
+      "turn_id": "43ea48ff5dbc1352c162f448",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.129302,
+      "captured_at": "2026-09-22T23:25:40.256Z",
+      "prompt": "Make this more purchase-specific: for a managed business-travel service for a 50-person Indian company, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a 50-person Indian company, these are purchase-ready options to request quotes for now:\n\nProvider/product\tCurrent price\tImportant limitations\nFCM Travel / FCM Platform\tQuote-only; no public India tariff\tPricing depends on booking mix and service model; verify transaction, implementation and 24/7-service fees. FCM offers India support, policy management, payments and traveller safety. \nFCM Travel\n+1\n\nBCD Travel\tQuote-only\tAsk specifically about management fees, online-booking/PNR fees and pass-through technology costs. BCD has India offices including Bengaluru. \nBCD Travel\n+1\n\nAmex GBT / Egencia\tQuote-only\tPricing is customised; some payment products have separate fees. Amex's India Business Travel Account can consolidate air spend and offers up to ₹30 lakh accident cover, subject to terms. \nEgencia\n+1\n\nWhat to demand in each quote: ₹/booking, annual platform fee, implementation fee, after-hours support, cancellation/reissue charges, GST, and minimum commitment. None of these providers currently publishes a reliable all-in ₹/employee price for a 50-person Indian programme. \nEgencia\n+1",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "3bb89a7335364443c3dfec2938a37c4d9bb847ad12f285617a1a7117bb4ffe18",
+      "screenshot_relpath": "evidence/3bb89a7335364443c3dfec2938a37c4d9bb847ad12f285617a1a7117bb4ffe18.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c066938673cc8b093008838",
+      "turn_id": "5843a8ec06dbce92262207a5",
+      "advertiser": "pacific data integrators",
+      "advertiser_key": "59d736a35fa0e8d41185a2bf",
+      "creative_id": "38b346fa74d1ef2d7b83d516",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Can You Prove DPDP Now?",
+      "description": "Find your control-evidence gaps before they become urgent.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.129867,
+      "captured_at": "2026-09-22T23:25:28.848Z",
+      "prompt": "Compare TwixAir LLC with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "TwixAir does not appear to be a managed corporate-travel service: its current site primarily sells consumer eSIMs, with no published corporate-travel pricing or India-specific TMC offering. \nTwixAir\n+1\n\nOption\tCurrent price\tKey exclusions / limitations\tBest for\nTwixAir LLC\tNo corporate-TMC price published\tNo clear India corporate booking, policy controls or dedicated travel desk\tIndividual/international connectivity, not a 50-person TMC\nYatra for Business\tQuote-based\tEnterprise pricing not publicly listed; service tier depends on travel volume\tIndian SME needing flights, hotels, rail, bus + approvals\nFCM Travel India\tQuote-based\tFees/service package negotiated; no public standard rate\tFrequent domestic + international corporate travel\nAmex GBT\tQuote-based\tTMC/service fees and eligibility negotiated\tCompanies needing global support, centralized billing and spend control\n\nYatra specifically supports mid-sized businesses below ₹5 crore annual travel spend, with negotiated fares, approval workflows and MIS. \nYatra.com\n FCM and Amex GBT are established Indian corporate-travel players. \nvidec.co\n Amex additionally offers centralized air-travel billing and up to 51-day payment terms. \namericanexpress.com\n\nFor a 50-person company, get all three TMCs to quote the same annual travel volume before comparing fees.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "ecbc257e08276f2986dafff4c96b95817440140b02b04973281f91e7af0346f2",
+      "screenshot_relpath": "evidence/ecbc257e08276f2986dafff4c96b95817440140b02b04973281f91e7af0346f2.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "pacific data integrators",
+        "format": "answer_card",
+        "headline": "Can You Prove DPDP Now?",
+        "description": "Find your control-evidence gaps before they become urgent.",
+        "copy": [
+          "pacific data integrators",
+          "Can You Prove DPDP Now?",
+          "Find your control-evidence gaps before they become urgent."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/f3315aa4ef36581a9af2af5a52636c55.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "pacific data integrators",
+              "Can You Prove DPDP Now?",
+              "Find your control-evidence gaps before they become urgent."
+            ],
+            "text": "pacific data integrators\n\nCan You Prove DPDP Now?\n\nFind your control-evidence gaps before they become urgent.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/f3315aa4ef36581a9af2af5a52636c55.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "6b7a0606d41491891536194c",
+      "turn_id": "be4ff41116d0b77b6e0a96d7",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "6b8a50de5507bb3380f1aa78",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - eSIM, 60 Days, 60GB Data, 300 minutes Local + India Calls, Direct Dial to India [eSIM]",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120038.130975,
+      "captured_at": "2026-09-22T23:23:49.278Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three:\n\nProvider\tWhat differentiates it\tBest fit\nFCM Travel India\tFull TMC with India-specific booking, approvals, reporting, 24/7 support and global inventory. \nFCM Travel\n+1\n\tCompanies with frequent domestic + international travel\nYatra for Business\tIndia-focused corporate platform combining self-booking with managed travel, MICE and enterprise support. \nKen Research\n\tIndian SMEs wanting local coverage and simpler implementation\nAmerican Express GBT India\tStrong global programme management plus centralized travel billing through its Business Travel Account; can consolidate air spend into one account. \nAmerican Express\n+1\n\tCompanies prioritizing controls, finance visibility and global travel\n\nPricing: Managed TMCs generally quote after assessing traveller volume, routes and service requirements rather than publishing a fixed ₹/employee price. Ask each for per-booking fees + monthly/annual management fees + cancellation/change charges.\n\nFor 50 employees, I’d specifically request a 12-month all-in quote based on your actual expected flight/hotel volume rather than comparing headline fees.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "065e58b97112b3a8fbe2ffd43628592014c56d92363193a2fe17796aae2dcdb7",
+      "screenshot_relpath": "evidence/065e58b97112b3a8fbe2ffd43628592014c56d92363193a2fe17796aae2dcdb7.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - eSIM, 60 Days, 60GB Data, 300 minutes Local + India Calls, Direct Dial to India [eSIM]",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - eSIM, 60 Days, 60GB Data, 300 minutes Local + India Calls, Direct Dial to India [eSIM]",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - eSIM, 60 Days, 60GB Data, 300 minutes Local + India Calls, Direct Dial to India [eSIM]"
+            ],
+            "text": "Unlimited Europe SIM Card - eSIM, 60 Days, 60GB Data, 300 minutes Local + India Calls, Direct Dial to India [eSIM]\n\n₹4,489.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "9d45769941578b388d856f1b",
       "turn_id": "63c88ddd3fe188c4a2990227",
