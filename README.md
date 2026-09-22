@@ -27,17 +27,22 @@ The standalone interface supports:
 
 - full-text search across advertisers, copy, prompts, answers, and categories;
 - category and advertiser filters;
+- filtering each placement by complete-panel or reviewed positive-only provenance;
 - verified CSV and JSON downloads for independent analysis;
 - placement-level and creative-level views;
 - reviewed screenshots and evidence context; and
 - category ad-appearance and competition metrics from complete experiment panels; and
 - ad-appearance rates by seed, zero-rescue, and ad-deepening conversation stages.
 
-Denominator-based rates exclude the historical positive-only migration so older ads cannot inflate
-category appearance rates.
+Every placement carries an `evidence_design` and `rate_eligible` field. A `complete_panel` record
+comes from a panel that preserves both ad and zero-ad turns, so it may contribute to appearance
+rates. A `reviewed_positive_only` record proves a visually reviewed appearance, but its source did
+not preserve the corresponding zero-ad turns. It remains searchable and is excluded from every
+denominator-based rate.
 
 `placements.csv` contains one row per approved placement with the observation time, advertiser,
-creative copy, category, prompt, completed answer, creative ID, and content-addressed screenshot.
+creative copy, category, evidence design, rate eligibility, prompt, completed answer, creative ID,
+and content-addressed screenshot.
 `library.json` additionally contains advertiser summaries and complete-panel experiment denominators.
 
 ## Verify the release
