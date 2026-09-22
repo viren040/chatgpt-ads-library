@@ -1,4 +1,34 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+19391000ed6249321d9d7c7a,2bc1ae2013fbc9ef9b5b4dac,2026-09-22T23:03:05.777Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d compare the economics this way. The biggest issue is that travel “cost” is mostly fare + supplier penalties + TMC/service fees, not a fixed subscription.
+
+Option	Core fees	Cancellation / changes	Support	Best fit
+ITILITE	No platform fee; travel is usage-based. India pricing is quoted after spend tier; no minimum commitment. 
+Itilite
++1
+	Supplier fare/hotel penalties and fare differences apply. ITILITE says no extra fee for support or modifications within the same trip. 
+Itilite
+	24/7 human support included; dedicated AM from Growth tier. 
+Itilite
+	Best balance for a 50-person company
+MakeMyTrip myBiz	Custom service fee + fare/hotel price + GST; 1.5% payment-gateway fee can apply to wallet/card payments. 
+MakeMyTrip
+	Depends heavily on airline/hotel. Selected myBiz fares offer free cancellation/date changes. 
+MakeMyTrip Biz
+	Primarily platform-led support	Best for India-heavy domestic travel
+FCM Travel	Custom TMC quote; no public standard price.	Supplier cancellation/reissue rules apply; cancellation can reach 100% of booking value. Refunds may wait until supplier funds arrive. 
+FCM Travel
+	24/7 support, travel manager, duty-of-care and emergency assistance. 
+FCM Travel
++1
+	Best for complex/international travel
+OfficeKit HR Platinum	Custom per-user/month quote; Platinum includes travel management. 
+OfficeKit HR
+	Travel-provider rules apply; don't treat the HRMS subscription as cancellation protection.	HRMS/support model rather than a dedicated TMC	Best if you also need HR/payroll
+What I'd ask for in the quote
+
+For 50 employees, get each provider to quote 100 domestic flight bookings + 50 hotel nights + 20 cancellations/changes. That exposes the real TCO much better than the headline subscription.
+
+Also specifically request: booking fee, reissue fee, cancellation fee, GST/ITC handling, unused-ticket credits, 24/7 support SLA, implementation fee, and any annual minimum spend.",72292d55e9c327a435ee7df6,evidence/b86c4918009dc51f57c7d9d031cf90c8af503a4cf67a0afb0a02e156b4a18aae.png,b86c4918009dc51f57c7d9d031cf90c8af503a4cf67a0afb0a02e156b4a18aae
 12b826630b0307f69ef4776f,08383642968d8699c30ec406,2026-09-22T23:01:20.661Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,"Compare OfficeKit HR with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, OfficeKit HR is more of an HRMS with travel-management functionality than a dedicated travel-management company. Here’s the practical comparison:
 
 Option	Current price	Exclusions / watch-outs	Best for

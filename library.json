@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T23:04:02Z",
+  "generated_at": "2026-09-22T23:04:43Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,11 +11,11 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 321,
-    "approved_paid_units": 166,
+    "valid_turns": 322,
+    "approved_paid_units": 167,
     "approved_advertisers": 88,
-    "approved_creatives": 150,
-    "complete_panel_paid_units": 53,
+    "approved_creatives": 151,
+    "complete_panel_paid_units": 54,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -97,6 +97,17 @@
       "categories": "Beauty and personal care,Rose perfume"
     },
     {
+      "id": "f32a45d9b41719c39cfa21a4",
+      "advertiser": "TwixAir LLC",
+      "placements": 5,
+      "creatives": 5,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 4,
+      "first_seen": "2026-09-21T10:13:48.604Z",
+      "last_seen": "2026-09-22T23:03:05.777Z",
+      "categories": "Travel and leisure,Corporate travel"
+    },
+    {
       "id": "83d40ecd26a8ce9b174a1d9e",
       "advertiser": "Duke & D’Or",
       "placements": 4,
@@ -117,17 +128,6 @@
       "first_seen": "2026-09-19T10:57:31.871Z",
       "last_seen": "2026-09-22T22:59:16.921Z",
       "categories": "Travel and leisure,Business productivity,Business hotels,Intercity buses"
-    },
-    {
-      "id": "f32a45d9b41719c39cfa21a4",
-      "advertiser": "TwixAir LLC",
-      "placements": 4,
-      "creatives": 4,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 4,
-      "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T12:46:48.882Z",
-      "categories": "Travel and leisure"
     },
     {
       "id": "fca4e43ae4807ea34c8416ba",
@@ -991,12 +991,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 321,
-    "ad_turns": 53,
-    "ad_rate": 0.16510903426791276,
-    "ad_rate_low": 0.12849995924469784,
-    "ad_rate_high": 0.20963899832723873,
-    "paid_units": 53,
+    "turns": 322,
+    "ad_turns": 54,
+    "ad_rate": 0.16770186335403728,
+    "ad_rate_low": 0.13086493432718485,
+    "ad_rate_high": 0.2123742346432597,
+    "paid_units": 54,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1074,6 +1074,21 @@
         "evidence_strength": "directional"
       },
       {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 7,
+        "ad_turns": 5,
+        "paid_units": 5,
+        "advertisers": 5,
+        "creatives": 5,
+        "ad_rate": 0.7142857142857143,
+        "posterior_ad_rate": 0.5454545454545454,
+        "competition_score": 1.5312845029405113,
+        "ad_rate_low": 0.35892909014821267,
+        "ad_rate_high": 0.9177828342909844,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Perfume gift sets",
         "industry": "Beauty and personal care",
         "turns": 7,
@@ -1146,21 +1161,6 @@
         "competition_score": 0.6,
         "ad_rate_low": 0.09676933255921683,
         "ad_rate_high": 0.7000116786584712,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Corporate travel",
-        "industry": "Travel and leisure",
-        "turns": 6,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 4,
-        "creatives": 4,
-        "ad_rate": 0.6666666666666666,
-        "posterior_ad_rate": 0.5,
-        "competition_score": 1.292481250360578,
-        "ad_rate_low": 0.29998832134152864,
-        "ad_rate_high": 0.9032306674407831,
         "evidence_strength": "exploratory"
       },
       {
@@ -1720,15 +1720,15 @@
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 5,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 2,
-        "ad_rate": 0.8,
-        "posterior_ad_rate": 0.5555555555555556,
-        "competition_score": 1.1111111111111112,
-        "ad_rate_low": 0.3755282641185388,
-        "ad_rate_high": 0.9637768390302125,
+        "turns": 6,
+        "ad_turns": 5,
+        "paid_units": 5,
+        "advertisers": 3,
+        "ad_rate": 0.8333333333333334,
+        "posterior_ad_rate": 0.6,
+        "competition_score": 1.3931568569324173,
+        "ad_rate_low": 0.43649056343635395,
+        "ad_rate_high": 0.9699474141282697,
         "evidence_strength": "exploratory"
       },
       {
@@ -1776,6 +1776,57 @@
     ]
   },
   "ads": [
+    {
+      "id": "19391000ed6249321d9d7c7a",
+      "turn_id": "2bc1ae2013fbc9ef9b5b4dac",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current Sponsored disclosure, TwixAir LLC advertiser, Europe SIM product, price, and matching creative.",
+      "reviewed_at": 1790118283.049941,
+      "captured_at": "2026-09-22T23:03:05.777Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, I’d compare the economics this way. The biggest issue is that travel “cost” is mostly fare + supplier penalties + TMC/service fees, not a fixed subscription.\n\nOption\tCore fees\tCancellation / changes\tSupport\tBest fit\nITILITE\tNo platform fee; travel is usage-based. India pricing is quoted after spend tier; no minimum commitment. \nItilite\n+1\n\tSupplier fare/hotel penalties and fare differences apply. ITILITE says no extra fee for support or modifications within the same trip. \nItilite\n\t24/7 human support included; dedicated AM from Growth tier. \nItilite\n\tBest balance for a 50-person company\nMakeMyTrip myBiz\tCustom service fee + fare/hotel price + GST; 1.5% payment-gateway fee can apply to wallet/card payments. \nMakeMyTrip\n\tDepends heavily on airline/hotel. Selected myBiz fares offer free cancellation/date changes. \nMakeMyTrip Biz\n\tPrimarily platform-led support\tBest for India-heavy domestic travel\nFCM Travel\tCustom TMC quote; no public standard price.\tSupplier cancellation/reissue rules apply; cancellation can reach 100% of booking value. Refunds may wait until supplier funds arrive. \nFCM Travel\n\t24/7 support, travel manager, duty-of-care and emergency assistance. \nFCM Travel\n+1\n\tBest for complex/international travel\nOfficeKit HR Platinum\tCustom per-user/month quote; Platinum includes travel management. \nOfficeKit HR\n\tTravel-provider rules apply; don't treat the HRMS subscription as cancellation protection.\tHRMS/support model rather than a dedicated TMC\tBest if you also need HR/payroll\nWhat I'd ask for in the quote\n\nFor 50 employees, get each provider to quote 100 domestic flight bookings + 50 hotel nights + 20 cancellations/changes. That exposes the real TCO much better than the headline subscription.\n\nAlso specifically request: booking fee, reissue fee, cancellation fee, GST/ITC handling, unused-ticket credits, 24/7 support SLA, implementation fee, and any annual minimum spend.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "b86c4918009dc51f57c7d9d031cf90c8af503a4cf67a0afb0a02e156b4a18aae",
+      "screenshot_relpath": "evidence/b86c4918009dc51f57c7d9d031cf90c8af503a4cf67a0afb0a02e156b4a18aae.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "12b826630b0307f69ef4776f",
       "turn_id": "08383642968d8699c30ec406",
