@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T23:19:37Z",
+  "generated_at": "2026-09-22T23:22:02Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,11 +11,11 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 331,
-    "approved_paid_units": 168,
-    "approved_advertisers": 88,
-    "approved_creatives": 151,
-    "complete_panel_paid_units": 55,
+    "valid_turns": 346,
+    "approved_paid_units": 181,
+    "approved_advertisers": 90,
+    "approved_creatives": 161,
+    "complete_panel_paid_units": 68,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -29,6 +29,17 @@
       "first_seen": "2026-09-22T22:03:28.123Z",
       "last_seen": "2026-09-22T23:00:44.793Z",
       "categories": "Vacation rentals,Intercity buses"
+    },
+    {
+      "id": "f32a45d9b41719c39cfa21a4",
+      "advertiser": "TwixAir LLC",
+      "placements": 10,
+      "creatives": 9,
+      "panel_placements": 6,
+      "reviewed_snapshot_placements": 4,
+      "first_seen": "2026-09-21T10:13:48.604Z",
+      "last_seen": "2026-09-22T23:19:19.792Z",
+      "categories": "Travel and leisure,Corporate travel"
     },
     {
       "id": "7211144fa6d33a5359842018",
@@ -97,17 +108,6 @@
       "categories": "Beauty and personal care,Rose perfume"
     },
     {
-      "id": "f32a45d9b41719c39cfa21a4",
-      "advertiser": "TwixAir LLC",
-      "placements": 5,
-      "creatives": 5,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 4,
-      "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T23:03:05.777Z",
-      "categories": "Travel and leisure,Corporate travel"
-    },
-    {
       "id": "83d40ecd26a8ce9b174a1d9e",
       "advertiser": "Duke & D’Or",
       "placements": 4,
@@ -128,6 +128,17 @@
       "first_seen": "2026-09-19T10:57:31.871Z",
       "last_seen": "2026-09-22T22:59:16.921Z",
       "categories": "Travel and leisure,Business productivity,Business hotels,Intercity buses"
+    },
+    {
+      "id": "ab56d48dc66e2f9280d61b1f",
+      "advertiser": "Trip.com/flights",
+      "placements": 4,
+      "creatives": 2,
+      "panel_placements": 4,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:15:54.873Z",
+      "last_seen": "2026-09-22T23:21:00.917Z",
+      "categories": "Corporate travel"
     },
     {
       "id": "fca4e43ae4807ea34c8416ba",
@@ -194,6 +205,28 @@
       "first_seen": "2026-09-11T20:37:59.783Z",
       "last_seen": "2026-09-15T07:48:36.482Z",
       "categories": "Sports and fitness,Support footwear"
+    },
+    {
+      "id": "504ef25d14dd959439fe6a46",
+      "advertiser": "Zoho Corporation",
+      "placements": 3,
+      "creatives": 3,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:27:39.421Z",
+      "last_seen": "2026-09-22T23:12:49.429Z",
+      "categories": "Help desk software,Corporate travel"
+    },
+    {
+      "id": "d5982a03495f5fcda2bb5a52",
+      "advertiser": "Call.com Telecom Limited",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:07:56.890Z",
+      "last_seen": "2026-09-22T23:09:30.783Z",
+      "categories": "Corporate travel"
     },
     {
       "id": "df3827565973b1f7ae0d4f58",
@@ -284,15 +317,15 @@
       "categories": "Home improvement,Automotive"
     },
     {
-      "id": "504ef25d14dd959439fe6a46",
-      "advertiser": "Zoho Corporation",
+      "id": "c329e8e590b0a10eaab8ec7b",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
       "placements": 2,
       "creatives": 2,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:27:39.421Z",
-      "last_seen": "2026-09-22T23:01:20.661Z",
-      "categories": "Help desk software,Corporate travel"
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:35:21.436Z",
+      "last_seen": "2026-09-22T23:19:07.503Z",
+      "categories": "Intercity buses,Corporate travel"
     },
     {
       "id": "94dfcae9ea9e7cae63574ffd",
@@ -867,17 +900,6 @@
       "categories": "Phone unlocking"
     },
     {
-      "id": "c329e8e590b0a10eaab8ec7b",
-      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:35:21.436Z",
-      "last_seen": "2026-09-22T22:35:21.436Z",
-      "categories": "Intercity buses"
-    },
-    {
       "id": "87bac916b2fa60c0ebc0b0eb",
       "advertiser": "Vetlyf",
       "placements": 1,
@@ -991,12 +1013,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 331,
-    "ad_turns": 55,
-    "ad_rate": 0.1661631419939577,
-    "ad_rate_low": 0.12993985169964606,
-    "ad_rate_high": 0.21004657770458568,
-    "paid_units": 55,
+    "turns": 346,
+    "ad_turns": 68,
+    "ad_rate": 0.19653179190751446,
+    "ad_rate_low": 0.15809004574043514,
+    "ad_rate_high": 0.24163828845424043,
+    "paid_units": 68,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1031,17 +1053,17 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 14,
-        "ad_turns": 6,
-        "paid_units": 6,
-        "advertisers": 5,
-        "creatives": 5,
-        "ad_rate": 0.42857142857142855,
-        "posterior_ad_rate": 0.3888888888888889,
-        "competition_score": 1.091749136355735,
-        "ad_rate_low": 0.21380509930400526,
-        "ad_rate_high": 0.6740973309713064,
-        "evidence_strength": "directional"
+        "turns": 29,
+        "ad_turns": 19,
+        "paid_units": 19,
+        "advertisers": 8,
+        "creatives": 15,
+        "ad_rate": 0.6551724137931034,
+        "posterior_ad_rate": 0.6060606060606061,
+        "competition_score": 2.013289754477189,
+        "ad_rate_low": 0.47344776507155983,
+        "ad_rate_high": 0.8005949125080951,
+        "evidence_strength": "established"
       },
       {
         "category": "Pilgrimage travel",
@@ -1678,29 +1700,29 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 112,
-        "ad_turns": 23,
-        "paid_units": 23,
-        "advertisers": 12,
-        "ad_rate": 0.20535714285714285,
-        "posterior_ad_rate": 0.20689655172413793,
-        "competition_score": 0.7877286045636422,
-        "ad_rate_low": 0.14091826779571093,
-        "ad_rate_high": 0.289338220374342,
+        "turns": 118,
+        "ad_turns": 29,
+        "paid_units": 29,
+        "advertisers": 15,
+        "ad_rate": 0.2457627118644068,
+        "posterior_ad_rate": 0.2459016393442623,
+        "competition_score": 1.0051138134222146,
+        "ad_rate_low": 0.1769108428586466,
+        "ad_rate_high": 0.330646510294956,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 3,
-        "ad_turns": 3,
-        "paid_units": 3,
-        "advertisers": 3,
+        "turns": 6,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 5,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.5714285714285714,
-        "competition_score": 1.3268160542213498,
-        "ad_rate_low": 0.43849391955098227,
-        "ad_rate_high": 1,
+        "posterior_ad_rate": 0.7,
+        "competition_score": 1.9651484454403227,
+        "ad_rate_low": 0.6096569663469354,
+        "ad_rate_high": 0.9999999999999999,
         "evidence_strength": "exploratory"
       },
       {
@@ -1720,62 +1742,739 @@
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 6,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 3,
-        "ad_rate": 0.8333333333333334,
-        "posterior_ad_rate": 0.6,
-        "competition_score": 1.3931568569324173,
-        "ad_rate_low": 0.43649056343635395,
-        "ad_rate_high": 0.9699474141282697,
-        "evidence_strength": "exploratory"
+        "turns": 8,
+        "ad_turns": 7,
+        "paid_units": 7,
+        "advertisers": 4,
+        "ad_rate": 0.875,
+        "posterior_ad_rate": 0.6666666666666666,
+        "competition_score": 1.723308333814104,
+        "ad_rate_low": 0.5291051942301386,
+        "ad_rate_high": 0.9775830911367038,
+        "evidence_strength": "directional"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 68,
+        "turns": 69,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.07352941176470588,
-        "posterior_ad_rate": 0.08333333333333333,
-        "competition_score": 0.23394624350480034,
-        "ad_rate_low": 0.03181437515487155,
-        "ad_rate_high": 0.160853939581994,
+        "ad_rate": 0.07246376811594203,
+        "posterior_ad_rate": 0.0821917808219178,
+        "competition_score": 0.23074150044309075,
+        "ad_rate_low": 0.03134730921766905,
+        "ad_rate_high": 0.15867597418082852,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 4,
-        "ad_turns": 3,
-        "paid_units": 3,
-        "advertisers": 3,
-        "ad_rate": 0.75,
-        "posterior_ad_rate": 0.5,
-        "competition_score": 1.160964047443681,
-        "ad_rate_low": 0.3006360524426366,
-        "ad_rate_high": 0.9544139373553637,
+        "turns": 6,
+        "ad_turns": 5,
+        "paid_units": 5,
+        "advertisers": 5,
+        "ad_rate": 0.8333333333333334,
+        "posterior_ad_rate": 0.6,
+        "competition_score": 1.6844129532345624,
+        "ad_rate_low": 0.43649056343635395,
+        "ad_rate_high": 0.9699474141282697,
         "evidence_strength": "exploratory"
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 52,
+        "turns": 53,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.057692307692307696,
-        "posterior_ad_rate": 0.07142857142857142,
-        "competition_score": 0.16585200677766873,
-        "ad_rate_low": 0.01981381269057321,
-        "ad_rate_high": 0.15642755575159178,
+        "ad_rate": 0.05660377358490566,
+        "posterior_ad_rate": 0.07017543859649122,
+        "competition_score": 0.16294232244823592,
+        "ad_rate_low": 0.019436308927314183,
+        "ad_rate_high": 0.15370448936126319,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "9d45769941578b388d856f1b",
+      "turn_id": "63c88ddd3fe188c4a2990227",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.542499,
+      "captured_at": "2026-09-22T23:21:00.917Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, the purchase-ready shortlist is:\n\nMakeMyTrip myBiz — lowest-friction starting point. It has corporate fares, policy controls, GST invoices, expense management and advertised free date-change/cancellation on qualifying special fares. Its contract makes clear that airline/hotel rules still govern refunds, and its service fee is negotiated; a 1.5% payment-gateway fee can apply to wallet/card funding. \nMakeMyTrip Business\n+1\n\nVerify: per-booking fee, 1.5% applicability, refund SLA, after-hours support and unused-ticket handling.\n\nFCM Travel India — fuller managed service. It offers negotiated corporate rates, 420+ airline partners, dedicated consultants and 24/7 support. Hotel programme savings are advertised at up to 38%, but supplier cancellation charges can reach 100%, and refunds may take 12+ weeks. \nFCM Travel\n+1\n\nVerify: transaction fees, implementation fee, SLA, cancellation/reissue schedule and exit terms.\n\nTrip.Biz — technology-heavy alternative. Its newly launched Agent ONE targets automated corporate booking and oversight. \nPR Newswire\n\nVerify: India-specific inventory, service fees, human-support coverage and refund/reissue SLA.\n\nBefore paying: require a written 12-month all-in quote in INR, including booking/reissue/cancellation fees, GST, payment charges, implementation, support, and contract termination. Public sources don't disclose comparable fixed totals, so don't accept a headline “saving” as the price.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "9aa60f775f2264a7b769778e6d21695c846c1c166c1b94bf8eb1eb76c7a39fa5",
+      "screenshot_relpath": "evidence/9aa60f775f2264a7b769778e6d21695c846c1c166c1b94bf8eb1eb76c7a39fa5.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "cd85e88118787bdf940eac52",
+      "turn_id": "bc4ab166c26d22c20863bf22",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "5baa2ceb093c0bc2a684ea1e",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.5431411,
+      "captured_at": "2026-09-22T23:19:19.792Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, I’d compare the strongest practical models this way. Public providers generally do not publish a single all-in annual price, so the meaningful number is the negotiated transaction/service fee plus actual travel spend.\n\nOption\tCost structure\tCancellation / refunds\tSupport & “warranty”\tBest suited to\nTrip.Biz / Trip.com\tCustom corporate quote; consumer Trip.com fares are booking-specific\tAirline/fare rules govern refunds; Trip.com provides 24/7 support and booking/price guarantees with stated exclusions. \nTrip.com\n+1\n\t24/7 multilingual support; OBT, approvals, reporting and payment tools. \nTrip.com\n+1\n\tTech-first teams with substantial international travel\nMakeMyTrip myBiz\tNegotiated service fee plus fare; payment gateway can add 1.5%. \nMakeMyTrip\n\tCorporate fares can include reduced cancellation fees, but fare rules still matter. \nMakeMyTrip Business\n\t24/7 dedicated support. \nMakeMyTrip Business\n\tIndia-heavy travel and GST-conscious companies\nFCM Travel India\tCustom TMC/transaction quote\tCancellation can reach 100% of booking cost; supplier/refund and reissue charges can also apply. \nFCM Travel\n\tDedicated consultant + 24/7 emergency assistance; negotiated hotel/air content. \nFCM Travel\n+1\n\tCompanies wanting full-service managed travel\nAmex BTA + TMC\tCustom TMC fees + travel spend; BTA consolidates air expenditure\tSupplier rules govern; Amex terms warn some fares may be non-refundable. \nAmerican Express\n\tCentral billing, reconciliation, insurance up to ₹30 lakh, 24/7 Global Assist; payment period up to 51 days. \nAmerican Express\n\tFinance-led travel control\nWhat to demand in the quote\n\nAsk each provider for a 12-month TCO showing: booking fee, reissue/cancellation fee, hotel markup, implementation, GST, payment fees, after-hours support, unused-ticket credits, refund turnaround, SLA/response times, and contract termination fees.\n\nImportant: “warranty” in travel usually means service/booking guarantees, not a warranty on the underlying airfare. The airline’s fare rules remain decisive. \nTrip.com\n+1",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e",
+      "screenshot_relpath": "evidence/632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India\n\n₹2,489.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7de5804fe459e08b6c998f7",
+      "turn_id": "3d602aeaa0cb04ea25635922",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+      "advertiser_key": "c329e8e590b0a10eaab8ec7b",
+      "creative_id": "4636e8a09e6d1606a8c992eb",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Business Stays in Tiruvannamalai",
+      "description": "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.543792,
+      "captured_at": "2026-09-22T23:19:07.503Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three:\n\nMakeMyTrip myBiz — Best fit if you want a self-serve, India-first setup. Corporate fares, GST invoices, policy controls, expense reconciliation and dedicated support are built in. It supports SMEs as well as larger companies. \nMakeMyTrip Biz\n+1\n\nFCM Travel India — More genuinely managed/TMC-oriented. Stronger for approvals, traveller tracking, reporting, negotiated rates and 24/7 human support, with India-specific booking infrastructure. \nFCM Travel\n+1\n\nBCD Travel — Suited to a company expecting more complex or international travel. Offers end-to-end booking, programme management, payments, meetings/events and consulting. \nBCD Travel\n\nKey difference: myBiz is primarily a scalable digital platform; FCM combines technology with hands-on TMC management; BCD is oriented toward sophisticated, globally managed programmes.\n\nPricing: these providers generally quote corporate accounts rather than publishing a fixed ₹/employee price, so request a per-booking/service-fee schedule and implementation costs before comparing.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "caa5266110bdd0987abf928238d0e3d74fe4558a237f3483c6bb78c9b36dd4b1",
+      "screenshot_relpath": "evidence/caa5266110bdd0987abf928238d0e3d74fe4558a237f3483c6bb78c9b36dd4b1.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+        "format": "answer_card",
+        "headline": "Business Stays in Tiruvannamalai",
+        "description": "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+        "copy": [
+          "UJ PALLAZZIO - Business Class Luxury Hotel",
+          "Business Stays in Tiruvannamalai",
+          "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/7c4d7cabe2fb5cc7928673798db23dcb.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "UJ PALLAZZIO - Business Class Luxury Hotel",
+              "Business Stays in Tiruvannamalai",
+              "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams."
+            ],
+            "text": "UJ PALLAZZIO - Business Class Luxury Hotel\n\nBusiness Stays in Tiruvannamalai\n\nGST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/7c4d7cabe2fb5cc7928673798db23dcb.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "477a8bc7e7d6536deb9f1220",
+      "turn_id": "825e01075d6a64038e4e05cb",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "d922963a10af4f5da6dd66a3",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Kochi to Taipei flight tickets",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.5445278,
+      "captured_at": "2026-09-22T23:17:35.693Z",
+      "prompt": "Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, Trip.com/flights is primarily an online flight marketplace, so its economics differ from a full managed-TMC contract. Current public pricing is mostly fare-dependent rather than a fixed corporate subscription. Trip.com says it covers 680+ airlines and offers app/member discounts. \nTrip.com\n\nProvider\tCurrent price model\tExclusions / watch-outs\tBest fit\nTrip.com\tAirfare + applicable taxes/fees; no published corporate subscription\tCorporate policy/approval workflows and negotiated-account pricing may require separate arrangements; cancellation/reissue costs depend on fare\tTeams wanting broad international flight inventory and self-service\nMakeMyTrip myBiz\tBooking/travel cost; corporate pricing generally quote/transaction-based\tVerify service fees, cancellation/reissue, GST invoicing and support SLA\tIndian companies prioritising domestic travel and GST controls\nFCM Travel India\tCustom quote\tImplementation, transaction fees, after-hours support and cancellation/reissue charges must be contracted\tCompanies wanting a managed TMC with human support\nAmex GBT / Egencia\tCustom quote\tTMC fees, implementation, payment terms and some inventory limitations\tCompanies needing global travel management and stronger enterprise controls\n\nPurchase test: request each provider's 12-month all-in quote for 50 travellers, including 100/250/500 bookings, GST, amendments, cancellations, after-hours support and implementation. Public sources do not provide apples-to-apples current totals, so any exact “annual price” would be misleading. \nlearn.g2.com",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "4f52d81c52a6d96cb2fbc6e161b5e93cef8691437b1d0fa49580ef9a29ca5943",
+      "screenshot_relpath": "evidence/4f52d81c52a6d96cb2fbc6e161b5e93cef8691437b1d0fa49580ef9a29ca5943.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "product_card",
+        "headline": "Kochi to Taipei flight tickets",
+        "description": null,
+        "copy": [
+          "Trip.com/flights",
+          "Kochi to Taipei flight tickets",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000acdc8230b364024a3c685e55&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=427f9eae6c3c91af0bdaccbb062ca796b7ddf2d79d666871a71129ce2093ae5a&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Kochi to Taipei flight tickets"
+            ],
+            "text": "Kochi to Taipei flight tickets\n\n₹23,618.00\n₹27,869.24\nTrip.com/flights",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000acdc8230b364024a3c685e55&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=427f9eae6c3c91af0bdaccbb062ca796b7ddf2d79d666871a71129ce2093ae5a&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "46e3584247b7dce358736592",
+      "turn_id": "b87b00c43a7069970b27c7da",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.5451589,
+      "captured_at": "2026-09-22T23:15:54.964Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, published all-in managed-service prices are generally quote-based, so I would shortlist these and demand a written per-trip fee schedule before paying:\n\nOffer\tCurrent cost\tKey terms to verify\nMakeMyTrip myBiz\t₹0 platform fee advertised; travel charged at booking\tFlight/hotel mark-ups, cancellation/date-change fees, GST invoice eligibility, human support SLA. \nMakeMyTrip Business\n\nFCM Travel India\tCustom quote\tTransaction/service fees, 24/7 support coverage, implementation fee, cancellation/reissue charges, hotel-rate savings, contract exit terms. \nFCM Travel\n+1\n\nAmerican Express BTA + TMC\tCustom TMC pricing; BTA consolidates air spend\tTMC booking fees, credit/payment terms, insurance exclusions, foreign-transaction charges, eligibility, reconciliation fees. Amex advertises up to 51 days payment extension. \nAmerican Express\n\nBefore paying: require a 12-month total-cost example covering 50 employees, domestic + international flights, hotels, cancellations/reissues, GST, implementation, support, and exit fees. That makes the offers genuinely comparable.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "51be1749f51330d991b9a8f947ad8a4810ed9fbc891e318b62fc43376e79aa40",
+      "screenshot_relpath": "evidence/51be1749f51330d991b9a8f947ad8a4810ed9fbc891e318b62fc43376e79aa40.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "6368b2223319279ccfbb2f6a",
+      "turn_id": "5ffd0f6c64eb4092f506eb76",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.5460322,
+      "captured_at": "2026-09-22T23:15:54.873Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, these three are worth shortlisting:\n\nOption\tWhat differentiates it\nMakeMyTrip myBiz\tBest suited to SMEs wanting a quick rollout. Corporate fares, GST invoices, travel-policy controls, expense management, central wallet and 24/7 assistance. \nMakeMyTrip Biz\n+1\n\nEaseMyTrip EMTDesk\tMore travel-manager oriented: centralised employee bookings, policy controls, expense reporting, negotiated fares and 24/7 support. It says it serves 4,000+ businesses. \nEaseMyTrip\n\nThomas Cook India – Corporate Travel\tMore traditional managed-TMC model, combining travel experts with technology, self-booking, approval workflows, booking bots and backend reconciliation/accounting integration. \nThomas Cook\n\nPractical distinction: myBiz/EMTDesk are more self-serve platforms; Thomas Cook is more suitable if you want human travel-management support alongside the software.\n\nPricing: these providers generally quote corporate pricing rather than publishing a fixed ₹/employee fee, so request a 50-employee proposal with transaction fees, GST treatment, cancellation/change charges and 24/7 support SLA before comparing total cost.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "5e6031f93c6bb56a5464a0a8aa7fc59fbb7e43637b123a4ab1daca9774bb9689",
+      "screenshot_relpath": "evidence/5e6031f93c6bb56a5464a0a8aa7fc59fbb7e43637b123a4ab1daca9774bb9689.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "8f076068561df9fc160599ad",
+      "turn_id": "663222d6511b3ea918b0198f",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "e88a7551bad3eebb80ee67f8",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - eSIM, 28 Days, 10GB Data, 50 minutes Local + India Calls, Direct Dial to India [eSIM]",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.546688,
+      "captured_at": "2026-09-22T23:14:30.935Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, I’d make the shortlist myBiz, Cleartrip OOO and FCM Travel. Based on currently published terms, the cost structure and trade-offs look like this:\n\nOption\tCost today\tCancellation / support\tKey trade-off\nMakeMyTrip myBiz\t₹0 annual subscription; negotiated service fee per booking. A 1.5% payment-gateway fee can apply to wallet/card payments. \nMakeMyTrip\n+1\n\tSpecial corporate fares can offer free cancellation/date changes; otherwise supplier fare rules apply. 24×7 support. \nMakeMyTrip Biz\n+1\n\tLowest-friction option for a 50-person India-first company, but it's primarily a platform/intermediary rather than a fully outsourced TMC.\nCleartrip OOO\tNo subscription or extra platform charges advertised; quote/booking economics still need confirmation. \nOOO\n\tCorporate fares and approvals; supplier cancellation rules apply.\tPotentially the lowest platform-cost alternative, but clarify exactly what human servicing is included.\nFCM Travel\tContract/quote based, with service fees negotiated.\tPublished terms allow cancellation charges up to 100%, plus amendment/reissue charges; 24×7 emergency assistance. \nFCM Travel\n\tMore appropriate if you want outsourced travel management and international support, but potentially higher servicing cost.\nPurchase-ready shortlist\n\n1. myBiz — start here. Its ₹0 subscription, corporate fares, GST/expense tooling and 24×7 support make the economics particularly straightforward for 50 employees. \nMakeMyTrip Biz\n\n2. FCM — get a competing quote. Worth it if employees travel internationally or you need genuine travel-manager intervention rather than self-service.\n\n3. Cleartrip OOO — use as the price benchmark. Its published “no subscription/no extra charges” proposition makes it useful for negotiating myBiz/FCM pricing. \nOOO\n\nBefore paying, demand these 7 numbers\n\nPer-flight booking/service fee\n\nHotel booking fee/markup\n\nCancellation + date-change fee on top of airline charges\n\nInternational booking fee\n\nAfter-hours/emergency fee\n\nCorporate-card/payment-gateway fee\n\nAnnual minimum commitment, if any\n\nAlso get refund SLA, dedicated account-manager SLA, GST-credit responsibility, unused-ticket-credit handling, and escalation terms in writing.\n\nBottom line: For a 50-person company, I would quote myBiz and Cleartrip head-to-head, then use FCM if the company values high-touch travel management enough to justify a higher contracted fee.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "640318779ddc5786cddb2e1dbc7d8c7124a494b0a78469f90f45b355aaba1e59",
+      "screenshot_relpath": "evidence/640318779ddc5786cddb2e1dbc7d8c7124a494b0a78469f90f45b355aaba1e59.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - eSIM, 28 Days, 10GB Data, 50 minutes Local + India Calls, Direct Dial to India [eSIM]",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - eSIM, 28 Days, 10GB Data, 50 minutes Local + India Calls, Direct Dial to India [eSIM]",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - eSIM, 28 Days, 10GB Data, 50 minutes Local + India Calls, Direct Dial to India [eSIM]"
+            ],
+            "text": "Unlimited Europe SIM Card - eSIM, 28 Days, 10GB Data, 50 minutes Local + India Calls, Direct Dial to India [eSIM]\n\n₹1,389.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "3d11b1058805b09a77d5e08b",
+      "turn_id": "14221115079e811af288e0cb",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "e73f9219897cc570520ad788",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Compare Zoho Desk vs Zendesk",
+      "description": "Save 65% on support costs. Migrate for free to Zoho Desk.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.547787,
+      "captured_at": "2026-09-22T23:12:49.429Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, the biggest cost difference is usually not a monthly subscription. It is booking/service fees + airline/hotel cancellation penalties + the amount of human support you need.\n\nOption\tFees / total-cost structure\tCancellation / refund\tWarranty / service protection\tSupport\nMakeMyTrip myBiz\tNo public fixed subscription fee; service fee is mutually agreed. 1.5% payment-gateway fee can apply to certain wallet/card payments. \nMakeMyTrip\n\tDepends on airline/hotel. Special myBiz fares can include free cancellation/date change. \nMakeMyTrip Biz\n+1\n\tNo blanket travel-service warranty; MMT is an intermediary and supplier terms apply. \nMakeMyTrip\n\t24×7 dedicated support. \nMakeMyTrip Biz\n\nCleartrip OOO\tNo subscription or extra platform charges advertised; corporate fares + GST tools. \nOOO\n\tSupplier-specific. Cleartrip passes supplier refunds through; it doesn't guarantee the underlying travel service. \nCleartrip Corporate\n\tNo blanket warranty; Cleartrip acts as intermediary. \nCleartrip Corporate\n\t24×7 customer support; escalation process available. \nCleartrip Corporate\n\nFCM Travel\tQuote/contract based; likely higher-touch TMC economics rather than a simple free platform.\tChanges/cancellations can incur supplier charges up to 100%, plus reissue/service charges; refunds wait for supplier funds. \nFCM Travel\n\tContractual service levels should be negotiated; no blanket “warranty” on supplier services.\t24×7 emergency assistance, plus travel managers, policy, safety, visa and payment support. \nFCM Travel\n+1\nWhat I'd put in the RFQ\n\nFor 50 employees, ask each provider for the same 12-month scenario:\n\n150 domestic flight bookings\n\n30 international bookings\n\n150 hotel nights\n\n20 cancellations\n\n15 date changes\n\n10 emergency/after-hours interventions\n\nThen request per-booking fee, cancellation/reissue fee, hotel markup, payment fee, implementation fee and annual minimum, rather than accepting “free platform” as the headline price.\n\nMost important: FCM's published terms explicitly allow cancellation charges of up to 100%, while myBiz and Cleartrip leave the underlying supplier's fare rules controlling. \nFCM Travel\n+2\nMakeMyTrip\n+2",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "8e630a5230bedbc44f23c6c97ad3b749a76a8629e9f91b0e2e42dfdd247b28f6",
+      "screenshot_relpath": "evidence/8e630a5230bedbc44f23c6c97ad3b749a76a8629e9f91b0e2e42dfdd247b28f6.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Compare Zoho Desk vs Zendesk",
+        "description": "Save 65% on support costs. Migrate for free to Zoho Desk.",
+        "copy": [
+          "Zoho Corporation",
+          "Compare Zoho Desk vs Zendesk",
+          "Save 65% on support costs. Migrate for free to Zoho Desk."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Compare Zoho Desk vs Zendesk",
+              "Save 65% on support costs. Migrate for free to Zoho Desk."
+            ],
+            "text": "Zoho Corporation\n\nCompare Zoho Desk vs Zendesk\n\nSave 65% on support costs. Migrate for free to Zoho Desk.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "ea4631e7d16189e8d1981738",
+      "turn_id": "f16d822ebfdd09c655de31a2",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "4a48d8b36f83fe8ea48e09bd",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.548748,
+      "captured_at": "2026-09-22T23:12:48.449Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three current options. Exact airfare/hotel spend is variable, so “total cost” below means the provider/platform cost before travel fares.\n\nOffer\tTotal cost\tTerms to verify\nITILITE\n\t₹0 subscription; trip/service fee applies\tGet the exact per-trip fee, GST treatment, cancellation/change charges and annual commitment in writing. 24/7 support included. \nItilite\n\nMakeMyTrip myBiz\n\t₹0 annual subscription; negotiated service fee\tConfirm service fee, 1.5% payment-gateway fee, corporate-fare eligibility, cancellation rules and credit terms. \nMakeMyTrip\n+1\n\nNavan\n\t₹0 for Travel for ≤300 employees\tVerify India inventory/support, international coverage, GST invoicing and any expense-user charges; enterprise/custom services are separately quoted. \nNavan\n\nBefore paying: demand a written quote showing all booking/change/cancellation fees, GST, payment fees, credit period, SLA, 24/7 escalation and exit terms.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "b4fe3c9fe1e3323fd7e46573f184347f91b7dcfa2cde46263d21c2e535bc3197",
+      "screenshot_relpath": "evidence/b4fe3c9fe1e3323fd7e46573f184347f91b7dcfa2cde46263d21c2e535bc3197.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000bdb0820c9ab8b800ea6aa987&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=d468247667f08850cf881b3f3cc2e69f86bfe7d85fe1242cde740d73e1eacd8f&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India\n\n₹4,489.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000bdb0820c9ab8b800ea6aa987&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=d468247667f08850cf881b3f3cc2e69f86bfe7d85fe1242cde740d73e1eacd8f&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "34c23b940a322b1bf3f6379b",
+      "turn_id": "81c7147ed345a70ad400656e",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "39725d0d0414a07bd69d3e2a",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - eSIM, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India [eSIM]",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.549398,
+      "captured_at": "2026-09-22T23:11:09.015Z",
+      "prompt": "Compare Call.com Telecom Limited with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "One important correction: Call.com Telecom Limited is not a managed business-travel provider. Its current product is a virtual phone/calling and messaging service for individuals, freelancers and small businesses, so it isn't a meaningful travel-management alternative. \ncall.com\n+1\n\nProvider\tCurrent price\tKey exclusions / limitations\tBest for\nCall.com Telecom Limited\tFreemium; paid SIP/number/SMS usage\tNo corporate travel booking, expense, hotel or travel-policy management\tNot suitable for this use case\nMakeMyTrip myBiz\tNo published platform fee; booking-based pricing\tMainly self-service; complex managed-service requirements may need a separate arrangement\t50-person India-first company wanting easy employee booking + GST/expense tools \nMakeMyTrip Biz\n\nThomas Cook India Corporate Travel\tQuote-based\tNo public standard fee; service scope/pricing negotiated\tCompanies wanting human support, air/hotel/rail/visa/forex and 24×7 servicing \nThomas Cook\n\nFCM Travel India\tQuote-based\tContract pricing; exact service fees require proposal\tCompanies with more complex domestic + international travel programmes\n\nPurchase takeaway: For 50 employees, get quotes from myBiz and Thomas Cook first. myBiz is more self-serve; Thomas Cook is substantially more of a managed TMC. Neither publishes a simple per-employee monthly price, so compare transaction fees, mark-ups, cancellation handling and after-hours support in the quotes.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "03dd447167673b8960d297600d1722e700c24782cb418222687a427db59f1225",
+      "screenshot_relpath": "evidence/03dd447167673b8960d297600d1722e700c24782cb418222687a427db59f1225.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - eSIM, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India [eSIM]",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - eSIM, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India [eSIM]",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000ca6081f799d32730248e2bdd&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=7f2de84e206dc3ee9ec9ce46966c72bd05e697465e9928f25624e239836c1f62&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - eSIM, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India [eSIM]"
+            ],
+            "text": "Unlimited Europe SIM Card - eSIM, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India [eSIM]\n\n₹4,489.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000ca6081f799d32730248e2bdd&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=7f2de84e206dc3ee9ec9ce46966c72bd05e697465e9928f25624e239836c1f62&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "2566ce46a2782a15d0f94ffb",
+      "turn_id": "af5653f5147280f916d19a5d",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.549987,
+      "captured_at": "2026-09-22T23:09:38.613Z",
+      "prompt": "Compare Call.com Telecom Limited with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "There’s an important mismatch: Call.com Telecom Limited is a UK telecommunications/eSIM company, not a managed business-travel provider. Its product is mobile data/communications for travellers, and its terms explicitly describe the service as mobile data rather than travel management. \nCompanies House\n+1\n\nProvider\tCurrent price\tKey exclusions/limitations\tBest fit\nCall.com\teSIM plans are priced individually; no corporate travel-management price published\tNo flight/hotel booking, approvals, GST travel reporting or TMC servicing\tTravel connectivity only, not travel management\nMakeMyTrip myBiz\t₹0 annual subscription; booking/service fees apply by agreement; 1.5% payment-gateway fee can apply \nMakeMyTrip\n+1\n\tCorporate features depend on negotiated fares; not a full traditional TMC\t50-person firms wanting self-service + support\nYatra for Business\tQuote-based for Travel Pro; covers businesses under ₹5 crore annual travel spend \nYatra.com\n\tExact service fees require quotation\tSMEs needing policies, approvals and GST reporting\nOffistrip Growth\t₹7,999/month (₹95,988/year) \nOffistrip\n\tCustom integrations and implementation may cost extra\t50-person firms wanting explicit subscription pricing and governance\n\nBottom line: if you intended Call.com as a travel-connectivity supplier, it isn't directly comparable to these TMCs.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "3b800169b906b654ba200386cc4b81adb9e20ec6177df73a26bcea45ff937d35",
+      "screenshot_relpath": "evidence/3b800169b906b654ba200386cc4b81adb9e20ec6177df73a26bcea45ff937d35.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "db9aafcab9b6c8b1136e6e1a",
+      "turn_id": "8065db02be54feafbec59269",
+      "advertiser": "Call.com Telecom Limited",
+      "advertiser_key": "d5982a03495f5fcda2bb5a52",
+      "creative_id": "96573225f1e7ee4b5a7145c7",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Call More For Less",
+      "description": "Enjoy low rates for international calls.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.5516548,
+      "captured_at": "2026-09-22T23:09:30.783Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three:\n\nMakeMyTrip myBiz — Best suited to an India-first SME setup. Combines flight/hotel booking, travel policy, approvals, expense tracking, GST workflows and HRMS/expense integrations. Pricing is quote-based. \nMakeMyTrip Biz\n\nFCM Travel — More full-service and globally oriented. Offers negotiated corporate rates, 24/7 support, traveller-risk tools, approvals, reporting and integrations. Particularly relevant if employees travel internationally. \nFCM Travel\n+1\n\nThomas Cook India Corporate Travel — Stronger human-service/assisted-booking option, with air, hotels, rail, visas, forex, insurance, cars and MICE under one provider. It also offers self-booking, expense tools and 24/7 emergency support. \nThomas Cook\n\nKey difference: myBiz is more platform/SME-led, FCM is global TMC + technology, while Thomas Cook is high-touch, broad travel servicing. Exact management/convenience fees should be requested in the quote.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "08562b8da9c0d2acd5ca7dfe1a7f1402b9e46681419bef6a60a6fd6d543ce4ba",
+      "screenshot_relpath": "evidence/08562b8da9c0d2acd5ca7dfe1a7f1402b9e46681419bef6a60a6fd6d543ce4ba.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Call.com Telecom Limited",
+        "format": "answer_card",
+        "headline": "Call More For Less",
+        "description": "Enjoy low rates for international calls.",
+        "copy": [
+          "Call.com Telecom Limited",
+          "Call More For Less",
+          "Enjoy low rates for international calls."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/ccd5d89f154f5b9187b9be083afc334b.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Call.com Telecom Limited",
+              "Call More For Less",
+              "Enjoy low rates for international calls."
+            ],
+            "text": "Call.com Telecom Limited\n\nCall More For Less\n\nEnjoy low rates for international calls.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/ccd5d89f154f5b9187b9be083afc334b.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "9c547170a3b296fda22b95da",
+      "turn_id": "6a87ceb1e24d7c4aadccd15d",
+      "advertiser": "Call.com Telecom Limited",
+      "advertiser_key": "d5982a03495f5fcda2bb5a52",
+      "creative_id": "8279ecb50ee6ae6c70e99a96",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Stay Connected For Less",
+      "description": "Low rates for calls across borders.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790119313.552167,
+      "captured_at": "2026-09-22T23:07:56.890Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, these three are practical benchmarks. Public corporate pricing is mostly quote-based, so I would not treat any invented per-booking figure as reliable.\n\nProvider\tCost structure\tSwitching difficulty\nMakeMyTrip myBiz\n\t₹0 annual subscription; transaction/service fees can apply by contract. \nMakeMyTrip\n+1\n\tLow — self-serve setup, employee invites and policy configuration. \nMakeMyTrip Business\n\nYatra for Business\n\tTravel Lite targets SMEs under ₹1 crore/year; Travel Pro covers businesses under ₹5 crore/year. Pricing is enquiry-based. \nYatra.com\n\tLow–medium — policies, approvals, reports and multiple booking channels require migration of employee/travel data.\nFCM Travel India\n\tQuote-based managed TMC; negotiated corporate rates and dedicated service rather than published subscription pricing. \nFCM Travel\n+1\n\tMedium–high — implementation, policy configuration, integrations and traveller profiles make migration more involved. \nFCM Travel\n\nPractical takeaway: myBiz is easiest to switch into/out of; Yatra offers a similar SME-oriented model; FCM is a deeper managed-service migration. For a 50-person company, request each vendor's per-booking/service fee, implementation fee, minimum annual spend, cancellation/change charges and exit terms before comparing total cost.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "3f0df008e7a761f01cca7f8ccf5b57d670cd5f9a5623e4c9754fe02e27422e4e",
+      "screenshot_relpath": "evidence/3f0df008e7a761f01cca7f8ccf5b57d670cd5f9a5623e4c9754fe02e27422e4e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Call.com Telecom Limited",
+        "format": "answer_card",
+        "headline": "Stay Connected For Less",
+        "description": "Low rates for calls across borders.",
+        "copy": [
+          "Call.com Telecom Limited",
+          "Stay Connected For Less",
+          "Low rates for calls across borders."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/ccd5d89f154f5b9187b9be083afc334b.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Call.com Telecom Limited",
+              "Stay Connected For Less",
+              "Low rates for calls across borders."
+            ],
+            "text": "Call.com Telecom Limited\n\nStay Connected For Less\n\nLow rates for calls across borders.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/ccd5d89f154f5b9187b9be083afc334b.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "56033fb204032831a88972e1",
       "turn_id": "b7585339cf124f9852a6db5d",

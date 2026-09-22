@@ -1,4 +1,296 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+9d45769941578b388d856f1b,63c88ddd3fe188c4a2990227,2026-09-22T23:21:00.917Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, the purchase-ready shortlist is:
+
+MakeMyTrip myBiz — lowest-friction starting point. It has corporate fares, policy controls, GST invoices, expense management and advertised free date-change/cancellation on qualifying special fares. Its contract makes clear that airline/hotel rules still govern refunds, and its service fee is negotiated; a 1.5% payment-gateway fee can apply to wallet/card funding. 
+MakeMyTrip Business
++1
+
+Verify: per-booking fee, 1.5% applicability, refund SLA, after-hours support and unused-ticket handling.
+
+FCM Travel India — fuller managed service. It offers negotiated corporate rates, 420+ airline partners, dedicated consultants and 24/7 support. Hotel programme savings are advertised at up to 38%, but supplier cancellation charges can reach 100%, and refunds may take 12+ weeks. 
+FCM Travel
++1
+
+Verify: transaction fees, implementation fee, SLA, cancellation/reissue schedule and exit terms.
+
+Trip.Biz — technology-heavy alternative. Its newly launched Agent ONE targets automated corporate booking and oversight. 
+PR Newswire
+
+Verify: India-specific inventory, service fees, human-support coverage and refund/reissue SLA.
+
+Before paying: require a written 12-month all-in quote in INR, including booking/reissue/cancellation fees, GST, payment charges, implementation, support, and contract termination. Public sources don't disclose comparable fixed totals, so don't accept a headline “saving” as the price.",3ef4ecc7fb3e5cccf7573aa3,evidence/9aa60f775f2264a7b769778e6d21695c846c1c166c1b94bf8eb1eb76c7a39fa5.png,9aa60f775f2264a7b769778e6d21695c846c1c166c1b94bf8eb1eb76c7a39fa5
+cd85e88118787bdf940eac52,bc4ab166c26d22c20863bf22,2026-09-22T23:19:19.792Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d compare the strongest practical models this way. Public providers generally do not publish a single all-in annual price, so the meaningful number is the negotiated transaction/service fee plus actual travel spend.
+
+Option	Cost structure	Cancellation / refunds	Support & “warranty”	Best suited to
+Trip.Biz / Trip.com	Custom corporate quote; consumer Trip.com fares are booking-specific	Airline/fare rules govern refunds; Trip.com provides 24/7 support and booking/price guarantees with stated exclusions. 
+Trip.com
++1
+	24/7 multilingual support; OBT, approvals, reporting and payment tools. 
+Trip.com
++1
+	Tech-first teams with substantial international travel
+MakeMyTrip myBiz	Negotiated service fee plus fare; payment gateway can add 1.5%. 
+MakeMyTrip
+	Corporate fares can include reduced cancellation fees, but fare rules still matter. 
+MakeMyTrip Business
+	24/7 dedicated support. 
+MakeMyTrip Business
+	India-heavy travel and GST-conscious companies
+FCM Travel India	Custom TMC/transaction quote	Cancellation can reach 100% of booking cost; supplier/refund and reissue charges can also apply. 
+FCM Travel
+	Dedicated consultant + 24/7 emergency assistance; negotiated hotel/air content. 
+FCM Travel
++1
+	Companies wanting full-service managed travel
+Amex BTA + TMC	Custom TMC fees + travel spend; BTA consolidates air expenditure	Supplier rules govern; Amex terms warn some fares may be non-refundable. 
+American Express
+	Central billing, reconciliation, insurance up to ₹30 lakh, 24/7 Global Assist; payment period up to 51 days. 
+American Express
+	Finance-led travel control
+What to demand in the quote
+
+Ask each provider for a 12-month TCO showing: booking fee, reissue/cancellation fee, hotel markup, implementation, GST, payment fees, after-hours support, unused-ticket credits, refund turnaround, SLA/response times, and contract termination fees.
+
+Important: “warranty” in travel usually means service/booking guarantees, not a warranty on the underlying airfare. The airline’s fare rules remain decisive. 
+Trip.com
++1",5baa2ceb093c0bc2a684ea1e,evidence/632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e.png,632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e
+c7de5804fe459e08b6c998f7,3d602aeaa0cb04ea25635922,2026-09-22T23:19:07.503Z,UJ PALLAZZIO - Business Class Luxury Hotel,Ad,answer_card,Business Stays in Tiruvannamalai,"GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",Travel and leisure,Corporate travel,complete_panel,True,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, I’d shortlist these three:
+
+MakeMyTrip myBiz — Best fit if you want a self-serve, India-first setup. Corporate fares, GST invoices, policy controls, expense reconciliation and dedicated support are built in. It supports SMEs as well as larger companies. 
+MakeMyTrip Biz
++1
+
+FCM Travel India — More genuinely managed/TMC-oriented. Stronger for approvals, traveller tracking, reporting, negotiated rates and 24/7 human support, with India-specific booking infrastructure. 
+FCM Travel
++1
+
+BCD Travel — Suited to a company expecting more complex or international travel. Offers end-to-end booking, programme management, payments, meetings/events and consulting. 
+BCD Travel
+
+Key difference: myBiz is primarily a scalable digital platform; FCM combines technology with hands-on TMC management; BCD is oriented toward sophisticated, globally managed programmes.
+
+Pricing: these providers generally quote corporate accounts rather than publishing a fixed ₹/employee price, so request a per-booking/service-fee schedule and implementation costs before comparing.",4636e8a09e6d1606a8c992eb,evidence/caa5266110bdd0987abf928238d0e3d74fe4558a237f3483c6bb78c9b36dd4b1.png,caa5266110bdd0987abf928238d0e3d74fe4558a237f3483c6bb78c9b36dd4b1
+477a8bc7e7d6536deb9f1220,825e01075d6a64038e4e05cb,2026-09-22T23:17:35.693Z,Trip.com/flights,Sponsored,product_card,Kochi to Taipei flight tickets,,Travel and leisure,Corporate travel,complete_panel,True,"Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, Trip.com/flights is primarily an online flight marketplace, so its economics differ from a full managed-TMC contract. Current public pricing is mostly fare-dependent rather than a fixed corporate subscription. Trip.com says it covers 680+ airlines and offers app/member discounts. 
+Trip.com
+
+Provider	Current price model	Exclusions / watch-outs	Best fit
+Trip.com	Airfare + applicable taxes/fees; no published corporate subscription	Corporate policy/approval workflows and negotiated-account pricing may require separate arrangements; cancellation/reissue costs depend on fare	Teams wanting broad international flight inventory and self-service
+MakeMyTrip myBiz	Booking/travel cost; corporate pricing generally quote/transaction-based	Verify service fees, cancellation/reissue, GST invoicing and support SLA	Indian companies prioritising domestic travel and GST controls
+FCM Travel India	Custom quote	Implementation, transaction fees, after-hours support and cancellation/reissue charges must be contracted	Companies wanting a managed TMC with human support
+Amex GBT / Egencia	Custom quote	TMC fees, implementation, payment terms and some inventory limitations	Companies needing global travel management and stronger enterprise controls
+
+Purchase test: request each provider's 12-month all-in quote for 50 travellers, including 100/250/500 bookings, GST, amendments, cancellations, after-hours support and implementation. Public sources do not provide apples-to-apples current totals, so any exact “annual price” would be misleading. 
+learn.g2.com",d922963a10af4f5da6dd66a3,evidence/4f52d81c52a6d96cb2fbc6e161b5e93cef8691437b1d0fa49580ef9a29ca5943.png,4f52d81c52a6d96cb2fbc6e161b5e93cef8691437b1d0fa49580ef9a29ca5943
+46e3584247b7dce358736592,b87b00c43a7069970b27c7da,2026-09-22T23:15:54.964Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, published all-in managed-service prices are generally quote-based, so I would shortlist these and demand a written per-trip fee schedule before paying:
+
+Offer	Current cost	Key terms to verify
+MakeMyTrip myBiz	₹0 platform fee advertised; travel charged at booking	Flight/hotel mark-ups, cancellation/date-change fees, GST invoice eligibility, human support SLA. 
+MakeMyTrip Business
+
+FCM Travel India	Custom quote	Transaction/service fees, 24/7 support coverage, implementation fee, cancellation/reissue charges, hotel-rate savings, contract exit terms. 
+FCM Travel
++1
+
+American Express BTA + TMC	Custom TMC pricing; BTA consolidates air spend	TMC booking fees, credit/payment terms, insurance exclusions, foreign-transaction charges, eligibility, reconciliation fees. Amex advertises up to 51 days payment extension. 
+American Express
+
+Before paying: require a 12-month total-cost example covering 50 employees, domestic + international flights, hotels, cancellations/reissues, GST, implementation, support, and exit fees. That makes the offers genuinely comparable.",3ef4ecc7fb3e5cccf7573aa3,evidence/51be1749f51330d991b9a8f947ad8a4810ed9fbc891e318b62fc43376e79aa40.png,51be1749f51330d991b9a8f947ad8a4810ed9fbc891e318b62fc43376e79aa40
+6368b2223319279ccfbb2f6a,5ffd0f6c64eb4092f506eb76,2026-09-22T23:15:54.873Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, these three are worth shortlisting:
+
+Option	What differentiates it
+MakeMyTrip myBiz	Best suited to SMEs wanting a quick rollout. Corporate fares, GST invoices, travel-policy controls, expense management, central wallet and 24/7 assistance. 
+MakeMyTrip Biz
++1
+
+EaseMyTrip EMTDesk	More travel-manager oriented: centralised employee bookings, policy controls, expense reporting, negotiated fares and 24/7 support. It says it serves 4,000+ businesses. 
+EaseMyTrip
+
+Thomas Cook India – Corporate Travel	More traditional managed-TMC model, combining travel experts with technology, self-booking, approval workflows, booking bots and backend reconciliation/accounting integration. 
+Thomas Cook
+
+Practical distinction: myBiz/EMTDesk are more self-serve platforms; Thomas Cook is more suitable if you want human travel-management support alongside the software.
+
+Pricing: these providers generally quote corporate pricing rather than publishing a fixed ₹/employee fee, so request a 50-employee proposal with transaction fees, GST treatment, cancellation/change charges and 24/7 support SLA before comparing total cost.",3ef4ecc7fb3e5cccf7573aa3,evidence/5e6031f93c6bb56a5464a0a8aa7fc59fbb7e43637b123a4ab1daca9774bb9689.png,5e6031f93c6bb56a5464a0a8aa7fc59fbb7e43637b123a4ab1daca9774bb9689
+8f076068561df9fc160599ad,663222d6511b3ea918b0198f,2026-09-22T23:14:30.935Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - eSIM, 28 Days, 10GB Data, 50 minutes Local + India Calls, Direct Dial to India [eSIM]",,Travel and leisure,Corporate travel,complete_panel,True,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d make the shortlist myBiz, Cleartrip OOO and FCM Travel. Based on currently published terms, the cost structure and trade-offs look like this:
+
+Option	Cost today	Cancellation / support	Key trade-off
+MakeMyTrip myBiz	₹0 annual subscription; negotiated service fee per booking. A 1.5% payment-gateway fee can apply to wallet/card payments. 
+MakeMyTrip
++1
+	Special corporate fares can offer free cancellation/date changes; otherwise supplier fare rules apply. 24×7 support. 
+MakeMyTrip Biz
++1
+	Lowest-friction option for a 50-person India-first company, but it's primarily a platform/intermediary rather than a fully outsourced TMC.
+Cleartrip OOO	No subscription or extra platform charges advertised; quote/booking economics still need confirmation. 
+OOO
+	Corporate fares and approvals; supplier cancellation rules apply.	Potentially the lowest platform-cost alternative, but clarify exactly what human servicing is included.
+FCM Travel	Contract/quote based, with service fees negotiated.	Published terms allow cancellation charges up to 100%, plus amendment/reissue charges; 24×7 emergency assistance. 
+FCM Travel
+	More appropriate if you want outsourced travel management and international support, but potentially higher servicing cost.
+Purchase-ready shortlist
+
+1. myBiz — start here. Its ₹0 subscription, corporate fares, GST/expense tooling and 24×7 support make the economics particularly straightforward for 50 employees. 
+MakeMyTrip Biz
+
+2. FCM — get a competing quote. Worth it if employees travel internationally or you need genuine travel-manager intervention rather than self-service.
+
+3. Cleartrip OOO — use as the price benchmark. Its published “no subscription/no extra charges” proposition makes it useful for negotiating myBiz/FCM pricing. 
+OOO
+
+Before paying, demand these 7 numbers
+
+Per-flight booking/service fee
+
+Hotel booking fee/markup
+
+Cancellation + date-change fee on top of airline charges
+
+International booking fee
+
+After-hours/emergency fee
+
+Corporate-card/payment-gateway fee
+
+Annual minimum commitment, if any
+
+Also get refund SLA, dedicated account-manager SLA, GST-credit responsibility, unused-ticket-credit handling, and escalation terms in writing.
+
+Bottom line: For a 50-person company, I would quote myBiz and Cleartrip head-to-head, then use FCM if the company values high-touch travel management enough to justify a higher contracted fee.",e88a7551bad3eebb80ee67f8,evidence/640318779ddc5786cddb2e1dbc7d8c7124a494b0a78469f90f45b355aaba1e59.png,640318779ddc5786cddb2e1dbc7d8c7124a494b0a78469f90f45b355aaba1e59
+3d11b1058805b09a77d5e08b,14221115079e811af288e0cb,2026-09-22T23:12:49.429Z,Zoho Corporation,Ad,answer_card,Compare Zoho Desk vs Zendesk,Save 65% on support costs. Migrate for free to Zoho Desk.,Travel and leisure,Corporate travel,complete_panel,True,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, the biggest cost difference is usually not a monthly subscription. It is booking/service fees + airline/hotel cancellation penalties + the amount of human support you need.
+
+Option	Fees / total-cost structure	Cancellation / refund	Warranty / service protection	Support
+MakeMyTrip myBiz	No public fixed subscription fee; service fee is mutually agreed. 1.5% payment-gateway fee can apply to certain wallet/card payments. 
+MakeMyTrip
+	Depends on airline/hotel. Special myBiz fares can include free cancellation/date change. 
+MakeMyTrip Biz
++1
+	No blanket travel-service warranty; MMT is an intermediary and supplier terms apply. 
+MakeMyTrip
+	24×7 dedicated support. 
+MakeMyTrip Biz
+
+Cleartrip OOO	No subscription or extra platform charges advertised; corporate fares + GST tools. 
+OOO
+	Supplier-specific. Cleartrip passes supplier refunds through; it doesn't guarantee the underlying travel service. 
+Cleartrip Corporate
+	No blanket warranty; Cleartrip acts as intermediary. 
+Cleartrip Corporate
+	24×7 customer support; escalation process available. 
+Cleartrip Corporate
+
+FCM Travel	Quote/contract based; likely higher-touch TMC economics rather than a simple free platform.	Changes/cancellations can incur supplier charges up to 100%, plus reissue/service charges; refunds wait for supplier funds. 
+FCM Travel
+	Contractual service levels should be negotiated; no blanket “warranty” on supplier services.	24×7 emergency assistance, plus travel managers, policy, safety, visa and payment support. 
+FCM Travel
++1
+What I'd put in the RFQ
+
+For 50 employees, ask each provider for the same 12-month scenario:
+
+150 domestic flight bookings
+
+30 international bookings
+
+150 hotel nights
+
+20 cancellations
+
+15 date changes
+
+10 emergency/after-hours interventions
+
+Then request per-booking fee, cancellation/reissue fee, hotel markup, payment fee, implementation fee and annual minimum, rather than accepting “free platform” as the headline price.
+
+Most important: FCM's published terms explicitly allow cancellation charges of up to 100%, while myBiz and Cleartrip leave the underlying supplier's fare rules controlling. 
+FCM Travel
++2
+MakeMyTrip
++2",e73f9219897cc570520ad788,evidence/8e630a5230bedbc44f23c6c97ad3b749a76a8629e9f91b0e2e42dfdd247b28f6.png,8e630a5230bedbc44f23c6c97ad3b749a76a8629e9f91b0e2e42dfdd247b28f6
+ea4631e7d16189e8d1981738,f16d822ebfdd09c655de31a2,2026-09-22T23:12:48.449Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three current options. Exact airfare/hotel spend is variable, so “total cost” below means the provider/platform cost before travel fares.
+
+Offer	Total cost	Terms to verify
+ITILITE
+	₹0 subscription; trip/service fee applies	Get the exact per-trip fee, GST treatment, cancellation/change charges and annual commitment in writing. 24/7 support included. 
+Itilite
+
+MakeMyTrip myBiz
+	₹0 annual subscription; negotiated service fee	Confirm service fee, 1.5% payment-gateway fee, corporate-fare eligibility, cancellation rules and credit terms. 
+MakeMyTrip
++1
+
+Navan
+	₹0 for Travel for ≤300 employees	Verify India inventory/support, international coverage, GST invoicing and any expense-user charges; enterprise/custom services are separately quoted. 
+Navan
+
+Before paying: demand a written quote showing all booking/change/cancellation fees, GST, payment fees, credit period, SLA, 24/7 escalation and exit terms.",4a48d8b36f83fe8ea48e09bd,evidence/b4fe3c9fe1e3323fd7e46573f184347f91b7dcfa2cde46263d21c2e535bc3197.png,b4fe3c9fe1e3323fd7e46573f184347f91b7dcfa2cde46263d21c2e535bc3197
+34c23b940a322b1bf3f6379b,81c7147ed345a70ad400656e,2026-09-22T23:11:09.015Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - eSIM, 30 Days, 100GB Data, Unlimited Local Calls, 120 minutes Direct Dial to India [eSIM]",,Travel and leisure,Corporate travel,complete_panel,True,"Compare Call.com Telecom Limited with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","One important correction: Call.com Telecom Limited is not a managed business-travel provider. Its current product is a virtual phone/calling and messaging service for individuals, freelancers and small businesses, so it isn't a meaningful travel-management alternative. 
+call.com
++1
+
+Provider	Current price	Key exclusions / limitations	Best for
+Call.com Telecom Limited	Freemium; paid SIP/number/SMS usage	No corporate travel booking, expense, hotel or travel-policy management	Not suitable for this use case
+MakeMyTrip myBiz	No published platform fee; booking-based pricing	Mainly self-service; complex managed-service requirements may need a separate arrangement	50-person India-first company wanting easy employee booking + GST/expense tools 
+MakeMyTrip Biz
+
+Thomas Cook India Corporate Travel	Quote-based	No public standard fee; service scope/pricing negotiated	Companies wanting human support, air/hotel/rail/visa/forex and 24×7 servicing 
+Thomas Cook
+
+FCM Travel India	Quote-based	Contract pricing; exact service fees require proposal	Companies with more complex domestic + international travel programmes
+
+Purchase takeaway: For 50 employees, get quotes from myBiz and Thomas Cook first. myBiz is more self-serve; Thomas Cook is substantially more of a managed TMC. Neither publishes a simple per-employee monthly price, so compare transaction fees, mark-ups, cancellation handling and after-hours support in the quotes.",39725d0d0414a07bd69d3e2a,evidence/03dd447167673b8960d297600d1722e700c24782cb418222687a427db59f1225.png,03dd447167673b8960d297600d1722e700c24782cb418222687a427db59f1225
+2566ce46a2782a15d0f94ffb,af5653f5147280f916d19a5d,2026-09-22T23:09:38.613Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Compare Call.com Telecom Limited with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","There’s an important mismatch: Call.com Telecom Limited is a UK telecommunications/eSIM company, not a managed business-travel provider. Its product is mobile data/communications for travellers, and its terms explicitly describe the service as mobile data rather than travel management. 
+Companies House
++1
+
+Provider	Current price	Key exclusions/limitations	Best fit
+Call.com	eSIM plans are priced individually; no corporate travel-management price published	No flight/hotel booking, approvals, GST travel reporting or TMC servicing	Travel connectivity only, not travel management
+MakeMyTrip myBiz	₹0 annual subscription; booking/service fees apply by agreement; 1.5% payment-gateway fee can apply 
+MakeMyTrip
++1
+	Corporate features depend on negotiated fares; not a full traditional TMC	50-person firms wanting self-service + support
+Yatra for Business	Quote-based for Travel Pro; covers businesses under ₹5 crore annual travel spend 
+Yatra.com
+	Exact service fees require quotation	SMEs needing policies, approvals and GST reporting
+Offistrip Growth	₹7,999/month (₹95,988/year) 
+Offistrip
+	Custom integrations and implementation may cost extra	50-person firms wanting explicit subscription pricing and governance
+
+Bottom line: if you intended Call.com as a travel-connectivity supplier, it isn't directly comparable to these TMCs.",72292d55e9c327a435ee7df6,evidence/3b800169b906b654ba200386cc4b81adb9e20ec6177df73a26bcea45ff937d35.png,3b800169b906b654ba200386cc4b81adb9e20ec6177df73a26bcea45ff937d35
+db9aafcab9b6c8b1136e6e1a,8065db02be54feafbec59269,2026-09-22T23:09:30.783Z,Call.com Telecom Limited,Ad,answer_card,Call More For Less,Enjoy low rates for international calls.,Travel and leisure,Corporate travel,complete_panel,True,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, I’d shortlist these three:
+
+MakeMyTrip myBiz — Best suited to an India-first SME setup. Combines flight/hotel booking, travel policy, approvals, expense tracking, GST workflows and HRMS/expense integrations. Pricing is quote-based. 
+MakeMyTrip Biz
+
+FCM Travel — More full-service and globally oriented. Offers negotiated corporate rates, 24/7 support, traveller-risk tools, approvals, reporting and integrations. Particularly relevant if employees travel internationally. 
+FCM Travel
++1
+
+Thomas Cook India Corporate Travel — Stronger human-service/assisted-booking option, with air, hotels, rail, visas, forex, insurance, cars and MICE under one provider. It also offers self-booking, expense tools and 24/7 emergency support. 
+Thomas Cook
+
+Key difference: myBiz is more platform/SME-led, FCM is global TMC + technology, while Thomas Cook is high-touch, broad travel servicing. Exact management/convenience fees should be requested in the quote.",96573225f1e7ee4b5a7145c7,evidence/08562b8da9c0d2acd5ca7dfe1a7f1402b9e46681419bef6a60a6fd6d543ce4ba.png,08562b8da9c0d2acd5ca7dfe1a7f1402b9e46681419bef6a60a6fd6d543ce4ba
+9c547170a3b296fda22b95da,6a87ceb1e24d7c4aadccd15d,2026-09-22T23:07:56.890Z,Call.com Telecom Limited,Ad,answer_card,Stay Connected For Less,Low rates for calls across borders.,Travel and leisure,Corporate travel,complete_panel,True,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, these three are practical benchmarks. Public corporate pricing is mostly quote-based, so I would not treat any invented per-booking figure as reliable.
+
+Provider	Cost structure	Switching difficulty
+MakeMyTrip myBiz
+	₹0 annual subscription; transaction/service fees can apply by contract. 
+MakeMyTrip
++1
+	Low — self-serve setup, employee invites and policy configuration. 
+MakeMyTrip Business
+
+Yatra for Business
+	Travel Lite targets SMEs under ₹1 crore/year; Travel Pro covers businesses under ₹5 crore/year. Pricing is enquiry-based. 
+Yatra.com
+	Low–medium — policies, approvals, reports and multiple booking channels require migration of employee/travel data.
+FCM Travel India
+	Quote-based managed TMC; negotiated corporate rates and dedicated service rather than published subscription pricing. 
+FCM Travel
++1
+	Medium–high — implementation, policy configuration, integrations and traveller profiles make migration more involved. 
+FCM Travel
+
+Practical takeaway: myBiz is easiest to switch into/out of; Yatra offers a similar SME-oriented model; FCM is a deeper managed-service migration. For a 50-person company, request each vendor's per-booking/service fee, implementation fee, minimum annual spend, cancellation/change charges and exit terms before comparing total cost.",8279ecb50ee6ae6c70e99a96,evidence/3f0df008e7a761f01cca7f8ccf5b57d670cd5f9a5623e4c9754fe02e27422e4e.png,3f0df008e7a761f01cca7f8ccf5b57d670cd5f9a5623e4c9754fe02e27422e4e
 56033fb204032831a88972e1,b7585339cf124f9852a6db5d,2026-09-22T23:04:42.576Z,OfficeKit HR,Ad,answer_card,Simplify HR & Payroll with OfficeKit,"Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",Travel and leisure,Corporate travel,complete_panel,True,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company buying today, I’d put these three into the final quote round. I would not choose on subscription price alone because airline/hotel penalties and booking/service fees determine the real TCO.
 
 Purchase-ready shortlist
