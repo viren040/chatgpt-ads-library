@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-22T22:23:39Z",
+  "generated_at": "2026-09-22T22:24:53Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 260,
-    "approved_paid_units": 153,
+    "valid_turns": 262,
+    "approved_paid_units": 154,
     "approved_advertisers": 86,
-    "approved_creatives": 141,
-    "complete_panel_paid_units": 40,
+    "approved_creatives": 142,
+    "complete_panel_paid_units": 41,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -80,12 +80,12 @@
     {
       "id": "d11acd0c3697436b74d704d0",
       "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 4,
-      "creatives": 2,
-      "panel_placements": 4,
+      "placements": 5,
+      "creatives": 3,
+      "panel_placements": 5,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T22:22:27.463Z",
+      "last_seen": "2026-09-22T22:22:51.460Z",
       "categories": "Vacation rentals,Intercity buses"
     },
     {
@@ -961,12 +961,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 260,
-    "ad_turns": 40,
-    "ad_rate": 0.15384615384615385,
-    "ad_rate_low": 0.11505908251830849,
-    "ad_rate_high": 0.20271339915251224,
-    "paid_units": 40,
+    "turns": 262,
+    "ad_turns": 41,
+    "ad_rate": 0.15648854961832062,
+    "ad_rate_low": 0.11749649651237043,
+    "ad_rate_high": 0.20540857176889182,
+    "paid_units": 41,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -986,16 +986,16 @@
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 8,
-        "ad_turns": 6,
-        "paid_units": 6,
+        "turns": 9,
+        "ad_turns": 7,
+        "paid_units": 7,
         "advertisers": 2,
-        "creatives": 3,
-        "ad_rate": 0.75,
-        "posterior_ad_rate": 0.5833333333333334,
-        "competition_score": 1.1666666666666667,
-        "ad_rate_low": 0.40926987910258916,
-        "ad_rate_high": 0.9285223111419724,
+        "creatives": 4,
+        "ad_rate": 0.7777777777777778,
+        "posterior_ad_rate": 0.6153846153846154,
+        "competition_score": 1.2307692307692308,
+        "ad_rate_low": 0.4525833436728054,
+        "ad_rate_high": 0.9367762376877727,
         "evidence_strength": "directional"
       },
       {
@@ -1554,6 +1554,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Women's perfume",
+        "industry": "Beauty and personal care",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -1597,36 +1612,21 @@
         "ad_rate_low": 0.20654329147389294,
         "ad_rate_high": 1,
         "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Women's perfume",
-        "industry": "Beauty and personal care",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 85,
-        "ad_turns": 12,
-        "paid_units": 12,
+        "turns": 86,
+        "ad_turns": 13,
+        "paid_units": 13,
         "advertisers": 8,
-        "ad_rate": 0.1411764705882353,
-        "posterior_ad_rate": 0.14606741573033707,
-        "competition_score": 0.48522545206219897,
-        "ad_rate_low": 0.08264151586335423,
-        "ad_rate_high": 0.230743204808043,
+        "ad_rate": 0.1511627906976744,
+        "posterior_ad_rate": 0.15555555555555556,
+        "competition_score": 0.5167443703158119,
+        "ad_rate_low": 0.09052037372996753,
+        "ad_rate_high": 0.24163755756244037,
         "evidence_strength": "established"
       },
       {
@@ -1646,15 +1646,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 71,
+        "turns": 72,
         "ad_turns": 13,
         "paid_units": 13,
         "advertisers": 10,
-        "ad_rate": 0.18309859154929578,
-        "posterior_ad_rate": 0.18666666666666668,
-        "competition_score": 0.6691930001346158,
-        "ad_rate_low": 0.11024622287362806,
-        "ad_rate_high": 0.2884838951356075,
+        "ad_rate": 0.18055555555555555,
+        "posterior_ad_rate": 0.18421052631578946,
+        "competition_score": 0.6603878290802129,
+        "ad_rate_low": 0.10866714144495851,
+        "ad_rate_high": 0.2848055701012113,
         "evidence_strength": "established"
       },
       {
@@ -1716,6 +1716,61 @@
     ]
   },
   "ads": [
+    {
+      "id": "0dc5ceab70e49fb662798a3d",
+      "turn_id": "acb005a4698b7331f4d4a7c1",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "fc506e054764ee09231b49db",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Airport Travel, Thought Through",
+      "description": "Professional chauffeurs, prepared cars and considered service for your airport journey.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms Ad disclosure, DRIVEU advertiser, and Airport Travel, Thought Through creative.",
+      "reviewed_at": 1790115893.432649,
+      "captured_at": "2026-09-22T22:22:51.460Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For Bengaluru–Chennai, switching is fairly easy because multiple operators run the route daily; the main friction is losing a preferred seat, boarding point, or promotional fare.\n\nOption\tCurrent fare*\tSwitching difficulty\tMain trade-off\nredBus marketplace\t₹313+\tLow\tHuge choice: 338 daily services/79 operators; prices vary widely. \nredBus\n\nAbhiBus\t₹294+\tLow\t232+ services; easy to compare operators, with offers/cancellation features. \nAbhiBus\n\nKSRTC Karnataka\t₹560+\tMedium\tDirect state-run option; current Airavat services start around ₹703–₹732, while other services are cheaper. \nAbhiBus\n+1\n\nPractical switching cost: Moving between redBus and AbhiBus is mostly just rebooking; however, a new booking can mean a different boarding point, seat and fare. Moving to KSRTC can require accepting its fixed schedules and service types.\n\n*Fares are live/indicative and can change by date, seat and bus type.",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "conversation_url": "https://chatgpt.com/c/6ab2ffa2-81ec-83ee-bec9-1b26f11db7c4",
+      "screenshot_sha256": "7c8951c1b64f12d2dd69f2fa110cd8abe221d078dbea5bc0f57870017f2a865f",
+      "screenshot_relpath": "evidence/7c8951c1b64f12d2dd69f2fa110cd8abe221d078dbea5bc0f57870017f2a865f.png",
+      "account_slot": "account-01",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Airport Travel, Thought Through",
+        "description": "Professional chauffeurs, prepared cars and considered service for your airport journey.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Airport Travel, Thought Through",
+          "Professional chauffeurs, prepared cars and considered service for your airport journey."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Airport Travel, Thought Through",
+              "Professional chauffeurs, prepared cars and considered service for your airport journey."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nAirport Travel, Thought Through\n\nProfessional chauffeurs, prepared cars and considered service for your airport journey.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "b08d7f5e59f0862e7a093f3b",
       "turn_id": "a5deb33b7d7f2f2165c4e937",
