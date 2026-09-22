@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T21:20:29Z",
+  "generated_at": "2026-09-22T21:22:17Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 162,
-    "approved_paid_units": 130,
+    "valid_turns": 165,
+    "approved_paid_units": 131,
     "approved_advertisers": 80,
-    "approved_creatives": 125
+    "approved_creatives": 126
   },
   "advertisers": [
     {
@@ -28,6 +28,15 @@
       "categories": "Travel and leisure,Vacation rentals"
     },
     {
+      "id": "d11cd2bad34c540f1f5a7123",
+      "advertiser": "The Man Company",
+      "placements": 6,
+      "creatives": 6,
+      "first_seen": "2026-09-19T11:52:46.933Z",
+      "last_seen": "2026-09-22T21:19:37.930Z",
+      "categories": "Beauty and personal care,Rose perfume"
+    },
+    {
       "id": "2e81afd45de21f0c44616576",
       "advertiser": "Homerun Retail Private Limited",
       "placements": 5,
@@ -35,15 +44,6 @@
       "first_seen": "2026-09-11T22:11:59.074Z",
       "last_seen": "2026-09-22T21:00:40.391Z",
       "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage"
-    },
-    {
-      "id": "d11cd2bad34c540f1f5a7123",
-      "advertiser": "The Man Company",
-      "placements": 5,
-      "creatives": 5,
-      "first_seen": "2026-09-19T11:52:46.933Z",
-      "last_seen": "2026-09-22T11:59:38.399Z",
-      "categories": "Beauty and personal care"
     },
     {
       "id": "f32a45d9b41719c39cfa21a4",
@@ -733,10 +733,22 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 162,
-    "ad_turns": 17,
-    "ad_rate": 0.10493827160493827,
+    "turns": 165,
+    "ad_turns": 18,
+    "ad_rate": 0.10909090909090909,
     "categories": [
+      {
+        "category": "Pilgrimage travel",
+        "industry": "Travel and leisure",
+        "turns": 8,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.08333333333333333,
+        "competition_score": 0.08333333333333333
+      },
       {
         "category": "Scented candles",
         "industry": "Beauty and personal care",
@@ -776,18 +788,6 @@
       {
         "category": "Perfume gift sets",
         "industry": "Beauty and personal care",
-        "turns": 7,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.09090909090909091,
-        "competition_score": 0.09090909090909091
-      },
-      {
-        "category": "Pilgrimage travel",
-        "industry": "Travel and leisure",
         "turns": 7,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1074,6 +1074,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Rose perfume",
+        "industry": "Beauty and personal care",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316
+      },
+      {
         "category": "Sensitive-skin fragrance",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1110,7 +1122,7 @@
         "competition_score": 0.5283208335737186
       },
       {
-        "category": "Rose perfume",
+        "category": "Solid perfume",
         "industry": "Beauty and personal care",
         "turns": 2,
         "ad_turns": 0,
@@ -1136,18 +1148,6 @@
       {
         "category": "Car rentals",
         "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
-      },
-      {
-        "category": "Solid perfume",
-        "industry": "Beauty and personal care",
         "turns": 1,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1184,13 +1184,13 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 44,
+        "turns": 45,
         "ad_turns": 8,
         "paid_units": 8,
         "advertisers": 6,
-        "ad_rate": 0.18181818181818182,
-        "posterior_ad_rate": 0.1875,
-        "competition_score": 0.5625
+        "ad_rate": 0.17777777777777778,
+        "posterior_ad_rate": 0.1836734693877551,
+        "competition_score": 0.5510204081632654
       },
       {
         "turn_index": 3,
@@ -1206,13 +1206,13 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 34,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "ad_rate": 0.029411764705882353,
-        "posterior_ad_rate": 0.05263157894736842,
-        "competition_score": 0.083419078985324
+        "turns": 35,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "ad_rate": 0.05714285714285714,
+        "posterior_ad_rate": 0.07692307692307693,
+        "competition_score": 0.15384615384615385
       },
       {
         "turn_index": 4,
@@ -1228,17 +1228,70 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 28,
+        "turns": 29,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.03125,
-        "competition_score": 0.03125
+        "posterior_ad_rate": 0.030303030303030304,
+        "competition_score": 0.030303030303030304
       }
     ]
   },
   "ads": [
+    {
+      "id": "9fa29a0c6a7a0f3e4656a306",
+      "turn_id": "fe3cb60fff5d7146857e3eee",
+      "advertiser": "The Man Company",
+      "advertiser_key": "d11cd2bad34c540f1f5a7123",
+      "creative_id": "2b105ab7cbaa6d7ddbff0f2a",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Smell Good. Groom Better.",
+      "description": "5 grooming & fragrance picks @ ₹999 + 🎁Free Gift. Feel fresh, look your best.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually reviewed: screenshot matches The Man Company, Smell Good. Groom Better, the ₹999 grooming and fragrance offer, and explicit Ad disclosure.",
+      "reviewed_at": 1790112137.8488152,
+      "captured_at": "2026-09-22T21:19:37.930Z",
+      "prompt": "Narrow this to high-intent choices for a modern rose fragrance available in India under ₹6,000. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a purchase today, I’d narrow it to these three:\n\nProduct\tCurrent price\tAvailability\tReturns / support\nNykaa Moi Matin Soft Rose 50ml\t₹1,494\tNykaa\t15-day return/replacement; unused, sealed/original packaging required. Cancellation possible before shipment. Nykaa phone/email support available. \nNykaa\n\nAhmed Al Maghribi Rose Noir 75ml\t₹3,960 on Myntra\tMyntra\tMarketplace return rules apply; fragrance generally needs to be unused. Brand's direct policy allows only defective/damaged/wrong items within 7 days. \nAhmed Al Maghribi Perfumes India\n\nNautica Rose Island 100ml\t₹3,570 on Myntra\tMyntra\tMarketplace return rules apply; 100ml gives the lowest ₹/ml of these three. \nMyntra\n\nTotal purchase cost: roughly ₹1,494–₹3,960, before any delivery charges.\n\nPractical trade-off: Matin is the lowest-risk experiment; Rose Noir is the more substantial 75ml purchase; Rose Island gives you the largest bottle at a mid-range price. For returns/support, Nykaa is the clearest documented option because its India-wide policy explicitly covers cancellation and returns. \nNykaa",
+      "industry": "Beauty and personal care",
+      "category": "Rose perfume",
+      "conversation_url": "https://chatgpt.com/c/6ab2efd4-e284-83ee-9efc-13d71ce369c3",
+      "screenshot_sha256": "898f091d019eeabb43606866025add6a4ed1645a902be610d10d4b7078d4ce45",
+      "screenshot_relpath": "evidence/898f091d019eeabb43606866025add6a4ed1645a902be610d10d4b7078d4ce45.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "The Man Company",
+        "format": "answer_card",
+        "headline": "Smell Good. Groom Better.",
+        "description": "5 grooming & fragrance picks @ ₹999 + 🎁Free Gift. Feel fresh, look your best.",
+        "copy": [
+          "The Man Company",
+          "Smell Good. Groom Better.",
+          "5 grooming & fragrance picks @ ₹999 + 🎁Free Gift. Feel fresh, look your best."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d2d8e69bd503eb07.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "The Man Company",
+              "Smell Good. Groom Better.",
+              "5 grooming & fragrance picks @ ₹999 + 🎁Free Gift. Feel fresh, look your best."
+            ],
+            "text": "The Man Company\n\nSmell Good. Groom Better.\n\n5 grooming & fragrance picks @ ₹999 + 🎁Free Gift. Feel fresh, look your best.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d2d8e69bd503eb07.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "da0db00d70987ce8ae11e9a6",
       "turn_id": "8073c580c40bf55b1f556310",
