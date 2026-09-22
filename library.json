@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:22:00Z",
+  "generated_at": "2026-09-22T20:34:16Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "imports": 30,
-    "valid_turns": 180,
-    "detected_paid_units": 122,
-    "approved_paid_units": 121,
-    "approved_advertisers": 77,
-    "approved_creatives": 117,
+    "imports": 39,
+    "valid_turns": 197,
+    "detected_paid_units": 124,
+    "approved_paid_units": 123,
+    "approved_advertisers": 78,
+    "approved_creatives": 119,
     "pending_review": 0
   },
   "advertisers": [
@@ -155,6 +155,15 @@
       "first_seen": "2026-09-21T19:32:35.186Z",
       "last_seen": "2026-09-22T02:14:25.600Z",
       "categories": "Beauty and personal care"
+    },
+    {
+      "id": "3484b7bc2f90ad9af021999e",
+      "advertiser": "MakeMyTrip Hotels",
+      "placements": 2,
+      "creatives": 2,
+      "first_seen": "2026-09-22T20:15:50.901Z",
+      "last_seen": "2026-09-22T20:30:36.068Z",
+      "categories": "Domestic flights,Vacation rentals"
     },
     {
       "id": "c1a8f94c35b88f58460ea260",
@@ -400,15 +409,6 @@
       "categories": "Commercial discovery"
     },
     {
-      "id": "3484b7bc2f90ad9af021999e",
-      "advertiser": "MakeMyTrip Hotels",
-      "placements": 1,
-      "creatives": 1,
-      "first_seen": "2026-09-22T20:15:50.901Z",
-      "last_seen": "2026-09-22T20:15:50.901Z",
-      "categories": "Domestic flights"
-    },
-    {
       "id": "ea9efd36d31d614ae1c8912f",
       "advertiser": "Merlin AI",
       "placements": 1,
@@ -542,6 +542,15 @@
       "first_seen": "2026-09-15T09:49:57.653Z",
       "last_seen": "2026-09-15T09:49:57.653Z",
       "categories": "Business services"
+    },
+    {
+      "id": "dd42fb948778aab81f06b7d2",
+      "advertiser": "Sadhev",
+      "placements": 1,
+      "creatives": 1,
+      "first_seen": "2026-09-22T20:32:03.641Z",
+      "last_seen": "2026-09-22T20:32:03.641Z",
+      "categories": "Sensitive-skin fragrance"
     },
     {
       "id": "086860a8b656e56dafd89fcf",
@@ -709,10 +718,22 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 67,
-    "ad_turns": 8,
-    "ad_rate": 0.11940298507462686,
+    "turns": 84,
+    "ad_turns": 10,
+    "ad_rate": 0.11904761904761904,
     "categories": [
+      {
+        "category": "Perfume gift sets",
+        "industry": "Beauty and personal care",
+        "turns": 7,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.09090909090909091,
+        "competition_score": 0.09090909090909091
+      },
       {
         "category": "Domestic flights",
         "industry": "Travel and leisure",
@@ -750,16 +771,16 @@
         "competition_score": 0.792481250360578
       },
       {
-        "category": "Perfume gift sets",
+        "category": "Car fragrance",
         "industry": "Beauty and personal care",
-        "turns": 5,
+        "turns": 4,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "creatives": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.1111111111111111,
-        "competition_score": 0.1111111111111111
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
       },
       {
         "category": "International eSIM",
@@ -846,6 +867,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Summer fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
         "category": "Travel forex cards",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -856,6 +889,30 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.125,
         "competition_score": 0.125
+      },
+      {
+        "category": "Vacation rentals",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.375,
+        "competition_score": 0.75
+      },
+      {
+        "category": "Sensitive-skin fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316
       },
       {
         "category": "Train booking",
@@ -882,16 +939,16 @@
         "competition_score": 0.14285714285714285
       },
       {
-        "category": "Vacation rentals",
+        "category": "Weekend getaways",
         "industry": "Travel and leisure",
-        "turns": 2,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.5283208335737186
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285
       },
       {
         "category": "Body mists",
@@ -904,18 +961,6 @@
         "ad_rate": 1.0,
         "posterior_ad_rate": 0.4,
         "competition_score": 0.6339850002884625
-      },
-      {
-        "category": "Car fragrance",
-        "industry": "Beauty and personal care",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
       },
       {
         "category": "Car rentals",
@@ -946,24 +991,24 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 23,
+        "turns": 27,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 1,
-        "ad_rate": 0.08695652173913043,
-        "posterior_ad_rate": 0.1111111111111111,
-        "competition_score": 0.1761069445245729
+        "ad_rate": 0.07407407407407407,
+        "posterior_ad_rate": 0.0967741935483871,
+        "competition_score": 0.15338346781172477
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 18,
-        "ad_turns": 4,
-        "paid_units": 4,
+        "turns": 24,
+        "ad_turns": 5,
+        "paid_units": 5,
         "advertisers": 3,
-        "ad_rate": 0.2222222222222222,
-        "posterior_ad_rate": 0.22727272727272727,
-        "competition_score": 0.5277109306562187
+        "ad_rate": 0.20833333333333334,
+        "posterior_ad_rate": 0.21428571428571427,
+        "competition_score": 0.49755602033300617
       },
       {
         "turn_index": 3,
@@ -979,6 +1024,17 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
+        "turns": 18,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "ad_rate": 0.05555555555555555,
+        "posterior_ad_rate": 0.09090909090909091,
+        "competition_score": 0.14408750006555965
+      },
+      {
+        "turn_index": 4,
+        "branch": "zero_rescue",
         "turns": 13,
         "ad_turns": 0,
         "paid_units": 0,
@@ -986,21 +1042,116 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.058823529411764705,
         "competition_score": 0.058823529411764705
-      },
-      {
-        "turn_index": 4,
-        "branch": "zero_rescue",
-        "turns": 11,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.06666666666666667,
-        "competition_score": 0.06666666666666667
       }
     ]
   },
   "ads": [
+    {
+      "id": "c32c6e372e0c2c536d9c2338",
+      "turn_id": "a06214bad9f08250dc8e2531",
+      "advertiser": "Sadhev",
+      "advertiser_key": "dd42fb948778aab81f06b7d2",
+      "creative_id": "c1ed3930094cad774f77764b",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Fade Dark Spots Naturally",
+      "description": "Saffron & Kumkumadi Tailam. Glow that's 200 years proven. Shop SADHEV.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Screenshot visibly shows the Ad disclosure, full Sadhev advertiser identity, and matching Fade Dark Spots Naturally creative.",
+      "reviewed_at": 1790109256.657491,
+      "captured_at": "2026-09-22T20:32:03.641Z",
+      "prompt": "Narrow this to high-intent choices for a gentle fragrance option for sensitive skin with transparent ingredients under ₹5,000. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a purchase today, I’d narrow it to these three. I’m prioritising alcohol-free format + accessible ingredient information, not just “natural” marketing. India’s cosmetic rules also require certain fragrance ingredients to appear on ingredient lists above specified thresholds. \nCDSCO\n\nBrand / product\tTotal cost\tAvailability\tReturns / support\tKey limitation\nSOSA Attars\tFrom ₹379\tIndia; ships from Pune\tDirect brand support; ships in ~24h\tIndividual fragrance sensitivity still possible; patch-test\nTake Pure Perfume Oils\t₹550–₹1,499\tPan-India; free shipping ₹999+\tDirect brand support; discovery sets available\tIngredient transparency is less detailed than SOSA; oil format may feel heavier\nVeuroma Eden’s Secret\tUnder ₹5,000\tIndia\tNo returns after delivery; damaged/wrong orders replaced if reported within 24h\tHigher commitment; patch-test despite dermatological testing\n\nMost purchase-friendly: SOSA, because it explicitly states alcohol-free, IFRA-compliant, gives small 3ml options, and publishes pricing/sizing. \nSOSA home & body\n\nBest if you want to sample first: Take Pure’s discovery set. \nTake Pure\n\nImportant: “alcohol-free” does not mean allergy-proof. \nSOSA home & body\n+1",
+      "industry": "Beauty and personal care",
+      "category": "Sensitive-skin fragrance",
+      "conversation_url": "https://chatgpt.com/c/6ab2e4ac-be04-83ee-bb34-611f68514e93",
+      "screenshot_sha256": "04d81d9d1a7d05ed0a68b1a8ba20ecb9a90139d2f3089b6976935400d2866e9a",
+      "screenshot_relpath": "evidence/04d81d9d1a7d05ed0a68b1a8ba20ecb9a90139d2f3089b6976935400d2866e9a.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "Sadhev",
+        "format": "answer_card",
+        "headline": "Fade Dark Spots Naturally",
+        "description": "Saffron & Kumkumadi Tailam. Glow that's 200 years proven. Shop SADHEV.",
+        "copy": [
+          "Sadhev",
+          "Fade Dark Spots Naturally",
+          "Saffron & Kumkumadi Tailam. Glow that's 200 years proven. Shop SADHEV."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/0b2535993e5951bc998d34f547f732a1.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Sadhev",
+              "Fade Dark Spots Naturally",
+              "Saffron & Kumkumadi Tailam. Glow that's 200 years proven. Shop SADHEV."
+            ],
+            "text": "Sadhev\n\nFade Dark Spots Naturally\n\nSaffron & Kumkumadi Tailam. Glow that's 200 years proven. Shop SADHEV.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/0b2535993e5951bc998d34f547f732a1.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "d9de43e0536ffecbe0e53bc0",
+      "turn_id": "f1dfba2ddf0c23d13f570d02",
+      "advertiser": "MakeMyTrip Hotels",
+      "advertiser_key": "3484b7bc2f90ad9af021999e",
+      "creative_id": "fcb53b83368e0d7ca5114eb4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Top Rated Hotels In Goa",
+      "description": "Find beach resorts and hotels in Goa on MakeMyTrip.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Screenshot visibly shows the Ad disclosure, full MakeMyTrip Hotels identity, and matching Top Rated Hotels In Goa creative.",
+      "reviewed_at": 1790109256.727802,
+      "captured_at": "2026-09-22T20:30:36.068Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "4.6\nAlaya Stays by ELIVAAS Apartment\n5.0\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\n4.8\n2BHK Serviced Apartment, 5-Min Walk to Candolim Beach, Pool River View - Two-Bedroom Apartment with River View\nExpand\nUse two fingers to move the map\nAlaya Stays by ELIVAAS Apartment\n4.6\n•\nVilla\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\n5.0\n•\nVilla\n2BHK Serviced Apartment, 5-Min Walk to Candolim Beach, Pool River View - Two-Bedroom Apartment with River View\n4.8\n•\nApartment\nGive feedback\n\nHere are three currently listed, bookable-style 2-bedroom serviced rentals for 4 adults in Goa. Prices are live listing snapshots and can change by date. \nexpedia\n+1\n\nOption\tCurrent price*\tImportant limitations\nAlaya Stays: Veera Strand Park, Candolim\t₹5,816 + ₹782 taxes/night\t2 queen beds/2 baths; ~1.9 km from Candolim Beach; price shown for 2 guests, so verify 4-adult total. \nGoibibo\n\nStayCationer Holiday Apartment Sun Stay, Assagao\tDate-dependent\t2BR, 2 attached baths, pool; quieter inland location, so taxis/scooters are more useful.\n2BHK Serviced Apartment, 5-Min Walk to Candolim Beach\tDate-dependent\tSleeps 5; shared pool with 6am–9pm rules; smoking restricted to balcony.\n\n*Exact four-adult totals require travel dates; advertised rates can change quickly and may exclude/add taxes or fees.\n\nPurchase check: confirm the final checkout total, cancellation deadline, four-adult occupancy, housekeeping, security deposit and pool access before paying.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2e4ae-8cd0-83e9-837b-9735f9f2cc82",
+      "screenshot_sha256": "61c611a106e4d74012da6339297e2cd94da74f2c08b37c01a82309f4ec33c1bf",
+      "screenshot_relpath": "evidence/61c611a106e4d74012da6339297e2cd94da74f2c08b37c01a82309f4ec33c1bf.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "MakeMyTrip Hotels",
+        "format": "answer_card",
+        "headline": "Top Rated Hotels In Goa",
+        "description": "Find beach resorts and hotels in Goa on MakeMyTrip.",
+        "copy": [
+          "MakeMyTrip Hotels",
+          "Top Rated Hotels In Goa",
+          "Find beach resorts and hotels in Goa on MakeMyTrip."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/42935108994d4d91.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "MakeMyTrip Hotels",
+              "Top Rated Hotels In Goa",
+              "Find beach resorts and hotels in Goa on MakeMyTrip."
+            ],
+            "text": "MakeMyTrip Hotels\n\nTop Rated Hotels In Goa\n\nFind beach resorts and hotels in Goa on MakeMyTrip.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/42935108994d4d91.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "007d5a97b295693c9cf5fe0e",
       "turn_id": "fcb091159bb1051c2df8b4f7",
