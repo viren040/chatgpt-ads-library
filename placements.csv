@@ -1,4 +1,34 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+c669f401569cf63a319dbce7,402f0b651fced525e4f23df3,2026-09-22T22:48:12.877Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, these are three currently available offers worth checking:
+
+Offer	Current fare*	Reliability / limitation	Purchase terms
+KSRTC Airavat Club Class	₹703–₹804	Government operator; ~6h30–7h30. Fewer premium timings.	Fare shown for Sep 23; seats currently available.
+IntrCity SmartBus AC	₹619–₹729	4.2–4.5 ratings on listed services; some trips take ~9h.	Promo can reduce fare by ₹50; verify boarding point and cancellation rules.
+FreshBus Electric AC	₹449 shown	4.6 rating on AbhiBus; route/time-specific availability.	AbhiBus promo/cashback may apply; final fare can change at checkout.
+
+*Live-listed fares, not guaranteed checkout totals. 
+AbhiBus
++2
+AbhiBus
++2
+
+Before paying: check the exact boarding/drop location, luggage allowance, cancellation fee, seat type, and final convenience/payment charges. The route currently has 300+ daily buses, so comparing departure time and drop point can matter as much as fare. 
+redbus.in",b63e713883ea7a0a25c615df,evidence/38013c5839d7fc1b102ed883e9cce0d5583bade960f0dd2e4cc62a6c177537b6.png,38013c5839d7fc1b102ed883e9cce0d5583bade960f0dd2e4cc62a6c177537b6
+c08328136b1ae021094655f7,3fe14763517576a8e7729f94,2026-09-22T22:45:02.532Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For 23 Sep 2026, these are three concrete options visible now. Fares are per passenger, before any optional add-ons.
+
+Offer	Current fare	Practical fit	Verify before paying
+FreshBus Premium Electric AC	₹349	6h45m; sleeper + seater	Final fare, boarding/drop point, cancellation
+KSRTC Airavat Club Class	₹703	Volvo AC semi-sleeper, 7h29m	Seat type, pickup point, refund rules
+KSRTC Ambaari Utsav	₹1,017	Volvo 9600S AC sleeper, 7h14m	Berth location, luggage allowance, cancellation
+
+FreshBus currently shows a ₹388 fare discounted to ₹349; KSRTC services are showing live availability on AbhiBus. 
+Fresh Bus
++1
+
+Shortlist logic: ₹349 if price matters most; ₹703 for a conventional premium AC bus; ₹1,017 if you specifically want a sleeper. redBus currently shows 338 daily buses on the route, with fares starting around ₹313, so checking the final checkout price is worthwhile. 
+redBus
+
+Check Bengaluru–Chennai buses on redBus",b63e713883ea7a0a25c615df,evidence/07ef2789b292bd7dbab31c52de1dd1598b019e1ed554b51046a7400785d3a261.png,07ef2789b292bd7dbab31c52de1dd1598b019e1ed554b51046a7400785d3a261
 c881e26befbaf3f4c16f76e0,cec38f7e866e4fffc64c14e8,2026-09-22T22:44:08.956Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, current listings show substantial choice: about 338 daily services, with fares from ₹313. 
 redBus
 

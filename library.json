@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T22:48:55Z",
+  "generated_at": "2026-09-22T22:49:55Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,14 +11,25 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 296,
-    "approved_paid_units": 160,
+    "valid_turns": 299,
+    "approved_paid_units": 162,
     "approved_advertisers": 88,
     "approved_creatives": 147,
-    "complete_panel_paid_units": 47,
+    "complete_panel_paid_units": 49,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
+    {
+      "id": "d11acd0c3697436b74d704d0",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "placements": 9,
+      "creatives": 4,
+      "panel_placements": 9,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:03:28.123Z",
+      "last_seen": "2026-09-22T22:48:12.877Z",
+      "categories": "Vacation rentals,Intercity buses"
+    },
     {
       "id": "7211144fa6d33a5359842018",
       "advertiser": "abhibus",
@@ -51,17 +62,6 @@
       "first_seen": "2026-09-21T06:24:21.524Z",
       "last_seen": "2026-09-22T22:41:57.117Z",
       "categories": "Commercial discovery,Travel and leisure,Vacation rentals,Weekend resorts"
-    },
-    {
-      "id": "d11acd0c3697436b74d704d0",
-      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 7,
-      "creatives": 4,
-      "panel_placements": 7,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T22:44:08.956Z",
-      "categories": "Vacation rentals,Intercity buses"
     },
     {
       "id": "ca82b10559cc43464054b038",
@@ -991,41 +991,41 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 296,
-    "ad_turns": 47,
-    "ad_rate": 0.15878378378378377,
-    "ad_rate_low": 0.12155688801484787,
-    "ad_rate_high": 0.20475407083809316,
-    "paid_units": 47,
+    "turns": 299,
+    "ad_turns": 49,
+    "ad_rate": 0.16387959866220736,
+    "ad_rate_low": 0.12623461407802752,
+    "ad_rate_high": 0.21005207837109444,
+    "paid_units": 49,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 98,
+        "turns": 99,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 9,
         "creatives": 16,
-        "ad_rate": 0.21428571428571427,
-        "posterior_ad_rate": 0.21568627450980393,
-        "competition_score": 0.7461519177452994,
-        "ad_rate_low": 0.14464436812023418,
-        "ad_rate_high": 0.30548210279145616,
+        "ad_rate": 0.21212121212121213,
+        "posterior_ad_rate": 0.21359223300970873,
+        "competition_score": 0.7389077243691314,
+        "ad_rate_low": 0.14313429916193274,
+        "ad_rate_high": 0.302615280774591,
         "evidence_strength": "established"
       },
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 17,
-        "ad_turns": 11,
-        "paid_units": 11,
+        "turns": 19,
+        "ad_turns": 13,
+        "paid_units": 13,
         "advertisers": 4,
         "creatives": 7,
-        "ad_rate": 0.6470588235294118,
-        "posterior_ad_rate": 0.5714285714285714,
-        "competition_score": 1.4771214289835177,
-        "ad_rate_low": 0.4129996672121182,
-        "ad_rate_high": 0.826905138560951,
+        "ad_rate": 0.6842105263157895,
+        "posterior_ad_rate": 0.6086956521739131,
+        "competition_score": 1.5734554352215733,
+        "ad_rate_low": 0.4601001017506463,
+        "ad_rate_high": 0.846358289955714,
         "evidence_strength": "directional"
       },
       {
@@ -1678,15 +1678,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 100,
-        "ad_turns": 19,
-        "paid_units": 19,
+        "turns": 102,
+        "ad_turns": 21,
+        "paid_units": 21,
         "advertisers": 11,
-        "ad_rate": 0.19,
-        "posterior_ad_rate": 0.19230769230769232,
-        "competition_score": 0.7116230227194409,
-        "ad_rate_low": 0.1251465399270426,
-        "ad_rate_high": 0.27779024070807856,
+        "ad_rate": 0.20588235294117646,
+        "posterior_ad_rate": 0.20754716981132076,
+        "competition_score": 0.7680157905575852,
+        "ad_rate_low": 0.13878787006683843,
+        "ad_rate_high": 0.2943272755847769,
         "evidence_strength": "established"
       },
       {
@@ -1706,15 +1706,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 79,
+        "turns": 80,
         "ad_turns": 13,
         "paid_units": 13,
         "advertisers": 10,
-        "ad_rate": 0.16455696202531644,
-        "posterior_ad_rate": 0.1686746987951807,
-        "competition_score": 0.6046924700011588,
-        "ad_rate_low": 0.09876613959277633,
-        "ad_rate_high": 0.26145867499313213,
+        "ad_rate": 0.1625,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.5974937501201927,
+        "ad_rate_low": 0.09749727334375494,
+        "ad_rate_high": 0.25843104863483324,
         "evidence_strength": "established"
       },
       {
@@ -1776,6 +1776,112 @@
     ]
   },
   "ads": [
+    {
+      "id": "c669f401569cf63a319dbce7",
+      "turn_id": "402f0b651fced525e4f23df3",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "b63e713883ea7a0a25c615df",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "The Smoothest Part of Flying",
+      "description": "Pre-book DriveU Reserve for an airport ride with every detail taken care of.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current paid-card Ad disclosure, DRIVEU advertiser, and The Smoothest Part of Flying creative.",
+      "reviewed_at": 1790117395.061368,
+      "captured_at": "2026-09-22T22:48:12.877Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For Bengaluru → Chennai, these are three currently available offers worth checking:\n\nOffer\tCurrent fare*\tReliability / limitation\tPurchase terms\nKSRTC Airavat Club Class\t₹703–₹804\tGovernment operator; ~6h30–7h30. Fewer premium timings.\tFare shown for Sep 23; seats currently available.\nIntrCity SmartBus AC\t₹619–₹729\t4.2–4.5 ratings on listed services; some trips take ~9h.\tPromo can reduce fare by ₹50; verify boarding point and cancellation rules.\nFreshBus Electric AC\t₹449 shown\t4.6 rating on AbhiBus; route/time-specific availability.\tAbhiBus promo/cashback may apply; final fare can change at checkout.\n\n*Live-listed fares, not guaranteed checkout totals. \nAbhiBus\n+2\nAbhiBus\n+2\n\nBefore paying: check the exact boarding/drop location, luggage allowance, cancellation fee, seat type, and final convenience/payment charges. The route currently has 300+ daily buses, so comparing departure time and drop point can matter as much as fare. \nredbus.in",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "screenshot_sha256": "38013c5839d7fc1b102ed883e9cce0d5583bade960f0dd2e4cc62a6c177537b6",
+      "screenshot_relpath": "evidence/38013c5839d7fc1b102ed883e9cce0d5583bade960f0dd2e4cc62a6c177537b6.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "The Smoothest Part of Flying",
+        "description": "Pre-book DriveU Reserve for an airport ride with every detail taken care of.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "The Smoothest Part of Flying",
+          "Pre-book DriveU Reserve for an airport ride with every detail taken care of."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "The Smoothest Part of Flying",
+              "Pre-book DriveU Reserve for an airport ride with every detail taken care of."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nThe Smoothest Part of Flying\n\nPre-book DriveU Reserve for an airport ride with every detail taken care of.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c08328136b1ae021094655f7",
+      "turn_id": "3fe14763517576a8e7729f94",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "b63e713883ea7a0a25c615df",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "The Smoothest Part of Flying",
+      "description": "Pre-book DriveU Reserve for an airport ride with every detail taken care of.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current paid-card Ad disclosure, DRIVEU advertiser, and The Smoothest Part of Flying creative.",
+      "reviewed_at": 1790117395.106786,
+      "captured_at": "2026-09-22T22:45:02.532Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For 23 Sep 2026, these are three concrete options visible now. Fares are per passenger, before any optional add-ons.\n\nOffer\tCurrent fare\tPractical fit\tVerify before paying\nFreshBus Premium Electric AC\t₹349\t6h45m; sleeper + seater\tFinal fare, boarding/drop point, cancellation\nKSRTC Airavat Club Class\t₹703\tVolvo AC semi-sleeper, 7h29m\tSeat type, pickup point, refund rules\nKSRTC Ambaari Utsav\t₹1,017\tVolvo 9600S AC sleeper, 7h14m\tBerth location, luggage allowance, cancellation\n\nFreshBus currently shows a ₹388 fare discounted to ₹349; KSRTC services are showing live availability on AbhiBus. \nFresh Bus\n+1\n\nShortlist logic: ₹349 if price matters most; ₹703 for a conventional premium AC bus; ₹1,017 if you specifically want a sleeper. redBus currently shows 338 daily buses on the route, with fares starting around ₹313, so checking the final checkout price is worthwhile. \nredBus\n\nCheck Bengaluru–Chennai buses on redBus",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "screenshot_sha256": "07ef2789b292bd7dbab31c52de1dd1598b019e1ed554b51046a7400785d3a261",
+      "screenshot_relpath": "evidence/07ef2789b292bd7dbab31c52de1dd1598b019e1ed554b51046a7400785d3a261.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "The Smoothest Part of Flying",
+        "description": "Pre-book DriveU Reserve for an airport ride with every detail taken care of.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "The Smoothest Part of Flying",
+          "Pre-book DriveU Reserve for an airport ride with every detail taken care of."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "The Smoothest Part of Flying",
+              "Pre-book DriveU Reserve for an airport ride with every detail taken care of."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nThe Smoothest Part of Flying\n\nPre-book DriveU Reserve for an airport ride with every detail taken care of.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "c881e26befbaf3f4c16f76e0",
       "turn_id": "cec38f7e866e4fffc64c14e8",
