@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:53:55Z",
+  "generated_at": "2026-09-22T20:58:27Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "imports": 53,
-    "valid_turns": 230,
+    "imports": 57,
+    "valid_turns": 239,
     "detected_paid_units": 126,
     "approved_paid_units": 125,
     "approved_advertisers": 79,
@@ -727,9 +727,9 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 117,
+    "turns": 126,
     "ad_turns": 12,
-    "ad_rate": 0.10256410256410256,
+    "ad_rate": 0.09523809523809523,
     "categories": [
       {
         "category": "Scented candles",
@@ -814,6 +814,18 @@
         "ad_rate": 0.6666666666666666,
         "posterior_ad_rate": 0.5,
         "competition_score": 0.792481250360578
+      },
+      {
+        "category": "Airport lounge access",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
       },
       {
         "category": "Car fragrance",
@@ -960,6 +972,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Travel luggage",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -1008,6 +1032,18 @@
         "competition_score": 0.14285714285714285
       },
       {
+        "category": "Wedding perfume",
+        "industry": "Beauty and personal care",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285
+      },
+      {
         "category": "Weekend getaways",
         "industry": "Travel and leisure",
         "turns": 3,
@@ -1032,18 +1068,6 @@
         "competition_score": 0.5283208335737186
       },
       {
-        "category": "Airport lounge access",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
-      },
-      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -1066,42 +1090,30 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.2,
         "competition_score": 0.2
-      },
-      {
-        "category": "Travel luggage",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 38,
+        "turns": 39,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 2,
-        "ad_rate": 0.07894736842105263,
-        "posterior_ad_rate": 0.09523809523809523,
-        "competition_score": 0.19047619047619047
+        "ad_rate": 0.07692307692307693,
+        "posterior_ad_rate": 0.09302325581395349,
+        "competition_score": 0.18604651162790697
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 32,
+        "turns": 35,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 4,
-        "ad_rate": 0.1875,
-        "posterior_ad_rate": 0.19444444444444445,
-        "competition_score": 0.502631597362447
+        "ad_rate": 0.17142857142857143,
+        "posterior_ad_rate": 0.1794871794871795,
+        "competition_score": 0.46396762833456645
       },
       {
         "turn_index": 3,
@@ -1117,24 +1129,24 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 25,
+        "turns": 28,
         "ad_turns": 1,
         "paid_units": 1,
         "advertisers": 1,
-        "ad_rate": 0.04,
-        "posterior_ad_rate": 0.06896551724137931,
-        "competition_score": 0.10930775867042455
+        "ad_rate": 0.03571428571428571,
+        "posterior_ad_rate": 0.0625,
+        "competition_score": 0.09906015629507225
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 20,
+        "turns": 22,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.041666666666666664,
-        "competition_score": 0.041666666666666664
+        "posterior_ad_rate": 0.038461538461538464,
+        "competition_score": 0.038461538461538464
       }
     ]
   },
