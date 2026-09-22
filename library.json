@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T23:33:58Z",
+  "generated_at": "2026-09-22T23:34:54Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,7 +11,7 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 363,
+    "valid_turns": 364,
     "approved_paid_units": 188,
     "approved_advertisers": 92,
     "approved_creatives": 165,
@@ -1035,11 +1035,11 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 363,
+    "turns": 364,
     "ad_turns": 75,
-    "ad_rate": 0.2066115702479339,
-    "ad_rate_low": 0.16813809329040733,
-    "ad_rate_high": 0.2512298300857856,
+    "ad_rate": 0.20604395604395603,
+    "ad_rate_low": 0.1676664163437795,
+    "ad_rate_high": 0.2505614295551074,
     "paid_units": 75,
     "categories": [
       {
@@ -1553,6 +1553,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Attar and alcohol-free fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Home fragrance",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1610,21 +1625,6 @@
         "competition_score": 0.14285714285714285,
         "ad_rate_low": 0,
         "ad_rate_high": 0.5615060804490177,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Attar and alcohol-free fragrance",
-        "industry": "Beauty and personal care",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -1793,15 +1793,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 71,
+        "turns": 72,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.07042253521126761,
-        "posterior_ad_rate": 0.08,
-        "competition_score": 0.22458839376460835,
-        "ad_rate_low": 0.03045315340626454,
-        "ad_rate_high": 0.1544921176729214,
+        "ad_rate": 0.06944444444444445,
+        "posterior_ad_rate": 0.07894736842105263,
+        "competition_score": 0.22163328332033716,
+        "ad_rate_low": 0.03002493884382272,
+        "ad_rate_high": 0.15248175932710195,
         "evidence_strength": "established"
       },
       {
