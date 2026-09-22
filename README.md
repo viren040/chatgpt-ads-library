@@ -25,14 +25,14 @@ does not reveal campaign spend, bids, targeting settings, conversions, or curren
 
 The standalone interface supports:
 
-- full-text search across advertisers, copy, prompts, answers, and categories;
-- category and advertiser filters;
+- full-text search across advertisers, copy, prompts, answers, and prompt categories;
+- prompt-category and advertiser filters;
 - filtering each placement by complete-panel or reviewed positive-only provenance;
 - verified CSV and JSON downloads for independent analysis;
 - a complete-panel prompt outcome CSV containing ad and zero-ad turns;
 - placement-level and creative-level views;
 - reviewed screenshots and evidence context; and
-- category ad-appearance and competition metrics from complete experiment panels; and
+- prompt-category ad-appearance and competition metrics from complete experiment panels; and
 - ad-appearance rates by seed, zero-rescue, and ad-deepening conversation stages.
 
 Every placement carries an `evidence_design` and `rate_eligible` field. A `complete_panel` record
@@ -41,13 +41,17 @@ rates. A `reviewed_positive_only` record proves a visually reviewed appearance, 
 not preserve the corresponding zero-ad turns. It remains searchable and is excluded from every
 denominator-based rate.
 
+The `category` and `industry` fields describe the prompt context in which the placement appeared.
+They do not classify the advertiser or creative. This meaning is also recorded in the
+`field_semantics` object in `library.json`.
+
 `placements.csv` contains one row per approved placement with the observation time, advertiser,
-creative copy, category, evidence design, rate eligibility, prompt, completed answer, creative ID,
+creative copy, prompt category, evidence design, rate eligibility, prompt, completed answer, creative ID,
 and content-addressed screenshot.
 `library.json` additionally contains advertiser summaries and complete-panel experiment denominators.
 
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
-It records the generated prompt, category, cohort, pseudonymous conversation ID, turn index,
+It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,
 conversation branch, reviewed ad outcome, paid-unit count, creative count, and advertisers. It does
 not contain account slots, conversation URLs, answers, browser profiles, or credentials.
 

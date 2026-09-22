@@ -1,4 +1,22 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+c881e26befbaf3f4c16f76e0,cec38f7e866e4fffc64c14e8,2026-09-22T22:44:08.956Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, current listings show substantial choice: about 338 daily services, with fares from ₹313. 
+redBus
+
+Offer	Current fare	Reliability / limits	Purchase terms
+redBus marketplace	From ₹313	79 operators; quality varies by operator	Free-cancellation option; Flexi can change date up to 8h before departure. 
+redBus
+
+KSRTC Airavat Club Class	₹703–₹804	Volvo AC semi-sleeper; scheduled ~7h	23 Sep services currently show seats available; fare varies by departure. 
+AbhiBus
+
+KSRTC Ambaari Utsav	₹1,017	Volvo 9600 AC sleeper; ~7h14m	Current 23 Sep listing shows single berths available. 
+AbhiBus
+
+Key limitation: ₹313 is an entry fare, not necessarily the final price for a preferred AC/sleeper bus; fares and availability change by date and seat. 
+redBus
+
+For comparison, AbhiBus/SRS currently shows an AC sleeper from ₹620 after discount, with advertised refund protection, but operator-specific terms apply. 
+AbhiBus",b63e713883ea7a0a25c615df,evidence/15199972b33c3415a0ae63970048a8920fb6cb4e6268622794d0bbd1af7f6fdc.png,15199972b33c3415a0ae63970048a8920fb6cb4e6268622794d0bbd1af7f6fdc
 44af2c6999b5f34340a4933b,dc0840e41a22a36523719edf,2026-09-22T22:41:57.117Z,Agoda Company Pte. Ltd.,Ad,answer_card,Looking for Hotel Deals?,Check updated prices and explore active promotions.,Travel and leisure,Weekend resorts,complete_panel,True,I am comparing weekend resort packages near Hyderabad for two adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.3
 Mrugavani Resort & Spa
 4.3
