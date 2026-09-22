@@ -1,4 +1,72 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+12b826630b0307f69ef4776f,08383642968d8699c30ec406,2026-09-22T23:01:20.661Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,"Compare OfficeKit HR with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, OfficeKit HR is more of an HRMS with travel-management functionality than a dedicated travel-management company. Here’s the practical comparison:
+
+Option	Current price	Exclusions / watch-outs	Best for
+OfficeKit HR Platinum	₹7,500/month listed starting price*	Travel is one HRMS module; actual booking/service costs and partner charges are separate.	Companies wanting HR + travel in one system
+ITILITE	$10/trip (~₹840) or $7/trip with wallet; expense module $6/user/month annually	Extras such as seat ₹50, meal ₹50, post-booking baggage ₹50 unless contracted. 
+Itilite
++1
+	50-person tech/startup wanting automated travel + expenses
+MakeMyTrip myBiz	Custom service fee; booking fare + GST; 1.5% payment-gateway fee can apply	Service fee varies by contract; strongest around flights/hotels rather than deep HR workflows. 
+MakeMyTrip
++1
+	India-heavy travel with easy employee booking
+FCM Travel	Custom quote	Enterprise/TMC model; pricing isn't publicly listed.	Companies needing 24/7 human support, international travel and duty-of-care 
+FCM Travel
++1
+
+*Third-party listing; OfficeKit's current site says pricing is tailored by headcount/modules. 
+officekithr.com
++1
+
+Key distinction: OfficeKit is HR-first; ITILITE is travel/expense-tech-first; myBiz is booking-first; FCM is full-service TMC-first.",9fed04488eafe9d99ddb5fc4,evidence/91d0b904e036c1a18071f9334171d9f6ea3de4759d459bfdf76ac8c95463b3e4.png,91d0b904e036c1a18071f9334171d9f6ea3de4759d459bfdf76ac8c95463b3e4
+e43b553d23e192b3da170a9a,fc35f836349447ec85f2e044,2026-09-22T23:00:44.793Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,"Your Outstation Ride, Always Ready","Pristine cars and vetted chauffeurs, arriving on time for every Reserve.",Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, these are three offers I’d shortlist to check at checkout today. Fares are per passenger and can change by date/seat.
+
+Offer	Current fare	Verify before paying
+FlixBus	₹359 onwards	Exact departure/boarding point, included baggage, cancellation/refund fee, final payment total. 
+FlixBus India
+
+KSRTC Karnataka	₹560 onwards	Bus class, boarding/drop point, cancellation deductions, seat availability, final taxes/fees. 
+redBus
+
+EASYRIDE SMART BUS	₹599 onwards	Exact bus/seat, boarding location, cancellation window/charges, convenience fees and refund timing. 
+redBus
+
+Practical check: redBus currently shows 338 Bengaluru–Chennai services, with fares starting around ₹313, so use the final checkout amount—not the headline fare—to compare. 
+redbus.in
+
+Before paying, verify operator name, exact pickup/drop address, departure time, seat type, baggage allowance, cancellation deadline, refund amount, and all fees.",d84d45280f6682c1f0310adf,evidence/93ba2d9ef3f179c365fa603130e9e0eecf736d40d9cbe63bf222010d07c3eaba.png,93ba2d9ef3f179c365fa603130e9e0eecf736d40d9cbe63bf222010d07c3eaba
+b40b1ee52010b8eb1520a376,ee637c4c931a3d89ebe02fc3,2026-09-22T22:59:29.147Z,OfficeKit HR,Ad,answer_card,Simplify HR & Payroll with OfficeKit,"Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",Travel and leisure,Corporate travel,complete_panel,True,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, I’d shortlist these three managed-travel options:
+
+Provider	What differentiates it	Indicative cost
+MakeMyTrip for Business	India-focused, easy self-booking, GST invoices, corporate rates and last-minute modifications. 
+MakeMyTrip Biz
+	Usually transaction-based; quote required
+ITILITE	More complete travel + expense workflow, policy controls and employee-focused UX; suited to growing companies. 
+HappyFares
+	Roughly ₹1.5–4 lakh/year for a 50-person company, depending on usage/plan
+FCM Travel	Full-service TMC with human support, corporate travel management, negotiated rates and stronger global-program capabilities. 
+FCM Travel
+	Custom quote; typically more service-heavy
+
+How I’d distinguish them: MMT is the simpler India-first option; ITILITE is the software-heavy middle ground; FCM is the more traditional managed TMC choice if employees need human assistance and the company wants tighter programme management.
+
+For 50 employees, ask each for booking fees, cancellation/reissue charges, hotel markups, GST/ITC handling, 24×7 support and minimum annual spend before comparing quotes.",27908c80afb93df1acfd9bca,evidence/0ecb921805419a54587780a0bb77ae319cd9c7550232b060a74f0e7a7357696b.png,0ecb921805419a54587780a0bb77ae319cd9c7550232b060a74f0e7a7357696b
+ef712d9b06e8d9988b95ceed,da5627523444ed9b6f25f6df,2026-09-22T22:59:16.921Z,Nexxbase Marketing Pvt. Ltd,Ad,answer_card,Noise Master Buds 2 | Sound by Bose & 51dB ANC,Presenting Noise Master Buds 2 with Sound by Bose technology. Learn more,Travel and leisure,Intercity buses,complete_panel,True,"I need to decide today. Give a final shortlist for intercity bus booking options between Bengaluru and Chennai, including exact prices, purchase terms, and the strongest alternative to each choice.","For Bengaluru → Chennai, today (23 Sep 2026), these are the clearest purchase-ready choices I found. 
+AbhiBus
++1
+
+Choice	Exact listed fare	Purchase terms	Strong alternative
+KSRTC Airavat Club Class	₹703	11:21 departure; AC Volvo semi-sleeper; 36 seats shown.	IntrCity SmartBus – ₹649
+IntrCity SmartBus	₹649 starting fare	Multiple departures; AC seater/sleeper. AbhiBus advertises cancellation/refund protections, including up to 100% for qualifying changed plans/delays.	KSRTC Airavat – ₹703
+SRS Travels AC Sleeper	₹620 after listed discounts	23:00 departure; 36 seats shown; 2+1 AC sleeper.	KSRTC Airavat – ₹703
+
+KSRTC's 11:21 service was showing 36 seats, while SRS showed 36 seats and IntrCity had multiple services listed. 
+AbhiBus
++1
+
+If buying today: check the final checkout amount before payment—the displayed fares can include promotional discounts and may change with seat selection. redBus currently reports 338 daily buses on the route, with fares starting at ₹313, and operator-specific cancellation rules. 
+redBus",49cdd48844874c8b0917cb29,evidence/ef576a54b42eb88e73a48ffdddd7f2f725e0c682a28038671bb7f23ebadfee7f.png,ef576a54b42eb88e73a48ffdddd7f2f725e0c682a28038671bb7f23ebadfee7f
 c669f401569cf63a319dbce7,402f0b651fced525e4f23df3,2026-09-22T22:48:12.877Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, these are three currently available offers worth checking:
 
 Offer	Current fare*	Reliability / limitation	Purchase terms

@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T22:49:55Z",
+  "generated_at": "2026-09-22T23:03:30Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,23 +11,23 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 299,
-    "approved_paid_units": 162,
+    "valid_turns": 320,
+    "approved_paid_units": 166,
     "approved_advertisers": 88,
-    "approved_creatives": 147,
-    "complete_panel_paid_units": 49,
+    "approved_creatives": 150,
+    "complete_panel_paid_units": 53,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "d11acd0c3697436b74d704d0",
       "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 9,
+      "placements": 10,
       "creatives": 4,
-      "panel_placements": 9,
+      "panel_placements": 10,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T22:48:12.877Z",
+      "last_seen": "2026-09-22T23:00:44.793Z",
       "categories": "Vacation rentals,Intercity buses"
     },
     {
@@ -108,6 +108,17 @@
       "categories": "Beauty and personal care,Fragrances,Fragrance layering"
     },
     {
+      "id": "3753cc4faebd4066a665cc3a",
+      "advertiser": "Nexxbase Marketing Pvt. Ltd",
+      "placements": 4,
+      "creatives": 4,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 2,
+      "first_seen": "2026-09-19T10:57:31.871Z",
+      "last_seen": "2026-09-22T22:59:16.921Z",
+      "categories": "Travel and leisure,Business productivity,Business hotels,Intercity buses"
+    },
+    {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
       "placements": 4,
@@ -161,17 +172,6 @@
       "first_seen": "2026-09-20T11:24:17.090Z",
       "last_seen": "2026-09-21T09:09:49.619Z",
       "categories": "Travel and leisure"
-    },
-    {
-      "id": "3753cc4faebd4066a665cc3a",
-      "advertiser": "Nexxbase Marketing Pvt. Ltd",
-      "placements": 3,
-      "creatives": 3,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 2,
-      "first_seen": "2026-09-19T10:57:31.871Z",
-      "last_seen": "2026-09-22T20:42:12.923Z",
-      "categories": "Travel and leisure,Business productivity,Business hotels"
     },
     {
       "id": "1cec69cdbe639880af68f9cb",
@@ -271,6 +271,28 @@
       "first_seen": "2026-09-13T17:51:18.619Z",
       "last_seen": "2026-09-15T05:51:43.742Z",
       "categories": "Home improvement,Automotive"
+    },
+    {
+      "id": "8848574dfbc6f190fb67e0a3",
+      "advertiser": "OfficeKit HR",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:26:05.564Z",
+      "last_seen": "2026-09-22T22:59:29.147Z",
+      "categories": "HR management,Corporate travel"
+    },
+    {
+      "id": "504ef25d14dd959439fe6a46",
+      "advertiser": "Zoho Corporation",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:27:39.421Z",
+      "last_seen": "2026-09-22T23:01:20.661Z",
+      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "94dfcae9ea9e7cae63574ffd",
@@ -612,17 +634,6 @@
       "first_seen": "2026-09-15T07:11:52.122Z",
       "last_seen": "2026-09-15T07:11:52.122Z",
       "categories": "Food and beverage"
-    },
-    {
-      "id": "8848574dfbc6f190fb67e0a3",
-      "advertiser": "OfficeKit HR",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:26:05.564Z",
-      "last_seen": "2026-09-11T21:26:05.564Z",
-      "categories": "HR management"
     },
     {
       "id": "4dba32596de65028cafd6726",
@@ -975,58 +986,47 @@
       "first_seen": "2026-09-14T11:57:45.373Z",
       "last_seen": "2026-09-14T11:57:45.373Z",
       "categories": "Fashion and accessories"
-    },
-    {
-      "id": "504ef25d14dd959439fe6a46",
-      "advertiser": "Zoho Corporation",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:27:39.421Z",
-      "last_seen": "2026-09-11T21:27:39.421Z",
-      "categories": "Help desk software"
     }
   ],
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 299,
-    "ad_turns": 49,
-    "ad_rate": 0.16387959866220736,
-    "ad_rate_low": 0.12623461407802752,
-    "ad_rate_high": 0.21005207837109444,
-    "paid_units": 49,
+    "turns": 320,
+    "ad_turns": 53,
+    "ad_rate": 0.165625,
+    "ad_rate_low": 0.12890906754797213,
+    "ad_rate_high": 0.21027403925485985,
+    "paid_units": 53,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 99,
+        "turns": 107,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 9,
         "creatives": 16,
-        "ad_rate": 0.21212121212121213,
-        "posterior_ad_rate": 0.21359223300970873,
-        "competition_score": 0.7389077243691314,
-        "ad_rate_low": 0.14313429916193274,
-        "ad_rate_high": 0.302615280774591,
+        "ad_rate": 0.19626168224299065,
+        "posterior_ad_rate": 0.1981981981981982,
+        "competition_score": 0.6856531136037887,
+        "ad_rate_low": 0.1321031003473682,
+        "ad_rate_high": 0.2814744734155511,
         "evidence_strength": "established"
       },
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 19,
-        "ad_turns": 13,
-        "paid_units": 13,
-        "advertisers": 4,
-        "creatives": 7,
-        "ad_rate": 0.6842105263157895,
-        "posterior_ad_rate": 0.6086956521739131,
-        "competition_score": 1.5734554352215733,
-        "ad_rate_low": 0.4601001017506463,
-        "ad_rate_high": 0.846358289955714,
-        "evidence_strength": "directional"
+        "turns": 30,
+        "ad_turns": 15,
+        "paid_units": 15,
+        "advertisers": 5,
+        "creatives": 8,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.47058823529411764,
+        "competition_score": 1.3211081986153432,
+        "ad_rate_low": 0.33153851227173764,
+        "ad_rate_high": 0.6684614877282624,
+        "evidence_strength": "established"
       },
       {
         "category": "Pilgrimage travel",
@@ -1149,6 +1149,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 6,
+        "ad_turns": 4,
+        "paid_units": 4,
+        "advertisers": 4,
+        "creatives": 4,
+        "ad_rate": 0.6666666666666666,
+        "posterior_ad_rate": 0.5,
+        "competition_score": 1.292481250360578,
+        "ad_rate_low": 0.29998832134152864,
+        "ad_rate_high": 0.9032306674407831,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Domestic flights",
         "industry": "Travel and leisure",
         "turns": 6,
@@ -1236,21 +1251,6 @@
         "competition_score": 0.125,
         "ad_rate_low": 0,
         "ad_rate_high": 0.48990002040399916,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Corporate travel",
-        "industry": "Travel and leisure",
-        "turns": 4,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "creatives": 2,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.375,
-        "competition_score": 0.75,
-        "ad_rate_low": 0.15003570882017148,
-        "ad_rate_high": 0.8499642911798285,
         "evidence_strength": "exploratory"
       },
       {
@@ -1678,43 +1678,43 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 102,
-        "ad_turns": 21,
-        "paid_units": 21,
-        "advertisers": 11,
-        "ad_rate": 0.20588235294117646,
-        "posterior_ad_rate": 0.20754716981132076,
-        "competition_score": 0.7680157905575852,
-        "ad_rate_low": 0.13878787006683843,
-        "ad_rate_high": 0.2943272755847769,
+        "turns": 108,
+        "ad_turns": 23,
+        "paid_units": 23,
+        "advertisers": 12,
+        "ad_rate": 0.21296296296296297,
+        "posterior_ad_rate": 0.21428571428571427,
+        "competition_score": 0.8158617690123438,
+        "ad_rate_low": 0.14630847191772375,
+        "ad_rate_high": 0.2993360825235575,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 2,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
+        "turns": 3,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 3,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.5,
-        "competition_score": 1.0,
-        "ad_rate_low": 0.34237195288961925,
+        "posterior_ad_rate": 0.5714285714285714,
+        "competition_score": 1.3268160542213498,
+        "ad_rate_low": 0.43849391955098227,
         "ad_rate_high": 1,
         "evidence_strength": "exploratory"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 80,
+        "turns": 84,
         "ad_turns": 13,
         "paid_units": 13,
         "advertisers": 10,
-        "ad_rate": 0.1625,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.5974937501201927,
-        "ad_rate_low": 0.09749727334375494,
-        "ad_rate_high": 0.25843104863483324,
+        "ad_rate": 0.15476190476190477,
+        "posterior_ad_rate": 0.1590909090909091,
+        "competition_score": 0.5703349432965475,
+        "ad_rate_low": 0.09273222805420128,
+        "ad_rate_high": 0.24698835991323098,
         "evidence_strength": "established"
       },
       {
@@ -1734,15 +1734,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 61,
+        "turns": 66,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.08196721311475409,
-        "posterior_ad_rate": 0.09230769230769231,
-        "competition_score": 0.25914045434377886,
-        "ad_rate_low": 0.035519042911066306,
-        "ad_rate_high": 0.177948854241379,
+        "ad_rate": 0.07575757575757576,
+        "posterior_ad_rate": 0.08571428571428572,
+        "competition_score": 0.24063042189065179,
+        "ad_rate_low": 0.03279155406460817,
+        "ad_rate_high": 0.16539405451251493,
         "evidence_strength": "established"
       },
       {
@@ -1762,20 +1762,232 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 46,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "ad_rate": 0.043478260869565216,
-        "posterior_ad_rate": 0.06,
-        "competition_score": 0.12,
-        "ad_rate_low": 0.012005193588830829,
-        "ad_rate_high": 0.1453252291905342,
+        "turns": 51,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 3,
+        "ad_rate": 0.058823529411764705,
+        "posterior_ad_rate": 0.07272727272727272,
+        "competition_score": 0.16886749780998997,
+        "ad_rate_low": 0.020206272864052077,
+        "ad_rate_high": 0.15924873938941972,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "12b826630b0307f69ef4776f",
+      "turn_id": "08383642968d8699c30ec406",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "9fed04488eafe9d99ddb5fc4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Zoho Desk - Better Alternative",
+      "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current paid-card Ad disclosure, Zoho Corporation advertiser, and Zoho Desk creative.",
+      "reviewed_at": 1790118210.0765162,
+      "captured_at": "2026-09-22T23:01:20.661Z",
+      "prompt": "Compare OfficeKit HR with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, OfficeKit HR is more of an HRMS with travel-management functionality than a dedicated travel-management company. Here’s the practical comparison:\n\nOption\tCurrent price\tExclusions / watch-outs\tBest for\nOfficeKit HR Platinum\t₹7,500/month listed starting price*\tTravel is one HRMS module; actual booking/service costs and partner charges are separate.\tCompanies wanting HR + travel in one system\nITILITE\t$10/trip (~₹840) or $7/trip with wallet; expense module $6/user/month annually\tExtras such as seat ₹50, meal ₹50, post-booking baggage ₹50 unless contracted. \nItilite\n+1\n\t50-person tech/startup wanting automated travel + expenses\nMakeMyTrip myBiz\tCustom service fee; booking fare + GST; 1.5% payment-gateway fee can apply\tService fee varies by contract; strongest around flights/hotels rather than deep HR workflows. \nMakeMyTrip\n+1\n\tIndia-heavy travel with easy employee booking\nFCM Travel\tCustom quote\tEnterprise/TMC model; pricing isn't publicly listed.\tCompanies needing 24/7 human support, international travel and duty-of-care \nFCM Travel\n+1\n\n*Third-party listing; OfficeKit's current site says pricing is tailored by headcount/modules. \nofficekithr.com\n+1\n\nKey distinction: OfficeKit is HR-first; ITILITE is travel/expense-tech-first; myBiz is booking-first; FCM is full-service TMC-first.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "91d0b904e036c1a18071f9334171d9f6ea3de4759d459bfdf76ac8c95463b3e4",
+      "screenshot_relpath": "evidence/91d0b904e036c1a18071f9334171d9f6ea3de4759d459bfdf76ac8c95463b3e4.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Zoho Desk - Better Alternative",
+        "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+        "copy": [
+          "Zoho Corporation",
+          "Zoho Desk - Better Alternative",
+          "Compare Zoho Desk vs Zendesk - learn why you must switch"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Zoho Desk - Better Alternative",
+              "Compare Zoho Desk vs Zendesk - learn why you must switch"
+            ],
+            "text": "Zoho Corporation\n\nZoho Desk - Better Alternative\n\nCompare Zoho Desk vs Zendesk - learn why you must switch",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "e43b553d23e192b3da170a9a",
+      "turn_id": "fc35f836349447ec85f2e044",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "d84d45280f6682c1f0310adf",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Your Outstation Ride, Always Ready",
+      "description": "Pristine cars and vetted chauffeurs, arriving on time for every Reserve.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current paid-card Ad disclosure, DRIVEU advertiser, and Your Outstation Ride creative.",
+      "reviewed_at": 1790118210.077445,
+      "captured_at": "2026-09-22T23:00:44.793Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For Bengaluru → Chennai, these are three offers I’d shortlist to check at checkout today. Fares are per passenger and can change by date/seat.\n\nOffer\tCurrent fare\tVerify before paying\nFlixBus\t₹359 onwards\tExact departure/boarding point, included baggage, cancellation/refund fee, final payment total. \nFlixBus India\n\nKSRTC Karnataka\t₹560 onwards\tBus class, boarding/drop point, cancellation deductions, seat availability, final taxes/fees. \nredBus\n\nEASYRIDE SMART BUS\t₹599 onwards\tExact bus/seat, boarding location, cancellation window/charges, convenience fees and refund timing. \nredBus\n\nPractical check: redBus currently shows 338 Bengaluru–Chennai services, with fares starting around ₹313, so use the final checkout amount—not the headline fare—to compare. \nredbus.in\n\nBefore paying, verify operator name, exact pickup/drop address, departure time, seat type, baggage allowance, cancellation deadline, refund amount, and all fees.",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "screenshot_sha256": "93ba2d9ef3f179c365fa603130e9e0eecf736d40d9cbe63bf222010d07c3eaba",
+      "screenshot_relpath": "evidence/93ba2d9ef3f179c365fa603130e9e0eecf736d40d9cbe63bf222010d07c3eaba.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Your Outstation Ride, Always Ready",
+        "description": "Pristine cars and vetted chauffeurs, arriving on time for every Reserve.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Your Outstation Ride, Always Ready",
+          "Pristine cars and vetted chauffeurs, arriving on time for every Reserve."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/34d50eb6e4ca500b.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Your Outstation Ride, Always Ready",
+              "Pristine cars and vetted chauffeurs, arriving on time for every Reserve."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nYour Outstation Ride, Always Ready\n\nPristine cars and vetted chauffeurs, arriving on time for every Reserve.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/34d50eb6e4ca500b.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "b40b1ee52010b8eb1520a376",
+      "turn_id": "ee637c4c931a3d89ebe02fc3",
+      "advertiser": "OfficeKit HR",
+      "advertiser_key": "8848574dfbc6f190fb67e0a3",
+      "creative_id": "27908c80afb93df1acfd9bca",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Simplify HR & Payroll with OfficeKit",
+      "description": "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-answer Ad disclosure, OfficeKit HR advertiser, and HR payroll creative.",
+      "reviewed_at": 1790118210.0783172,
+      "captured_at": "2026-09-22T22:59:29.147Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three managed-travel options:\n\nProvider\tWhat differentiates it\tIndicative cost\nMakeMyTrip for Business\tIndia-focused, easy self-booking, GST invoices, corporate rates and last-minute modifications. \nMakeMyTrip Biz\n\tUsually transaction-based; quote required\nITILITE\tMore complete travel + expense workflow, policy controls and employee-focused UX; suited to growing companies. \nHappyFares\n\tRoughly ₹1.5–4 lakh/year for a 50-person company, depending on usage/plan\nFCM Travel\tFull-service TMC with human support, corporate travel management, negotiated rates and stronger global-program capabilities. \nFCM Travel\n\tCustom quote; typically more service-heavy\n\nHow I’d distinguish them: MMT is the simpler India-first option; ITILITE is the software-heavy middle ground; FCM is the more traditional managed TMC choice if employees need human assistance and the company wants tighter programme management.\n\nFor 50 employees, ask each for booking fees, cancellation/reissue charges, hotel markups, GST/ITC handling, 24×7 support and minimum annual spend before comparing quotes.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "0ecb921805419a54587780a0bb77ae319cd9c7550232b060a74f0e7a7357696b",
+      "screenshot_relpath": "evidence/0ecb921805419a54587780a0bb77ae319cd9c7550232b060a74f0e7a7357696b.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "OfficeKit HR",
+        "format": "answer_card",
+        "headline": "Simplify HR & Payroll with OfficeKit",
+        "description": "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo.",
+        "copy": [
+          "OfficeKit HR",
+          "Simplify HR & Payroll with OfficeKit",
+          "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/ed3e2f2420d05897a436b1282e4bbe33.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "OfficeKit HR",
+              "Simplify HR & Payroll with OfficeKit",
+              "Manage HR, payroll, attendance and employees in one secure platform. Book a free demo."
+            ],
+            "text": "OfficeKit HR\n\nSimplify HR & Payroll with OfficeKit\n\nManage HR, payroll, attendance and employees in one secure platform. Book a free demo.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/ed3e2f2420d05897a436b1282e4bbe33.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "ef712d9b06e8d9988b95ceed",
+      "turn_id": "da5627523444ed9b6f25f6df",
+      "advertiser": "Nexxbase Marketing Pvt. Ltd",
+      "advertiser_key": "3753cc4faebd4066a665cc3a",
+      "creative_id": "49cdd48844874c8b0917cb29",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+      "description": "Presenting Noise Master Buds 2 with Sound by Bose technology. Learn more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current paid-card Ad disclosure, Nexxbase Marketing advertiser, and Noise Master Buds 2 creative.",
+      "reviewed_at": 1790118210.078954,
+      "captured_at": "2026-09-22T22:59:16.921Z",
+      "prompt": "I need to decide today. Give a final shortlist for intercity bus booking options between Bengaluru and Chennai, including exact prices, purchase terms, and the strongest alternative to each choice.",
+      "answer": "For Bengaluru → Chennai, today (23 Sep 2026), these are the clearest purchase-ready choices I found. \nAbhiBus\n+1\n\nChoice\tExact listed fare\tPurchase terms\tStrong alternative\nKSRTC Airavat Club Class\t₹703\t11:21 departure; AC Volvo semi-sleeper; 36 seats shown.\tIntrCity SmartBus – ₹649\nIntrCity SmartBus\t₹649 starting fare\tMultiple departures; AC seater/sleeper. AbhiBus advertises cancellation/refund protections, including up to 100% for qualifying changed plans/delays.\tKSRTC Airavat – ₹703\nSRS Travels AC Sleeper\t₹620 after listed discounts\t23:00 departure; 36 seats shown; 2+1 AC sleeper.\tKSRTC Airavat – ₹703\n\nKSRTC's 11:21 service was showing 36 seats, while SRS showed 36 seats and IntrCity had multiple services listed. \nAbhiBus\n+1\n\nIf buying today: check the final checkout amount before payment—the displayed fares can include promotional discounts and may change with seat selection. redBus currently reports 338 daily buses on the route, with fares starting at ₹313, and operator-specific cancellation rules. \nredBus",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "screenshot_sha256": "ef576a54b42eb88e73a48ffdddd7f2f725e0c682a28038671bb7f23ebadfee7f",
+      "screenshot_relpath": "evidence/ef576a54b42eb88e73a48ffdddd7f2f725e0c682a28038671bb7f23ebadfee7f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Nexxbase Marketing Pvt. Ltd",
+        "format": "answer_card",
+        "headline": "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+        "description": "Presenting Noise Master Buds 2 with Sound by Bose technology. Learn more",
+        "copy": [
+          "Nexxbase Marketing Pvt. Ltd",
+          "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+          "Presenting Noise Master Buds 2 with Sound by Bose technology. Learn more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/d3ef513353225717a7aaea263a01014d.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Nexxbase Marketing Pvt. Ltd",
+              "Noise Master Buds 2 | Sound by Bose & 51dB ANC",
+              "Presenting Noise Master Buds 2 with Sound by Bose technology. Learn more"
+            ],
+            "text": "Nexxbase Marketing Pvt. Ltd\n\nNoise Master Buds 2 | Sound by Bose & 51dB ANC\n\nPresenting Noise Master Buds 2 with Sound by Bose technology. Learn more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/d3ef513353225717a7aaea263a01014d.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "c669f401569cf63a319dbce7",
       "turn_id": "402f0b651fced525e4f23df3",

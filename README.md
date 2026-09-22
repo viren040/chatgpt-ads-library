@@ -14,7 +14,7 @@ Every published placement has:
 - an explicit **Ad** or **Sponsored** disclosure;
 - a visible advertiser identity;
 - the prompt and completed assistant answer from the observed turn;
-- a visually reviewed screenshot; and
+- a visually reviewed embedded or content-addressed HTTPS screenshot; and
 - content hashes recorded in `manifest.json`.
 
 Organic brand mentions, historical candidate lists, incomplete responses, rejected detections,
@@ -64,6 +64,8 @@ ads-library-verify /path/to/this/repository
 ```
 
 The verifier checks the manifest, public dataset, approval boundary, credential-field exclusions,
-standalone interface, and every evidence screenshot. Browser profiles, cookies, passwords, session
+standalone interface, and every embedded evidence screenshot. For external evidence it verifies
+the exact HTTPS base URL and content-addressed filename; the publishing host separately hash-checks
+every object during its idempotent store sync. Browser profiles, cookies, passwords, session
 tokens, account-slot labels, ChatGPT conversation URLs, and local databases are never included in
 this repository.
