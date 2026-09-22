@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T22:11:15Z",
+  "generated_at": "2026-09-22T22:12:05Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 243,
-    "approved_paid_units": 149,
-    "approved_advertisers": 84,
-    "approved_creatives": 138
+    "valid_turns": 245,
+    "approved_paid_units": 150,
+    "approved_advertisers": 85,
+    "approved_creatives": 139
   },
   "advertisers": [
     {
@@ -748,6 +748,15 @@
       "categories": "Industrial supplies"
     },
     {
+      "id": "4318fa9ceb761a2082f628c6",
+      "advertiser": "Zestpics",
+      "placements": 1,
+      "creatives": 1,
+      "first_seen": "2026-09-22T22:11:20.567Z",
+      "last_seen": "2026-09-22T22:11:20.567Z",
+      "categories": "Luxury perfume gifts"
+    },
+    {
       "id": "e308c178bb069a0ec349ccbf",
       "advertiser": "Zivore Apparel Private Limited",
       "placements": 1,
@@ -769,11 +778,11 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 243,
-    "ad_turns": 36,
-    "ad_rate": 0.14814814814814814,
-    "ad_rate_low": 0.10896932452256822,
-    "ad_rate_high": 0.19827872442866198,
+    "turns": 245,
+    "ad_turns": 37,
+    "ad_rate": 0.1510204081632653,
+    "ad_rate_low": 0.11159305797327829,
+    "ad_rate_high": 0.20122280561223155,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1241,6 +1250,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Holiday packages",
+        "industry": "Travel and leisure",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Rose perfume",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1298,21 +1322,6 @@
         "competition_score": 0.5283208335737186,
         "ad_rate_low": 0.09452865480086614,
         "ad_rate_high": 0.9054713451991339,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Holiday packages",
-        "industry": "Travel and leisure",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -1374,21 +1383,36 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Luxury perfume gifts",
+        "industry": "Beauty and personal care",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 78,
-        "ad_turns": 9,
-        "paid_units": 9,
-        "advertisers": 7,
-        "ad_rate": 0.11538461538461539,
-        "posterior_ad_rate": 0.12195121951219512,
-        "competition_score": 0.38657621968808686,
-        "ad_rate_low": 0.06190440604142225,
-        "ad_rate_high": 0.2049720968617468,
+        "turns": 79,
+        "ad_turns": 10,
+        "paid_units": 10,
+        "advertisers": 8,
+        "ad_rate": 0.12658227848101267,
+        "posterior_ad_rate": 0.13253012048192772,
+        "competition_score": 0.4402555306477227,
+        "ad_rate_low": 0.07023187936799044,
+        "ad_rate_high": 0.2175655557370775,
         "evidence_strength": "established"
       },
       {
@@ -1436,15 +1460,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 50,
+        "turns": 51,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.1,
-        "posterior_ad_rate": 0.1111111111111111,
-        "competition_score": 0.31192832467306714,
-        "ad_rate_low": 0.04347512399157111,
-        "ad_rate_high": 0.2136049033478839,
+        "ad_rate": 0.09803921568627451,
+        "posterior_ad_rate": 0.10909090909090909,
+        "competition_score": 0.30625690058810223,
+        "ad_rate_low": 0.04260744495307697,
+        "ad_rate_high": 0.2097848995445307,
         "evidence_strength": "established"
       },
       {
@@ -1478,6 +1502,57 @@
     ]
   },
   "ads": [
+    {
+      "id": "edca237f7031aaf40bfbadb7",
+      "turn_id": "69702a14ab6df0ba9f9969ba",
+      "advertiser": "Zestpics",
+      "advertiser_key": "4318fa9ceb761a2082f628c6",
+      "creative_id": "1c4684d041d2bc3532942724",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Gifts for Anniversary, Couple Gifts, Anniversary Gifts, 1st Anniversary Gifts",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Sponsored disclosure, Zestpics advertiser, and anniversary gift product creative.",
+      "reviewed_at": 1790115125.306438,
+      "captured_at": "2026-09-22T22:11:20.567Z",
+      "prompt": "I am comparing a luxury perfume gift for an anniversary in India under ₹15,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "Three good anniversary options currently listed in India, all under ₹15,000:\n\nPrada Paradoxe Eau de Parfum\n₹12,420•Elegant floral and woody notes, suitable for daily wear.\n4.7\nCarolina Herrera Good Girl Eau de Parfum\n₹10,600•Chic and sophisticated scent with a floral and oriental blend.\n4.7\nDior Sauvage Eau de Toilette\n₹13,000•Fresh, masculine aroma with citrus and woody accords, ideal for everyday use.\n4.7\nGive feedback\n\nPrada Paradoxe EDP — ₹12,420: Elegant, modern and feminine. A good choice if you want something polished and unmistakably designer without being too loud. \nPerfume24x7.com\n\nCarolina Herrera Good Girl EDP — ₹10,600: More sensual and evening-oriented, with a distinctive bottle that makes it feel especially gift-like. \nPerfume24x7.com\n\nDior Sauvage EDT — ₹13,000: Masculine, fresh and versatile. Best suited if the recipient prefers clean, confident fragrances that work for both everyday and date nights.\n\nGift angle: For an anniversary, Prada/Good Girl feels more romantic; Sauvage is the stronger choice for a male recipient. Prices can vary by retailer and size.",
+      "industry": "Beauty and personal care",
+      "category": "Luxury perfume gifts",
+      "conversation_url": "https://chatgpt.com/c/6ab2fcb9-5950-83e8-abbd-ea8235fe2253",
+      "screenshot_sha256": "396bf5e7e8289af7222fa1f0b50c4b2c42e475fe54685ab8c038c532a36b5f1b",
+      "screenshot_relpath": "evidence/396bf5e7e8289af7222fa1f0b50c4b2c42e475fe54685ab8c038c532a36b5f1b.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "Zestpics",
+        "format": "product_card",
+        "headline": "Gifts for Anniversary, Couple Gifts, Anniversary Gifts, 1st Anniversary Gifts",
+        "description": null,
+        "copy": [
+          "Zestpics",
+          "Gifts for Anniversary, Couple Gifts, Anniversary Gifts, 1st Anniversary Gifts",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000bdac81f796693e207353e351&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cd9bdb84a199bba23229123e2ac6c356e1c14e935d858b7ae09294450c1fba46&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Gifts for Anniversary, Couple Gifts, Anniversary Gifts, 1st Anniversary Gifts"
+            ],
+            "text": "Gifts for Anniversary, Couple Gifts, Anniversary Gifts, 1st Anniversary Gifts\n\n₹1,499.00\n₹1,999.00\nZestpics",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000bdac81f796693e207353e351&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cd9bdb84a199bba23229123e2ac6c356e1c14e935d858b7ae09294450c1fba46&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "24cd48a7f5afd31cac0ea55a",
       "turn_id": "8da9e56bac793479d068655b",
