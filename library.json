@@ -1,6 +1,6 @@
 {
-  "schema_version": 3,
-  "generated_at": "2026-09-22T23:35:15Z",
+  "schema_version": 4,
+  "generated_at": "2026-09-22T23:45:06Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -8,13 +8,15 @@
     "advertisers.categories": "observed_prompt_categories",
     "experiment.categories[].category": "prompt_category",
     "prompt-observations.csv.category": "prompt_category",
-    "prompt-observations.csv.industry": "prompt_industry"
+    "prompt-observations.csv.industry": "prompt_industry",
+    "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 366,
+    "valid_turns": 374,
     "approved_paid_units": 189,
     "approved_advertisers": 92,
     "approved_creatives": 165,
+    "inherited_review_paid_units": 0,
     "complete_panel_paid_units": 76,
     "reviewed_positive_only_paid_units": 113
   },
@@ -1035,41 +1037,41 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 366,
+    "turns": 374,
     "ad_turns": 76,
-    "ad_rate": 0.20765027322404372,
-    "ad_rate_low": 0.16923534145506364,
-    "ad_rate_high": 0.25213856564462445,
+    "ad_rate": 0.20320855614973263,
+    "ad_rate_low": 0.16554035501293735,
+    "ad_rate_high": 0.24691184717972747,
     "paid_units": 76,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 108,
+        "turns": 111,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 9,
         "creatives": 16,
-        "ad_rate": 0.19444444444444445,
-        "posterior_ad_rate": 0.19642857142857142,
-        "competition_score": 0.6795312108037548,
-        "ad_rate_low": 0.13084280853074548,
-        "ad_rate_high": 0.27903687845513453,
+        "ad_rate": 0.1891891891891892,
+        "posterior_ad_rate": 0.19130434782608696,
+        "competition_score": 0.6618043096523526,
+        "ad_rate_low": 0.12720241592903933,
+        "ad_rate_high": 0.27197000939418847,
         "evidence_strength": "established"
       },
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 46,
+        "turns": 49,
         "ad_turns": 27,
         "paid_units": 27,
         "advertisers": 11,
         "creatives": 19,
-        "ad_rate": 0.5869565217391305,
-        "posterior_ad_rate": 0.56,
-        "competition_score": 2.0722462421590118,
-        "ad_rate_low": 0.44339242387017885,
-        "ad_rate_high": 0.7171160670289899,
+        "ad_rate": 0.5510204081632653,
+        "posterior_ad_rate": 0.5283018867924528,
+        "competition_score": 1.9549492850556713,
+        "ad_rate_low": 0.41314866799678107,
+        "ad_rate_high": 0.6814737507036366,
         "evidence_strength": "established"
       },
       {
@@ -1643,6 +1645,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Honeymoon packages",
+        "industry": "Travel and leisure",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1737,15 +1754,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 124,
+        "turns": 127,
         "ad_turns": 31,
         "paid_units": 31,
         "advertisers": 15,
-        "ad_rate": 0.25,
-        "posterior_ad_rate": 0.25,
-        "competition_score": 1.0218657103125848,
-        "ad_rate_low": 0.18207534390170776,
-        "ad_rate_high": 0.33294949934180607,
+        "ad_rate": 0.2440944881889764,
+        "posterior_ad_rate": 0.24427480916030533,
+        "competition_score": 0.998464205496266,
+        "ad_rate_low": 0.1776224811670808,
+        "ad_rate_high": 0.3255936213568871,
         "evidence_strength": "established"
       },
       {
@@ -1765,15 +1782,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 90,
+        "turns": 93,
         "ad_turns": 14,
         "paid_units": 14,
         "advertisers": 11,
-        "ad_rate": 0.15555555555555556,
-        "posterior_ad_rate": 0.1595744680851064,
-        "competition_score": 0.5904956997033658,
-        "ad_rate_low": 0.09498189002638328,
-        "ad_rate_high": 0.24433031266410787,
+        "ad_rate": 0.15053763440860216,
+        "posterior_ad_rate": 0.15463917525773196,
+        "competition_score": 0.5722329461042927,
+        "ad_rate_low": 0.09184093232479833,
+        "ad_rate_high": 0.2369599135926586,
         "evidence_strength": "established"
       },
       {
@@ -1793,15 +1810,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 72,
+        "turns": 74,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.06944444444444445,
-        "posterior_ad_rate": 0.07894736842105263,
-        "competition_score": 0.22163328332033716,
-        "ad_rate_low": 0.03002493884382272,
-        "ad_rate_high": 0.15248175932710195,
+        "ad_rate": 0.06756756756756757,
+        "posterior_ad_rate": 0.07692307692307693,
+        "competition_score": 0.21595037861981572,
+        "ad_rate_low": 0.029203655548562038,
+        "ad_rate_high": 0.14861386104924684,
         "evidence_strength": "established"
       },
       {
@@ -1858,6 +1875,7 @@
       "screenshot_relpath": "evidence/632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -1909,6 +1927,7 @@
       "screenshot_relpath": "evidence/98b3c107677dc87660ef33c2d159f22d3d11b235e0ec0c3914b519c8ac798b38.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -1962,6 +1981,7 @@
       "screenshot_relpath": "evidence/c7774fe9c50031f8f5e7b73d4beb600093497ca70b2a1b74f1333e2e43f447c5.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
         "format": "answer_card",
@@ -2015,6 +2035,7 @@
       "screenshot_relpath": "evidence/14b8ba4bac5b9ec2c43506ffb8434ae41c392c1c09756b903bb4698c188be44f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Atlassian",
         "format": "answer_card",
@@ -2068,6 +2089,7 @@
       "screenshot_relpath": "evidence/981711240c2ff639911af11406d3ae8ac82dcc8ad1738e247aa7570148083c90.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2119,6 +2141,7 @@
       "screenshot_relpath": "evidence/3bb89a7335364443c3dfec2938a37c4d9bb847ad12f285617a1a7117bb4ffe18.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2170,6 +2193,7 @@
       "screenshot_relpath": "evidence/ecbc257e08276f2986dafff4c96b95817440140b02b04973281f91e7af0346f2.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "pacific data integrators",
         "format": "answer_card",
@@ -2223,6 +2247,7 @@
       "screenshot_relpath": "evidence/065e58b97112b3a8fbe2ffd43628592014c56d92363193a2fe17796aae2dcdb7.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2274,6 +2299,7 @@
       "screenshot_relpath": "evidence/9aa60f775f2264a7b769778e6d21695c846c1c166c1b94bf8eb1eb76c7a39fa5.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Trip.com/flights",
         "format": "answer_card",
@@ -2327,6 +2353,7 @@
       "screenshot_relpath": "evidence/632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2378,6 +2405,7 @@
       "screenshot_relpath": "evidence/caa5266110bdd0987abf928238d0e3d74fe4558a237f3483c6bb78c9b36dd4b1.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
         "format": "answer_card",
@@ -2431,6 +2459,7 @@
       "screenshot_relpath": "evidence/4f52d81c52a6d96cb2fbc6e161b5e93cef8691437b1d0fa49580ef9a29ca5943.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Trip.com/flights",
         "format": "product_card",
@@ -2482,6 +2511,7 @@
       "screenshot_relpath": "evidence/51be1749f51330d991b9a8f947ad8a4810ed9fbc891e318b62fc43376e79aa40.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Trip.com/flights",
         "format": "answer_card",
@@ -2535,6 +2565,7 @@
       "screenshot_relpath": "evidence/5e6031f93c6bb56a5464a0a8aa7fc59fbb7e43637b123a4ab1daca9774bb9689.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Trip.com/flights",
         "format": "answer_card",
@@ -2588,6 +2619,7 @@
       "screenshot_relpath": "evidence/640318779ddc5786cddb2e1dbc7d8c7124a494b0a78469f90f45b355aaba1e59.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2639,6 +2671,7 @@
       "screenshot_relpath": "evidence/8e630a5230bedbc44f23c6c97ad3b749a76a8629e9f91b0e2e42dfdd247b28f6.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Zoho Corporation",
         "format": "answer_card",
@@ -2692,6 +2725,7 @@
       "screenshot_relpath": "evidence/b4fe3c9fe1e3323fd7e46573f184347f91b7dcfa2cde46263d21c2e535bc3197.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2743,6 +2777,7 @@
       "screenshot_relpath": "evidence/03dd447167673b8960d297600d1722e700c24782cb418222687a427db59f1225.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2794,6 +2829,7 @@
       "screenshot_relpath": "evidence/3b800169b906b654ba200386cc4b81adb9e20ec6177df73a26bcea45ff937d35.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -2845,6 +2881,7 @@
       "screenshot_relpath": "evidence/08562b8da9c0d2acd5ca7dfe1a7f1402b9e46681419bef6a60a6fd6d543ce4ba.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Call.com Telecom Limited",
         "format": "answer_card",
@@ -2898,6 +2935,7 @@
       "screenshot_relpath": "evidence/3f0df008e7a761f01cca7f8ccf5b57d670cd5f9a5623e4c9754fe02e27422e4e.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Call.com Telecom Limited",
         "format": "answer_card",
@@ -2951,6 +2989,7 @@
       "screenshot_relpath": "evidence/a2103cd9b7c967d9ae1067d9b2ece82136432f029e4a2d7e8720da024f969fdd.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "OfficeKit HR",
         "format": "answer_card",
@@ -3004,6 +3043,7 @@
       "screenshot_relpath": "evidence/b86c4918009dc51f57c7d9d031cf90c8af503a4cf67a0afb0a02e156b4a18aae.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -3055,6 +3095,7 @@
       "screenshot_relpath": "evidence/91d0b904e036c1a18071f9334171d9f6ea3de4759d459bfdf76ac8c95463b3e4.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Zoho Corporation",
         "format": "answer_card",
@@ -3108,6 +3149,7 @@
       "screenshot_relpath": "evidence/93ba2d9ef3f179c365fa603130e9e0eecf736d40d9cbe63bf222010d07c3eaba.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3161,6 +3203,7 @@
       "screenshot_relpath": "evidence/0ecb921805419a54587780a0bb77ae319cd9c7550232b060a74f0e7a7357696b.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "OfficeKit HR",
         "format": "answer_card",
@@ -3214,6 +3257,7 @@
       "screenshot_relpath": "evidence/ef576a54b42eb88e73a48ffdddd7f2f725e0c682a28038671bb7f23ebadfee7f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Nexxbase Marketing Pvt. Ltd",
         "format": "answer_card",
@@ -3267,6 +3311,7 @@
       "screenshot_relpath": "evidence/38013c5839d7fc1b102ed883e9cce0d5583bade960f0dd2e4cc62a6c177537b6.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3320,6 +3365,7 @@
       "screenshot_relpath": "evidence/07ef2789b292bd7dbab31c52de1dd1598b019e1ed554b51046a7400785d3a261.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3373,6 +3419,7 @@
       "screenshot_relpath": "evidence/15199972b33c3415a0ae63970048a8920fb6cb4e6268622794d0bbd1af7f6fdc.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3426,6 +3473,7 @@
       "screenshot_relpath": "evidence/19164c6df73d1f14031df42ebafca04f7069e087bc6e2f0e143715d14fb73e68.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -3479,6 +3527,7 @@
       "screenshot_relpath": "evidence/384d99d28e853336f5f680161c5b587d6db88cada70eb41d1e0600bcc1aab567.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3532,6 +3581,7 @@
       "screenshot_relpath": "evidence/d3461205b3bf4d6d194ad32b807d36e9a644b838b2e2e87f89736f0eeb8ee2af.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Hero MotoCorp",
         "format": "answer_card",
@@ -3585,6 +3635,7 @@
       "screenshot_relpath": "evidence/da75a85deb906336fab4165a036cd3dcf789f243d38ae1818fddf49b8c2349a4.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
         "format": "answer_card",
@@ -3638,6 +3689,7 @@
       "screenshot_relpath": "evidence/fa900bf51024c15ca825fe5d62dbb8a9aa9a79eb9e632dd0dac3fb4bf9d81c39.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Duke & D’Or",
         "format": "answer_card",
@@ -3691,6 +3743,7 @@
       "screenshot_relpath": "evidence/7c8951c1b64f12d2dd69f2fa110cd8abe221d078dbea5bc0f57870017f2a865f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3744,6 +3797,7 @@
       "screenshot_relpath": "evidence/f3068f7b16cd035cab3f90707187258d2b98105da34cdc7e072ccc1d61a4101b.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3797,6 +3851,7 @@
       "screenshot_relpath": "evidence/1eea91554fdc14f8b65d22975e48b9c1036605490269221fc6112b7431132afc.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -3850,6 +3905,7 @@
       "screenshot_relpath": "evidence/6cee9880e3645f322f5883cd2449b5b17384643322ba10070913bb44b01f55a4.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "MMT IF",
         "format": "answer_card",
@@ -3903,6 +3959,7 @@
       "screenshot_relpath": "evidence/396bf5e7e8289af7222fa1f0b50c4b2c42e475fe54685ab8c038c532a36b5f1b.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Zestpics",
         "format": "product_card",
@@ -3954,6 +4011,7 @@
       "screenshot_relpath": "evidence/40da100f06c7798546dab6e31cc6881b0893f5c19f67aa7386afbd7d8f7c30ce.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4007,6 +4065,7 @@
       "screenshot_relpath": "evidence/fd33550ea064b4899ab112d14918e17b47cfaa8341632c5e943621abcad323e1.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -4060,6 +4119,7 @@
       "screenshot_relpath": "evidence/9b9dafd9e6baef4c18e942f2bda3acadd0a83c6806d50ccbb80829fea9317317.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4113,6 +4173,7 @@
       "screenshot_relpath": "evidence/de3af4f51b96014e86a99a9fa563b81a30ccfecbf1bd3e3867dae4654f043408.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
         "format": "answer_card",
@@ -4166,6 +4227,7 @@
       "screenshot_relpath": "evidence/f6eaa0d0f15155c50c0e9099294a7bf4d1503412d93bd3ab0b3343b09198ff42.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Sonetel AB",
         "format": "answer_card",
@@ -4219,6 +4281,7 @@
       "screenshot_relpath": "evidence/3833bf5e7de1ea0825aa8ca1019c7213d20da24dde50c0c3468a6799c95db014.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "MMT DF",
         "format": "answer_card",
@@ -4272,6 +4335,7 @@
       "screenshot_relpath": "evidence/24b026b09122a54ad2478e6cdbe601512da52c0baf799ce27436aff30e4ddac3.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4325,6 +4389,7 @@
       "screenshot_relpath": "evidence/15a619ef5353a5ade164be7d7c5ba4d5f775a9c2541fa5c2496f2c50aea7df19.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4378,6 +4443,7 @@
       "screenshot_relpath": "evidence/f072a6e1a191acea129ab1d07fc462b96d4e384d4ff2d130ccdd8d040c8806e0.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -4431,6 +4497,7 @@
       "screenshot_relpath": "evidence/163f433ca2742fa30f54512203a9f40e0fed38b93eabdbfaed13508b62087c97.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4484,6 +4551,7 @@
       "screenshot_relpath": "evidence/40a348dd4b7d1486d2a3077d07a6b8f2c6304f7fb747a8988edb77254046d016.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Homerun Retail Private Limited",
         "format": "answer_card",
@@ -4537,6 +4605,7 @@
       "screenshot_relpath": "evidence/a7eb836a269fd0900f2b2a4d339ff16ba2b54d98a7ffd126426321025bad0564.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4590,6 +4659,7 @@
       "screenshot_relpath": "evidence/4176f221c0f6d4e8be78f41b120ef0140eb2cdb19ea1dfedc94b61f5df0aa83f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HSBC - Credit Cards",
         "format": "answer_card",
@@ -4643,6 +4713,7 @@
       "screenshot_relpath": "evidence/bdeff83b1cd83a145aaa8e88e19c2989f97bc6d7ae0e857dabc4c6d7aedb4fc4.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -4696,6 +4767,7 @@
       "screenshot_relpath": "evidence/69b9d0c96b1d6d8cbac983e87b395501590156e1cb76401680b2e02220e50028.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -4749,6 +4821,7 @@
       "screenshot_relpath": "evidence/1e56430dced69b95d8e172c6fa84fb20935c2fea3eea55954d1bfe4a91aabf13.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -4802,6 +4875,7 @@
       "screenshot_relpath": "evidence/19968c837846760ba0427adad9052adb3009416b4108c27cb6658c88c5ea4808.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -4855,6 +4929,7 @@
       "screenshot_relpath": "evidence/7da97db8d836e5a34292365c9273b20aa4fbcc8568269068b5a86ff05bdc3fa6.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -4908,6 +4983,7 @@
       "screenshot_relpath": "evidence/898f091d019eeabb43606866025add6a4ed1645a902be610d10d4b7078d4ce45.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "The Man Company",
         "format": "answer_card",
@@ -4961,6 +5037,7 @@
       "screenshot_relpath": "evidence/4472e033b74fa6a98699bda273e78fc4b6cb382ce4748db242acfe20f2300d80.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Lancôme",
         "format": "answer_card",
@@ -5014,6 +5091,7 @@
       "screenshot_relpath": "evidence/1ab71e8a2f0149470a04fd4f226fedb8e3fe0239ec69814e76714559823d308f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -5067,6 +5145,7 @@
       "screenshot_relpath": "evidence/478725a848a59dcd9e56ec6767ebab38ec8e80811912565aaa9659c508a70c1e.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Waterways leisure Limited",
         "format": "answer_card",
@@ -5120,6 +5199,7 @@
       "screenshot_relpath": "evidence/5fd31da1af524d5c0dbad82f7f4fe7d994cd5e5d19c8b477a2ef47c9396ccac0.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Homerun Retail Private Limited",
         "format": "answer_card",
@@ -5173,6 +5253,7 @@
       "screenshot_relpath": "evidence/e4590198cc14fa2c72f0533ae36cb731258ccc2de8788289d24afd5d63728192.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Homerun Retail Private Limited",
         "format": "answer_card",
@@ -5226,6 +5307,7 @@
       "screenshot_relpath": "evidence/218737f2cc27e842f8be03935e14ec4cfa23d45eac1bf501a2f183488a57776f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Botanical Beauty Cosmetics Pvt Ltd",
         "format": "answer_card",
@@ -5279,6 +5361,7 @@
       "screenshot_relpath": "evidence/013eab44466d75478258c1eb7d105b948b893c49ceb53651183ba7e17833afd0.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Nexxbase Marketing Pvt. Ltd",
         "format": "answer_card",
@@ -5332,6 +5415,7 @@
       "screenshot_relpath": "evidence/04d81d9d1a7d05ed0a68b1a8ba20ecb9a90139d2f3089b6976935400d2866e9a.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Sadhev",
         "format": "answer_card",
@@ -5385,6 +5469,7 @@
       "screenshot_relpath": "evidence/61c611a106e4d74012da6339297e2cd94da74f2c08b37c01a82309f4ec33c1bf.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "MakeMyTrip Hotels",
         "format": "answer_card",
@@ -5438,6 +5523,7 @@
       "screenshot_relpath": "evidence/f7574ff51af466787f05578e25cbf37759fc54d13e461ae9ac8c0f97798a34ba.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "MakeMyTrip Hotels",
         "format": "answer_card",
@@ -5491,6 +5577,7 @@
       "screenshot_relpath": "evidence/45110a45d663925a789fdb70a28577b94f4165cadff7dd224241f2510f35cd23.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Wikka Potions for Aromatherapy",
         "format": "product_card",
@@ -5542,6 +5629,7 @@
       "screenshot_relpath": "evidence/e7faf0e27595ef1df35cba04fdd3b0152d0d46b816bfcfc9bf77c58f15ee8b1f.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Wikka Potions for Aromatherapy",
         "format": "product_card",
@@ -5593,6 +5681,7 @@
       "screenshot_relpath": "evidence/eed4ddeecce5ec24d495bb053cb5822b436e45df512734728f8ed0428dc85c51.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -5646,6 +5735,7 @@
       "screenshot_relpath": "evidence/9ade62210da47bcc7fc97542895270d683d853f51aeda24b52dd65045dd52ade.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Trijog - Know Your Mind",
         "format": "answer_card",
@@ -5705,6 +5795,7 @@
       "screenshot_relpath": "evidence/595fcb58e930fe94ab18ec23eda0042d62bed8de0fc793b07f8dea7a4dc248c5.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "QVAND",
         "format": "answer_card",
@@ -5764,6 +5855,7 @@
       "screenshot_relpath": "evidence/20dfcc49e1769d8de1dbbb0cefe473d4177130aa40ea140cfc7d0e2fed7de1c8.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_card",
@@ -5826,6 +5918,7 @@
       "screenshot_relpath": "evidence/30775067695afbb90dde2f3d054cb98cab944b9f3626224a6e4411dccfa5920b.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Pond's",
         "format": "answer_card",
@@ -5885,6 +5978,7 @@
       "screenshot_relpath": "evidence/14cc24107189cf83432000482d6e67b5acb188355107f1f5db6f1edbca7a30a0.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "NEXXUS",
         "format": "answer_card",
@@ -5944,6 +6038,7 @@
       "screenshot_relpath": "evidence/63f060a700b72452789e73a300b601139d3d2e2b13d2d523f8b2bddcb3c4d2c2.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "The Man Company",
         "format": "answer_card",
@@ -6003,6 +6098,7 @@
       "screenshot_relpath": "evidence/fb863b158fc315506cd366d990c14ec784edda99185b3014fdbfdcd75b29405e.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -6056,6 +6152,7 @@
       "screenshot_relpath": "evidence/fb863b158fc315506cd366d990c14ec784edda99185b3014fdbfdcd75b29405e.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -6109,6 +6206,7 @@
       "screenshot_relpath": "evidence/0802f298ccd988012185fc67c45461045b719f039238ec22ed01fe9918d9f08b.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -6162,6 +6260,7 @@
       "screenshot_relpath": "evidence/0802f298ccd988012185fc67c45461045b719f039238ec22ed01fe9918d9f08b.png",
       "evidence_design": "complete_panel",
       "rate_eligible": true,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -6215,6 +6314,7 @@
       "screenshot_relpath": "evidence/ccb1b0f26a26f69a407cf066d012b616cdb7075991bc915adea149375699fa6d.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -6274,6 +6374,7 @@
       "screenshot_relpath": "evidence/ba1f94533e0e53aaa7313e83bd4f3d791d8c2d6be31da796957388b44e62d0e3.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -6333,6 +6434,7 @@
       "screenshot_relpath": "evidence/7a9aad582ffce473d3383741928b3692775ce164d8be87d193ef4816f7d01c28.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -6392,6 +6494,7 @@
       "screenshot_relpath": "evidence/2d7fd5c264b2b22d54dfd2a3ff01ac0a2a5a21da5b35bd175d2df0a66fc7b69a.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Wakefit",
         "format": "answer_card",
@@ -6451,6 +6554,7 @@
       "screenshot_relpath": "evidence/5536b9a5af6e15521d859784f573d31f6822fafbac83b4eda64a50fa32a87b2b.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Coffee-Sensor.com",
         "format": "answer_card",
@@ -6510,6 +6614,7 @@
       "screenshot_relpath": "evidence/e7abc153953f7ce8737b851558f2c69acd3c19d5ac00f878e2b13fc65605c314.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Build A Gym",
         "format": "product_card",
@@ -6572,6 +6677,7 @@
       "screenshot_relpath": "evidence/13d3a5778c30283a9b0e0a492b0f8a91f567e8ee8686ad0e71116663eea82fd6.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Leela Diamonds",
         "format": "product_card",
@@ -6634,6 +6740,7 @@
       "screenshot_relpath": "evidence/6c58d81e4c05a123687aa95f592f5b7ca66ad980193123d44df50d31b079ec4e.png",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -6693,6 +6800,7 @@
       "screenshot_relpath": "evidence/657f30abcb564e1c19c19b89fa0a8c8fd08b2b66bd3c16dd6df1ac24ce90331c.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Sing Tehus",
         "format": "answer_card",
@@ -6752,6 +6860,7 @@
       "screenshot_relpath": "evidence/6f5e9f6463ca70e1ca81a8c0afdf36e2e94f87f5a74dd314d0e5f7ee0d5948da.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Wikka Potions for Aromatherapy",
         "format": "product_carousel",
@@ -6839,6 +6948,7 @@
       "screenshot_relpath": "evidence/4d3f2632a3d01ece7304a291747214f0d51872138c8a81352a5fa4a69391a029.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Himalaya Neem Facewash",
         "format": "answer_card",
@@ -6898,6 +7008,7 @@
       "screenshot_relpath": "evidence/579d05c67481b313d86664b96d1db9c71d5f4e30b8134a762c31a0d43768d039.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "ixigo",
         "format": "answer_card",
@@ -6962,6 +7073,7 @@
       "screenshot_relpath": "evidence/316da6674ba9d04b22fa6df18e3338e7184e6e337a799222af08ace00d210b98.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Innovist",
         "format": "product_carousel",
@@ -7059,6 +7171,7 @@
       "screenshot_relpath": "evidence/4f919ec3d0af2a9c46c39c7bfe951e7c38fa0527b3583b7dd22590562fdbe737.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_carousel",
@@ -7156,6 +7269,7 @@
       "screenshot_relpath": "evidence/dc7c44048f28133ecd27cef6a10d11b3ac87a8b7b9f90d3c0804241ff3ec3e44.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Hasan Oud",
         "format": "product_carousel",
@@ -7243,6 +7357,7 @@
       "screenshot_relpath": "evidence/72b1cba4a225969ceaf6ea92391f37f048fe03bc4c40da62db469037de9fce5f.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_carousel",
@@ -7340,6 +7455,7 @@
       "screenshot_relpath": "evidence/a0d71b5162325db9dc81a7a803996afb07b7c0667ad63d4fe9e115cba9c061e1.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Lancôme",
         "format": "answer_card",
@@ -7399,6 +7515,7 @@
       "screenshot_relpath": "evidence/730225922089c2de4dc42353f4965c9fb3dd35ebc9b067cbf0337da1bea395a2.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Nexxbase Marketing Pvt. Ltd",
         "format": "answer_card",
@@ -7458,6 +7575,7 @@
       "screenshot_relpath": "evidence/80b5088348fd51576356f345225b043c9c36cd2f7f22d043ecde3403ed9037a8.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "PureFlowTape",
         "format": "answer_card",
@@ -7517,6 +7635,7 @@
       "screenshot_relpath": "evidence/36b8372b2ae873690d8140288c2b75924fa309000e5e13bec8b8a4c9ac7c1145.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Cloud Wellness Private Limited",
         "format": "answer_card",
@@ -7576,6 +7695,7 @@
       "screenshot_relpath": "evidence/134b2d3067caae2936bab049a03bce8c1279a7c39d21a655b848762aa81d9b92.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Innovist",
         "format": "product_carousel",
@@ -7673,6 +7793,7 @@
       "screenshot_relpath": "evidence/cb10cee2adece7fbbc8bbeb68c90b1f359af538408549058ef2a415e1b262f89.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Be Neude",
         "format": "answer_card",
@@ -7732,6 +7853,7 @@
       "screenshot_relpath": "evidence/aeab6b82ae1c73159976b485a606a93433ce5af868e5379d1373c68f3759bc71.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "TwixAir LLC",
         "format": "product_carousel",
@@ -7829,6 +7951,7 @@
       "screenshot_relpath": "evidence/8942a79c899c83bbaebe13c246102d69cd9ce68d13b7331f8641036a9523df3a.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Insurte",
         "format": "answer_card",
@@ -7888,6 +8011,7 @@
       "screenshot_relpath": "evidence/b1d3546af48491ce27c47b0892ed81e0b83a123bf78da9e8155560f0e186cde6.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Insurte",
         "format": "answer_card",
@@ -7947,6 +8071,7 @@
       "screenshot_relpath": "evidence/7c7cc18f6b5af8ee05385e3d50b08818cb24f72121126afe24fee32a92aaeaa6.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Agoda Company Pte. Ltd.",
         "format": "answer_card",
@@ -8006,6 +8131,7 @@
       "screenshot_relpath": "evidence/638dadcfda28ed171ac60337584d42aefcd79d2e2e17c1cbaac2c937e9ca5fca.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Plámenna Boutique®",
         "format": "product_carousel",
@@ -8103,6 +8229,7 @@
       "screenshot_relpath": "evidence/c02b5e3538195c904b6ffd8d76af4d74c7ef8a7bc99807c9cee0c6cb460c28fb.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Guest Reservations",
         "format": "answer_card",
@@ -8162,6 +8289,7 @@
       "screenshot_relpath": "evidence/40aa694a6ae9e47f2836a95ebdc68d0276f00cd569b87f70edf7f70313f94745.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "The Man Company",
         "format": "answer_card",
@@ -8221,6 +8349,7 @@
       "screenshot_relpath": "evidence/8f81972b61f243d27b20412c81e29130531d5b8f661a72f896d180a851154763.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Travelsetu.com",
         "format": "answer_card",
@@ -8280,6 +8409,7 @@
       "screenshot_relpath": "evidence/b7149ca4beb0ad016c477482200ffc1ab8343b35e9ed446460177f56d04180db.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Naisargeek",
         "format": "answer_card",
@@ -8344,6 +8474,7 @@
       "screenshot_relpath": "evidence/9db5249732cbd893d9170ef3c54423fad05e9046e5218f9d6b8fa76be39483d8.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "G8TRIP",
         "format": "answer_card",
@@ -8403,6 +8534,7 @@
       "screenshot_relpath": "evidence/09ccc80761e1a1d2754b1b9fd62e0d99720064cef2da7711100090975edace28.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "G8TRIP",
         "format": "answer_card",
@@ -8462,6 +8594,7 @@
       "screenshot_relpath": "evidence/d96441e52d81579238f364d3511d4fa461650927114453350dcdbf8ab43e1c93.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "ixigo",
         "format": "answer_card",
@@ -8526,6 +8659,7 @@
       "screenshot_relpath": "evidence/7da33736b2ea7925ce311a9a98a5c4b09d67457bdc0eb76634eeacf92a38597e.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Duke & D’Or",
         "format": "answer_card",
@@ -8590,6 +8724,7 @@
       "screenshot_relpath": "evidence/43937e2a1e738156e7ed598871637bca04f192b0f94b2140ae404d4fbae2c5c9.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -8649,6 +8784,7 @@
       "screenshot_relpath": "evidence/74945fb3b30a5fcb29b036c5c63899914ca1f92dcccf0638455af01b28226873.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Yves Saint Laurent",
         "format": "answer_card",
@@ -8708,6 +8844,7 @@
       "screenshot_relpath": "evidence/5770aaa9d06c0c3372840aedbf7d8362033a400d26eb2c6ca04c1fb92a508e44.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Wikka Potions for Aromatherapy",
         "format": "answer_card",
@@ -8767,6 +8904,7 @@
       "screenshot_relpath": "evidence/6114f91b776539108ca6c2752e63263c07a70889fe55577031d004705a5b06f7.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Guest Reservations",
         "format": "answer_card",
@@ -8826,6 +8964,7 @@
       "screenshot_relpath": "evidence/b18c0d1f4ee70c7fe87a0d2c109c2412a37e09cc016f6ff8bd2db7394625d211.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -8872,6 +9011,7 @@
       "screenshot_relpath": "evidence/71cded0ca6de7fdbb7085e797c1ac77d287ffbcba4f958ffb77ef5a7218ea729.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "trivago",
         "format": "answer_card",
@@ -8918,6 +9058,7 @@
       "screenshot_relpath": "evidence/cd5874cac00ca30cfe288b43072ec2db3553a89adabd28b55a86428975209d17.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "The Man Company",
         "format": "answer_card",
@@ -8964,6 +9105,7 @@
       "screenshot_relpath": "evidence/64e55178863ef89d263105dd861cd4d1d7e452e12b572b97ff4fb43b1ecec506.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Vol-Retarde.fr",
         "format": "answer_card",
@@ -9010,6 +9152,7 @@
       "screenshot_relpath": "evidence/388dd948cd7c9e3b935cbdf77c57d615422318d46d333c39108f5cabfee3e461.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Duke & D’Or",
         "format": "answer_card",
@@ -9056,6 +9199,7 @@
       "screenshot_relpath": "evidence/65187216ff8d67550c39d8b0f8fda9e4ef945bc4cfcae058f1ca807008aefeb6.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Insurte",
         "format": "answer_card",
@@ -9102,6 +9246,7 @@
       "screenshot_relpath": "evidence/7a870b4fb2b12bac6ef83af93cfa9b70f9240e5f8b295ce2c21e710576c3d5dc.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "ixigo",
         "format": "answer_card",
@@ -9148,6 +9293,7 @@
       "screenshot_relpath": "evidence/4610d3e1963aad60736f388d9ef0f711cd5236ff636665b2e71aeb460aa7c951.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "The Man Company",
         "format": "answer_card",
@@ -9194,6 +9340,7 @@
       "screenshot_relpath": "evidence/332a18a89de8aacf6ff415b47e87a72d82d5675f49fce1f8e52ec17c79ff1ba1.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "The Man Company",
         "format": "answer_card",
@@ -9240,6 +9387,7 @@
       "screenshot_relpath": "evidence/6e2b6a7c8085e85b6f99e2006e826ff273b4ae08a0d18a48889505c5ee61b0dd.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Nexxbase Marketing Pvt. Ltd",
         "format": "answer_card",
@@ -9286,6 +9434,7 @@
       "screenshot_relpath": "evidence/203c4b026df380960f35e9d9d031ad037927831741e8393268158d5c91d9ee4e.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Evelta Electronics Private Limited",
         "format": "product_carousel",
@@ -9393,6 +9542,7 @@
       "screenshot_relpath": "evidence/4a3661d271ae9a50fa1150ce96ebde4fd77d9fdf05fa70e8ece51f6f4ac01d16.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "House of Vaaree Pvt Ltd",
         "format": "product_carousel",
@@ -9490,6 +9640,7 @@
       "screenshot_relpath": "evidence/b285f6a33700de413dd9d729dd620599a6ebcf841996cfebf49cea19e897cf6b.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "PPCmate",
         "format": "answer_card",
@@ -9536,6 +9687,7 @@
       "screenshot_relpath": "evidence/9a1faa7d702a2355c8830f93bd63738f8732d7ab38e2b7c611bcadd798f0e556.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "CNBYG",
         "format": "answer_card",
@@ -9582,6 +9734,7 @@
       "screenshot_relpath": "evidence/5bbaf41c383431fb1d93cf6dd0cae9058d8eea3d4fa6d30de51d3fd668445169.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "PeekHire",
         "format": "answer_card",
@@ -9628,6 +9781,7 @@
       "screenshot_relpath": "evidence/fd37c16ca86e4041acc35bdd72662441b5bfd453040c2fb4b6f5e950b65db4f5.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Homerun Retail Private Limited",
         "format": "answer_card",
@@ -9691,6 +9845,7 @@
       "screenshot_relpath": "evidence/d634be2512182fa68dc0b21bed3bb0111c82acf8c3d2540814a1b8ca75cf57fb.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "House of Vaaree Pvt Ltd",
         "format": "product_carousel",
@@ -9788,6 +9943,7 @@
       "screenshot_relpath": "evidence/5fcd943c3f2fa7948b47d88515c69f85008b68bdbd5e04e905f717da83948ff1.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Matcha Outlet",
         "format": "answer_card",
@@ -9840,6 +9996,7 @@
       "screenshot_relpath": "evidence/cb5a9bda1282719622d4effbc6122c1d71f6e037765011b19716da4a738f9312.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Carmine",
         "format": "answer_card",
@@ -9886,6 +10043,7 @@
       "screenshot_relpath": "evidence/540e6b33ca08d4b2780f507d19e9ddc87adfc8185abb1bd418c730a0e1dada1f.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "GASPOL",
         "format": "answer_card",
@@ -9932,6 +10090,7 @@
       "screenshot_relpath": "evidence/94d9225a39abe3e0478186033739fe4123b379742a76f9ca3da9ab88ebd22048.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Tally Solutions Private Limited",
         "format": "answer_card",
@@ -9978,6 +10137,7 @@
       "screenshot_relpath": "evidence/49248d683137b6061bfc8d2db96fcc1438c670b67592d1c0b246daff59455003.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Xportel",
         "format": "answer_card",
@@ -10024,6 +10184,7 @@
       "screenshot_relpath": "evidence/e54603e5f827e09c40e0f1939e386e5465acfc20bd44128624b4cf07bdb4c986.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Rootle Voconv Private Limited",
         "format": "answer_card",
@@ -10070,6 +10231,7 @@
       "screenshot_relpath": "evidence/103a1d43c2c0264334cf436e53d257f012368f85e33296cc9f92d9b8a8e8f33b.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Orthotic Shop Inc",
         "format": "product_carousel",
@@ -10167,6 +10329,7 @@
       "screenshot_relpath": "evidence/ab852520c561341cdf1c601d06b6f383e98cc9cafc3cd088d64eeac5fcd26341.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "50Hertz Tingly Foods",
         "format": "answer_card",
@@ -10226,6 +10389,7 @@
       "screenshot_relpath": "evidence/077d9b100f48ad1ec83d1fe78f79f81bb5e3ff82e6a5f7f973a9e0bba34cc888.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Nutrabox",
         "format": "answer_card",
@@ -10285,6 +10449,7 @@
       "screenshot_relpath": "evidence/b50241754b525842da6ff7fa341522746cc617b64fb910993662f352b7c8db30.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Matcha Outlet",
         "format": "answer_card",
@@ -10344,6 +10509,7 @@
       "screenshot_relpath": "evidence/02d7e9e827d3bc0a613190876c9488fd3e595c43b4222c92049cb3f4ced9a4f1.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "THOPPIA",
         "format": "answer_card",
@@ -10408,6 +10574,7 @@
       "screenshot_relpath": "evidence/445c490e857e9c39f2ff65ec419e1da651f5f070b9536edf3556f0358ca24f75.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Merlin AI",
         "format": "answer_card",
@@ -10467,6 +10634,7 @@
       "screenshot_relpath": "evidence/567bad1edebd347771d0843376d12bb98abaf4b85a191ae77ac8b1c3c42d1e07.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "MomentScience",
         "format": "answer_card",
@@ -10531,6 +10699,7 @@
       "screenshot_relpath": "evidence/5a4de108071138ed34c17a32bc13658ed91ad965d85faa6f238d91f86c07d92d.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Homerun Retail Private Limited",
         "format": "answer_card",
@@ -10590,6 +10759,7 @@
       "screenshot_relpath": "evidence/e952dd03c205ba631af4f17edfb44aa80b80cf028b76f749b653bd338a01bafe.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Zivore Apparel Private Limited",
         "format": "answer_card",
@@ -10649,6 +10819,7 @@
       "screenshot_relpath": "evidence/7b59f115be8281dba6995461648dd36d2b407d129fde8a713dac4093d5616061.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Shubh Gems",
         "format": "answer_card",
@@ -10708,6 +10879,7 @@
       "screenshot_relpath": "evidence/ed3538b300ca077fafd4af0d74666409bc7b5af84304e0f1ec38d1b00b6eda17.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Soultheory",
         "format": "answer_card",
@@ -10767,6 +10939,7 @@
       "screenshot_relpath": "evidence/fc8a8f8785097be7d8b6d5c231c66a0e0c2a94e176e6d3f09099d4635e826456.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -10826,6 +10999,7 @@
       "screenshot_relpath": "evidence/d786e6f9924103af40869848a9894d9447e6c4dd158d8c9c779963a0fafa920d.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -10885,6 +11059,7 @@
       "screenshot_relpath": "evidence/32e618cd77732c34a90c9410a5822d9aa75222c46a7dc594d7750459370ae8f3.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -10944,6 +11119,7 @@
       "screenshot_relpath": "evidence/eeec4e7474d25b56433a5181eabe4bb155547969f48f5e954bb53038f5fd49da.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Guest Reservations",
         "format": "answer_card",
@@ -11003,6 +11179,7 @@
       "screenshot_relpath": "evidence/94a21f802bd6a149c6ef4205a4e9aac2c511ab9eae628c7002ca3ebb93bb9bb6.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "MomentScience",
         "format": "answer_card",
@@ -11062,6 +11239,7 @@
       "screenshot_relpath": "evidence/c6b5750cbb06679f0099f8abe7452b928bc8f28996a1a084bcc8dfe4a370235a.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Didva",
         "format": "answer_card",
@@ -11121,6 +11299,7 @@
       "screenshot_relpath": "evidence/ab2b6f8977c837d3e23d47a64cff8bab3e531e8b509eb2b85650ed3f0a2ab853.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "PK Grills",
         "format": "answer_card",
@@ -11180,6 +11359,7 @@
       "screenshot_relpath": "evidence/46d8bb40fbdddf79e78e12a59d96525878095ef7feebdc00c8854ec3b1b80e21.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Zenni Optical",
         "format": "answer_card",
@@ -11239,6 +11419,7 @@
       "screenshot_relpath": "evidence/71c7a58bf9cf512d7f01fa592bf54848d8051c0ec3070a1ad77fb108e2fe5350.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Cilicant",
         "format": "answer_card",
@@ -11298,6 +11479,7 @@
       "screenshot_relpath": "evidence/8c8939650b003bf3761e5e5a7451aacca34615ad736b280777517df655aac2b8.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "abhibus",
         "format": "answer_card",
@@ -11357,6 +11539,7 @@
       "screenshot_relpath": "evidence/0dbfa684fd72d6a75af7bd5bd3853fd50f7f01dde2788587074d0515963b2843.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Orchestra Ads",
         "format": "answer_card",
@@ -11403,6 +11586,7 @@
       "screenshot_relpath": "evidence/f509ec7df573c2a32732e88ca899011b465447b6d4ae46ebaf9b26ec5671540b.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Crystal Blockchain B.V.",
         "format": "answer_card",
@@ -11449,6 +11633,7 @@
       "screenshot_relpath": "evidence/d61ee41bab9825bb60729243fe30dc26bc9a991c7d8abc1ff42c198edc9c02e5.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HTS",
         "format": "answer_card",
@@ -11513,6 +11698,7 @@
       "screenshot_relpath": "evidence/5947a2927e7ee725f15dec6e542b830a63cae1cb728f6ba0cf015f6b40dd0126.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "SerpApi, LLC",
         "format": "answer_card",
@@ -11577,6 +11763,7 @@
       "screenshot_relpath": "evidence/15e1c644927b47ba834925fad2b1d846f35392e738343f36f224e78c6033db38.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "ControlCase",
         "format": "answer_card",
@@ -11641,6 +11828,7 @@
       "screenshot_relpath": "evidence/dcbee8173c4bad404d96603ee63ac7959c35f99453f493e6f6d8ac4aa62c5f29.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Amity University Online",
         "format": "answer_card",
@@ -11705,6 +11893,7 @@
       "screenshot_relpath": "evidence/2c9711c6eb973e7f2f7e4db1150059c07107e6b6e06ed0805a7dd1c8a196d462.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Homerun Retail Private Limited",
         "format": "answer_card",
@@ -11769,6 +11958,7 @@
       "screenshot_relpath": "evidence/3954bf453c226e8b1f029052c740b40c1acc0cc2961fa57438baa59228183965.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Duke & D’Or",
         "format": "answer_card",
@@ -11834,6 +12024,7 @@
       "screenshot_relpath": "evidence/a01c67f3b513a04a32e3860cf198f9336f0fb66beac89de3d8d5d12595132b1e.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Zoho Corporation",
         "format": "answer_card",
@@ -11905,6 +12096,7 @@
       "screenshot_relpath": "evidence/6f98c7abde74e4588925c125d5f29320c1e667d141335ce85a316bc3cbbc76de.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Leeford Ortho",
         "format": "answer_card",
@@ -11970,6 +12162,7 @@
       "screenshot_relpath": "evidence/36159b24bc6d1b636fc02a075a13b0f24dbb160b5829c329737842a6cfcb4a4d.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "OfficeKit HR",
         "format": "answer_card",
@@ -12035,6 +12228,7 @@
       "screenshot_relpath": "evidence/ca8658f0ef91f6bd99405339cdad6a8a9d5f0d34e2448f3ebc78ee6c20f11005.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "UB Media LLC",
         "format": "answer_card",
@@ -12100,6 +12294,7 @@
       "screenshot_relpath": "evidence/5f778e27c4d146a0577e93d29105ef52235960e90d9745c992ce909ec8b1d199.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "GLOWBARESKIN LUXE PRIVATE LIMITED",
         "format": "answer_card",
@@ -12165,6 +12360,7 @@
       "screenshot_relpath": "evidence/19832d093192c122cb60ffc5001415f4f774067b942119f58d125373f58c8fad.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "HyugaLife: India's Health & Supplement Store",
         "format": "answer_card",
@@ -12230,6 +12426,7 @@
       "screenshot_relpath": "evidence/1f0f47e0b1cfc29fcf9df13ba014aba44ec73f2f7447bb8ce537f56a5dcb25f7.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Vinchin",
         "format": "answer_card",
@@ -12295,6 +12492,7 @@
       "screenshot_relpath": "evidence/d885c9c84c06cc14b89854f39f404855a7d3deee0963f19ee3316b5e4701fbdb.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Vetlyf",
         "format": "answer_card",
@@ -12360,6 +12558,7 @@
       "screenshot_relpath": "evidence/3b8323acf977d3b22c9f569a77a7315a6f6a8bcbf55353c1f77e81a08636f8aa.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Online Manipal",
         "format": "answer_card",
@@ -12425,6 +12624,7 @@
       "screenshot_relpath": "evidence/80c57fa9cb9fe9bd97717b055111da47e67c7dbcda1fefe06eee1291d790c3a2.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "CallHippo",
         "format": "answer_card",
@@ -12495,6 +12695,7 @@
       "screenshot_relpath": "evidence/60347fed6e4ac82263e85e44f312408f551f9a252d36830cc72aa62973d8e50b.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Orthotic Shop Inc",
         "format": "product_card",
@@ -12557,6 +12758,7 @@
       "screenshot_relpath": "evidence/9bb349af0dd873effa07cf210445ec6dd75762480dd4eee4a21c061c02de0ba7.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Orthotic Shop Inc",
         "format": "product_carousel",
@@ -12659,6 +12861,7 @@
       "screenshot_relpath": "evidence/a2bf1725481fc682e0180cd61a38203fcb5bd92d8e530b9163abbac3ffa8e410.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "ixigo",
         "format": "answer_card",
@@ -12710,6 +12913,7 @@
       "screenshot_relpath": "evidence/931d75c8021ebf6928bc976a8dfbd02253b107653a446812ab5e4c2cef11913d.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Flippr",
         "format": "answer_card",
@@ -12761,6 +12965,7 @@
       "screenshot_relpath": "evidence/ef05b16a2d9ec537dd82093b925a9eecf15d450585dcc279ea2e0531481e75b9.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "CallHippo",
         "format": "answer_card",
@@ -12812,6 +13017,7 @@
       "screenshot_relpath": "evidence/05fc3f434609a27ea103a57b2d2947854080271c90ed7c412088048d414b2017.jpg",
       "evidence_design": "reviewed_positive_only",
       "rate_eligible": false,
+      "review_method": "human_visual",
       "creative": {
         "advertiser": "Bluehost",
         "format": "answer_card",
