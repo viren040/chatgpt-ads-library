@@ -1,4 +1,58 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+44af2c6999b5f34340a4933b,dc0840e41a22a36523719edf,2026-09-22T22:41:57.117Z,Agoda Company Pte. Ltd.,Ad,answer_card,Looking for Hotel Deals?,Check updated prices and explore active promotions.,Travel and leisure,Weekend resorts,complete_panel,True,I am comparing weekend resort packages near Hyderabad for two adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.3
+Mrugavani Resort & Spa
+4.3
+Brown Town Resort, Spa & Convention
+4.3
+The Golkonda Resorts & Spa
+Expand
+Use two fingers to move the map
+Mrugavani Resort & Spa
+4.3
+•
+Resort hotel
+Brown Town Resort, Spa & Convention
+4.3
+•
+Resort hotel
+$47
+The Golkonda Resorts & Spa
+4.3
+•
+Resort hotel
+$130
+Give feedback
+
+For a 2-adult weekend, these are three currently listed options around Hyderabad. Prices are indicative for 1 night and can change by date. 
+Thrillophilia
++1
+
+Resort	Current listed price	What’s included / limitation	Switching difficulty
+Mrugavani Resort & Spa	~₹4,399/night	Stay package; meals/activities depend on package	Low
+Brown Town Resort, Spa & Convention	~₹5,299/night	Stay; spa/food may be extra	Low
+The Golkonda Resorts & Spa	~₹8,599/night	Stay package; weekend all-meals offer available, alcohol excluded	Medium
+
+Thrillophilia currently lists these 2D/1N package prices, while Golkonda's own site confirms its weekend package and direct-booking offers. 
+Thrillophilia
++1
+
+Practical switching: Mrugavani ↔ Brown Town is relatively easy because both are similar-priced resort stays. Moving to Golkonda increases the budget materially and may involve stricter package conditions. For two adults, compare the final checkout total, meals, cancellation terms and taxes, not just headline room price.",82d40fe1ae3cc1168dd8f8ce,evidence/19164c6df73d1f14031df42ebafca04f7069e087bc6e2f0e143715d14fb73e68.png,19164c6df73d1f14031df42ebafca04f7069e087bc6e2f0e143715d14fb73e68
+a7c59d83d781ac34f7a02e32,47d36c49ee089a66a0a7c0b6,2026-09-22T22:40:54.884Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,"Airport Travel, Thought Through","Professional chauffeurs, prepared cars and considered service for your airport journey.",Travel and leisure,Intercity buses,complete_panel,True,"I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, current fares vary by date, bus type and boarding point. The route has 338 daily services across 79 operators. 
+redBus
+
+Option	Current fare	Reliability / limits	Purchase terms
+KSRTC Airavat Club Class	₹703+	Govt operator; ~7h29m	Multiple daily departures; seats currently shown available. 
+AbhiBus
+
+IntrCity SmartBus	₹723+	AC/private; ~6h55m; fewer departures	Current offers include up to ₹300 off on eligible Karnataka/TN routes. 
+redBus
+
+redBus marketplace	₹313+	338 buses; quality varies by operator	Seat selection, live tracking; FlexiTicket can allow free date changes up to 8h before departure. 
+redBus
+
+Practical difference: KSRTC gives a direct government-operated option; IntrCity is a specific private service; redBus gives the widest choice and lowest advertised starting fare, but you must assess the individual operator.
+
+Fares are “from” prices and can change at checkout.",fc506e054764ee09231b49db,evidence/384d99d28e853336f5f680161c5b587d6db88cada70eb41d1e0600bcc1aab567.png,384d99d28e853336f5f680161c5b587d6db88cada70eb41d1e0600bcc1aab567
 c36030075211db9c98203f51,032909b12ec7f1a4be31c682,2026-09-22T22:38:33.929Z,Hero MotoCorp,Ad,answer_card,Hero Destini,Hero Destini scooter with 56.2 kmpl mileage,Travel and leisure,Intercity buses,complete_panel,True,I am comparing intercity bus booking options between Bengaluru and Chennai. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For Bengaluru → Chennai, switching between the main booking options is fairly easy because the route has heavy coverage.
 
 Provider/product	Current fare*	Switching difficulty	Best fit

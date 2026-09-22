@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-22T22:43:03Z",
+  "generated_at": "2026-09-22T22:44:10Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 288,
-    "approved_paid_units": 157,
+    "valid_turns": 291,
+    "approved_paid_units": 159,
     "approved_advertisers": 88,
-    "approved_creatives": 145,
-    "complete_panel_paid_units": 44,
+    "approved_creatives": 146,
+    "complete_panel_paid_units": 46,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -34,6 +34,17 @@
       "categories": "Travel and leisure,Vacation rentals"
     },
     {
+      "id": "a222e2ba55abec4f9b12de68",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "placements": 7,
+      "creatives": 6,
+      "panel_placements": 5,
+      "reviewed_snapshot_placements": 2,
+      "first_seen": "2026-09-21T06:24:21.524Z",
+      "last_seen": "2026-09-22T22:41:57.117Z",
+      "categories": "Commercial discovery,Travel and leisure,Vacation rentals,Weekend resorts"
+    },
+    {
       "id": "ca82b10559cc43464054b038",
       "advertiser": "HSBC - Credit Cards",
       "placements": 7,
@@ -45,15 +56,15 @@
       "categories": "Vacation rentals,Corporate travel"
     },
     {
-      "id": "a222e2ba55abec4f9b12de68",
-      "advertiser": "Agoda Company Pte. Ltd.",
+      "id": "d11acd0c3697436b74d704d0",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
       "placements": 6,
-      "creatives": 5,
-      "panel_placements": 4,
-      "reviewed_snapshot_placements": 2,
-      "first_seen": "2026-09-21T06:24:21.524Z",
-      "last_seen": "2026-09-22T21:40:08.637Z",
-      "categories": "Commercial discovery,Travel and leisure,Vacation rentals"
+      "creatives": 3,
+      "panel_placements": 6,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:03:28.123Z",
+      "last_seen": "2026-09-22T22:40:54.884Z",
+      "categories": "Vacation rentals,Intercity buses"
     },
     {
       "id": "2e81afd45de21f0c44616576",
@@ -76,17 +87,6 @@
       "first_seen": "2026-09-19T11:52:46.933Z",
       "last_seen": "2026-09-22T21:19:37.930Z",
       "categories": "Beauty and personal care,Rose perfume"
-    },
-    {
-      "id": "d11acd0c3697436b74d704d0",
-      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 5,
-      "creatives": 3,
-      "panel_placements": 5,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T22:22:51.460Z",
-      "categories": "Vacation rentals,Intercity buses"
     },
     {
       "id": "83d40ecd26a8ce9b174a1d9e",
@@ -983,12 +983,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 288,
-    "ad_turns": 44,
-    "ad_rate": 0.1527777777777778,
-    "ad_rate_low": 0.11581879661670089,
-    "ad_rate_high": 0.19887794298450753,
-    "paid_units": 44,
+    "turns": 291,
+    "ad_turns": 46,
+    "ad_rate": 0.15807560137457044,
+    "ad_rate_low": 0.12065111448873028,
+    "ad_rate_high": 0.20441020657315517,
+    "paid_units": 46,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1008,16 +1008,16 @@
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 13,
-        "ad_turns": 9,
-        "paid_units": 9,
+        "turns": 15,
+        "ad_turns": 10,
+        "paid_units": 10,
         "advertisers": 4,
         "creatives": 6,
-        "ad_rate": 0.6923076923076923,
-        "posterior_ad_rate": 0.5882352941176471,
-        "competition_score": 1.5205661768947978,
-        "ad_rate_low": 0.4236888781333764,
-        "ad_rate_high": 0.8731950283838191,
+        "ad_rate": 0.6666666666666666,
+        "posterior_ad_rate": 0.5789473684210527,
+        "competition_score": 1.4965572372596168,
+        "ad_rate_low": 0.41713125151212976,
+        "ad_rate_high": 0.8482389930530876,
         "evidence_strength": "directional"
       },
       {
@@ -1649,21 +1649,36 @@
         "ad_rate_low": 0.20654329147389294,
         "ad_rate_high": 1,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Weekend resorts",
+        "industry": "Travel and leisure",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 95,
-        "ad_turns": 16,
-        "paid_units": 16,
+        "turns": 97,
+        "ad_turns": 18,
+        "paid_units": 18,
         "advertisers": 11,
-        "ad_rate": 0.16842105263157894,
-        "posterior_ad_rate": 0.1717171717171717,
-        "competition_score": 0.6354290425090764,
-        "ad_rate_low": 0.1064116433136824,
-        "ad_rate_high": 0.2562049068028677,
+        "ad_rate": 0.18556701030927836,
+        "posterior_ad_rate": 0.18811881188118812,
+        "competition_score": 0.6961223232146609,
+        "ad_rate_low": 0.12072806645374706,
+        "ad_rate_high": 0.27436284840678665,
         "evidence_strength": "established"
       },
       {
@@ -1711,15 +1726,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 60,
+        "turns": 61,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.08333333333333333,
-        "posterior_ad_rate": 0.09375,
-        "competition_score": 0.2631895239429004,
-        "ad_rate_low": 0.03611992405048589,
-        "ad_rate_high": 0.18069168468112481,
+        "ad_rate": 0.08196721311475409,
+        "posterior_ad_rate": 0.09230769230769231,
+        "competition_score": 0.25914045434377886,
+        "ad_rate_low": 0.035519042911066306,
+        "ad_rate_high": 0.177948854241379,
         "evidence_strength": "established"
       },
       {
@@ -1753,6 +1768,112 @@
     ]
   },
   "ads": [
+    {
+      "id": "44af2c6999b5f34340a4933b",
+      "turn_id": "dc0840e41a22a36523719edf",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "advertiser_key": "a222e2ba55abec4f9b12de68",
+      "creative_id": "82d40fe1ae3cc1168dd8f8ce",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Looking for Hotel Deals?",
+      "description": "Check updated prices and explore active promotions.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-answer Ad disclosure, Agoda advertiser, and Looking for Hotel Deals creative.",
+      "reviewed_at": 1790117049.9521239,
+      "captured_at": "2026-09-22T22:41:57.117Z",
+      "prompt": "I am comparing weekend resort packages near Hyderabad for two adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.3\nMrugavani Resort & Spa\n4.3\nBrown Town Resort, Spa & Convention\n4.3\nThe Golkonda Resorts & Spa\nExpand\nUse two fingers to move the map\nMrugavani Resort & Spa\n4.3\n•\nResort hotel\nBrown Town Resort, Spa & Convention\n4.3\n•\nResort hotel\n$47\nThe Golkonda Resorts & Spa\n4.3\n•\nResort hotel\n$130\nGive feedback\n\nFor a 2-adult weekend, these are three currently listed options around Hyderabad. Prices are indicative for 1 night and can change by date. \nThrillophilia\n+1\n\nResort\tCurrent listed price\tWhat’s included / limitation\tSwitching difficulty\nMrugavani Resort & Spa\t~₹4,399/night\tStay package; meals/activities depend on package\tLow\nBrown Town Resort, Spa & Convention\t~₹5,299/night\tStay; spa/food may be extra\tLow\nThe Golkonda Resorts & Spa\t~₹8,599/night\tStay package; weekend all-meals offer available, alcohol excluded\tMedium\n\nThrillophilia currently lists these 2D/1N package prices, while Golkonda's own site confirms its weekend package and direct-booking offers. \nThrillophilia\n+1\n\nPractical switching: Mrugavani ↔ Brown Town is relatively easy because both are similar-priced resort stays. Moving to Golkonda increases the budget materially and may involve stricter package conditions. For two adults, compare the final checkout total, meals, cancellation terms and taxes, not just headline room price.",
+      "industry": "Travel and leisure",
+      "category": "Weekend resorts",
+      "screenshot_sha256": "19164c6df73d1f14031df42ebafca04f7069e087bc6e2f0e143715d14fb73e68",
+      "screenshot_relpath": "evidence/19164c6df73d1f14031df42ebafca04f7069e087bc6e2f0e143715d14fb73e68.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "Agoda Company Pte. Ltd.",
+        "format": "answer_card",
+        "headline": "Looking for Hotel Deals?",
+        "description": "Check updated prices and explore active promotions.",
+        "copy": [
+          "Agoda Company Pte. Ltd.",
+          "Looking for Hotel Deals?",
+          "Check updated prices and explore active promotions."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/7090f8dc5c6d5fa4b6127ae2d7c45349.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Agoda Company Pte. Ltd.",
+              "Looking for Hotel Deals?",
+              "Check updated prices and explore active promotions."
+            ],
+            "text": "Agoda Company Pte. Ltd.\n\nLooking for Hotel Deals?\n\nCheck updated prices and explore active promotions.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/7090f8dc5c6d5fa4b6127ae2d7c45349.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "a7c59d83d781ac34f7a02e32",
+      "turn_id": "47d36c49ee089a66a0a7c0b6",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "fc506e054764ee09231b49db",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Airport Travel, Thought Through",
+      "description": "Professional chauffeurs, prepared cars and considered service for your airport journey.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current paid-card Ad disclosure, DRIVEU advertiser, and Airport Travel, Thought Through creative.",
+      "reviewed_at": 1790117050.007933,
+      "captured_at": "2026-09-22T22:40:54.884Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For Bengaluru → Chennai, current fares vary by date, bus type and boarding point. The route has 338 daily services across 79 operators. \nredBus\n\nOption\tCurrent fare\tReliability / limits\tPurchase terms\nKSRTC Airavat Club Class\t₹703+\tGovt operator; ~7h29m\tMultiple daily departures; seats currently shown available. \nAbhiBus\n\nIntrCity SmartBus\t₹723+\tAC/private; ~6h55m; fewer departures\tCurrent offers include up to ₹300 off on eligible Karnataka/TN routes. \nredBus\n\nredBus marketplace\t₹313+\t338 buses; quality varies by operator\tSeat selection, live tracking; FlexiTicket can allow free date changes up to 8h before departure. \nredBus\n\nPractical difference: KSRTC gives a direct government-operated option; IntrCity is a specific private service; redBus gives the widest choice and lowest advertised starting fare, but you must assess the individual operator.\n\nFares are “from” prices and can change at checkout.",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "screenshot_sha256": "384d99d28e853336f5f680161c5b587d6db88cada70eb41d1e0600bcc1aab567",
+      "screenshot_relpath": "evidence/384d99d28e853336f5f680161c5b587d6db88cada70eb41d1e0600bcc1aab567.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Airport Travel, Thought Through",
+        "description": "Professional chauffeurs, prepared cars and considered service for your airport journey.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Airport Travel, Thought Through",
+          "Professional chauffeurs, prepared cars and considered service for your airport journey."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Airport Travel, Thought Through",
+              "Professional chauffeurs, prepared cars and considered service for your airport journey."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nAirport Travel, Thought Through\n\nProfessional chauffeurs, prepared cars and considered service for your airport journey.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "c36030075211db9c98203f51",
       "turn_id": "032909b12ec7f1a4be31c682",
