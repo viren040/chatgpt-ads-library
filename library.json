@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:45:24Z",
+  "generated_at": "2026-09-22T20:53:55Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "imports": 47,
-    "valid_turns": 216,
-    "detected_paid_units": 125,
-    "approved_paid_units": 124,
-    "approved_advertisers": 78,
-    "approved_creatives": 120,
+    "imports": 53,
+    "valid_turns": 230,
+    "detected_paid_units": 126,
+    "approved_paid_units": 125,
+    "approved_advertisers": 79,
+    "approved_creatives": 121,
     "pending_review": 0
   },
   "advertisers": [
@@ -227,6 +227,15 @@
       "first_seen": "2026-09-11T20:31:20.035Z",
       "last_seen": "2026-09-11T20:31:20.035Z",
       "categories": "Web hosting"
+    },
+    {
+      "id": "a140d569e9ed591e48737bee",
+      "advertiser": "Botanical Beauty Cosmetics Pvt Ltd",
+      "placements": 1,
+      "creatives": 1,
+      "first_seen": "2026-09-22T20:49:01.124Z",
+      "last_seen": "2026-09-22T20:49:01.124Z",
+      "categories": "Citrus perfume"
     },
     {
       "id": "529a91e18fddd203556fa6b8",
@@ -718,10 +727,22 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 103,
-    "ad_turns": 11,
-    "ad_rate": 0.10679611650485436,
+    "turns": 117,
+    "ad_turns": 12,
+    "ad_rate": 0.10256410256410256,
     "categories": [
+      {
+        "category": "Scented candles",
+        "industry": "Beauty and personal care",
+        "turns": 8,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.08333333333333333,
+        "competition_score": 0.08333333333333333
+      },
       {
         "category": "Perfume gift sets",
         "industry": "Beauty and personal care",
@@ -733,6 +754,30 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.09090909090909091,
         "competition_score": 0.09090909090909091
+      },
+      {
+        "category": "Unisex fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 7,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.09090909090909091,
+        "competition_score": 0.09090909090909091
+      },
+      {
+        "category": "Citrus perfume",
+        "industry": "Beauty and personal care",
+        "turns": 6,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.3,
+        "competition_score": 0.6
       },
       {
         "category": "Domestic flights",
@@ -771,18 +816,6 @@
         "competition_score": 0.792481250360578
       },
       {
-        "category": "Citrus perfume",
-        "industry": "Beauty and personal care",
-        "turns": 5,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.2,
-        "posterior_ad_rate": 0.2222222222222222,
-        "competition_score": 0.3522138890491458
-      },
-      {
         "category": "Car fragrance",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -796,6 +829,18 @@
       },
       {
         "category": "International eSIM",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
+        "category": "International flights",
         "industry": "Travel and leisure",
         "turns": 4,
         "ad_turns": 0,
@@ -879,18 +924,6 @@
         "competition_score": 0.125
       },
       {
-        "category": "Scented candles",
-        "industry": "Beauty and personal care",
-        "turns": 4,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.125,
-        "competition_score": 0.125
-      },
-      {
         "category": "Summer fragrance",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -939,16 +972,16 @@
         "competition_score": 0.75
       },
       {
-        "category": "International flights",
-        "industry": "Travel and leisure",
-        "turns": 3,
+        "category": "Vanilla perfume",
+        "industry": "Beauty and personal care",
+        "turns": 4,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "creatives": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
       },
       {
         "category": "Sensitive-skin fragrance",
@@ -965,18 +998,6 @@
       {
         "category": "Train booking",
         "industry": "Travel and leisure",
-        "turns": 3,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285
-      },
-      {
-        "category": "Unisex fragrance",
-        "industry": "Beauty and personal care",
         "turns": 3,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1011,16 +1032,16 @@
         "competition_score": 0.5283208335737186
       },
       {
-        "category": "Vanilla perfume",
-        "industry": "Beauty and personal care",
-        "turns": 2,
+        "category": "Airport lounge access",
+        "industry": "Travel and leisure",
+        "turns": 1,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "creatives": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2
       },
       {
         "category": "Body mists",
@@ -1045,30 +1066,42 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.2,
         "competition_score": 0.2
+      },
+      {
+        "category": "Travel luggage",
+        "industry": "Travel and leisure",
+        "turns": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 33,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 1,
-        "ad_rate": 0.06060606060606061,
-        "posterior_ad_rate": 0.08108108108108109,
-        "competition_score": 0.12851047303144508
+        "turns": 38,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 2,
+        "ad_rate": 0.07894736842105263,
+        "posterior_ad_rate": 0.09523809523809523,
+        "competition_score": 0.19047619047619047
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 30,
+        "turns": 32,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 4,
-        "ad_rate": 0.2,
-        "posterior_ad_rate": 0.20588235294117646,
-        "competition_score": 0.5321981619131791
+        "ad_rate": 0.1875,
+        "posterior_ad_rate": 0.19444444444444445,
+        "competition_score": 0.502631597362447
       },
       {
         "turn_index": 3,
@@ -1084,28 +1117,81 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 22,
+        "turns": 25,
         "ad_turns": 1,
         "paid_units": 1,
         "advertisers": 1,
-        "ad_rate": 0.045454545454545456,
-        "posterior_ad_rate": 0.07692307692307693,
-        "competition_score": 0.12192019236316586
+        "ad_rate": 0.04,
+        "posterior_ad_rate": 0.06896551724137931,
+        "competition_score": 0.10930775867042455
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 16,
+        "turns": 20,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.05,
-        "competition_score": 0.05
+        "posterior_ad_rate": 0.041666666666666664,
+        "competition_score": 0.041666666666666664
       }
     ]
   },
   "ads": [
+    {
+      "id": "a9f1af2ebe3fc3bdb9d2c87e",
+      "turn_id": "0cf36b67c100c45a52450c95",
+      "advertiser": "Botanical Beauty Cosmetics Pvt Ltd",
+      "advertiser_key": "a140d569e9ed591e48737bee",
+      "creative_id": "e33debb60a919ad0eb2c1a7e",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Moringa Detox Wash for Daily, Clear Skin",
+      "description": "100% botanical face wash for fresh, glowing skin. Suitable for all skin types. Try it today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually reviewed: screenshot shows Botanical Beauty Cosmetics Pvt Ltd, the Moringa Detox Wash creative, and an explicit Ad disclosure.",
+      "reviewed_at": 1790110435.775062,
+      "captured_at": "2026-09-22T20:49:01.124Z",
+      "prompt": "I am comparing a fresh citrus fragrance for office and daytime use under ₹5,000. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a fresh citrus office/daytime scent under ₹5,000, these are the three most practical current options:\n\nFragrance\tCurrent price\tSwitching difficulty\tBest fit\nMarks & Spencer Fresh Mandarin\t₹1,499\tLow\tEasy, clean daytime wear\nAjmal Silver Shade\t~₹1,100\tLow\tCitrus + woody, stronger value\nFragrance World Fresh As Citrus\t₹1,899\tMedium\tMore overtly citrus-focused\n\nM&S Fresh Mandarin is the easiest transition if you want something uncomplicated for office use. Ajmal Silver Shade adds more woody/musky character while remaining inexpensive; current listings show ₹1,100. \nNykaa\n+1\n Fresh As Citrus is the more citrus-forward option, but switching may require more adjustment if you prefer subtle office scents.\n\nAll three leave substantial budget headroom versus ₹5,000.",
+      "industry": "Beauty and personal care",
+      "category": "Citrus perfume",
+      "conversation_url": "https://chatgpt.com/c/6ab2e967-d654-83e8-9fb8-56c2dc947a2d",
+      "screenshot_sha256": "218737f2cc27e842f8be03935e14ec4cfa23d45eac1bf501a2f183488a57776f",
+      "screenshot_relpath": "evidence/218737f2cc27e842f8be03935e14ec4cfa23d45eac1bf501a2f183488a57776f.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "Botanical Beauty Cosmetics Pvt Ltd",
+        "format": "answer_card",
+        "headline": "Moringa Detox Wash for Daily, Clear Skin",
+        "description": "100% botanical face wash for fresh, glowing skin. Suitable for all skin types. Try it today.",
+        "copy": [
+          "Botanical Beauty Cosmetics Pvt Ltd",
+          "Moringa Detox Wash for Daily, Clear Skin",
+          "100% botanical face wash for fresh, glowing skin. Suitable for all skin types. Try it today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/fc01fd99a8e3733f.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Botanical Beauty Cosmetics Pvt Ltd",
+              "Moringa Detox Wash for Daily, Clear Skin",
+              "100% botanical face wash for fresh, glowing skin. Suitable for all skin types. Try it today."
+            ],
+            "text": "Botanical Beauty Cosmetics Pvt Ltd\n\nMoringa Detox Wash for Daily, Clear Skin\n\n100% botanical face wash for fresh, glowing skin. Suitable for all skin types. Try it today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/fc01fd99a8e3733f.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "f077f3727078e35f5f52e43c",
       "turn_id": "5c9ead142e4cc3847309eb24",
