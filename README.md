@@ -30,6 +30,7 @@ The standalone interface supports:
 - placement-level and creative-level views;
 - reviewed screenshots and evidence context; and
 - category ad-appearance and competition metrics from complete experiment panels.
+- ad-appearance rates by seed, zero-rescue, and ad-deepening conversation stages.
 
 Denominator-based rates exclude the historical positive-only migration so older ads cannot inflate
 category appearance rates.

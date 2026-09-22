@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:17:55Z",
+  "generated_at": "2026-09-22T20:22:00Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "imports": 27,
-    "valid_turns": 175,
+    "imports": 30,
+    "valid_turns": 180,
     "detected_paid_units": 122,
     "approved_paid_units": 121,
     "approved_advertisers": 77,
@@ -709,9 +709,9 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 62,
+    "turns": 67,
     "ad_turns": 8,
-    "ad_rate": 0.12903225806451613,
+    "ad_rate": 0.11940298507462686,
     "categories": [
       {
         "category": "Domestic flights",
@@ -750,7 +750,31 @@
         "competition_score": 0.792481250360578
       },
       {
+        "category": "Perfume gift sets",
+        "industry": "Beauty and personal care",
+        "turns": 5,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.1111111111111111,
+        "competition_score": 0.1111111111111111
+      },
+      {
         "category": "International eSIM",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125
+      },
+      {
+        "category": "Luxury resorts",
         "industry": "Travel and leisure",
         "turns": 4,
         "ad_turns": 0,
@@ -834,18 +858,6 @@
         "competition_score": 0.125
       },
       {
-        "category": "Luxury resorts",
-        "industry": "Travel and leisure",
-        "turns": 3,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285
-      },
-      {
         "category": "Train booking",
         "industry": "Travel and leisure",
         "turns": 3,
@@ -868,18 +880,6 @@
         "ad_rate": 0.0,
         "posterior_ad_rate": 0.14285714285714285,
         "competition_score": 0.14285714285714285
-      },
-      {
-        "category": "Perfume gift sets",
-        "industry": "Beauty and personal care",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666
       },
       {
         "category": "Vacation rentals",
@@ -906,6 +906,18 @@
         "competition_score": 0.6339850002884625
       },
       {
+        "category": "Car fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2
+      },
+      {
         "category": "Car rentals",
         "industry": "Travel and leisure",
         "turns": 1,
@@ -928,6 +940,63 @@
         "ad_rate": 1.0,
         "posterior_ad_rate": 0.4,
         "competition_score": 0.6339850002884625
+      }
+    ],
+    "stages": [
+      {
+        "turn_index": 1,
+        "branch": "seed",
+        "turns": 23,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 1,
+        "ad_rate": 0.08695652173913043,
+        "posterior_ad_rate": 0.1111111111111111,
+        "competition_score": 0.1761069445245729
+      },
+      {
+        "turn_index": 2,
+        "branch": "zero_rescue",
+        "turns": 18,
+        "ad_turns": 4,
+        "paid_units": 4,
+        "advertisers": 3,
+        "ad_rate": 0.2222222222222222,
+        "posterior_ad_rate": 0.22727272727272727,
+        "competition_score": 0.5277109306562187
+      },
+      {
+        "turn_index": 3,
+        "branch": "ad_deepen",
+        "turns": 2,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.5,
+        "competition_score": 0.792481250360578
+      },
+      {
+        "turn_index": 3,
+        "branch": "zero_rescue",
+        "turns": 13,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.058823529411764705,
+        "competition_score": 0.058823529411764705
+      },
+      {
+        "turn_index": 4,
+        "branch": "zero_rescue",
+        "turns": 11,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.06666666666666667,
+        "competition_score": 0.06666666666666667
       }
     ]
   },
