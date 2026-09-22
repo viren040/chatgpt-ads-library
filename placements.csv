@@ -1,4 +1,38 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+24cd48a7f5afd31cac0ea55a,8da9e56bac793479d068655b,2026-09-22T22:08:11.218Z,HSBC - Credit Cards,Ad,answer_card,HSBC Taj Credit Card,"Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",Travel and leisure,Vacation rentals,"Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.","Here’s a more purchase-ready shortlist. Prices are current listing prices I could verify, but they are date-dependent.
+
+Alaya Stays 2 BHK, Candolim — ₹6,761 + ₹1,651 taxes/night (~₹8,412). Entire 2-bedroom serviced apartment, pool, kitchen and power backup; 4.8/5 from 243 ratings. Free cancellation is shown. 
+MakeMyTrip
+
+Limitation: final price and cancellation deadline depend on dates/rate.
+
+Susegad Suites, Arpora — ₹5,681 + ₹930 taxes/night (~₹6,611). Entire 2-bedroom serviced apartment, pool, washing machine and kitchenette; 4.6/5 from 46 ratings. Free cancellation shown. 
+MakeMyTrip
+
+Limitation: fewer reviews, and Arpora is inland rather than beachfront.
+
+ElTesoro 2BHK, Siolim (Airbnb) — 2 bedrooms, 2 baths, 4 guests; 4.78/5 from 37 reviews and hosted by a Superhost. 
+Airbnb
+
+Limitation: the current page requires entering dates to reveal the final price/cancellation terms.
+
+Note: rentals don't have a conventional warranty; your protection is the platform's cancellation/refund policy and host support.",f5c244015f730d6641372e64,evidence/40da100f06c7798546dab6e31cc6881b0893f5c19f67aa7386afbd7d8f7c30ce.png,40da100f06c7798546dab6e31cc6881b0893f5c19f67aa7386afbd7d8f7c30ce
+6653c5594a1f94607890ccb4,d43c48af4aebb7074dea6714,2026-09-22T22:05:05.965Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,Arrive Ready. Not Rushed.,"Pre-book Reserve for a punctual airport ride, with every detail handled before you leave.",Travel and leisure,Intercity buses,"I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For Bengaluru → Chennai, three practical booking options are:
+
+Option	Typical fare*	Reliability / support	Important limitation
+redBus	~₹500–₹1,500+	Largest choice of operators; strong booking/support ecosystem	Fare and cancellation rules vary by operator
+AbhiBus	~₹500–₹1,500+	Multiple operators; optional Travel Guarantee	Service/convenience fees generally non-refundable; ₹15 cancellation fee plus operator charges 
+AbhiBus
++1
+
+IntrCity SmartBus	~₹700–₹1,500+	Dedicated operator, standardized service	Cancellation is 15% at 1–30 days, 30% at 6–24h, and 100% under 6h 
+AbhiBus
+
+*Exact fares depend heavily on travel date, bus type, boarding point and seat; current demand can move prices substantially. 
+Moneycontrol
+
+Purchase terms: Check the final checkout total, boarding point, operator-specific cancellation cutoff, and refund amount before paying. AbhiBus says arrival/departure times are approximate and recommends confirming details with the operator. 
+AbhiBus",f85c222960d97588bc964f96,evidence/fd33550ea064b4899ab112d14918e17b47cfaa8341632c5e943621abcad323e1.png,fd33550ea064b4899ab112d14918e17b47cfaa8341632c5e943621abcad323e1
 4a98a0339bda9e32e31ee7d7,dabbef5cdbae66b2705abf61,2026-09-22T22:03:35.575Z,HSBC - Credit Cards,Ad,answer_card,Flat 15% Off* on Travel,Earn 4 Reward Points* on every ₹100 spent on travel,Travel and leisure,Corporate travel,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d take these three into the final RFQ. There isn’t enough public pricing to make a defensible “best-value” winner; the key is the all-in fee structure.
 
 Provider	Purchase case	Trade-offs / terms to verify

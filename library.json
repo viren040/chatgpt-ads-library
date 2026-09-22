@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T22:04:11Z",
+  "generated_at": "2026-09-22T22:11:15Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 234,
-    "approved_paid_units": 147,
+    "valid_turns": 243,
+    "approved_paid_units": 149,
     "approved_advertisers": 84,
     "approved_creatives": 138
   },
@@ -28,6 +28,15 @@
       "categories": "Travel and leisure,Vacation rentals"
     },
     {
+      "id": "ca82b10559cc43464054b038",
+      "advertiser": "HSBC - Credit Cards",
+      "placements": 7,
+      "creatives": 4,
+      "first_seen": "2026-09-22T21:41:50.076Z",
+      "last_seen": "2026-09-22T22:08:11.218Z",
+      "categories": "Vacation rentals,Corporate travel"
+    },
+    {
       "id": "a222e2ba55abec4f9b12de68",
       "advertiser": "Agoda Company Pte. Ltd.",
       "placements": 6,
@@ -35,15 +44,6 @@
       "first_seen": "2026-09-21T06:24:21.524Z",
       "last_seen": "2026-09-22T21:40:08.637Z",
       "categories": "Commercial discovery,Travel and leisure,Vacation rentals"
-    },
-    {
-      "id": "ca82b10559cc43464054b038",
-      "advertiser": "HSBC - Credit Cards",
-      "placements": 6,
-      "creatives": 4,
-      "first_seen": "2026-09-22T21:41:50.076Z",
-      "last_seen": "2026-09-22T22:03:35.575Z",
-      "categories": "Vacation rentals,Corporate travel"
     },
     {
       "id": "2e81afd45de21f0c44616576",
@@ -143,6 +143,15 @@
       "first_seen": "2026-09-11T20:31:34.672Z",
       "last_seen": "2026-09-11T20:42:32.135Z",
       "categories": "Business telephony"
+    },
+    {
+      "id": "d11acd0c3697436b74d704d0",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "placements": 2,
+      "creatives": 1,
+      "first_seen": "2026-09-22T22:03:28.123Z",
+      "last_seen": "2026-09-22T22:05:05.965Z",
+      "categories": "Vacation rentals,Intercity buses"
     },
     {
       "id": "4e9bb96ec6808d5176174bb9",
@@ -323,15 +332,6 @@
       "first_seen": "2026-09-12T05:38:49Z",
       "last_seen": "2026-09-12T05:38:49Z",
       "categories": "Cybersecurity & compliance"
-    },
-    {
-      "id": "d11acd0c3697436b74d704d0",
-      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 1,
-      "creatives": 1,
-      "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T22:03:28.123Z",
-      "categories": "Vacation rentals"
     },
     {
       "id": "9db81bc6ef8b79721179d4d6",
@@ -769,25 +769,25 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 234,
-    "ad_turns": 34,
-    "ad_rate": 0.1452991452991453,
-    "ad_rate_low": 0.10587642802939337,
-    "ad_rate_high": 0.1961800667133262,
+    "turns": 243,
+    "ad_turns": 36,
+    "ad_rate": 0.14814814814814814,
+    "ad_rate_low": 0.10896932452256822,
+    "ad_rate_high": 0.19827872442866198,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 67,
-        "ad_turns": 18,
-        "paid_units": 18,
+        "turns": 69,
+        "ad_turns": 19,
+        "paid_units": 19,
         "advertisers": 8,
         "creatives": 15,
-        "ad_rate": 0.26865671641791045,
-        "posterior_ad_rate": 0.2676056338028169,
-        "competition_score": 0.8889666732797166,
-        "ad_rate_low": 0.1772206517897013,
-        "ad_rate_high": 0.3851833594127559,
+        "ad_rate": 0.2753623188405797,
+        "posterior_ad_rate": 0.273972602739726,
+        "competition_score": 0.9101172862705101,
+        "ad_rate_low": 0.18394380762574333,
+        "ad_rate_high": 0.39047520568533167,
         "evidence_strength": "established"
       },
       {
@@ -834,6 +834,21 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.3244156195108769,
         "evidence_strength": "directional"
+      },
+      {
+        "category": "Intercity buses",
+        "industry": "Travel and leisure",
+        "turns": 7,
+        "ad_turns": 5,
+        "paid_units": 5,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.7142857142857143,
+        "posterior_ad_rate": 0.5454545454545454,
+        "competition_score": 1.0909090909090908,
+        "ad_rate_low": 0.35892909014821267,
+        "ad_rate_high": 0.9177828342909844,
+        "evidence_strength": "exploratory"
       },
       {
         "category": "Perfume gift sets",
@@ -938,21 +953,6 @@
         "competition_score": 0.1,
         "ad_rate_low": 0,
         "ad_rate_high": 0.3903430336530645,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Intercity buses",
-        "industry": "Travel and leisure",
-        "turns": 6,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.6666666666666666,
-        "posterior_ad_rate": 0.5,
-        "competition_score": 0.792481250360578,
-        "ad_rate_low": 0.29998832134152864,
-        "ad_rate_high": 0.9032306674407831,
         "evidence_strength": "exploratory"
       },
       {
@@ -1181,6 +1181,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Travel insurance",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Vanilla perfume",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -1286,7 +1301,22 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Premium deodorant",
+        "category": "Holiday packages",
+        "industry": "Travel and leisure",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Home fragrance",
         "industry": "Beauty and personal care",
         "turns": 2,
         "ad_turns": 0,
@@ -1301,8 +1331,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Travel insurance",
-        "industry": "Travel and leisure",
+        "category": "Premium deodorant",
+        "industry": "Beauty and personal care",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1350,15 +1380,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 74,
-        "ad_turns": 8,
-        "paid_units": 8,
-        "advertisers": 6,
-        "ad_rate": 0.10810810810810811,
-        "posterior_ad_rate": 0.11538461538461539,
-        "competition_score": 0.34615384615384615,
-        "ad_rate_low": 0.055806661696501225,
-        "ad_rate_high": 0.1990904627202631,
+        "turns": 78,
+        "ad_turns": 9,
+        "paid_units": 9,
+        "advertisers": 7,
+        "ad_rate": 0.11538461538461539,
+        "posterior_ad_rate": 0.12195121951219512,
+        "competition_score": 0.38657621968808686,
+        "ad_rate_low": 0.06190440604142225,
+        "ad_rate_high": 0.2049720968617468,
         "evidence_strength": "established"
       },
       {
@@ -1378,15 +1408,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 65,
-        "ad_turns": 11,
-        "paid_units": 11,
-        "advertisers": 8,
-        "ad_rate": 0.16923076923076924,
-        "posterior_ad_rate": 0.17391304347826086,
-        "competition_score": 0.5777266251978022,
-        "ad_rate_low": 0.09721118666132769,
-        "ad_rate_high": 0.27816649195160403,
+        "turns": 68,
+        "ad_turns": 12,
+        "paid_units": 12,
+        "advertisers": 9,
+        "ad_rate": 0.17647058823529413,
+        "posterior_ad_rate": 0.18055555555555555,
+        "competition_score": 0.624619597809512,
+        "ad_rate_low": 0.10393485385088719,
+        "ad_rate_high": 0.28360662629432115,
         "evidence_strength": "established"
       },
       {
@@ -1406,15 +1436,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 49,
+        "turns": 50,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.10204081632653061,
-        "posterior_ad_rate": 0.11320754716981132,
-        "competition_score": 0.31781376476123824,
-        "ad_rate_low": 0.044378892487039884,
-        "ad_rate_high": 0.21756624164970087,
+        "ad_rate": 0.1,
+        "posterior_ad_rate": 0.1111111111111111,
+        "competition_score": 0.31192832467306714,
+        "ad_rate_low": 0.04347512399157111,
+        "ad_rate_high": 0.2136049033478839,
         "evidence_strength": "established"
       },
       {
@@ -1434,20 +1464,126 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 36,
+        "turns": 37,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 2,
-        "ad_rate": 0.05555555555555555,
-        "posterior_ad_rate": 0.075,
-        "competition_score": 0.15,
-        "ad_rate_low": 0.015369663767066846,
-        "ad_rate_high": 0.18144974107611211,
+        "ad_rate": 0.05405405405405406,
+        "posterior_ad_rate": 0.07317073170731707,
+        "competition_score": 0.14634146341463414,
+        "ad_rate_low": 0.01495066277053994,
+        "ad_rate_high": 0.1770496506353991,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "24cd48a7f5afd31cac0ea55a",
+      "turn_id": "8da9e56bac793479d068655b",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "f5c244015f730d6641372e64",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HSBC Taj Credit Card",
+      "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and HSBC Taj Credit Card creative.",
+      "reviewed_at": 1790115075.200943,
+      "captured_at": "2026-09-22T22:08:11.218Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "Here’s a more purchase-ready shortlist. Prices are current listing prices I could verify, but they are date-dependent.\n\nAlaya Stays 2 BHK, Candolim — ₹6,761 + ₹1,651 taxes/night (~₹8,412). Entire 2-bedroom serviced apartment, pool, kitchen and power backup; 4.8/5 from 243 ratings. Free cancellation is shown. \nMakeMyTrip\n\nLimitation: final price and cancellation deadline depend on dates/rate.\n\nSusegad Suites, Arpora — ₹5,681 + ₹930 taxes/night (~₹6,611). Entire 2-bedroom serviced apartment, pool, washing machine and kitchenette; 4.6/5 from 46 ratings. Free cancellation shown. \nMakeMyTrip\n\nLimitation: fewer reviews, and Arpora is inland rather than beachfront.\n\nElTesoro 2BHK, Siolim (Airbnb) — 2 bedrooms, 2 baths, 4 guests; 4.78/5 from 37 reviews and hosted by a Superhost. \nAirbnb\n\nLimitation: the current page requires entering dates to reveal the final price/cancellation terms.\n\nNote: rentals don't have a conventional warranty; your protection is the platform's cancellation/refund policy and host support.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2fb92-9cc8-83e9-94df-b0a8de7cf8d4",
+      "screenshot_sha256": "40da100f06c7798546dab6e31cc6881b0893f5c19f67aa7386afbd7d8f7c30ce",
+      "screenshot_relpath": "evidence/40da100f06c7798546dab6e31cc6881b0893f5c19f67aa7386afbd7d8f7c30ce.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "HSBC Taj Credit Card",
+        "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+        "copy": [
+          "HSBC - Credit Cards",
+          "HSBC Taj Credit Card",
+          "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "HSBC Taj Credit Card",
+              "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+            ],
+            "text": "HSBC - Credit Cards\n\nHSBC Taj Credit Card\n\nGet Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "6653c5594a1f94607890ccb4",
+      "turn_id": "d43c48af4aebb7074dea6714",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "f85c222960d97588bc964f96",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Arrive Ready. Not Rushed.",
+      "description": "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, DriveU advertiser, and Arrive Ready Not Rushed creative.",
+      "reviewed_at": 1790115075.201378,
+      "captured_at": "2026-09-22T22:05:05.965Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For Bengaluru → Chennai, three practical booking options are:\n\nOption\tTypical fare*\tReliability / support\tImportant limitation\nredBus\t~₹500–₹1,500+\tLargest choice of operators; strong booking/support ecosystem\tFare and cancellation rules vary by operator\nAbhiBus\t~₹500–₹1,500+\tMultiple operators; optional Travel Guarantee\tService/convenience fees generally non-refundable; ₹15 cancellation fee plus operator charges \nAbhiBus\n+1\n\nIntrCity SmartBus\t~₹700–₹1,500+\tDedicated operator, standardized service\tCancellation is 15% at 1–30 days, 30% at 6–24h, and 100% under 6h \nAbhiBus\n\n*Exact fares depend heavily on travel date, bus type, boarding point and seat; current demand can move prices substantially. \nMoneycontrol\n\nPurchase terms: Check the final checkout total, boarding point, operator-specific cancellation cutoff, and refund amount before paying. AbhiBus says arrival/departure times are approximate and recommends confirming details with the operator. \nAbhiBus",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "conversation_url": "https://chatgpt.com/c/6ab2fb77-f624-83ee-93ef-ea34ca1ae8ef",
+      "screenshot_sha256": "fd33550ea064b4899ab112d14918e17b47cfaa8341632c5e943621abcad323e1",
+      "screenshot_relpath": "evidence/fd33550ea064b4899ab112d14918e17b47cfaa8341632c5e943621abcad323e1.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Arrive Ready. Not Rushed.",
+        "description": "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Arrive Ready. Not Rushed.",
+          "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/df06e9dd9f425fcda7fced2372bc7f8c.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Arrive Ready. Not Rushed.",
+              "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nArrive Ready. Not Rushed.\n\nPre-book Reserve for a punctual airport ride, with every detail handled before you leave.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/df06e9dd9f425fcda7fced2372bc7f8c.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "4a98a0339bda9e32e31ee7d7",
       "turn_id": "dabbef5cdbae66b2705abf61",
