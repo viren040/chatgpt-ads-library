@@ -54,8 +54,10 @@ They do not classify the advertiser or creative. This meaning is also recorded i
 creative copy, prompt category, evidence design, rate eligibility, prompt, completed answer, creative ID,
 and content-addressed screenshot.
 `library.json` additionally contains advertiser summaries and complete-panel experiment denominators.
-The site loads compact `catalog.json` first; full answers and review notes live in hash-verified
-`details/*.json` shards and load only when evidence context is opened.
+The site initially loads `catalog-summary.json` with aggregate insights and twelve recent
+placements. Hash-stable `catalog/*.json` shards load only for search, filtering, or more results.
+Full answers and review notes live in verified `details/*.json` shards and load only when evidence
+context is opened.
 
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
 It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,

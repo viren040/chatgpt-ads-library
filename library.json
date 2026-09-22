@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-22T23:45:39Z",
+  "generated_at": "2026-09-22T23:57:14Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,7 +12,7 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 379,
+    "valid_turns": 389,
     "approved_paid_units": 194,
     "approved_advertisers": 93,
     "approved_creatives": 167,
@@ -1048,41 +1048,41 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 379,
+    "turns": 389,
     "ad_turns": 81,
-    "ad_rate": 0.21372031662269128,
-    "ad_rate_low": 0.17542892781494562,
-    "ad_rate_high": 0.2577570164502544,
+    "ad_rate": 0.20822622107969152,
+    "ad_rate_low": 0.17082545132413338,
+    "ad_rate_high": 0.2513335053647713,
     "paid_units": 81,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 111,
+        "turns": 113,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 9,
         "creatives": 16,
-        "ad_rate": 0.1891891891891892,
-        "posterior_ad_rate": 0.19130434782608696,
-        "competition_score": 0.6618043096523526,
-        "ad_rate_low": 0.12720241592903933,
-        "ad_rate_high": 0.27197000939418847,
+        "ad_rate": 0.18584070796460178,
+        "posterior_ad_rate": 0.18803418803418803,
+        "competition_score": 0.650491415470261,
+        "ad_rate_low": 0.12488614062641964,
+        "ad_rate_high": 0.26745357399576974,
         "evidence_strength": "established"
       },
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 53,
+        "turns": 55,
         "ad_turns": 31,
         "paid_units": 31,
         "advertisers": 12,
         "creatives": 20,
-        "ad_rate": 0.5849056603773585,
-        "posterior_ad_rate": 0.5614035087719298,
-        "competition_score": 2.137462412383216,
-        "ad_rate_low": 0.45094182384453757,
-        "ad_rate_high": 0.7073929169087134,
+        "ad_rate": 0.5636363636363636,
+        "posterior_ad_rate": 0.5423728813559322,
+        "competition_score": 2.0650060594210733,
+        "ad_rate_low": 0.43269584078681317,
+        "ad_rate_high": 0.686267613639987,
         "evidence_strength": "established"
       },
       {
@@ -1386,6 +1386,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "International holiday packages",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Luxury resorts",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -1671,6 +1686,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Men's perfume",
+        "industry": "Beauty and personal care",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1765,15 +1795,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 131,
+        "turns": 136,
         "ad_turns": 35,
         "paid_units": 35,
         "advertisers": 17,
-        "ad_rate": 0.26717557251908397,
-        "posterior_ad_rate": 0.26666666666666666,
-        "competition_score": 1.1327806702516228,
-        "ad_rate_low": 0.19882814181053723,
-        "ad_rate_high": 0.3487892106978875,
+        "ad_rate": 0.25735294117647056,
+        "posterior_ad_rate": 0.2571428571428571,
+        "competition_score": 1.092324217742636,
+        "ad_rate_low": 0.1912535360043331,
+        "ad_rate_high": 0.3367839006382682,
         "evidence_strength": "established"
       },
       {
@@ -1793,15 +1823,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 93,
+        "turns": 95,
         "ad_turns": 14,
         "paid_units": 14,
         "advertisers": 11,
-        "ad_rate": 0.15053763440860216,
-        "posterior_ad_rate": 0.15463917525773196,
-        "competition_score": 0.5722329461042927,
-        "ad_rate_low": 0.09184093232479833,
-        "ad_rate_high": 0.2369599135926586,
+        "ad_rate": 0.14736842105263157,
+        "posterior_ad_rate": 0.15151515151515152,
+        "competition_score": 0.5606726845668322,
+        "ad_rate_low": 0.08985998634105129,
+        "ad_rate_high": 0.23228777330670836,
         "evidence_strength": "established"
       },
       {
@@ -1821,15 +1851,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 75,
+        "turns": 76,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 6,
-        "ad_rate": 0.08,
-        "posterior_ad_rate": 0.08860759493670886,
-        "competition_score": 0.26582278481012656,
-        "ad_rate_low": 0.03717961789436808,
-        "ad_rate_high": 0.16374984066557996,
+        "ad_rate": 0.07894736842105263,
+        "posterior_ad_rate": 0.0875,
+        "competition_score": 0.26249999999999996,
+        "ad_rate_low": 0.03668350552145426,
+        "ad_rate_high": 0.1617293519363121,
         "evidence_strength": "established"
       },
       {
@@ -1849,15 +1879,15 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 55,
+        "turns": 57,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.05454545454545454,
-        "posterior_ad_rate": 0.06779661016949153,
-        "competition_score": 0.15741885389066862,
-        "ad_rate_low": 0.01872287596750008,
-        "ad_rate_high": 0.14853294304489928,
+        "ad_rate": 0.05263157894736842,
+        "posterior_ad_rate": 0.06557377049180328,
+        "competition_score": 0.1522575799926139,
+        "ad_rate_low": 0.018059968096281007,
+        "ad_rate_high": 0.14369777660471306,
         "evidence_strength": "established"
       }
     ]
