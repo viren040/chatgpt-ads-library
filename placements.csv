@@ -1,4 +1,24 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+73a5933a19c84dd2230d0a21,a60e70b97f9c07069fa5d34c,2026-09-22T22:01:48.065Z,Sonetel AB,Ad,answer_card,AI That Summarizes Every Business Call,"Get instant call summaries, quality scoring, and auto-drafted follow-up emails. Free to try.",Travel and leisure,Corporate travel,"Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.","For a 50-person Indian company, I’d narrow the buying list to these three:
+
+Provider	Cost / availability	Cancellation & support
+Thomas Cook India Business Travel	Quote-based; India-wide corporate operation, including SMEs. 
+Thomas Cook
++1
+	Air/hotel/rail/car changes follow supplier rules; dedicated 24/7 emergency desk and configurable servicing. 
+Thomas Cook
+
+FCM Travel India	Quote-based; India presence and specialist SME coverage through Corporate Traveller. 
+FCM Travel
+	Supplier-specific cancellation/reissue terms; 24/7 support, travel-risk management and dedicated account management. 
+FCM Travel
+
+American Express GBT	Quote-based; corporate travel platform with tailored service levels. 
+American Express
+	Cancellation depends on airline/hotel; support infrastructure is strong. Its India Business Travel Account can centralise air spend, with up to 51 days payment period. 
+American Express
+
+What to request before choosing: a 12-month all-in quote showing booking fees, hotel markups, GST, cancellation/reissue fees, implementation charges and minimum spend. None publishes a directly comparable 50-person price, so advertised “cheap” transaction fees alone won't establish total cost.",b6c89afb0db687accade9a91,evidence/f6eaa0d0f15155c50c0e9099294a7bf4d1503412d93bd3ab0b3343b09198ff42.png,f6eaa0d0f15155c50c0e9099294a7bf4d1503412d93bd3ab0b3343b09198ff42
 1413aaf02f4ca87580895cdd,58d1cbb4f1e2976805e7012b,2026-09-22T21:56:36.048Z,MMT DF,Ad,answer_card,Book Flight Tickets,Instant Discounts On Multiple Airlines. Book With MakeMyTrip™,Travel and leisure,Vacation rentals,"Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.","For a purchase-ready comparison, these are three specific 2-bedroom options currently listed for Goa. Exact dates can change availability and price.
 
 Offer	Current price	Purchase terms	Key limitation
