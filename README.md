@@ -27,13 +27,18 @@ The standalone interface supports:
 
 - full-text search across advertisers, copy, prompts, answers, and categories;
 - category and advertiser filters;
+- verified CSV and JSON downloads for independent analysis;
 - placement-level and creative-level views;
 - reviewed screenshots and evidence context; and
-- category ad-appearance and competition metrics from complete experiment panels.
+- category ad-appearance and competition metrics from complete experiment panels; and
 - ad-appearance rates by seed, zero-rescue, and ad-deepening conversation stages.
 
 Denominator-based rates exclude the historical positive-only migration so older ads cannot inflate
 category appearance rates.
+
+`placements.csv` contains one row per approved placement with the observation time, advertiser,
+creative copy, category, prompt, completed answer, creative ID, and content-addressed screenshot.
+`library.json` additionally contains advertiser summaries and complete-panel experiment denominators.
 
 ## Verify the release
 
