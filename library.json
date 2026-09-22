@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-22T22:33:10Z",
+  "generated_at": "2026-09-22T22:37:54Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 275,
-    "approved_paid_units": 155,
-    "approved_advertisers": 86,
-    "approved_creatives": 143,
-    "complete_panel_paid_units": 42,
+    "valid_turns": 283,
+    "approved_paid_units": 156,
+    "approved_advertisers": 87,
+    "approved_creatives": 144,
+    "complete_panel_paid_units": 43,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -837,6 +837,17 @@
       "categories": "Phone unlocking"
     },
     {
+      "id": "c329e8e590b0a10eaab8ec7b",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:35:21.436Z",
+      "last_seen": "2026-09-22T22:35:21.436Z",
+      "categories": "Intercity buses"
+    },
+    {
       "id": "87bac916b2fa60c0ebc0b0eb",
       "advertiser": "Vetlyf",
       "placements": 1,
@@ -961,41 +972,41 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 275,
-    "ad_turns": 42,
-    "ad_rate": 0.15272727272727274,
-    "ad_rate_low": 0.1150186312950138,
-    "ad_rate_high": 0.20000466508544026,
-    "paid_units": 42,
+    "turns": 283,
+    "ad_turns": 43,
+    "ad_rate": 0.1519434628975265,
+    "ad_rate_low": 0.11480209091420766,
+    "ad_rate_high": 0.1984077085012188,
+    "paid_units": 43,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 86,
+        "turns": 93,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 9,
         "creatives": 16,
-        "ad_rate": 0.2441860465116279,
-        "posterior_ad_rate": 0.24444444444444444,
-        "competition_score": 0.8456388401113393,
-        "ad_rate_low": 0.16561843751812289,
-        "ad_rate_high": 0.3446307120963096,
+        "ad_rate": 0.22580645161290322,
+        "posterior_ad_rate": 0.2268041237113402,
+        "competition_score": 0.7846133568043354,
+        "ad_rate_low": 0.15270042020646624,
+        "ad_rate_high": 0.3206663973595384,
         "evidence_strength": "established"
       },
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 9,
-        "ad_turns": 7,
-        "paid_units": 7,
-        "advertisers": 2,
-        "creatives": 4,
-        "ad_rate": 0.7777777777777778,
-        "posterior_ad_rate": 0.6153846153846154,
-        "competition_score": 1.2307692307692308,
-        "ad_rate_low": 0.4525833436728054,
-        "ad_rate_high": 0.9367762376877727,
+        "turns": 10,
+        "ad_turns": 8,
+        "paid_units": 8,
+        "advertisers": 3,
+        "creatives": 5,
+        "ad_rate": 0.8,
+        "posterior_ad_rate": 0.6428571428571429,
+        "competition_score": 1.4926680609990186,
+        "ad_rate_low": 0.49015684672072335,
+        "ad_rate_high": 0.9433190520193067,
         "evidence_strength": "directional"
       },
       {
@@ -1633,15 +1644,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 90,
-        "ad_turns": 14,
-        "paid_units": 14,
-        "advertisers": 9,
-        "ad_rate": 0.15555555555555556,
-        "posterior_ad_rate": 0.1595744680851064,
-        "competition_score": 0.5520369604208454,
-        "ad_rate_low": 0.09498189002638328,
-        "ad_rate_high": 0.24433031266410787,
+        "turns": 93,
+        "ad_turns": 15,
+        "paid_units": 15,
+        "advertisers": 10,
+        "ad_rate": 0.16129032258064516,
+        "posterior_ad_rate": 0.16494845360824742,
+        "competition_score": 0.5913340207375103,
+        "ad_rate_low": 0.10024990095644243,
+        "ad_rate_high": 0.24920322662509276,
         "evidence_strength": "established"
       },
       {
@@ -1661,15 +1672,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 75,
+        "turns": 77,
         "ad_turns": 13,
         "paid_units": 13,
         "advertisers": 10,
-        "ad_rate": 0.17333333333333334,
-        "posterior_ad_rate": 0.17721518987341772,
-        "competition_score": 0.635309810254382,
-        "ad_rate_low": 0.10419048023286545,
-        "ad_rate_high": 0.2743102097582053,
+        "ad_rate": 0.16883116883116883,
+        "posterior_ad_rate": 0.1728395061728395,
+        "competition_score": 0.6196231482727924,
+        "ad_rate_low": 0.1014057303066853,
+        "ad_rate_high": 0.2677309517975779,
         "evidence_strength": "established"
       },
       {
@@ -1689,15 +1700,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 58,
+        "turns": 59,
         "ad_turns": 5,
         "paid_units": 5,
         "advertisers": 5,
-        "ad_rate": 0.08620689655172414,
-        "posterior_ad_rate": 0.0967741935483871,
-        "competition_score": 0.27167950858621975,
-        "ad_rate_low": 0.03738483193379338,
-        "ad_rate_high": 0.18643861377265664,
+        "ad_rate": 0.0847457627118644,
+        "posterior_ad_rate": 0.09523809523809523,
+        "competition_score": 0.26736713543405755,
+        "ad_rate_low": 0.036741491306199775,
+        "ad_rate_high": 0.1835202461416055,
         "evidence_strength": "established"
       },
       {
@@ -1717,20 +1728,75 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 42,
+        "turns": 44,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 2,
-        "ad_rate": 0.047619047619047616,
-        "posterior_ad_rate": 0.06521739130434782,
-        "competition_score": 0.13043478260869565,
-        "ad_rate_low": 0.013157248639206351,
-        "ad_rate_high": 0.1579013531547973,
+        "ad_rate": 0.045454545454545456,
+        "posterior_ad_rate": 0.0625,
+        "competition_score": 0.125,
+        "ad_rate_low": 0.012554846366981079,
+        "ad_rate_high": 0.15135271525303162,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "da0a780001b77f7cd55d4f56",
+      "turn_id": "6a0c390c0d7c74cca811dc5f",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+      "advertiser_key": "c329e8e590b0a10eaab8ec7b",
+      "creative_id": "f617df6383fd52df94d84d69",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Family Hotel in Tiruvannamalai",
+      "description": "Clean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms Ad disclosure, UJ PALLAZZIO advertiser, and Family Hotel in Tiruvannamalai creative.",
+      "reviewed_at": 1790116674.225672,
+      "captured_at": "2026-09-22T22:35:21.436Z",
+      "prompt": "I am comparing intercity bus booking options between Bengaluru and Chennai. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For Bengaluru → Chennai, three practical options currently available in India:\n\nProvider\tCurrent fare\tSwitching difficulty\tPractical difference\nredBus\tFrom ₹313\tLow\tBiggest choice set: 338 daily buses across 79 operators; easy to compare and switch operators. \nredBus\n\nFlixBus\tFrom ₹359\tLow–medium\t29 daily trips, AC coaches, GPS tracking, digital tickets; moving from redBus mainly means using a separate booking account/app. \nFlixBus\n\nKSRTC Karnataka\tFrom ₹560\tMedium\tGovernment-operated option with ~20 Bengaluru–Chennai services; narrower choice but straightforward if you prefer KSRTC directly. \nredBus\n\nCost gap: FlixBus is about ₹46 more than the cheapest redBus-listed ticket, while KSRTC starts about ₹247 higher. Actual fares vary by date, seat and demand. \nredBus\n+1\n\nSwitching effort: redBus → FlixBus is mostly just changing the booking interface; redBus → KSRTC also means accepting fewer departure/operator choices.",
+      "industry": "Travel and leisure",
+      "category": "Intercity buses",
+      "conversation_url": "https://chatgpt.com/c/6ab30254-4a74-83e8-a6bb-0067ba5f97d6",
+      "screenshot_sha256": "da75a85deb906336fab4165a036cd3dcf789f243d38ae1818fddf49b8c2349a4",
+      "screenshot_relpath": "evidence/da75a85deb906336fab4165a036cd3dcf789f243d38ae1818fddf49b8c2349a4.png",
+      "account_slot": "account-10",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+        "format": "answer_card",
+        "headline": "Family Hotel in Tiruvannamalai",
+        "description": "Clean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now",
+        "copy": [
+          "UJ PALLAZZIO - Business Class Luxury Hotel",
+          "Family Hotel in Tiruvannamalai",
+          "Clean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/cad5b3cba76256ecbf2ef0801fbaa6c1.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "UJ PALLAZZIO - Business Class Luxury Hotel",
+              "Family Hotel in Tiruvannamalai",
+              "Clean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now"
+            ],
+            "text": "UJ PALLAZZIO - Business Class Luxury Hotel\n\nFamily Hotel in Tiruvannamalai\n\nClean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/cad5b3cba76256ecbf2ef0801fbaa6c1.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "a7017654277e3f5d127d545a",
       "turn_id": "fb1521c2731916ce4962e190",

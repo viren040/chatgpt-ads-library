@@ -1,4 +1,21 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+da0a780001b77f7cd55d4f56,6a0c390c0d7c74cca811dc5f,2026-09-22T22:35:21.436Z,UJ PALLAZZIO - Business Class Luxury Hotel,Ad,answer_card,Family Hotel in Tiruvannamalai,"Clean AC rooms, parking, Wi-Fi and vegetarian breakfast. Enquire now",Travel and leisure,Intercity buses,complete_panel,True,I am comparing intercity bus booking options between Bengaluru and Chennai. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For Bengaluru → Chennai, three practical options currently available in India:
+
+Provider	Current fare	Switching difficulty	Practical difference
+redBus	From ₹313	Low	Biggest choice set: 338 daily buses across 79 operators; easy to compare and switch operators. 
+redBus
+
+FlixBus	From ₹359	Low–medium	29 daily trips, AC coaches, GPS tracking, digital tickets; moving from redBus mainly means using a separate booking account/app. 
+FlixBus
+
+KSRTC Karnataka	From ₹560	Medium	Government-operated option with ~20 Bengaluru–Chennai services; narrower choice but straightforward if you prefer KSRTC directly. 
+redBus
+
+Cost gap: FlixBus is about ₹46 more than the cheapest redBus-listed ticket, while KSRTC starts about ₹247 higher. Actual fares vary by date, seat and demand. 
+redBus
++1
+
+Switching effort: redBus → FlixBus is mostly just changing the booking interface; redBus → KSRTC also means accepting fewer departure/operator choices.",f617df6383fd52df94d84d69,evidence/da75a85deb906336fab4165a036cd3dcf789f243d38ae1818fddf49b8c2349a4.png,da75a85deb906336fab4165a036cd3dcf789f243d38ae1818fddf49b8c2349a4
 a7017654277e3f5d127d545a,fb1521c2731916ce4962e190,2026-09-22T22:25:40.661Z,Duke & D’Or,Ad,answer_card,"Smell Ridiculously Good, All Day","Fresh bergamot and calming lavender that lasts all day. Noir. Loved by 10,000+ men.",Beauty and personal care,Fragrance layering,complete_panel,True,"I am comparing a fragrance-layering set with perfume and matching body products under ₹7,000. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently purchasable approaches in India:
 
 Option	Approx. cost	Practical switching difficulty
