@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-22T23:45:06Z",
+  "generated_at": "2026-09-22T23:45:39Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,25 +12,25 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 374,
-    "approved_paid_units": 189,
-    "approved_advertisers": 92,
-    "approved_creatives": 165,
+    "valid_turns": 379,
+    "approved_paid_units": 194,
+    "approved_advertisers": 93,
+    "approved_creatives": 167,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 76,
+    "complete_panel_paid_units": 81,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 14,
-      "creatives": 10,
-      "panel_placements": 10,
+      "placements": 15,
+      "creatives": 11,
+      "panel_placements": 11,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T23:33:34.723Z",
-      "categories": "Travel and leisure,Corporate travel"
+      "last_seen": "2026-09-22T23:40:08.054Z",
+      "categories": "Travel and leisure,Corporate travel,Honeymoon packages"
     },
     {
       "id": "d11acd0c3697436b74d704d0",
@@ -110,6 +110,17 @@
       "categories": "Beauty and personal care,Rose perfume"
     },
     {
+      "id": "ab56d48dc66e2f9280d61b1f",
+      "advertiser": "Trip.com/flights",
+      "placements": 5,
+      "creatives": 2,
+      "panel_placements": 5,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:15:54.873Z",
+      "last_seen": "2026-09-22T23:43:31.785Z",
+      "categories": "Corporate travel"
+    },
+    {
       "id": "83d40ecd26a8ce9b174a1d9e",
       "advertiser": "Duke & D’Or",
       "placements": 4,
@@ -132,15 +143,15 @@
       "categories": "Travel and leisure,Business productivity,Business hotels,Intercity buses"
     },
     {
-      "id": "ab56d48dc66e2f9280d61b1f",
-      "advertiser": "Trip.com/flights",
+      "id": "c329e8e590b0a10eaab8ec7b",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
       "placements": 4,
       "creatives": 2,
       "panel_placements": 4,
       "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-22T23:21:00.917Z",
-      "categories": "Corporate travel"
+      "first_seen": "2026-09-22T22:35:21.436Z",
+      "last_seen": "2026-09-22T23:38:43.630Z",
+      "categories": "Intercity buses,Corporate travel"
     },
     {
       "id": "fca4e43ae4807ea34c8416ba",
@@ -152,6 +163,17 @@
       "first_seen": "2026-09-20T21:14:24.165Z",
       "last_seen": "2026-09-22T19:57:15.997Z",
       "categories": "Beauty and personal care,Body mists,Citrus perfume"
+    },
+    {
+      "id": "504ef25d14dd959439fe6a46",
+      "advertiser": "Zoho Corporation",
+      "placements": 4,
+      "creatives": 3,
+      "panel_placements": 3,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:27:39.421Z",
+      "last_seen": "2026-09-22T23:35:29.446Z",
+      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "ae8f6ead5aa2987dff5d08de",
@@ -207,28 +229,6 @@
       "first_seen": "2026-09-11T20:37:59.783Z",
       "last_seen": "2026-09-15T07:48:36.482Z",
       "categories": "Sports and fitness,Support footwear"
-    },
-    {
-      "id": "c329e8e590b0a10eaab8ec7b",
-      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
-      "placements": 3,
-      "creatives": 2,
-      "panel_placements": 3,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:35:21.436Z",
-      "last_seen": "2026-09-22T23:28:51.376Z",
-      "categories": "Intercity buses,Corporate travel"
-    },
-    {
-      "id": "504ef25d14dd959439fe6a46",
-      "advertiser": "Zoho Corporation",
-      "placements": 3,
-      "creatives": 3,
-      "panel_placements": 2,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:27:39.421Z",
-      "last_seen": "2026-09-22T23:12:49.429Z",
-      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "d5982a03495f5fcda2bb5a52",
@@ -990,6 +990,17 @@
       "categories": "Beauty and personal care"
     },
     {
+      "id": "c4eee08d8414dd197fd04a30",
+      "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:43:19.006Z",
+      "last_seen": "2026-09-22T23:43:19.006Z",
+      "categories": "Corporate travel"
+    },
+    {
       "id": "f213f05545cbf449497a7d3a",
       "advertiser": "Zenni Optical",
       "placements": 1,
@@ -1037,12 +1048,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 374,
-    "ad_turns": 76,
-    "ad_rate": 0.20320855614973263,
-    "ad_rate_low": 0.16554035501293735,
-    "ad_rate_high": 0.24691184717972747,
-    "paid_units": 76,
+    "turns": 379,
+    "ad_turns": 81,
+    "ad_rate": 0.21372031662269128,
+    "ad_rate_low": 0.17542892781494562,
+    "ad_rate_high": 0.2577570164502544,
+    "paid_units": 81,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1062,16 +1073,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 49,
-        "ad_turns": 27,
-        "paid_units": 27,
-        "advertisers": 11,
-        "creatives": 19,
-        "ad_rate": 0.5510204081632653,
-        "posterior_ad_rate": 0.5283018867924528,
-        "competition_score": 1.9549492850556713,
-        "ad_rate_low": 0.41314866799678107,
-        "ad_rate_high": 0.6814737507036366,
+        "turns": 53,
+        "ad_turns": 31,
+        "paid_units": 31,
+        "advertisers": 12,
+        "creatives": 20,
+        "ad_rate": 0.5849056603773585,
+        "posterior_ad_rate": 0.5614035087719298,
+        "competition_score": 2.137462412383216,
+        "ad_rate_low": 0.45094182384453757,
+        "ad_rate_high": 0.7073929169087134,
         "evidence_strength": "established"
       },
       {
@@ -1585,6 +1596,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Honeymoon packages",
+        "industry": "Travel and leisure",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Rose perfume",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1642,21 +1668,6 @@
         "competition_score": 0.5283208335737186,
         "ad_rate_low": 0.09452865480086614,
         "ad_rate_high": 0.9054713451991339,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Honeymoon packages",
-        "industry": "Travel and leisure",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -1754,15 +1765,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 127,
-        "ad_turns": 31,
-        "paid_units": 31,
-        "advertisers": 15,
-        "ad_rate": 0.2440944881889764,
-        "posterior_ad_rate": 0.24427480916030533,
-        "competition_score": 0.998464205496266,
-        "ad_rate_low": 0.1776224811670808,
-        "ad_rate_high": 0.3255936213568871,
+        "turns": 131,
+        "ad_turns": 35,
+        "paid_units": 35,
+        "advertisers": 17,
+        "ad_rate": 0.26717557251908397,
+        "posterior_ad_rate": 0.26666666666666666,
+        "competition_score": 1.1327806702516228,
+        "ad_rate_low": 0.19882814181053723,
+        "ad_rate_high": 0.3487892106978875,
         "evidence_strength": "established"
       },
       {
@@ -1810,15 +1821,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 74,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 5,
-        "ad_rate": 0.06756756756756757,
-        "posterior_ad_rate": 0.07692307692307693,
-        "competition_score": 0.21595037861981572,
-        "ad_rate_low": 0.029203655548562038,
-        "ad_rate_high": 0.14861386104924684,
+        "turns": 75,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 6,
+        "ad_rate": 0.08,
+        "posterior_ad_rate": 0.08860759493670886,
+        "competition_score": 0.26582278481012656,
+        "ad_rate_low": 0.03717961789436808,
+        "ad_rate_high": 0.16374984066557996,
         "evidence_strength": "established"
       },
       {
@@ -1852,6 +1863,274 @@
     ]
   },
   "ads": [
+    {
+      "id": "f46d31f6efac2fe906fe47e5",
+      "turn_id": "242f66dc7d8f9955e011f81a",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed every current-turn paid card: disclosure, advertiser, and creative match each saved screenshot.",
+      "reviewed_at": 1790120739.775809,
+      "captured_at": "2026-09-22T23:43:31.785Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, these are three credible offers to shortlist now:\n\nProvider\tCost\tKey terms to verify\nITILITE\t₹0 subscription; trip fees quoted by plan; Growth expense module ₹99/user/month\tConfirm per-trip fee, GST, cancellation/refund handling and credit terms. It offers 24/7 human support and no minimum commitment. \nItilite\n+1\n\nFCM Travel India\tCustom quote\tGet written booking/service fees, implementation costs, cancellation/change charges and SLA. Includes 24/7 support, corporate rates and traveller-safety services. \nFCM Travel\n+1\n\nThomas Cook India Corporate Travel\tCustom quote\tConfirm transaction fees, credit/payment terms, cancellation/refund rules and SLA. Offers air, hotels, rail, car, visa, forex and 24/7 emergency support. \nThomas Cook\n+1\n\nBefore paying: require an all-in fee schedule, GST treatment, refund timelines, unused-ticket-credit rules, SLA/service credits, implementation fee, minimum spend/contract term, and escalation contact.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "9c130671946bd55ed64911b1366313014cbc6db54cb6a1f0908b6cb3a2953a6a",
+      "screenshot_relpath": "evidence/9c130671946bd55ed64911b1366313014cbc6db54cb6a1f0908b6cb3a2953a6a.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "f490b75a6ce475979149e208",
+      "turn_id": "8ff15bfffeecc53c1a66557b",
+      "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+      "advertiser_key": "c4eee08d8414dd197fd04a30",
+      "creative_id": "1596a2623950b01c022ffe96",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "AI notes for in-person client meetings",
+      "description": "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed every current-turn paid card: disclosure, advertiser, and creative match each saved screenshot.",
+      "reviewed_at": 1790120739.775809,
+      "captured_at": "2026-09-22T23:43:19.006Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three live options and request a written quote against the same travel volume:\n\nOffer\tTotal cost to budget\tTerms to verify\nFCM Travel India\tQuote-based: management + booking/transaction fees + travel spend\t24/7 support, cancellation/change fees, GST/ITC handling, hotel rate mark-ups, SLA, implementation fee. FCM offers negotiated hotel rates and corporate inventory. \nFCM Travel\n+1\n\nAmex Global Business Travel\tQuote-based: management + transaction fees + travel/ground pass-through\tPer-booking fee, supplier mark-ups, cancellation charges, duty-of-care, payment terms, reporting/API integration. Amex supports centralised travel billing. \nAmerican Express\n+1\n\nMakeMyTrip MyBiz\tQuote-based: booking/service fees + actual travel spend\tCorporate discounts, convenience fees, GST invoices/ITC, cancellation/change handling, dedicated account support, credit terms.\n\nBefore paying: ask all three for a 12-month TCO showing every fee separately, including GST, mark-ups, refunds, amendments, after-hours support and implementation.\n\nFor 50 employees, also insist on a 90-day pilot/exit clause and no minimum-spend commitment unless the savings are contractually measurable.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "5ddfd4479d51df947f77a994bc5e1749b558e7bdaa772426e0286f3de61d8626",
+      "screenshot_relpath": "evidence/5ddfd4479d51df947f77a994bc5e1749b558e7bdaa772426e0286f3de61d8626.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "AI notes for in-person client meetings",
+        "description": "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription.",
+        "copy": [
+          "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+          "AI notes for in-person client meetings",
+          "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b72082a5b05a57cba21246f73929037d.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+              "AI notes for in-person client meetings",
+              "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription."
+            ],
+            "text": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED\n\nAI notes for in-person client meetings\n\nWear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b72082a5b05a57cba21246f73929037d.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "764add59b52f8111cfbfb73f",
+      "turn_id": "52612ce206469a8e4870057a",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "5bd7ac439f42dcc3c53b2daa",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Indonesia eSIM - 30 Day 2GB/Day",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed every current-turn paid card: disclosure, advertiser, and creative match each saved screenshot.",
+      "reviewed_at": 1790120739.775809,
+      "captured_at": "2026-09-22T23:40:08.054Z",
+      "prompt": "Narrow this to high-intent choices for a seven-day honeymoon package from India to Bali with flights and transfers. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a purchase-ready 7-day Bali honeymoon for two, I’d narrow it to these three named products. Prices are current listings, but flight-inclusive totals depend on departure city/date.\n\nBrand / product\tCurrent listed cost\tFlights + transfers\tCancellation / support\nMakeMyTrip – Dreamy Bali Retreat, 6N/7D\t₹78,192 for 2 package-only\tTransfers included; airfare needs to be added\tPackage cancellation is booking-specific; MMT publishes a default scale of booking fee ≥45 days, then 25%/50%/75%/100% closer to departure. App/web + phone support. \nMakeMyTrip\n+2\nMakeMyTrip\n+2\n\nThomas Cook India – Simply Bali Split Stay, 6N/7D\t₹61,900 pp before flight-specific pricing\t4 hotel + 2 villa nights; flights can be selected; airport transfers included\tStrongest published flexibility: its current “Zero Cancellation” offer allows cancellation up to 5 days before travel, subject to offer terms. Phone/travel-expert support. \nThomas Cook\n+1\n\nSOTC – Memorable Bali Honeymoon Special\t₹65,166+ starting level for 6N/7D listings\tPrivate airport transfers; airfare explicitly excluded on this particular honeymoon product\tCancellation can become 50% at 60 days and 100% at 30 days under SOTC's published Asia policy; Trip Protection changes terms. \nSOTC Resources\n+2\nSOTC Resources\n+2\nWhat I'd shortlist for actual buying\n\nThomas Cook is the most directly aligned if you want a honeymoon-specific package with flights selectable and strong cancellation flexibility.\n\nMakeMyTrip is more useful if you want to build the exact flight + hotel combination yourself, but the displayed ₹78,192 is not the final flight-inclusive price.\n\nSOTC is worth considering if private transfers and traditional travel-agent support matter, but confirm airfare separately because its specific honeymoon product excludes flights.\n\nImportant: ask each provider for a single all-in quote for 2 people from Bengaluru, including return flights, checked baggage, private transfers, GST/TCS, visa, honeymoon dinner, cancellation terms and hotel room category. That is the number I'd compare before paying.",
+      "industry": "Travel and leisure",
+      "category": "Honeymoon packages",
+      "screenshot_sha256": "fdba7d093ee3d6c2fb1cfcbae321b0625f7d23e07eb2ab068ddd14236e649397",
+      "screenshot_relpath": "evidence/fdba7d093ee3d6c2fb1cfcbae321b0625f7d23e07eb2ab068ddd14236e649397.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Indonesia eSIM - 30 Day 2GB/Day",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Indonesia eSIM - 30 Day 2GB/Day",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000005bbc81f7ad6dafe21a215d9f&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=0bfc11343606680966aa26abefbcf3cea0567a9210c4052834540e24e4972185&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Indonesia eSIM - 30 Day 2GB/Day"
+            ],
+            "text": "Indonesia eSIM - 30 Day 2GB/Day\n\n₹3,689.00\n4.8\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000005bbc81f7ad6dafe21a215d9f&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=0bfc11343606680966aa26abefbcf3cea0567a9210c4052834540e24e4972185&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "cf2a753a167e117f2262f243",
+      "turn_id": "70e2771443abdfc84c22eca7",
+      "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+      "advertiser_key": "c329e8e590b0a10eaab8ec7b",
+      "creative_id": "4636e8a09e6d1606a8c992eb",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Business Stays in Tiruvannamalai",
+      "description": "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed every current-turn paid card: disclosure, advertiser, and creative match each saved screenshot.",
+      "reviewed_at": 1790120739.775809,
+      "captured_at": "2026-09-22T23:38:43.630Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, three currently available options are:\n\nProvider\tPrice\tReliability / fit\tKey limitations & purchase terms\nMakeMyTrip myBiz\tCustom service fee; booking price + GST; 1.5% gateway fee may apply\tStrong for SME self-booking; policy, expense and GST tools\tService fee is contract-specific; verify cancellation/date-change rules and GST-invoice coverage. \nMakeMyTrip\n+1\n\nThomas Cook India Corporate Travel\tCustom quotation\tEstablished India network; 24/7 emergency desk, dedicated servicing and online booking\tMore managed-service oriented; negotiate transaction/service fees, SLA, credit terms and implementation costs. \nThomas Cook\n+1\n\nFCM Travel India\tCustom quotation\tGlobal TMC; 420+ airline partners and negotiated hotel programme\tPricing isn't publicly posted; confirm India support coverage, implementation fees, after-hours servicing and supplier mark-ups. \nFCM Travel\n\nBefore paying: demand an all-in fee schedule, cancellation/change charges, credit period, SLA/response times, GST treatment, data ownership/export, and termination notice.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "ee855dcc429fffb9abb6fa37579ab7cae902a8ab10cf6b71004e46135935825a",
+      "screenshot_relpath": "evidence/ee855dcc429fffb9abb6fa37579ab7cae902a8ab10cf6b71004e46135935825a.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "UJ PALLAZZIO - Business Class Luxury Hotel",
+        "format": "answer_card",
+        "headline": "Business Stays in Tiruvannamalai",
+        "description": "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+        "copy": [
+          "UJ PALLAZZIO - Business Class Luxury Hotel",
+          "Business Stays in Tiruvannamalai",
+          "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/7c4d7cabe2fb5cc7928673798db23dcb.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "UJ PALLAZZIO - Business Class Luxury Hotel",
+              "Business Stays in Tiruvannamalai",
+              "GST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams."
+            ],
+            "text": "UJ PALLAZZIO - Business Class Luxury Hotel\n\nBusiness Stays in Tiruvannamalai\n\nGST invoice available. Wi‑Fi, AC rooms, parking and breakfast for corporate & field teams.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/7c4d7cabe2fb5cc7928673798db23dcb.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c26208bbd6e3e1c5abe29d8c",
+      "turn_id": "17f9bd4deacf63f73894c3db",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "9fed04488eafe9d99ddb5fc4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Zoho Desk - Better Alternative",
+      "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed every current-turn paid card: disclosure, advertiser, and creative match each saved screenshot.",
+      "reviewed_at": 1790120739.775809,
+      "captured_at": "2026-09-22T23:35:29.446Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, these are three offers worth requesting quotes for now:\n\nMakeMyTrip myBiz — ₹0 platform fee advertised; booking costs vary by itinerary. Corporate fares, GST invoices, expense management, policy controls and 24-hour assistance. \nMakeMyTrip Business\n+1\n\nVerify: airfare/hotel markup, convenience fees, cancellation/date-change charges, GST-credit eligibility, dedicated-account support.\n\nFCM Travel India — Custom quote; no public fixed fee. Includes corporate inventory, dedicated consultant, 24/7 support and negotiated hotel rates; FCM cites potential hotel savings of up to 38%. \nFCM Travel\n+1\n\nVerify: implementation fee, per-transaction/service fees, minimum annual spend, SLA, after-hours charges and cancellation handling.\n\nAmerican Express Global Business Travel — Custom quote; no public India price. Enterprise travel-management and expense solutions, with tailored/high-touch service options. \nAmerican Express\n\nVerify: India availability for your company size, transaction fees, minimum commitment, implementation cost, SLA and emergency-support terms.\n\nBefore paying: demand a written 12-month all-in TCO covering booking fees, markups, GST, cancellations, amendments, implementation and support.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "6b62c2dde2b89c9e7df3bce8b3d8bf97e9d0f35850b793a71756cd057185af97",
+      "screenshot_relpath": "evidence/6b62c2dde2b89c9e7df3bce8b3d8bf97e9d0f35850b793a71756cd057185af97.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Zoho Desk - Better Alternative",
+        "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+        "copy": [
+          "Zoho Corporation",
+          "Zoho Desk - Better Alternative",
+          "Compare Zoho Desk vs Zendesk - learn why you must switch"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Zoho Desk - Better Alternative",
+              "Compare Zoho Desk vs Zendesk - learn why you must switch"
+            ],
+            "text": "Zoho Corporation\n\nZoho Desk - Better Alternative\n\nCompare Zoho Desk vs Zendesk - learn why you must switch",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "5f6eb2313fd00f269450e27b",
       "turn_id": "3b246c529f7175dcbb36eaa7",
