@@ -1,4 +1,23 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+5f6eb2313fd00f269450e27b,3b246c529f7175dcbb36eaa7,2026-09-22T23:33:34.723Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,"Compare DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","DriveU is a chauffeur/ground-transport service, rather than a full air+hotel TMC. For a 50-person company, the closest alternatives depend on whether you mainly need employee ground travel.
+
+Provider	Current price	Exclusions / limitations	Best for
+DriveU Corporate	₹899/12 hrs + ₹60/hour; ₹129/hr option; GST extra 
+DriveU
+	Mainly driver + your car; not flights/hotels. Night surcharge applies.	Companies with executives using company/personal cars
+Savaari Corporate	From ₹1,335 half-day / ₹2,512 full-day sedan 
+Savaari
+	Vehicle, driver and trip scope vary; quote needed for corporate contracts	Chauffeur-driven cars across many Indian cities
+Uber for Business	₹0 signup/platform fee; pay actual ride costs 
+Uber
+	Primarily point-to-point mobility, not full TMC air/hotel management	50-person teams needing easy employee ride controls + expense tracking
+MakeMyTrip myBiz	Custom/booking-based pricing; corporate fares available 
+MakeMyTrip Biz
+	More self-service than a traditional dedicated TMC	Companies wanting flights + hotels + cabs + GST/expense management
+
+Key distinction: DriveU is directly comparable to Savaari/Uber for ground mobility, not to a conventional managed business-travel agency.
+
+For a 50-person company, get quotes specifically for monthly travel volume, cancellation/rebooking fees, credit terms, GST invoices, dedicated support and SLA/backup vehicle commitments.",5baa2ceb093c0bc2a684ea1e,evidence/632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e.png,632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e
 a9454c204b2947ec6a3c3a5d,237d3a385c7690ab7b71a290,2026-09-22T23:31:48.711Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,"Stress-Free City Travel, Made Effortless","Vetted chauffeurs, pristine cars and thoughtful service for a stress-free city journey.",Travel and leisure,Corporate travel,complete_panel,True,"I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, these are three currently available TMC-style options. Public pricing is limited, so the actual commercial quote needs verification.
 
 Option	Price	Reliability / support	Important limitations

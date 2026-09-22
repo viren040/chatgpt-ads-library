@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-22T23:34:54Z",
+  "generated_at": "2026-09-22T23:35:15Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -11,23 +11,23 @@
     "prompt-observations.csv.industry": "prompt_industry"
   },
   "stats": {
-    "valid_turns": 364,
-    "approved_paid_units": 188,
+    "valid_turns": 366,
+    "approved_paid_units": 189,
     "approved_advertisers": 92,
     "approved_creatives": 165,
-    "complete_panel_paid_units": 75,
+    "complete_panel_paid_units": 76,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 13,
+      "placements": 14,
       "creatives": 10,
-      "panel_placements": 9,
+      "panel_placements": 10,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T23:27:11.982Z",
+      "last_seen": "2026-09-22T23:33:34.723Z",
       "categories": "Travel and leisure,Corporate travel"
     },
     {
@@ -1035,12 +1035,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 364,
-    "ad_turns": 75,
-    "ad_rate": 0.20604395604395603,
-    "ad_rate_low": 0.1676664163437795,
-    "ad_rate_high": 0.2505614295551074,
-    "paid_units": 75,
+    "turns": 366,
+    "ad_turns": 76,
+    "ad_rate": 0.20765027322404372,
+    "ad_rate_low": 0.16923534145506364,
+    "ad_rate_high": 0.25213856564462445,
+    "paid_units": 76,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1060,16 +1060,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 44,
-        "ad_turns": 26,
-        "paid_units": 26,
+        "turns": 46,
+        "ad_turns": 27,
+        "paid_units": 27,
         "advertisers": 11,
         "creatives": 19,
-        "ad_rate": 0.5909090909090909,
-        "posterior_ad_rate": 0.5625,
-        "competition_score": 2.0814973414543645,
-        "ad_rate_low": 0.44409492646606574,
-        "ad_rate_high": 0.7231235612099317,
+        "ad_rate": 0.5869565217391305,
+        "posterior_ad_rate": 0.56,
+        "competition_score": 2.0722462421590118,
+        "ad_rate_low": 0.44339242387017885,
+        "ad_rate_high": 0.7171160670289899,
         "evidence_strength": "established"
       },
       {
@@ -1751,16 +1751,16 @@
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 7,
-        "ad_turns": 7,
-        "paid_units": 7,
+        "turns": 8,
+        "ad_turns": 8,
+        "paid_units": 8,
         "advertisers": 6,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.7272727272727273,
-        "competition_score": 2.1818181818181817,
-        "ad_rate_low": 0.6456611570247934,
+        "posterior_ad_rate": 0.75,
+        "competition_score": 2.25,
+        "ad_rate_low": 0.6755843804891231,
         "ad_rate_high": 1,
-        "evidence_strength": "exploratory"
+        "evidence_strength": "directional"
       },
       {
         "turn_index": 2,
@@ -1821,20 +1821,71 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 54,
+        "turns": 55,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.05555555555555555,
-        "posterior_ad_rate": 0.06896551724137931,
-        "competition_score": 0.1601329720611974,
-        "ad_rate_low": 0.019072922503838907,
-        "ad_rate_high": 0.15107451463482943,
+        "ad_rate": 0.05454545454545454,
+        "posterior_ad_rate": 0.06779661016949153,
+        "competition_score": 0.15741885389066862,
+        "ad_rate_low": 0.01872287596750008,
+        "ad_rate_high": 0.14853294304489928,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "5f6eb2313fd00f269450e27b",
+      "turn_id": "3b246c529f7175dcbb36eaa7",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "5baa2ceb093c0bc2a684ea1e",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visually confirmed current-turn paid card: disclosure, advertiser, and creative match the saved screenshot.",
+      "reviewed_at": 1790120115.145613,
+      "captured_at": "2026-09-22T23:33:34.723Z",
+      "prompt": "Compare DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "DriveU is a chauffeur/ground-transport service, rather than a full air+hotel TMC. For a 50-person company, the closest alternatives depend on whether you mainly need employee ground travel.\n\nProvider\tCurrent price\tExclusions / limitations\tBest for\nDriveU Corporate\t₹899/12 hrs + ₹60/hour; ₹129/hr option; GST extra \nDriveU\n\tMainly driver + your car; not flights/hotels. Night surcharge applies.\tCompanies with executives using company/personal cars\nSavaari Corporate\tFrom ₹1,335 half-day / ₹2,512 full-day sedan \nSavaari\n\tVehicle, driver and trip scope vary; quote needed for corporate contracts\tChauffeur-driven cars across many Indian cities\nUber for Business\t₹0 signup/platform fee; pay actual ride costs \nUber\n\tPrimarily point-to-point mobility, not full TMC air/hotel management\t50-person teams needing easy employee ride controls + expense tracking\nMakeMyTrip myBiz\tCustom/booking-based pricing; corporate fares available \nMakeMyTrip Biz\n\tMore self-service than a traditional dedicated TMC\tCompanies wanting flights + hotels + cabs + GST/expense management\n\nKey distinction: DriveU is directly comparable to Savaari/Uber for ground mobility, not to a conventional managed business-travel agency.\n\nFor a 50-person company, get quotes specifically for monthly travel volume, cancellation/rebooking fees, credit terms, GST invoices, dedicated support and SLA/backup vehicle commitments.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e",
+      "screenshot_relpath": "evidence/632860bb96cf12650f49108b0b06cafdbaa04f93f11827dc790847628224096e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India\n\n₹2,489.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "a9454c204b2947ec6a3c3a5d",
       "turn_id": "237d3a385c7690ab7b71a290",
