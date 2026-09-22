@@ -25,7 +25,7 @@ does not reveal campaign spend, bids, targeting settings, conversions, or curren
 
 The standalone interface supports:
 
-- full-text search across advertisers, copy, prompts, answers, and prompt categories;
+- full-text search across advertisers, creative copy, prompts, and prompt categories;
 - prompt-category and advertiser filters;
 - filtering each placement by complete-panel or reviewed positive-only provenance;
 - verified CSV and JSON downloads for independent analysis;
@@ -49,6 +49,8 @@ They do not classify the advertiser or creative. This meaning is also recorded i
 creative copy, prompt category, evidence design, rate eligibility, prompt, completed answer, creative ID,
 and content-addressed screenshot.
 `library.json` additionally contains advertiser summaries and complete-panel experiment denominators.
+The site loads compact `catalog.json` first; full answers and review notes live in hash-verified
+`details/*.json` shards and load only when evidence context is opened.
 
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
 It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,
