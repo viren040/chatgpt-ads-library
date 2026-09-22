@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:16:12Z",
+  "generated_at": "2026-09-22T20:17:55Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "imports": 25,
-    "valid_turns": 172,
-    "detected_paid_units": 121,
-    "approved_paid_units": 120,
-    "approved_advertisers": 76,
-    "approved_creatives": 116,
+    "imports": 27,
+    "valid_turns": 175,
+    "detected_paid_units": 122,
+    "approved_paid_units": 121,
+    "approved_advertisers": 77,
+    "approved_creatives": 117,
     "pending_review": 0
   },
   "advertisers": [
@@ -400,6 +400,15 @@
       "categories": "Commercial discovery"
     },
     {
+      "id": "3484b7bc2f90ad9af021999e",
+      "advertiser": "MakeMyTrip Hotels",
+      "placements": 1,
+      "creatives": 1,
+      "first_seen": "2026-09-22T20:15:50.901Z",
+      "last_seen": "2026-09-22T20:15:50.901Z",
+      "categories": "Domestic flights"
+    },
+    {
       "id": "ea9efd36d31d614ae1c8912f",
       "advertiser": "Merlin AI",
       "placements": 1,
@@ -700,10 +709,22 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 59,
-    "ad_turns": 7,
-    "ad_rate": 0.11864406779661017,
+    "turns": 62,
+    "ad_turns": 8,
+    "ad_rate": 0.12903225806451613,
     "categories": [
+      {
+        "category": "Domestic flights",
+        "industry": "Travel and leisure",
+        "turns": 6,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.16666666666666666,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.31699250014423125
+      },
       {
         "category": "Hostels",
         "industry": "Travel and leisure",
@@ -727,18 +748,6 @@
         "ad_rate": 0.6666666666666666,
         "posterior_ad_rate": 0.5,
         "competition_score": 0.792481250360578
-      },
-      {
-        "category": "Domestic flights",
-        "industry": "Travel and leisure",
-        "turns": 5,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.1111111111111111,
-        "competition_score": 0.1111111111111111
       },
       {
         "category": "International eSIM",
@@ -825,6 +834,18 @@
         "competition_score": 0.125
       },
       {
+        "category": "Luxury resorts",
+        "industry": "Travel and leisure",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285
+      },
+      {
         "category": "Train booking",
         "industry": "Travel and leisure",
         "turns": 3,
@@ -849,8 +870,8 @@
         "competition_score": 0.14285714285714285
       },
       {
-        "category": "Luxury resorts",
-        "industry": "Travel and leisure",
+        "category": "Perfume gift sets",
+        "industry": "Beauty and personal care",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -907,22 +928,63 @@
         "ad_rate": 1.0,
         "posterior_ad_rate": 0.4,
         "competition_score": 0.6339850002884625
-      },
-      {
-        "category": "Perfume gift sets",
-        "industry": "Beauty and personal care",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2
       }
     ]
   },
   "ads": [
+    {
+      "id": "007d5a97b295693c9cf5fe0e",
+      "turn_id": "fcb091159bb1051c2df8b4f7",
+      "advertiser": "MakeMyTrip Hotels",
+      "advertiser_key": "3484b7bc2f90ad9af021999e",
+      "creative_id": "003ea43c99413f7c358aa530",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Top Rated Hotels In Delhi",
+      "description": "Find stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Screenshot visibly shows the Ad disclosure, full MakeMyTrip Hotels advertiser identity, and matching Top Rated Hotels In Delhi creative.",
+      "reviewed_at": 1790108275.4470038,
+      "captured_at": "2026-09-22T20:15:50.901Z",
+      "prompt": "Make this more purchase-specific: for return flights from Bengaluru to Delhi for a family trip, including checked baggage, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a purchase-ready shortlist, the main issue is that you haven't given travel dates, so exact return fares cannot be locked. Current one-way market pricing gives a useful benchmark:\n\nAirline / fare\tCurrent price benchmark\tChecked baggage\tImportant limitation\nAir India – Economy Value/Classic\t₹8,203 one-way\t15 kg included\tFare varies by date; changes/refunds depend on fare type. \nAir India\n\nIndiGo – standard Economy\t~₹7,570 one-way\t15 kg typically included\tAvoid Lite if checking bags: Lite is cabin-bag-only. \nIxigo\n+1\n\nAkasa Air – Economy\t~₹7,171 one-way\tVerify baggage allowance at checkout\tLowest displayed fare can exclude useful extras; price is date-dependent. \nIxigo\n\nIndicative return budget: roughly ₹14,300–₹16,400 per person before any fare-specific extras, based on current displayed fares.\n\nFor a family, I’d compare the final checkout total after adding 15 kg checked baggage for every passenger, not the headline fare.\n\nGive me your departure date, return date, and number of adults/children, and I can narrow this to three exact bookable options.",
+      "industry": "Travel and leisure",
+      "category": "Domestic flights",
+      "conversation_url": "https://chatgpt.com/c/6ab2e173-adcc-83e8-aacd-67f5dfdebd4d",
+      "screenshot_sha256": "f7574ff51af466787f05578e25cbf37759fc54d13e461ae9ac8c0f97798a34ba",
+      "screenshot_relpath": "evidence/f7574ff51af466787f05578e25cbf37759fc54d13e461ae9ac8c0f97798a34ba.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "MakeMyTrip Hotels",
+        "format": "answer_card",
+        "headline": "Top Rated Hotels In Delhi",
+        "description": "Find stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now.",
+        "copy": [
+          "MakeMyTrip Hotels",
+          "Top Rated Hotels In Delhi",
+          "Find stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/3e3e5b2248b278fb.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "MakeMyTrip Hotels",
+              "Top Rated Hotels In Delhi",
+              "Find stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now."
+            ],
+            "text": "MakeMyTrip Hotels\n\nTop Rated Hotels In Delhi\n\nFind stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/3e3e5b2248b278fb.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "a9cead67f48c93f26d79be9c",
       "turn_id": "92bdf7509849dcb76f4caeb0",
