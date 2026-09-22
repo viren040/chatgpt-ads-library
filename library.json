@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T21:59:43Z",
+  "generated_at": "2026-09-22T22:01:21Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 214,
-    "approved_paid_units": 133,
-    "approved_advertisers": 80,
-    "approved_creatives": 127
+    "valid_turns": 228,
+    "approved_paid_units": 144,
+    "approved_advertisers": 82,
+    "approved_creatives": 136
   },
   "advertisers": [
     {
@@ -21,11 +21,29 @@
     {
       "id": "025aab1cc9385a7e85d0e57f",
       "advertiser": "trivago",
-      "placements": 8,
-      "creatives": 7,
+      "placements": 9,
+      "creatives": 8,
       "first_seen": "2026-09-20T18:32:25.529Z",
-      "last_seen": "2026-09-22T21:27:06.328Z",
+      "last_seen": "2026-09-22T21:47:05.300Z",
       "categories": "Travel and leisure,Vacation rentals"
+    },
+    {
+      "id": "a222e2ba55abec4f9b12de68",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "placements": 6,
+      "creatives": 5,
+      "first_seen": "2026-09-21T06:24:21.524Z",
+      "last_seen": "2026-09-22T21:40:08.637Z",
+      "categories": "Commercial discovery,Travel and leisure,Vacation rentals"
+    },
+    {
+      "id": "2e81afd45de21f0c44616576",
+      "advertiser": "Homerun Retail Private Limited",
+      "placements": 6,
+      "creatives": 5,
+      "first_seen": "2026-09-11T22:11:59.074Z",
+      "last_seen": "2026-09-22T21:43:41.987Z",
+      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals"
     },
     {
       "id": "d11cd2bad34c540f1f5a7123",
@@ -37,13 +55,13 @@
       "categories": "Beauty and personal care,Rose perfume"
     },
     {
-      "id": "2e81afd45de21f0c44616576",
-      "advertiser": "Homerun Retail Private Limited",
+      "id": "ca82b10559cc43464054b038",
+      "advertiser": "HSBC - Credit Cards",
       "placements": 5,
       "creatives": 4,
-      "first_seen": "2026-09-11T22:11:59.074Z",
-      "last_seen": "2026-09-22T21:00:40.391Z",
-      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage"
+      "first_seen": "2026-09-22T21:41:50.076Z",
+      "last_seen": "2026-09-22T21:51:35.654Z",
+      "categories": "Vacation rentals"
     },
     {
       "id": "f32a45d9b41719c39cfa21a4",
@@ -71,15 +89,6 @@
       "first_seen": "2026-09-11T20:37:58.733Z",
       "last_seen": "2026-09-22T02:47:14.902Z",
       "categories": "Travel and leisure,Flight booking"
-    },
-    {
-      "id": "a222e2ba55abec4f9b12de68",
-      "advertiser": "Agoda Company Pte. Ltd.",
-      "placements": 3,
-      "creatives": 3,
-      "first_seen": "2026-09-21T06:24:21.524Z",
-      "last_seen": "2026-09-22T21:22:47.748Z",
-      "categories": "Commercial discovery,Travel and leisure,Vacation rentals"
     },
     {
       "id": "83d40ecd26a8ce9b174a1d9e",
@@ -415,6 +424,15 @@
       "categories": "Commercial discovery"
     },
     {
+      "id": "ff40120a8b25c1e9becd0810",
+      "advertiser": "MMT DF",
+      "placements": 1,
+      "creatives": 1,
+      "first_seen": "2026-09-22T21:56:36.048Z",
+      "last_seen": "2026-09-22T21:56:36.048Z",
+      "categories": "Vacation rentals"
+    },
+    {
       "id": "ea9efd36d31d614ae1c8912f",
       "advertiser": "Merlin AI",
       "placements": 1,
@@ -733,25 +751,25 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 214,
-    "ad_turns": 20,
-    "ad_rate": 0.09345794392523364,
-    "ad_rate_low": 0.06131459341623099,
-    "ad_rate_high": 0.13993989608439697,
+    "turns": 228,
+    "ad_turns": 31,
+    "ad_rate": 0.13596491228070176,
+    "ad_rate_low": 0.09746610961244055,
+    "ad_rate_high": 0.18652778967051814,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 52,
-        "ad_turns": 6,
-        "paid_units": 6,
-        "advertisers": 4,
-        "creatives": 5,
-        "ad_rate": 0.11538461538461539,
-        "posterior_ad_rate": 0.125,
-        "competition_score": 0.3231203125901445,
-        "ad_rate_low": 0.05396895756082726,
-        "ad_rate_high": 0.22971918891062054,
+        "turns": 65,
+        "ad_turns": 17,
+        "paid_units": 17,
+        "advertisers": 7,
+        "creatives": 14,
+        "ad_rate": 0.26153846153846155,
+        "posterior_ad_rate": 0.2608695652173913,
+        "competition_score": 0.8269369568979944,
+        "ad_rate_low": 0.17018055060319132,
+        "ad_rate_high": 0.3795103339782245,
         "evidence_strength": "established"
       },
       {
@@ -1235,6 +1253,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1278,125 +1311,693 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Corporate travel",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 70,
-        "ad_turns": 6,
-        "paid_units": 6,
-        "advertisers": 5,
-        "ad_rate": 0.08571428571428572,
-        "posterior_ad_rate": 0.0945945945945946,
-        "competition_score": 0.2655606007351788,
-        "ad_rate_low": 0.03987612654032836,
-        "ad_rate_high": 0.17465876977827793,
+        "turns": 73,
+        "ad_turns": 8,
+        "paid_units": 8,
+        "advertisers": 6,
+        "ad_rate": 0.1095890410958904,
+        "posterior_ad_rate": 0.11688311688311688,
+        "competition_score": 0.35064935064935066,
+        "ad_rate_low": 0.056586041610119084,
+        "ad_rate_high": 0.20162825897706282,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
+        "turns": 2,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
+        "posterior_ad_rate": 0.5,
+        "competition_score": 1.0,
+        "ad_rate_low": 0.34237195288961925,
         "ad_rate_high": 1,
         "evidence_strength": "exploratory"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 59,
-        "ad_turns": 8,
-        "paid_units": 8,
-        "advertisers": 6,
-        "ad_rate": 0.13559322033898305,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.42857142857142855,
-        "ad_rate_low": 0.07034090749685569,
-        "ad_rate_high": 0.24539898454917758,
+        "turns": 63,
+        "ad_turns": 11,
+        "paid_units": 11,
+        "advertisers": 8,
+        "ad_rate": 0.1746031746031746,
+        "posterior_ad_rate": 0.1791044776119403,
+        "competition_score": 0.594972196099229,
+        "ad_rate_low": 0.10039293923176863,
+        "ad_rate_high": 0.28621659734425586,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 3,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 1,
-        "ad_rate": 0.6666666666666666,
-        "posterior_ad_rate": 0.42857142857142855,
-        "competition_score": 0.6792696431662097,
-        "ad_rate_low": 0.2076549551264879,
-        "ad_rate_high": 0.9385096847238394,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "turn_index": 3,
-        "branch": "zero_rescue",
-        "turns": 45,
-        "ad_turns": 2,
-        "paid_units": 2,
+        "turns": 5,
+        "ad_turns": 4,
+        "paid_units": 4,
         "advertisers": 2,
-        "ad_rate": 0.044444444444444446,
-        "posterior_ad_rate": 0.061224489795918366,
-        "competition_score": 0.12244897959183673,
-        "ad_rate_low": 0.012273869040444335,
-        "ad_rate_high": 0.14827779183880616,
+        "ad_rate": 0.8,
+        "posterior_ad_rate": 0.5555555555555556,
+        "competition_score": 1.1111111111111112,
+        "ad_rate_low": 0.3755282641185388,
+        "ad_rate_high": 0.9637768390302125,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "turn_index": 3,
+        "branch": "zero_rescue",
+        "turns": 47,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 3,
+        "ad_rate": 0.06382978723404255,
+        "posterior_ad_rate": 0.0784313725490196,
+        "competition_score": 0.18211200744214606,
+        "ad_rate_low": 0.0219449870207728,
+        "ad_rate_high": 0.17162877934377904,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "turn_index": 4,
-        "branch": "zero_rescue",
-        "turns": 35,
+        "turns": 2,
         "ad_turns": 1,
         "paid_units": 1,
         "advertisers": 1,
-        "ad_rate": 0.02857142857142857,
-        "posterior_ad_rate": 0.05128205128205128,
-        "competition_score": 0.08128012824211056,
-        "ad_rate_low": 0.005061361365853362,
-        "ad_rate_high": 0.1453340909327131,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.3333333333333333,
+        "competition_score": 0.5283208335737186,
+        "ad_rate_low": 0.09452865480086614,
+        "ad_rate_high": 0.9054713451991339,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "turn_index": 4,
+        "branch": "zero_rescue",
+        "turns": 36,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "ad_rate": 0.05555555555555555,
+        "posterior_ad_rate": 0.075,
+        "competition_score": 0.15,
+        "ad_rate_low": 0.015369663767066846,
+        "ad_rate_high": 0.18144974107611211,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "1413aaf02f4ca87580895cdd",
+      "turn_id": "58d1cbb4f1e2976805e7012b",
+      "advertiser": "MMT DF",
+      "advertiser_key": "ff40120a8b25c1e9becd0810",
+      "creative_id": "c95fa36fa7f81cded2dc501f",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Book Flight Tickets",
+      "description": "Instant Discounts On Multiple Airlines. Book With MakeMyTrip™",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, MMT DF advertiser, and Book Flight Tickets creative.",
+      "reviewed_at": 1790114471.4227672,
+      "captured_at": "2026-09-22T21:56:36.048Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a purchase-ready comparison, these are three specific 2-bedroom options currently listed for Goa. Exact dates can change availability and price.\n\nOffer\tCurrent price\tPurchase terms\tKey limitation\nJupiter 2BHK Apartment by tisyastays, Assagao\t₹6,313 + ₹698 taxes/night\tSleeps 4; free cancellation within 24h, then non-refundable\tHigher total price; only 2 bathrooms, no stated housekeeping details \nGoibibo\n\n2BHK Chic Duplex, Mirashya Homes, Candolim\t₹5,223 + ₹708 taxes/night\tSleeps 4; ₹0 booking option; free cancellation until stated deadline\tOnly 1 bathroom; cancellation deadline is date-specific \nGoibibo\n\nRefined Peaceful 2BHK Family Duplex, Mirashya Homes, Candolim\t₹4,364 + ₹622 taxes/night\tSleeps 4; free cancellation until stated deadline\tOnly 1 bathroom; property-level reliability is less established than large hotel brands \nGoibibo\n\nReliability signal: Mirashya has multiple listed properties, while Goa has 168 serviced apart-hotels currently listed on MakeMyTrip. \nmakemytrip.com\n\nImportant: these prices are per night, not trip totals. Before paying, verify your dates, final taxes, security deposit, housekeeping, parking and cancellation deadline.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f8df-295c-83ee-9be7-2d26afff5667",
+      "screenshot_sha256": "3833bf5e7de1ea0825aa8ca1019c7213d20da24dde50c0c3468a6799c95db014",
+      "screenshot_relpath": "evidence/3833bf5e7de1ea0825aa8ca1019c7213d20da24dde50c0c3468a6799c95db014.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "MMT DF",
+        "format": "answer_card",
+        "headline": "Book Flight Tickets",
+        "description": "Instant Discounts On Multiple Airlines. Book With MakeMyTrip™",
+        "copy": [
+          "MMT DF",
+          "Book Flight Tickets",
+          "Instant Discounts On Multiple Airlines. Book With MakeMyTrip™"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/9a9a225dc156509989d6572590e37540.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "MMT DF",
+              "Book Flight Tickets",
+              "Instant Discounts On Multiple Airlines. Book With MakeMyTrip™"
+            ],
+            "text": "MMT DF\n\nBook Flight Tickets\n\nInstant Discounts On Multiple Airlines. Book With MakeMyTrip™",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/9a9a225dc156509989d6572590e37540.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "51de0a84fff694e814a74b19",
+      "turn_id": "5cc35de03ceb65ea625d7a62",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "688389c0252ac9372b0c1ebb",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Flat 15% Off* on Travel",
+      "description": "Earn 4 Reward Points* on every ₹100 spent on travel",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and Flat 15% Off on Travel creative.",
+      "reviewed_at": 1790114471.4236102,
+      "captured_at": "2026-09-22T21:51:35.654Z",
+      "prompt": "I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.6\nAlaya Stays by ELIVAAS Apartment\n4.9\nCasa Stay Candolim\nExpand\nUse two fingers to move the map\nAlaya Stays by ELIVAAS Apartment\n4.6\n•\nVilla\nCasa Stay Candolim\n4.9\n•\nServiced apartment\nGive feedback\n\nFor a 2-bedroom serviced apartment for 4 adults in Goa, switching providers is usually straightforward, but the main friction is re-checking dates, cancellation terms, taxes, and location.\n\nOption\tCurrent example cost\tSwitching difficulty\tPractical issue\nAlaya Stays by ELIVAAS Apartment\tQuote varies by dates\tLow–medium\tPlatform-managed booking; compare final checkout price\nCasa Stay Candolim\tQuote varies by dates\tMedium\tDirect/property-specific terms may require reconfirmation\nMarriott Homes & Villas\tFrom about ₹5,700/night + taxes for a 2BR Goa example\tLow\tProfessional management and 24/7 local support; rates vary seasonally\n\nMarriott currently lists a 2BR, 4-guest Goa apartment at ₹5,700 + taxes/night as a starting price. \nHomes & Villas by Marriott Bonvoy\n Airbnb also currently has a 2BR/4-guest serviced apartment in Varca. \nAirbnb\n\nSwitching cost: moving between platforms is mostly administrative; switching after payment can become expensive if the original booking is non-refundable. Always compare the all-in total and cancellation window before cancelling. \nnerdwallet.com",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f848-df9c-83e8-bd34-a6ca0d5bc0ff",
+      "screenshot_sha256": "24b026b09122a54ad2478e6cdbe601512da52c0baf799ce27436aff30e4ddac3",
+      "screenshot_relpath": "evidence/24b026b09122a54ad2478e6cdbe601512da52c0baf799ce27436aff30e4ddac3.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "Flat 15% Off* on Travel",
+        "description": "Earn 4 Reward Points* on every ₹100 spent on travel",
+        "copy": [
+          "HSBC - Credit Cards",
+          "Flat 15% Off* on Travel",
+          "Earn 4 Reward Points* on every ₹100 spent on travel"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/f8452a725d6f5ce6806b59c0f13aedd2.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "Flat 15% Off* on Travel",
+              "Earn 4 Reward Points* on every ₹100 spent on travel"
+            ],
+            "text": "HSBC - Credit Cards\n\nFlat 15% Off* on Travel\n\nEarn 4 Reward Points* on every ₹100 spent on travel",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/f8452a725d6f5ce6806b59c0f13aedd2.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "944bd73294a8a59036b30801",
+      "turn_id": "538871eb9a3cd4c9252eda0b",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "22f4f0dbc57ec78c063e148a",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Flat 15% Off* on Travel",
+      "description": "Earn 4 Reward Points* on every ₹100 spent on travel",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and Flat 15% Off on Travel creative.",
+      "reviewed_at": 1790114471.4242759,
+      "captured_at": "2026-09-22T21:50:01.360Z",
+      "prompt": "I need to decide today. Give a final shortlist for a serviced two-bedroom vacation rental in Goa for four adults, including exact prices, purchase terms, and the strongest alternative to each choice.",
+      "answer": "For deciding today, I’d shortlist these three. These are live listings I could verify now; exact stay dates were not provided, so the prices are current per-night listing prices, not a guaranteed booking quote.\n\nStay\tCurrent price\tPurchase terms / limitation\tStrong alternative\nAlaya Stays by ELIVAAS – Veera Marina, Candolim\t₹8,412/night incl. taxes (₹6,761 + ₹1,651)\t2BR serviced apartment, pool, kitchen, power backup; free cancellation shown. 4.8/5 from 243 MMT ratings. \nMakeMyTrip\n\tSusegad Suites, Arpora: ₹6,611 incl. taxes; 2BR, pool, kitchenette, free cancellation; 4.6/5. \nMakeMyTrip\n\nSusegad Suites Goa, Arpora\t₹6,611/night incl. taxes (₹5,681 + ₹930)\tFree cancellation; book-with-₹0-payment shown. 2BR serviced apartment; 46 ratings. \nMakeMyTrip\n\tSerena Casa, Cavelossim: ₹4,622 incl. taxes; 2BR, private pool, kitchen; free cancellation. \nMakeMyTrip\n\nSerena Casa, Cavelossim\t₹4,622/night incl. taxes (₹3,992 + ₹630)\tFree cancellation and ₹0-payment option shown; only 7 ratings, so less review history. \nMakeMyTrip\n\tVasundhara, Cavelossim: ₹4,377 incl. taxes; 4.8/5 from 10 ratings; free cancellation. \nMakeMyTrip\n\nBefore paying: enter your exact dates and 4 adults, then verify the final total, cancellation deadline, security deposit, housekeeping frequency and check-in rules. Prices/availability can change.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f6c5-7600-83e9-b091-780cb73b23af",
+      "screenshot_sha256": "15a619ef5353a5ade164be7d7c5ba4d5f775a9c2541fa5c2496f2c50aea7df19",
+      "screenshot_relpath": "evidence/15a619ef5353a5ade164be7d7c5ba4d5f775a9c2541fa5c2496f2c50aea7df19.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "Flat 15% Off* on Travel",
+        "description": "Earn 4 Reward Points* on every ₹100 spent on travel",
+        "copy": [
+          "HSBC - Credit Cards",
+          "Flat 15% Off* on Travel",
+          "Earn 4 Reward Points* on every ₹100 spent on travel"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/47663f7afbaf520cafe5117d782c8c79.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "Flat 15% Off* on Travel",
+              "Earn 4 Reward Points* on every ₹100 spent on travel"
+            ],
+            "text": "HSBC - Credit Cards\n\nFlat 15% Off* on Travel\n\nEarn 4 Reward Points* on every ₹100 spent on travel",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/47663f7afbaf520cafe5117d782c8c79.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "19663733a4570cbf28ecb608",
+      "turn_id": "552206ba31efb407793cd6ce",
+      "advertiser": "trivago",
+      "advertiser_key": "025aab1cc9385a7e85d0e57f",
+      "creative_id": "a1cc8bd35b986811781d88df",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Cheap Hotels in Dabolim",
+      "description": "Good Dabolim rates, save up to 40%",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, trivago advertiser, and Cheap Hotels in Dabolim creative.",
+      "reviewed_at": 1790114471.424515,
+      "captured_at": "2026-09-22T21:47:05.300Z",
+      "prompt": "Which option for a serviced two-bedroom vacation rental in Goa for four adults offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "4.6\nAmazing Pool View 2BHK Candolim Goa Apartment\nExpand\nUse two fingers to move the map\nAmazing Pool View 2BHK Candolim Goa Apartment\n4.6\n•\nServiced apartment\nGive feedback\n\nFor a purchase today, I’d shortlist these three based on the currently displayed rates and terms. Exact totals still depend on your dates.\n\nOption\tCurrent displayed price\t4-adult fit\tCancellation / catch\nAmazing Pool View 2BHK Candolim Goa Apartment\tCheck live quote\tEntire 2BHK, pool\tVerify final taxes, deposit and cancellation before payment\nBOHO BAGA 2BHK\t₹5,646/night incl. ₹665 taxes\t2 king beds, 2 baths, sleeps 4\tFree cancellation until 22 Sep 11:59 AM on the currently indexed offer; date-specific cutoff must be rechecked \nGoibibo\n\nJupiter 2BHK by Tisyastays\t₹7,011/night incl. ₹698 taxes\t2 queen beds, 2 baths, sleeps 4\tFree cancellation only within 24h of booking; non-refundable afterward \nGoibibo\nPurchase-ready take\n\nBOHO BAGA has the strongest price-to-flexibility combination in the currently indexed offers: ₹5,646/night including displayed taxes, with housekeeping, caretaker, pool, Wi-Fi and kitchenette. \nGoibibo\n\nBefore paying, verify (1) your exact four-adult dates, (2) final checkout total, (3) security deposit, (4) cleaning/extra-person fees, (5) cancellation cutoff in the booking screen, and (6) check-in support.\n\nIf you want South Goa, the indexed Goibibo inventory also shows 2BHK serviced apartments around ₹3,734 + ₹514 taxes/night. \nGoibibo",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f5d3-0980-83ee-ae06-f77f0402d4e3",
+      "screenshot_sha256": "f072a6e1a191acea129ab1d07fc462b96d4e384d4ff2d130ccdd8d040c8806e0",
+      "screenshot_relpath": "evidence/f072a6e1a191acea129ab1d07fc462b96d4e384d4ff2d130ccdd8d040c8806e0.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "trivago",
+        "format": "answer_card",
+        "headline": "Cheap Hotels in Dabolim",
+        "description": "Good Dabolim rates, save up to 40%",
+        "copy": [
+          "trivago",
+          "Cheap Hotels in Dabolim",
+          "Good Dabolim rates, save up to 40%"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/a422c150f1ac5e628400a197dcd11c8e.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "trivago",
+              "Cheap Hotels in Dabolim",
+              "Good Dabolim rates, save up to 40%"
+            ],
+            "text": "trivago\n\nCheap Hotels in Dabolim\n\nGood Dabolim rates, save up to 40%",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/a422c150f1ac5e628400a197dcd11c8e.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "b9d4bac42d511f4b41c349cb",
+      "turn_id": "c83ce6843c13d55d6496c5d2",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "838f55b3e84cc4c0ed7171ad",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HSBC Taj Credit Card",
+      "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and HSBC Taj Credit Card creative.",
+      "reviewed_at": 1790114471.425279,
+      "captured_at": "2026-09-22T21:45:18.524Z",
+      "prompt": "Go deeper on the total cost of buying a serviced two-bedroom vacation rental in Goa for four adults. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "4.7\nTreehouse Blue, Hotel & Serviced Apartments\nExpand\nUse two fingers to move the map\nTreehouse Blue, Hotel & Serviced Apartments\n4.7\n•\nServiced apartment\n$26\nGive feedback\n\nFor a 2-bedroom serviced stay for four adults, the strongest currently visible options are:\n\nOption\tCurrent price signal\tFees / exclusions\tCancellation\tSupport\nTreehouse Blue, Hotel & Serviced Apartments\t~$26/night*\tTaxes may be extra; verify meal/extra-bed charges\tProperty-specific\tHigh: serviced-apartment operation\nMakeMyTrip: Azure 2BHK, Calangute\t₹8,316 + ₹2,700 taxes/night\t₹11,016/night shown; 2 queen beds, 2 baths\t100% refund until 24h before check-in\tHigh: OTA + caretaker \nMakeMyTrip\n\nGoibibo: Alaya Stays 2BHK, Veera Marina\t₹5,816 + ₹782 taxes/night\t₹6,598/night shown; sleeps 4\tFree cancellation shown, but cutoff is date-specific\tMedium–high: managed stay + OTA \nGoibibo\n\n*Business listing price is an indicative current listing price, not a guaranteed four-adult checkout total.\n\nTotal-cost reality\n\nFor 3 nights, Azure would be roughly ₹33,048 before any additional charges at the displayed rate. Alaya would be roughly ₹19,794, making the headline difference substantial.\n\nThe main exclusions to verify before paying are GST/taxes, security deposit, cleaning fees, extra-person charges, meals, and early/late check-in.\n\nThere isn't a conventional warranty/return for accommodation. Your protection is essentially the cancellation/refund policy and platform support. For a four-adult booking, I'd prioritize a property with a clearly stated full-refund cutoff rather than the lowest headline rate. \nMakeMyTrip\n+1",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f5d3-0980-83ee-ae06-f77f0402d4e3",
+      "screenshot_sha256": "163f433ca2742fa30f54512203a9f40e0fed38b93eabdbfaed13508b62087c97",
+      "screenshot_relpath": "evidence/163f433ca2742fa30f54512203a9f40e0fed38b93eabdbfaed13508b62087c97.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "HSBC Taj Credit Card",
+        "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+        "copy": [
+          "HSBC - Credit Cards",
+          "HSBC Taj Credit Card",
+          "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/a67acb786c935772ab8f4938f3f3183b.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "HSBC Taj Credit Card",
+              "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+            ],
+            "text": "HSBC - Credit Cards\n\nHSBC Taj Credit Card\n\nGet Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/a67acb786c935772ab8f4938f3f3183b.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "42280b663ff0a8267b0e52e2",
+      "turn_id": "97b67f8a276d117414cf91bc",
+      "advertiser": "Homerun Retail Private Limited",
+      "advertiser_key": "2e81afd45de21f0c44616576",
+      "creative_id": "e288376feb0d8259ab6887d7",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Build More. Save More.",
+      "description": "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, Homerun Retail advertiser, and Build More Save More creative.",
+      "reviewed_at": 1790114471.4255822,
+      "captured_at": "2026-09-22T21:43:41.987Z",
+      "prompt": "Compare HSBC - Credit Cards with three direct alternatives for a serviced two-bedroom vacation rental in Goa for four adults. Include current price, exclusions, and who each is best for.",
+      "answer": "Assuming you mean credit cards to pay for the Goa rental, rather than rental providers, here’s the practical comparison. Card fees are separate from the rental price.\n\nCard\tCurrent cost\tRelevant benefit\tKey exclusions\tBest for\nHSBC TravelOne\tFee applies; HSBC currently markets it as a travel card\tExtra rewards on travel + instant redemption; hotel/airline partners \nHSBC India\n+1\n\tRewards depend on eligible travel categories/terms\tBooking a Goa stay + future travel\nAxis Atlas\t₹5,000 + GST/year\tTravel-focused EDGE Miles; hotel/airline spending earns enhanced miles\tRent, insurance, wallet, fuel, utilities, etc. excluded from rewards \nAxis Bank\n+1\n\tFrequent travellers who transfer miles\nHDFC Regalia Gold\t₹2,500 + GST/year\tTravel rewards + hotel/airline ecosystem\tDomestic lounge access now requires ₹60k previous-quarter spend; rewards have category rules \nThe Economic Times\n+1\n\tBalanced travel + lifestyle spending\nHSBC Premier\t₹12,000 joining; ₹20,000 renewal, waived for qualifying Premier customers\t3 points/₹100; up to 12× on Travel with Points; 0.99% forex\tOnly for HSBC Premier customers; ₹50L average quarterly TRB criterion\tExisting HSBC Premier customers \nHSBC India\n\nFor a Goa rental specifically: first check whether the villa is booked directly, through an OTA, or via a foreign-registered merchant. That determines whether the transaction qualifies as hotel/travel spend and whether any surcharge/foreign-exchange cost applies.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f5d3-0980-83ee-ae06-f77f0402d4e3",
+      "screenshot_sha256": "40a348dd4b7d1486d2a3077d07a6b8f2c6304f7fb747a8988edb77254046d016",
+      "screenshot_relpath": "evidence/40a348dd4b7d1486d2a3077d07a6b8f2c6304f7fb747a8988edb77254046d016.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "Homerun Retail Private Limited",
+        "format": "answer_card",
+        "headline": "Build More. Save More.",
+        "description": "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+        "copy": [
+          "Homerun Retail Private Limited",
+          "Build More. Save More.",
+          "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/990309cb85d05e7ba84c19f34aaef050.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Homerun Retail Private Limited",
+              "Build More. Save More.",
+              "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF"
+            ],
+            "text": "Homerun Retail Private Limited\n\nBuild More. Save More.\n\n2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/990309cb85d05e7ba84c19f34aaef050.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "e0c4b86167254e0b12cb4f54",
+      "turn_id": "31917e3f26d0ed2c3aee4063",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "838f55b3e84cc4c0ed7171ad",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HSBC Taj Credit Card",
+      "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and HSBC Taj Credit Card creative.",
+      "reviewed_at": 1790114471.425799,
+      "captured_at": "2026-09-22T21:41:59.859Z",
+      "prompt": "I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.9\nCoral Stays Goa\n4.9\nThe Acacia Villas - Luxury Holiday Home Rentals\nExpand\nUse two fingers to move the map\nCoral Stays Goa\n4.9\n•\nShort term apartment rental agency\nOpen\nThe Acacia Villas - Luxury Holiday Home Rentals\n4.9\n•\nVacation home rental agency\nOpen\nGive feedback\n\nFor a serviced 2-bedroom Goa rental for 4 adults, the practical switching cost is mostly about price transparency, cancellation rules, and how much coordination you need with the host.\n\nProvider\tCurrent cost signal\tSwitching difficulty\nMakeMyTrip Villas\t2+ bedroom inventory starts around ₹5,500–₹10,000/night, with taxes extra\tLow — strong filters, ₹0-payment options and some free cancellation \nMakeMyTrip\n\nCoral Stays Goa\tQuote-based; serviced short-term apartments\tMedium — more direct coordination, but potentially better local support\nThe Acacia Villas - Luxury Holiday Home Rentals\tQuote-based; premium serviced villas\tMedium–high — more concierge-style, but less standardized pricing\n\nWhat changes when switching:\n\nMakeMyTrip → local operator: easiest if you value standardized booking/payment and cancellation visibility.\n\nLocal operator → another local operator: expect more WhatsApp coordination and property-specific deposits/house rules.\n\nBudget: MakeMyTrip currently shows many Goa villas in the ₹10k–₹19k/night band before taxes, while premium inventory can be substantially higher. \nMakeMyTrip\n\nFor a 4-adult trip, compare the final 2-night/3-night checkout total, not headline nightly price.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f5d3-0980-83ee-ae06-f77f0402d4e3",
+      "screenshot_sha256": "a7eb836a269fd0900f2b2a4d339ff16ba2b54d98a7ffd126426321025bad0564",
+      "screenshot_relpath": "evidence/a7eb836a269fd0900f2b2a4d339ff16ba2b54d98a7ffd126426321025bad0564.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "HSBC Taj Credit Card",
+        "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+        "copy": [
+          "HSBC - Credit Cards",
+          "HSBC Taj Credit Card",
+          "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/a67acb786c935772ab8f4938f3f3183b.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "HSBC Taj Credit Card",
+              "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+            ],
+            "text": "HSBC - Credit Cards\n\nHSBC Taj Credit Card\n\nGet Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/a67acb786c935772ab8f4938f3f3183b.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "f9822fd39fb24ce78607bc3d",
+      "turn_id": "efb0587a99fa2935d8a9b7b1",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "f5c244015f730d6641372e64",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HSBC Taj Credit Card",
+      "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and HSBC Taj Credit Card creative.",
+      "reviewed_at": 1790114471.425996,
+      "captured_at": "2026-09-22T21:41:50.076Z",
+      "prompt": "Go deeper on the total cost of buying a serviced two-bedroom vacation rental in Goa for four adults. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 4-adult stay, the clearest currently listed purchase options are:\n\nOption\tListed cost\tCancellation / fees\tSupport\nCalanguteBaga 2BHK, Goibibo\t₹4,378/night incl. ₹511 taxes\tFree cancellation within 24h of booking on one rate; another rate allows cancellation until the displayed deadline. Meals extra. \nGoibibo\n\tOn-site caretaker/housekeeping; Goibibo booking support\nAzure 2BHK, Limestays/MMT\t₹10,?00/night incl. ₹2,700 taxes/fees (displayed rate)\t100% refund until 24h before check-in; ₹0 payment option. \nMakeMyTrip\n\tCaretaker/key service, pool, parking, power backup\nGamma 2BHK, Goaround/Airbnb, Anjuna\tPrice requires dates\tAirbnb cancellation terms must be checked at checkout\tSelf check-in/building staff; 4 guests, 2 baths; 4.09/5 from 34 reviews. \nAirbnb\n\nImportant: none has a conventional “warranty”; your protection is the platform's cancellation/refund policy. For the first two, the displayed prices are not necessarily 4-adult final totals, so enter your exact dates and four guests before paying.\n\nAlso verify security deposit, cleaning/extra-guest charges, GST, housekeeping frequency, parking, power backup, check-in restrictions and refund timing.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f53d-9e6c-83ee-b2bd-4a547aaa4699",
+      "screenshot_sha256": "4176f221c0f6d4e8be78f41b120ef0140eb2cdb19ea1dfedc94b61f5df0aa83f",
+      "screenshot_relpath": "evidence/4176f221c0f6d4e8be78f41b120ef0140eb2cdb19ea1dfedc94b61f5df0aa83f.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "HSBC Taj Credit Card",
+        "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+        "copy": [
+          "HSBC - Credit Cards",
+          "HSBC Taj Credit Card",
+          "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "HSBC Taj Credit Card",
+              "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+            ],
+            "text": "HSBC - Credit Cards\n\nHSBC Taj Credit Card\n\nGet Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "53015b5030d82a190919966a",
+      "turn_id": "abf873a9f177b5d81b026b50",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "advertiser_key": "a222e2ba55abec4f9b12de68",
+      "creative_id": "7ee8a1a52f12baf92b977b48",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Planning a trip to Calangute?",
+      "description": "Compare hotels in Calangute and read real reviews.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, Agoda advertiser, and Calangute hotel creative.",
+      "reviewed_at": 1790114471.426618,
+      "captured_at": "2026-09-22T21:40:08.637Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "Here are three purchase-ready Goa 2BHK serviced-apartment offers currently listed in India. Exact totals depend on dates and guest count:\n\nAlaya Stays Veera Marina 2BHK, Candolim — ₹5,816 + ₹782 taxes/night for the displayed rate. Entire 2-bedroom apartment, sleeps 4; free cancellation was shown for the cited booking window. \nGoibibo\n\nLimitation: displayed price is for 2 adults, so re-price for 4 before paying.\n\nAzure 2BHK near Calangute Beach (Limestays) — ₹10,000/night incl. displayed taxes/fees; 2 bedrooms, 2 bathrooms, sleeps 4, pool and parking. \nmakemytrip.com\n\nLimitation: the displayed rate is date-specific; cancellation terms vary by rate.\n\nSusegad Suites Goa, Arpora — ₹4,436/night incl. taxes on Expedia’s current listing; 2-bedroom apartment with balcony. \nexpedia.co.in\n\nLimitation: verify that the displayed 2-adult rate applies to all four guests.\n\nBefore payment: enter 4 adults + exact dates and confirm the final tax-inclusive total, cancellation deadline, deposit, housekeeping, parking, and extra-guest charges.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f53d-9e6c-83ee-b2bd-4a547aaa4699",
+      "screenshot_sha256": "bdeff83b1cd83a145aaa8e88e19c2989f97bc6d7ae0e857dabc4c6d7aedb4fc4",
+      "screenshot_relpath": "evidence/bdeff83b1cd83a145aaa8e88e19c2989f97bc6d7ae0e857dabc4c6d7aedb4fc4.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "Agoda Company Pte. Ltd.",
+        "format": "answer_card",
+        "headline": "Planning a trip to Calangute?",
+        "description": "Compare hotels in Calangute and read real reviews.",
+        "copy": [
+          "Agoda Company Pte. Ltd.",
+          "Planning a trip to Calangute?",
+          "Compare hotels in Calangute and read real reviews."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/50805a8eaff95d10b94e1433690d060f.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Agoda Company Pte. Ltd.",
+              "Planning a trip to Calangute?",
+              "Compare hotels in Calangute and read real reviews."
+            ],
+            "text": "Agoda Company Pte. Ltd.\n\nPlanning a trip to Calangute?\n\nCompare hotels in Calangute and read real reviews.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/50805a8eaff95d10b94e1433690d060f.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "7fb40d329e8201b3d810b142",
+      "turn_id": "671fdc6d9356ae394406f514",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "advertiser_key": "a222e2ba55abec4f9b12de68",
+      "creative_id": "0cea8ae783e9d18a7e848c66",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Considering a stay at BREEZE RESIDENCY?",
+      "description": "Check available rooms and updated prices for BREEZE RESIDENCY.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, Agoda advertiser, and BREEZE RESIDENCY creative.",
+      "reviewed_at": 1790114471.4268942,
+      "captured_at": "2026-09-22T21:38:57.598Z",
+      "prompt": "Narrow this to high-intent choices for a serviced two-bedroom vacation rental in Goa for four adults. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "4.8\nHideAway 2BHK Duplex by Stay To Unwind\nExpand\nUse two fingers to move the map\nHideAway 2BHK Duplex by Stay To Unwind\n4.8\n•\nServiced apartment\nGive feedback\n\nFor a high-intent shortlist, I’d narrow it to these three:\n\nProvider / property\tCurrent price\tAvailability / cancellation\tSupport\nAlaya Stays – Veera Marina, Candolim\t₹5,816 + ₹782 taxes/night\t2BHK, 4 guests; listed as available. Free cancellation shown. \nGoibibo\n\tGoibibo + property management\nAzure by Limestays, Calangute\t₹8,316 + ₹2,700 taxes/night\t2BHK/2 baths, sleeps 4; ₹11,016/night all-in listed. Free cancellation up to 24h before check-in; ₹0 upfront. \nMakeMyTrip\n\tMakeMyTrip + Limestays\nSeacoast Apartments by Casa Regal, Varca\t₹2,223 + ₹376 taxes/night\t2BHK; pool/kitchenette. Free cancellation up to 24h before check-in. \nMakeMyTrip\n\tMakeMyTrip + property\n\nImportant: the displayed rates can be based on 2 adults, so enter 4 adults and your exact dates before paying. Also verify security deposit, cleaning fee, GST, parking, and refund timing.\n\nFor direct-property support, HideAway 2BHK Duplex by Stay To Unwind is another named local operator worth contacting, but I couldn't verify a comparable live rate.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f48a-fc2c-83ee-a0d0-f2d0a351b1db",
+      "screenshot_sha256": "69b9d0c96b1d6d8cbac983e87b395501590156e1cb76401680b2e02220e50028",
+      "screenshot_relpath": "evidence/69b9d0c96b1d6d8cbac983e87b395501590156e1cb76401680b2e02220e50028.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "Agoda Company Pte. Ltd.",
+        "format": "answer_card",
+        "headline": "Considering a stay at BREEZE RESIDENCY?",
+        "description": "Check available rooms and updated prices for BREEZE RESIDENCY.",
+        "copy": [
+          "Agoda Company Pte. Ltd.",
+          "Considering a stay at BREEZE RESIDENCY?",
+          "Check available rooms and updated prices for BREEZE RESIDENCY."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/faad63ef995153a88a77179126dfbd73.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Agoda Company Pte. Ltd.",
+              "Considering a stay at BREEZE RESIDENCY?",
+              "Check available rooms and updated prices for BREEZE RESIDENCY."
+            ],
+            "text": "Agoda Company Pte. Ltd.\n\nConsidering a stay at BREEZE RESIDENCY?\n\nCheck available rooms and updated prices for BREEZE RESIDENCY.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/faad63ef995153a88a77179126dfbd73.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "3351838bdd469d1c4cae842a",
+      "turn_id": "5268739eed138771f57732db",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "advertiser_key": "a222e2ba55abec4f9b12de68",
+      "creative_id": "dccf761d4cfc8bbb75428bb1",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Considering a stay at The Wyndham Hotel?",
+      "description": "Check available rooms and updated prices for The Wyndham Hotel.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, Agoda advertiser, and The Wyndham Hotel creative.",
+      "reviewed_at": 1790114471.427267,
+      "captured_at": "2026-09-22T21:35:17.119Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "4.6\nAlaya Stays by ELIVAAS Apartment\n3.9\nMarsierra by Jaglax Homes - GOA\n5.0\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\nExpand\nUse two fingers to move the map\nAlaya Stays by ELIVAAS Apartment\n4.6\n•\nVilla\nMarsierra by Jaglax Homes - GOA\n3.9\n•\nLodging\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\n5.0\n•\nVilla\nGive feedback\n\nFor a purchase-ready shortlist, current listings show:\n\nAlaya Stays Veera Marina, Candolim — 2 BHK, ₹5,583 + ₹906 taxes/night (listing rate shown for 2 adults); 4.8/5, 231 ratings. Cancellation: free within 24 hours, then non-refundable. Alaya Stays by ELIVAAS Apartment \nMakeMyTrip\n\nMarsierra by Jaglax Homes, Siolim — purpose-built 2-bedroom serviced apartments, with housekeeping and power backup; 3.9/5 from 8 Google reviews. Live pricing depends on dates/occupancy. Marsierra by Jaglax Homes - GOA\n\nStayCationer Sun Stay, Assagao — serviced 2-bedroom apartment with pool, 5.0/5 from 38 reviews; seasonal pricing requires date-specific quotation. StayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\n\nImportant: these are not warranty-backed products; protection is primarily the booking platform/property’s cancellation/refund policy. The quoted Alaya rate is not a confirmed 4-adult total, so check occupancy before paying.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2f419-b9b4-83e8-be03-6c1d88e58fc7",
+      "screenshot_sha256": "1e56430dced69b95d8e172c6fa84fb20935c2fea3eea55954d1bfe4a91aabf13",
+      "screenshot_relpath": "evidence/1e56430dced69b95d8e172c6fa84fb20935c2fea3eea55954d1bfe4a91aabf13.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "Agoda Company Pte. Ltd.",
+        "format": "answer_card",
+        "headline": "Considering a stay at The Wyndham Hotel?",
+        "description": "Check available rooms and updated prices for The Wyndham Hotel.",
+        "copy": [
+          "Agoda Company Pte. Ltd.",
+          "Considering a stay at The Wyndham Hotel?",
+          "Check available rooms and updated prices for The Wyndham Hotel."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/bb845453eb8b5248b67b1716ec4050ad.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Agoda Company Pte. Ltd.",
+              "Considering a stay at The Wyndham Hotel?",
+              "Check available rooms and updated prices for The Wyndham Hotel."
+            ],
+            "text": "Agoda Company Pte. Ltd.\n\nConsidering a stay at The Wyndham Hotel?\n\nCheck available rooms and updated prices for The Wyndham Hotel.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/bb845453eb8b5248b67b1716ec4050ad.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "78446261a75bc7d545a8eefd",
       "turn_id": "c8a6e3b473b9d288184948e0",

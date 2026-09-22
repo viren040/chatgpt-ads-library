@@ -1,4 +1,276 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+1413aaf02f4ca87580895cdd,58d1cbb4f1e2976805e7012b,2026-09-22T21:56:36.048Z,MMT DF,Ad,answer_card,Book Flight Tickets,Instant Discounts On Multiple Airlines. Book With MakeMyTrip™,Travel and leisure,Vacation rentals,"Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.","For a purchase-ready comparison, these are three specific 2-bedroom options currently listed for Goa. Exact dates can change availability and price.
+
+Offer	Current price	Purchase terms	Key limitation
+Jupiter 2BHK Apartment by tisyastays, Assagao	₹6,313 + ₹698 taxes/night	Sleeps 4; free cancellation within 24h, then non-refundable	Higher total price; only 2 bathrooms, no stated housekeeping details 
+Goibibo
+
+2BHK Chic Duplex, Mirashya Homes, Candolim	₹5,223 + ₹708 taxes/night	Sleeps 4; ₹0 booking option; free cancellation until stated deadline	Only 1 bathroom; cancellation deadline is date-specific 
+Goibibo
+
+Refined Peaceful 2BHK Family Duplex, Mirashya Homes, Candolim	₹4,364 + ₹622 taxes/night	Sleeps 4; free cancellation until stated deadline	Only 1 bathroom; property-level reliability is less established than large hotel brands 
+Goibibo
+
+Reliability signal: Mirashya has multiple listed properties, while Goa has 168 serviced apart-hotels currently listed on MakeMyTrip. 
+makemytrip.com
+
+Important: these prices are per night, not trip totals. Before paying, verify your dates, final taxes, security deposit, housekeeping, parking and cancellation deadline.",c95fa36fa7f81cded2dc501f,evidence/3833bf5e7de1ea0825aa8ca1019c7213d20da24dde50c0c3468a6799c95db014.png,3833bf5e7de1ea0825aa8ca1019c7213d20da24dde50c0c3468a6799c95db014
+51de0a84fff694e814a74b19,5cc35de03ceb65ea625d7a62,2026-09-22T21:51:35.654Z,HSBC - Credit Cards,Ad,answer_card,Flat 15% Off* on Travel,Earn 4 Reward Points* on every ₹100 spent on travel,Travel and leisure,Vacation rentals,I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.6
+Alaya Stays by ELIVAAS Apartment
+4.9
+Casa Stay Candolim
+Expand
+Use two fingers to move the map
+Alaya Stays by ELIVAAS Apartment
+4.6
+•
+Villa
+Casa Stay Candolim
+4.9
+•
+Serviced apartment
+Give feedback
+
+For a 2-bedroom serviced apartment for 4 adults in Goa, switching providers is usually straightforward, but the main friction is re-checking dates, cancellation terms, taxes, and location.
+
+Option	Current example cost	Switching difficulty	Practical issue
+Alaya Stays by ELIVAAS Apartment	Quote varies by dates	Low–medium	Platform-managed booking; compare final checkout price
+Casa Stay Candolim	Quote varies by dates	Medium	Direct/property-specific terms may require reconfirmation
+Marriott Homes & Villas	From about ₹5,700/night + taxes for a 2BR Goa example	Low	Professional management and 24/7 local support; rates vary seasonally
+
+Marriott currently lists a 2BR, 4-guest Goa apartment at ₹5,700 + taxes/night as a starting price. 
+Homes & Villas by Marriott Bonvoy
+ Airbnb also currently has a 2BR/4-guest serviced apartment in Varca. 
+Airbnb
+
+Switching cost: moving between platforms is mostly administrative; switching after payment can become expensive if the original booking is non-refundable. Always compare the all-in total and cancellation window before cancelling. 
+nerdwallet.com",688389c0252ac9372b0c1ebb,evidence/24b026b09122a54ad2478e6cdbe601512da52c0baf799ce27436aff30e4ddac3.png,24b026b09122a54ad2478e6cdbe601512da52c0baf799ce27436aff30e4ddac3
+944bd73294a8a59036b30801,538871eb9a3cd4c9252eda0b,2026-09-22T21:50:01.360Z,HSBC - Credit Cards,Ad,answer_card,Flat 15% Off* on Travel,Earn 4 Reward Points* on every ₹100 spent on travel,Travel and leisure,Vacation rentals,"I need to decide today. Give a final shortlist for a serviced two-bedroom vacation rental in Goa for four adults, including exact prices, purchase terms, and the strongest alternative to each choice.","For deciding today, I’d shortlist these three. These are live listings I could verify now; exact stay dates were not provided, so the prices are current per-night listing prices, not a guaranteed booking quote.
+
+Stay	Current price	Purchase terms / limitation	Strong alternative
+Alaya Stays by ELIVAAS – Veera Marina, Candolim	₹8,412/night incl. taxes (₹6,761 + ₹1,651)	2BR serviced apartment, pool, kitchen, power backup; free cancellation shown. 4.8/5 from 243 MMT ratings. 
+MakeMyTrip
+	Susegad Suites, Arpora: ₹6,611 incl. taxes; 2BR, pool, kitchenette, free cancellation; 4.6/5. 
+MakeMyTrip
+
+Susegad Suites Goa, Arpora	₹6,611/night incl. taxes (₹5,681 + ₹930)	Free cancellation; book-with-₹0-payment shown. 2BR serviced apartment; 46 ratings. 
+MakeMyTrip
+	Serena Casa, Cavelossim: ₹4,622 incl. taxes; 2BR, private pool, kitchen; free cancellation. 
+MakeMyTrip
+
+Serena Casa, Cavelossim	₹4,622/night incl. taxes (₹3,992 + ₹630)	Free cancellation and ₹0-payment option shown; only 7 ratings, so less review history. 
+MakeMyTrip
+	Vasundhara, Cavelossim: ₹4,377 incl. taxes; 4.8/5 from 10 ratings; free cancellation. 
+MakeMyTrip
+
+Before paying: enter your exact dates and 4 adults, then verify the final total, cancellation deadline, security deposit, housekeeping frequency and check-in rules. Prices/availability can change.",22f4f0dbc57ec78c063e148a,evidence/15a619ef5353a5ade164be7d7c5ba4d5f775a9c2541fa5c2496f2c50aea7df19.png,15a619ef5353a5ade164be7d7c5ba4d5f775a9c2541fa5c2496f2c50aea7df19
+19663733a4570cbf28ecb608,552206ba31efb407793cd6ce,2026-09-22T21:47:05.300Z,trivago,Ad,answer_card,Cheap Hotels in Dabolim,"Good Dabolim rates, save up to 40%",Travel and leisure,Vacation rentals,Which option for a serviced two-bedroom vacation rental in Goa for four adults offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"4.6
+Amazing Pool View 2BHK Candolim Goa Apartment
+Expand
+Use two fingers to move the map
+Amazing Pool View 2BHK Candolim Goa Apartment
+4.6
+•
+Serviced apartment
+Give feedback
+
+For a purchase today, I’d shortlist these three based on the currently displayed rates and terms. Exact totals still depend on your dates.
+
+Option	Current displayed price	4-adult fit	Cancellation / catch
+Amazing Pool View 2BHK Candolim Goa Apartment	Check live quote	Entire 2BHK, pool	Verify final taxes, deposit and cancellation before payment
+BOHO BAGA 2BHK	₹5,646/night incl. ₹665 taxes	2 king beds, 2 baths, sleeps 4	Free cancellation until 22 Sep 11:59 AM on the currently indexed offer; date-specific cutoff must be rechecked 
+Goibibo
+
+Jupiter 2BHK by Tisyastays	₹7,011/night incl. ₹698 taxes	2 queen beds, 2 baths, sleeps 4	Free cancellation only within 24h of booking; non-refundable afterward 
+Goibibo
+Purchase-ready take
+
+BOHO BAGA has the strongest price-to-flexibility combination in the currently indexed offers: ₹5,646/night including displayed taxes, with housekeeping, caretaker, pool, Wi-Fi and kitchenette. 
+Goibibo
+
+Before paying, verify (1) your exact four-adult dates, (2) final checkout total, (3) security deposit, (4) cleaning/extra-person fees, (5) cancellation cutoff in the booking screen, and (6) check-in support.
+
+If you want South Goa, the indexed Goibibo inventory also shows 2BHK serviced apartments around ₹3,734 + ₹514 taxes/night. 
+Goibibo",a1cc8bd35b986811781d88df,evidence/f072a6e1a191acea129ab1d07fc462b96d4e384d4ff2d130ccdd8d040c8806e0.png,f072a6e1a191acea129ab1d07fc462b96d4e384d4ff2d130ccdd8d040c8806e0
+b9d4bac42d511f4b41c349cb,c83ce6843c13d55d6496c5d2,2026-09-22T21:45:18.524Z,HSBC - Credit Cards,Ad,answer_card,HSBC Taj Credit Card,"Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",Travel and leisure,Vacation rentals,"Go deeper on the total cost of buying a serviced two-bedroom vacation rental in Goa for four adults. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","4.7
+Treehouse Blue, Hotel & Serviced Apartments
+Expand
+Use two fingers to move the map
+Treehouse Blue, Hotel & Serviced Apartments
+4.7
+•
+Serviced apartment
+$26
+Give feedback
+
+For a 2-bedroom serviced stay for four adults, the strongest currently visible options are:
+
+Option	Current price signal	Fees / exclusions	Cancellation	Support
+Treehouse Blue, Hotel & Serviced Apartments	~$26/night*	Taxes may be extra; verify meal/extra-bed charges	Property-specific	High: serviced-apartment operation
+MakeMyTrip: Azure 2BHK, Calangute	₹8,316 + ₹2,700 taxes/night	₹11,016/night shown; 2 queen beds, 2 baths	100% refund until 24h before check-in	High: OTA + caretaker 
+MakeMyTrip
+
+Goibibo: Alaya Stays 2BHK, Veera Marina	₹5,816 + ₹782 taxes/night	₹6,598/night shown; sleeps 4	Free cancellation shown, but cutoff is date-specific	Medium–high: managed stay + OTA 
+Goibibo
+
+*Business listing price is an indicative current listing price, not a guaranteed four-adult checkout total.
+
+Total-cost reality
+
+For 3 nights, Azure would be roughly ₹33,048 before any additional charges at the displayed rate. Alaya would be roughly ₹19,794, making the headline difference substantial.
+
+The main exclusions to verify before paying are GST/taxes, security deposit, cleaning fees, extra-person charges, meals, and early/late check-in.
+
+There isn't a conventional warranty/return for accommodation. Your protection is essentially the cancellation/refund policy and platform support. For a four-adult booking, I'd prioritize a property with a clearly stated full-refund cutoff rather than the lowest headline rate. 
+MakeMyTrip
++1",838f55b3e84cc4c0ed7171ad,evidence/163f433ca2742fa30f54512203a9f40e0fed38b93eabdbfaed13508b62087c97.png,163f433ca2742fa30f54512203a9f40e0fed38b93eabdbfaed13508b62087c97
+42280b663ff0a8267b0e52e2,97b67f8a276d117414cf91bc,2026-09-22T21:43:41.987Z,Homerun Retail Private Limited,Ad,answer_card,Build More. Save More.,"2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",Travel and leisure,Vacation rentals,"Compare HSBC - Credit Cards with three direct alternatives for a serviced two-bedroom vacation rental in Goa for four adults. Include current price, exclusions, and who each is best for.","Assuming you mean credit cards to pay for the Goa rental, rather than rental providers, here’s the practical comparison. Card fees are separate from the rental price.
+
+Card	Current cost	Relevant benefit	Key exclusions	Best for
+HSBC TravelOne	Fee applies; HSBC currently markets it as a travel card	Extra rewards on travel + instant redemption; hotel/airline partners 
+HSBC India
++1
+	Rewards depend on eligible travel categories/terms	Booking a Goa stay + future travel
+Axis Atlas	₹5,000 + GST/year	Travel-focused EDGE Miles; hotel/airline spending earns enhanced miles	Rent, insurance, wallet, fuel, utilities, etc. excluded from rewards 
+Axis Bank
++1
+	Frequent travellers who transfer miles
+HDFC Regalia Gold	₹2,500 + GST/year	Travel rewards + hotel/airline ecosystem	Domestic lounge access now requires ₹60k previous-quarter spend; rewards have category rules 
+The Economic Times
++1
+	Balanced travel + lifestyle spending
+HSBC Premier	₹12,000 joining; ₹20,000 renewal, waived for qualifying Premier customers	3 points/₹100; up to 12× on Travel with Points; 0.99% forex	Only for HSBC Premier customers; ₹50L average quarterly TRB criterion	Existing HSBC Premier customers 
+HSBC India
+
+For a Goa rental specifically: first check whether the villa is booked directly, through an OTA, or via a foreign-registered merchant. That determines whether the transaction qualifies as hotel/travel spend and whether any surcharge/foreign-exchange cost applies.",e288376feb0d8259ab6887d7,evidence/40a348dd4b7d1486d2a3077d07a6b8f2c6304f7fb747a8988edb77254046d016.png,40a348dd4b7d1486d2a3077d07a6b8f2c6304f7fb747a8988edb77254046d016
+e0c4b86167254e0b12cb4f54,31917e3f26d0ed2c3aee4063,2026-09-22T21:41:59.859Z,HSBC - Credit Cards,Ad,answer_card,HSBC Taj Credit Card,"Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",Travel and leisure,Vacation rentals,I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.9
+Coral Stays Goa
+4.9
+The Acacia Villas - Luxury Holiday Home Rentals
+Expand
+Use two fingers to move the map
+Coral Stays Goa
+4.9
+•
+Short term apartment rental agency
+Open
+The Acacia Villas - Luxury Holiday Home Rentals
+4.9
+•
+Vacation home rental agency
+Open
+Give feedback
+
+For a serviced 2-bedroom Goa rental for 4 adults, the practical switching cost is mostly about price transparency, cancellation rules, and how much coordination you need with the host.
+
+Provider	Current cost signal	Switching difficulty
+MakeMyTrip Villas	2+ bedroom inventory starts around ₹5,500–₹10,000/night, with taxes extra	Low — strong filters, ₹0-payment options and some free cancellation 
+MakeMyTrip
+
+Coral Stays Goa	Quote-based; serviced short-term apartments	Medium — more direct coordination, but potentially better local support
+The Acacia Villas - Luxury Holiday Home Rentals	Quote-based; premium serviced villas	Medium–high — more concierge-style, but less standardized pricing
+
+What changes when switching:
+
+MakeMyTrip → local operator: easiest if you value standardized booking/payment and cancellation visibility.
+
+Local operator → another local operator: expect more WhatsApp coordination and property-specific deposits/house rules.
+
+Budget: MakeMyTrip currently shows many Goa villas in the ₹10k–₹19k/night band before taxes, while premium inventory can be substantially higher. 
+MakeMyTrip
+
+For a 4-adult trip, compare the final 2-night/3-night checkout total, not headline nightly price.",838f55b3e84cc4c0ed7171ad,evidence/a7eb836a269fd0900f2b2a4d339ff16ba2b54d98a7ffd126426321025bad0564.png,a7eb836a269fd0900f2b2a4d339ff16ba2b54d98a7ffd126426321025bad0564
+f9822fd39fb24ce78607bc3d,efb0587a99fa2935d8a9b7b1,2026-09-22T21:41:50.076Z,HSBC - Credit Cards,Ad,answer_card,HSBC Taj Credit Card,"Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",Travel and leisure,Vacation rentals,"Go deeper on the total cost of buying a serviced two-bedroom vacation rental in Goa for four adults. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 4-adult stay, the clearest currently listed purchase options are:
+
+Option	Listed cost	Cancellation / fees	Support
+CalanguteBaga 2BHK, Goibibo	₹4,378/night incl. ₹511 taxes	Free cancellation within 24h of booking on one rate; another rate allows cancellation until the displayed deadline. Meals extra. 
+Goibibo
+	On-site caretaker/housekeeping; Goibibo booking support
+Azure 2BHK, Limestays/MMT	₹10,?00/night incl. ₹2,700 taxes/fees (displayed rate)	100% refund until 24h before check-in; ₹0 payment option. 
+MakeMyTrip
+	Caretaker/key service, pool, parking, power backup
+Gamma 2BHK, Goaround/Airbnb, Anjuna	Price requires dates	Airbnb cancellation terms must be checked at checkout	Self check-in/building staff; 4 guests, 2 baths; 4.09/5 from 34 reviews. 
+Airbnb
+
+Important: none has a conventional “warranty”; your protection is the platform's cancellation/refund policy. For the first two, the displayed prices are not necessarily 4-adult final totals, so enter your exact dates and four guests before paying.
+
+Also verify security deposit, cleaning/extra-guest charges, GST, housekeeping frequency, parking, power backup, check-in restrictions and refund timing.",f5c244015f730d6641372e64,evidence/4176f221c0f6d4e8be78f41b120ef0140eb2cdb19ea1dfedc94b61f5df0aa83f.png,4176f221c0f6d4e8be78f41b120ef0140eb2cdb19ea1dfedc94b61f5df0aa83f
+53015b5030d82a190919966a,abf873a9f177b5d81b026b50,2026-09-22T21:40:08.637Z,Agoda Company Pte. Ltd.,Ad,answer_card,Planning a trip to Calangute?,Compare hotels in Calangute and read real reviews.,Travel and leisure,Vacation rentals,"Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.","Here are three purchase-ready Goa 2BHK serviced-apartment offers currently listed in India. Exact totals depend on dates and guest count:
+
+Alaya Stays Veera Marina 2BHK, Candolim — ₹5,816 + ₹782 taxes/night for the displayed rate. Entire 2-bedroom apartment, sleeps 4; free cancellation was shown for the cited booking window. 
+Goibibo
+
+Limitation: displayed price is for 2 adults, so re-price for 4 before paying.
+
+Azure 2BHK near Calangute Beach (Limestays) — ₹10,000/night incl. displayed taxes/fees; 2 bedrooms, 2 bathrooms, sleeps 4, pool and parking. 
+makemytrip.com
+
+Limitation: the displayed rate is date-specific; cancellation terms vary by rate.
+
+Susegad Suites Goa, Arpora — ₹4,436/night incl. taxes on Expedia’s current listing; 2-bedroom apartment with balcony. 
+expedia.co.in
+
+Limitation: verify that the displayed 2-adult rate applies to all four guests.
+
+Before payment: enter 4 adults + exact dates and confirm the final tax-inclusive total, cancellation deadline, deposit, housekeeping, parking, and extra-guest charges.",7ee8a1a52f12baf92b977b48,evidence/bdeff83b1cd83a145aaa8e88e19c2989f97bc6d7ae0e857dabc4c6d7aedb4fc4.png,bdeff83b1cd83a145aaa8e88e19c2989f97bc6d7ae0e857dabc4c6d7aedb4fc4
+7fb40d329e8201b3d810b142,671fdc6d9356ae394406f514,2026-09-22T21:38:57.598Z,Agoda Company Pte. Ltd.,Ad,answer_card,Considering a stay at BREEZE RESIDENCY?,Check available rooms and updated prices for BREEZE RESIDENCY.,Travel and leisure,Vacation rentals,"Narrow this to high-intent choices for a serviced two-bedroom vacation rental in Goa for four adults. Compare named brands, total cost, availability, returns or cancellation, and support.","4.8
+HideAway 2BHK Duplex by Stay To Unwind
+Expand
+Use two fingers to move the map
+HideAway 2BHK Duplex by Stay To Unwind
+4.8
+•
+Serviced apartment
+Give feedback
+
+For a high-intent shortlist, I’d narrow it to these three:
+
+Provider / property	Current price	Availability / cancellation	Support
+Alaya Stays – Veera Marina, Candolim	₹5,816 + ₹782 taxes/night	2BHK, 4 guests; listed as available. Free cancellation shown. 
+Goibibo
+	Goibibo + property management
+Azure by Limestays, Calangute	₹8,316 + ₹2,700 taxes/night	2BHK/2 baths, sleeps 4; ₹11,016/night all-in listed. Free cancellation up to 24h before check-in; ₹0 upfront. 
+MakeMyTrip
+	MakeMyTrip + Limestays
+Seacoast Apartments by Casa Regal, Varca	₹2,223 + ₹376 taxes/night	2BHK; pool/kitchenette. Free cancellation up to 24h before check-in. 
+MakeMyTrip
+	MakeMyTrip + property
+
+Important: the displayed rates can be based on 2 adults, so enter 4 adults and your exact dates before paying. Also verify security deposit, cleaning fee, GST, parking, and refund timing.
+
+For direct-property support, HideAway 2BHK Duplex by Stay To Unwind is another named local operator worth contacting, but I couldn't verify a comparable live rate.",0cea8ae783e9d18a7e848c66,evidence/69b9d0c96b1d6d8cbac983e87b395501590156e1cb76401680b2e02220e50028.png,69b9d0c96b1d6d8cbac983e87b395501590156e1cb76401680b2e02220e50028
+3351838bdd469d1c4cae842a,5268739eed138771f57732db,2026-09-22T21:35:17.119Z,Agoda Company Pte. Ltd.,Ad,answer_card,Considering a stay at The Wyndham Hotel?,Check available rooms and updated prices for The Wyndham Hotel.,Travel and leisure,Vacation rentals,"Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.","4.6
+Alaya Stays by ELIVAAS Apartment
+3.9
+Marsierra by Jaglax Homes - GOA
+5.0
+StayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao
+Expand
+Use two fingers to move the map
+Alaya Stays by ELIVAAS Apartment
+4.6
+•
+Villa
+Marsierra by Jaglax Homes - GOA
+3.9
+•
+Lodging
+StayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao
+5.0
+•
+Villa
+Give feedback
+
+For a purchase-ready shortlist, current listings show:
+
+Alaya Stays Veera Marina, Candolim — 2 BHK, ₹5,583 + ₹906 taxes/night (listing rate shown for 2 adults); 4.8/5, 231 ratings. Cancellation: free within 24 hours, then non-refundable. Alaya Stays by ELIVAAS Apartment 
+MakeMyTrip
+
+Marsierra by Jaglax Homes, Siolim — purpose-built 2-bedroom serviced apartments, with housekeeping and power backup; 3.9/5 from 8 Google reviews. Live pricing depends on dates/occupancy. Marsierra by Jaglax Homes - GOA
+
+StayCationer Sun Stay, Assagao — serviced 2-bedroom apartment with pool, 5.0/5 from 38 reviews; seasonal pricing requires date-specific quotation. StayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao
+
+Important: these are not warranty-backed products; protection is primarily the booking platform/property’s cancellation/refund policy. The quoted Alaya rate is not a confirmed 4-adult total, so check occupancy before paying.",dccf761d4cfc8bbb75428bb1,evidence/1e56430dced69b95d8e172c6fa84fb20935c2fea3eea55954d1bfe4a91aabf13.png,1e56430dced69b95d8e172c6fa84fb20935c2fea3eea55954d1bfe4a91aabf13
 78446261a75bc7d545a8eefd,c8a6e3b473b9d288184948e0,2026-09-22T21:27:06.328Z,trivago,Ad,answer_card,Cheap Hotels in Goa,"Good Goa rates, save up to 55%",Travel and leisure,Vacation rentals,"I need to decide today. Give a final shortlist for a serviced two-bedroom vacation rental in Goa for four adults, including exact prices, purchase terms, and the strongest alternative to each choice.","4.7
 El Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season
 3.9
