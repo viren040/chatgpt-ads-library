@@ -29,6 +29,7 @@ The standalone interface supports:
 - category and advertiser filters;
 - filtering each placement by complete-panel or reviewed positive-only provenance;
 - verified CSV and JSON downloads for independent analysis;
+- a complete-panel prompt outcome CSV containing ad and zero-ad turns;
 - placement-level and creative-level views;
 - reviewed screenshots and evidence context; and
 - category ad-appearance and competition metrics from complete experiment panels; and
@@ -44,6 +45,11 @@ denominator-based rate.
 creative copy, category, evidence design, rate eligibility, prompt, completed answer, creative ID,
 and content-addressed screenshot.
 `library.json` additionally contains advertiser summaries and complete-panel experiment denominators.
+
+`prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
+It records the generated prompt, category, cohort, pseudonymous conversation ID, turn index,
+conversation branch, reviewed ad outcome, paid-unit count, creative count, and advertisers. It does
+not contain account slots, conversation URLs, answers, browser profiles, or credentials.
 
 ## Verify the release
 
