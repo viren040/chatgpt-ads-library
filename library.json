@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T22:03:21Z",
+  "generated_at": "2026-09-22T22:04:11Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "stats": {
-    "valid_turns": 231,
-    "approved_paid_units": 145,
-    "approved_advertisers": 83,
-    "approved_creatives": 137
+    "valid_turns": 234,
+    "approved_paid_units": 147,
+    "approved_advertisers": 84,
+    "approved_creatives": 138
   },
   "advertisers": [
     {
@@ -37,6 +37,15 @@
       "categories": "Commercial discovery,Travel and leisure,Vacation rentals"
     },
     {
+      "id": "ca82b10559cc43464054b038",
+      "advertiser": "HSBC - Credit Cards",
+      "placements": 6,
+      "creatives": 4,
+      "first_seen": "2026-09-22T21:41:50.076Z",
+      "last_seen": "2026-09-22T22:03:35.575Z",
+      "categories": "Vacation rentals,Corporate travel"
+    },
+    {
       "id": "2e81afd45de21f0c44616576",
       "advertiser": "Homerun Retail Private Limited",
       "placements": 6,
@@ -53,15 +62,6 @@
       "first_seen": "2026-09-19T11:52:46.933Z",
       "last_seen": "2026-09-22T21:19:37.930Z",
       "categories": "Beauty and personal care,Rose perfume"
-    },
-    {
-      "id": "ca82b10559cc43464054b038",
-      "advertiser": "HSBC - Credit Cards",
-      "placements": 5,
-      "creatives": 4,
-      "first_seen": "2026-09-22T21:41:50.076Z",
-      "last_seen": "2026-09-22T21:51:35.654Z",
-      "categories": "Vacation rentals"
     },
     {
       "id": "f32a45d9b41719c39cfa21a4",
@@ -323,6 +323,15 @@
       "first_seen": "2026-09-12T05:38:49Z",
       "last_seen": "2026-09-12T05:38:49Z",
       "categories": "Cybersecurity & compliance"
+    },
+    {
+      "id": "d11acd0c3697436b74d704d0",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "placements": 1,
+      "creatives": 1,
+      "first_seen": "2026-09-22T22:03:28.123Z",
+      "last_seen": "2026-09-22T22:03:28.123Z",
+      "categories": "Vacation rentals"
     },
     {
       "id": "9db81bc6ef8b79721179d4d6",
@@ -760,25 +769,25 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 231,
-    "ad_turns": 32,
-    "ad_rate": 0.13852813852813853,
-    "ad_rate_low": 0.0998639781541867,
-    "ad_rate_high": 0.18901840043631862,
+    "turns": 234,
+    "ad_turns": 34,
+    "ad_rate": 0.1452991452991453,
+    "ad_rate_low": 0.10587642802939337,
+    "ad_rate_high": 0.1961800667133262,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 66,
-        "ad_turns": 17,
-        "paid_units": 17,
-        "advertisers": 7,
-        "creatives": 14,
-        "ad_rate": 0.25757575757575757,
-        "posterior_ad_rate": 0.2571428571428571,
-        "competition_score": 0.8151235717994516,
-        "ad_rate_low": 0.16748707345896682,
-        "ad_rate_high": 0.37433327429938923,
+        "turns": 67,
+        "ad_turns": 18,
+        "paid_units": 18,
+        "advertisers": 8,
+        "creatives": 15,
+        "ad_rate": 0.26865671641791045,
+        "posterior_ad_rate": 0.2676056338028169,
+        "competition_score": 0.8889666732797166,
+        "ad_rate_low": 0.1772206517897013,
+        "ad_rate_high": 0.3851833594127559,
         "evidence_strength": "established"
       },
       {
@@ -1007,6 +1016,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Corporate travel",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.375,
+        "competition_score": 0.75,
+        "ad_rate_low": 0.15003570882017148,
+        "ad_rate_high": 0.8499642911798285,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Cruise holidays",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -1202,21 +1226,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Corporate travel",
-        "industry": "Travel and leisure",
-        "turns": 3,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.3333333333333333,
-        "posterior_ad_rate": 0.2857142857142857,
-        "competition_score": 0.45284642877747316,
-        "ad_rate_low": 0.0614903152761605,
-        "ad_rate_high": 0.7923450448735121,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Rose perfume",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1292,6 +1301,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Travel insurance",
+        "industry": "Travel and leisure",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -1308,21 +1332,6 @@
       },
       {
         "category": "Car rentals",
-        "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Travel insurance",
         "industry": "Travel and leisure",
         "turns": 1,
         "ad_turns": 0,
@@ -1369,15 +1378,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 64,
+        "turns": 65,
         "ad_turns": 11,
         "paid_units": 11,
         "advertisers": 8,
-        "ad_rate": 0.171875,
-        "posterior_ad_rate": 0.17647058823529413,
-        "competition_score": 0.5862226049801228,
-        "ad_rate_low": 0.0987764126731623,
-        "ad_rate_high": 0.2821344149016591,
+        "ad_rate": 0.16923076923076924,
+        "posterior_ad_rate": 0.17391304347826086,
+        "competition_score": 0.5777266251978022,
+        "ad_rate_low": 0.09721118666132769,
+        "ad_rate_high": 0.27816649195160403,
         "evidence_strength": "established"
       },
       {
@@ -1397,29 +1406,29 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 48,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 4,
-        "ad_rate": 0.08333333333333333,
-        "posterior_ad_rate": 0.09615384615384616,
-        "competition_score": 0.24855408660780348,
-        "ad_rate_low": 0.03288322434995555,
-        "ad_rate_high": 0.19553565161066291,
+        "turns": 49,
+        "ad_turns": 5,
+        "paid_units": 5,
+        "advertisers": 5,
+        "ad_rate": 0.10204081632653061,
+        "posterior_ad_rate": 0.11320754716981132,
+        "competition_score": 0.31781376476123824,
+        "ad_rate_low": 0.044378892487039884,
+        "ad_rate_high": 0.21756624164970087,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 2,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.5283208335737186,
-        "ad_rate_low": 0.09452865480086614,
-        "ad_rate_high": 0.9054713451991339,
+        "turns": 3,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "ad_rate": 0.6666666666666666,
+        "posterior_ad_rate": 0.42857142857142855,
+        "competition_score": 0.8571428571428571,
+        "ad_rate_low": 0.2076549551264879,
+        "ad_rate_high": 0.9385096847238394,
         "evidence_strength": "exploratory"
       },
       {
@@ -1439,6 +1448,112 @@
     ]
   },
   "ads": [
+    {
+      "id": "4a98a0339bda9e32e31ee7d7",
+      "turn_id": "dabbef5cdbae66b2705abf61",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "688389c0252ac9372b0c1ebb",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Flat 15% Off* on Travel",
+      "description": "Earn 4 Reward Points* on every ₹100 spent on travel",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, HSBC advertiser, and Flat 15% Off on Travel creative.",
+      "reviewed_at": 1790114651.84051,
+      "captured_at": "2026-09-22T22:03:35.575Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, I’d take these three into the final RFQ. There isn’t enough public pricing to make a defensible “best-value” winner; the key is the all-in fee structure.\n\nProvider\tPurchase case\tTrade-offs / terms to verify\nThomas Cook India Business Travel\tStrong SME fit; handles air, hotels, rail, cars, visas, forex and insurance. Its corporate operation explicitly serves SMEs and offers booking, expense and GST tools. \nThomas Cook\n+1\n\tQuote required. Get per-ticket/service fees, hotel markup, reissue/cancellation charges, SLA and implementation cost in writing. 24/7 emergency support is offered. \nThomas Cook\n\nFCM Travel / Corporate Traveller\tStrong managed-service option with 24/7 support, policy controls, analytics and traveller-risk tools; Corporate Traveller is FCM’s SME-focused Indian brand. \nFCM Travel\n+1\n\tFCM says its core focus is larger programmes; confirm Corporate Traveller eligibility, minimum annual spend and dedicated-account coverage. \nFCM Travel\n\nAmerican Express GBT + Business Travel Account\tUseful where centralized air-spend control matters: one bill, reconciliation and up to 51 days payment period. \nAmerican Express\n\tBTA works through your TMC, so compare the TMC + Amex costs together; fees are quote-based. \nAmerican Express\n\nBefore paying: require a 12-month total-cost quote, including GST, transaction fees, markups, after-hours fees, cancellation/reissue rules, credit terms, SLA/service credits, implementation, and exit/data-export terms.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "conversation_url": "https://chatgpt.com/c/6ab2f9ec-35cc-83ee-af7c-8645389250d8",
+      "screenshot_sha256": "9b9dafd9e6baef4c18e942f2bda3acadd0a83c6806d50ccbb80829fea9317317",
+      "screenshot_relpath": "evidence/9b9dafd9e6baef4c18e942f2bda3acadd0a83c6806d50ccbb80829fea9317317.png",
+      "account_slot": "account-01",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "Flat 15% Off* on Travel",
+        "description": "Earn 4 Reward Points* on every ₹100 spent on travel",
+        "copy": [
+          "HSBC - Credit Cards",
+          "Flat 15% Off* on Travel",
+          "Earn 4 Reward Points* on every ₹100 spent on travel"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/f8452a725d6f5ce6806b59c0f13aedd2.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "Flat 15% Off* on Travel",
+              "Earn 4 Reward Points* on every ₹100 spent on travel"
+            ],
+            "text": "HSBC - Credit Cards\n\nFlat 15% Off* on Travel\n\nEarn 4 Reward Points* on every ₹100 spent on travel",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/f8452a725d6f5ce6806b59c0f13aedd2.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "33961c053f37efa05ad50f64",
+      "turn_id": "5169865d49e69dcbeb533efb",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "f85c222960d97588bc964f96",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Arrive Ready. Not Rushed.",
+      "description": "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review confirms current-turn Ad disclosure, DriveU advertiser, and Arrive Ready Not Rushed creative.",
+      "reviewed_at": 1790114651.8411798,
+      "captured_at": "2026-09-22T22:03:28.123Z",
+      "prompt": "Narrow this to high-intent choices for a serviced two-bedroom vacation rental in Goa for four adults. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "4.6\nAmazing Pool View 2BHK Candolim Goa Apartment\n5.0\n2 Bedroom Apartment With Great View\n4.7\nTreehouse Blue, Hotel & Serviced Apartments\nExpand\nUse two fingers to move the map\nAmazing Pool View 2BHK Candolim Goa Apartment\n4.6\n•\nServiced apartment\n2 Bedroom Apartment With Great View\n5.0\n•\nHomestay\nTreehouse Blue, Hotel & Serviced Apartments\n4.7\n•\nServiced apartment\n$26\nGive feedback\n\nFor a 2-bedroom stay for 4 adults, these are the highest-intent options I’d keep on the shortlist. Prices below are live/observed rates, but not for identical dates, so treat them as purchase benchmarks rather than apples-to-apples quotes.\n\nProvider / property\tPrice\tAvailability\tCancellation / support\nAmazing Pool View 2BHK Candolim Goa Apartment\t~₹3,200/night before taxes\t2 units shown\tOne rate non-refundable; another partially refundable. Booking.com support + host. \nBooking\n\n2 Bedroom Apartment With Great View\tDate-dependent\tListed for 4 adults, 2BR/2BA\tAgoda booking/support; cancellation depends on selected rate. \nAgoda\n\nTreehouse Blue, Hotel & Serviced Apartments\t~₹2,500/night incl. taxes for available inventory\tCurrently bookable\tFree-cancellation rates shown; hotel-style reception/concierge support. But current inventory is studios/1BR, so it does not satisfy the 2BR requirement without confirming a suitable unit. \nGoogle\n\nPurchase takeaway: the Candolim 2BHK is the cleanest exact match. The Palolem apartment is another genuine 2BR/4-adult option. Treehouse Blue is easier operationally but needs confirmation of a 2BR unit before booking.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "conversation_url": "https://chatgpt.com/c/6ab2fa0c-e074-83e8-9ec7-14bf9e9a529c",
+      "screenshot_sha256": "de3af4f51b96014e86a99a9fa563b81a30ccfecbf1bd3e3867dae4654f043408",
+      "screenshot_relpath": "evidence/de3af4f51b96014e86a99a9fa563b81a30ccfecbf1bd3e3867dae4654f043408.png",
+      "account_slot": "account-10",
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Arrive Ready. Not Rushed.",
+        "description": "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Arrive Ready. Not Rushed.",
+          "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/df06e9dd9f425fcda7fced2372bc7f8c.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Arrive Ready. Not Rushed.",
+              "Pre-book Reserve for a punctual airport ride, with every detail handled before you leave."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nArrive Ready. Not Rushed.\n\nPre-book Reserve for a punctual airport ride, with every detail handled before you leave.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/df06e9dd9f425fcda7fced2372bc7f8c.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "73a5933a19c84dd2230d0a21",
       "turn_id": "a60e70b97f9c07069fa5d34c",
