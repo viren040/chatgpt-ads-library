@@ -70,7 +70,9 @@ promising-signal validation, and 60% adaptive conversation work. Its per-categor
 sum to 50,000. Travel, hotel, flight, perfume, fragrance, and beauty retain a 3× focus multiplier.
 Categories with at least 20 complete-panel turns and no approved paid placement receive zero new
 volume and appear in `eliminated_categories`. The Prompt Lab displays the 30 largest allocations;
-the JSON download contains the complete plan.
+the JSON download contains the complete plan. Category concentration is capped at 5% of breadth,
+15% of promising, and 20% of adaptive volume, unless too few eligible categories make that cap
+mathematically impossible.
 
 The Brand discovery view measures progress toward the library's 1,000-family research target. Its
 timeline uses the earliest observation timestamp among approved first-party placements. The view

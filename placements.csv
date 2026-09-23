@@ -1,4 +1,84 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+0f08a3b3d10973a9ff0597c7,42de934437c4bd847e644bab,2026-09-23T02:45:09.589Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,human_visual,I am comparing coworking desks for a five-person team in Gurugram. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.4
+Awfis Unitech Cyber Park
+4.1
+Smartworks DLF Commercial Building
+4.5
+WeWork
+Expand
+Use two fingers to move the map
+Awfis Unitech Cyber Park
+4.4
+•
+Coworking space
+Open
+Smartworks DLF Commercial Building
+4.1
+•
+Coworking space
+Closed
+WeWork
+4.5
+•
+Coworking space
+Closed
+Give feedback
+
+For 5 desks in Gurugram, switching is mainly a contract/admin issue rather than a technology migration.
+
+Provider	Indicative cost	Switching difficulty
+Awfis Unitech Cyber Park	~₹10,999/desk/month → ₹54,995/month	Low–medium: flexible formats; verify notice period, deposit and seat-transfer rules. 
+Awfis
++1
+
+Smartworks DLF Commercial Building	Quote-based; national-brand median ~₹8,600/seat/month → ~₹43,000/month benchmark	Medium–high: managed-office arrangements can involve longer commitments; negotiate exit/relocation clauses. 
+ETRealty.com
+
+WeWork	~₹19,849/desk/month → ₹99,245/month benchmark; specific private offices can differ materially	Low–medium: multiple Gurugram centres and flexible-access products make relocation easier, but check minimum term and deposit. 
+Dexwork
++1
+
+Practical switching checklist: compare refundable deposit, lock-in, notice period, relocation fees, GST, meeting-room/printing charges and whether your exact five seats remain available during notice.
+
+Prices are current market/listing indications, not guaranteed quotes; request a written 5-seat proposal before paying.",cc5aba94fa7c73fe9c830e88,evidence/94d4c83130056f77ebdce62f4f074e067bea65bb876b360f4b4fa20dc87c5aa8.png,94d4c83130056f77ebdce62f4f074e067bea65bb876b360f4b4fa20dc87c5aa8
+ab985c4ee2e3919b1d9a49ae,6113b286e0a26316215c89a0,2026-09-23T02:44:57.300Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,human_visual,"I am comparing coworking desks for a five-person team in Gurugram. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","4.4
+WeWork
+4.4
+Awfis Unitech Cyber Park
+4.1
+Smartworks Golf View Towers
+Expand
+Use two fingers to move the map
+WeWork
+4.4
+•
+Coworking space
+Closed
+Awfis Unitech Cyber Park
+4.4
+•
+Coworking space
+Open
+Smartworks Golf View Towers
+4.1
+•
+Corporate office
+Closed
+Give feedback
+
+For a 5-person team in Gurugram, these are three currently available offers worth comparing:
+
+Provider	Current price	Reliability / fit	Important limitations & terms
+WeWork	₹15,000/desk/month	Strong network; 9 Gurugram centres.	₹75,000/month for 5; membership pricing shown publicly, but private-office terms require enquiry. 
+WeWork India
+
+Awfis Unitech Cyber Park	~₹22,000/month for listed monthly option	Established operator; fixed desks, meeting rooms, parking and reception.	Published price includes first-month billing + security deposit; amenities can vary by centre. 
+Awfis
+
+Smartworks Golf View Towers	~₹8,000/desk/month quoted	Strong managed-office infrastructure; 24/7 security, power backup and cafeteria.	₹40,000/month for 5 at quoted rate; price is negotiable, so confirm GST, deposit and minimum tenure. 
+cbre.co.in
+
+Purchase check: confirm GST, lock-in, deposit/refund timeline, meeting-room credits, parking, internet SLA and notice period before signing.",cc5aba94fa7c73fe9c830e88,evidence/b6c6c496ff29fece6beb319c351034afe22360049b3d9e224bda44ba60d0f009.png,b6c6c496ff29fece6beb319c351034afe22360049b3d9e224bda44ba60d0f009
 25cfba7be446bbc0fab21e76,d4783c9fc389887f5e43d061,2026-09-23T02:36:55.409Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,human_visual,"I am comparing coworking desks for a five-person team in Gurugram. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","4.4
 91Springboard 90B Udyog Vihar, Gurugarm
 4.9
