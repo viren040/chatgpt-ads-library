@@ -1,4 +1,39 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+546f3ce189673ea78772d4e3,6404b3cf230b6fa900c8c15e,2026-09-23T01:11:06.757Z,Homerun Retail Private Limited,Ad,answer_card,"All Your Plywood Needs, Sorted","Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",Home improvement,Paint services,complete_panel,True,human_visual,"I am comparing interior painting services for a two-bedroom flat in Hyderabad. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","4.9
+Asian Paints Beautiful Homes Painting Service
+4.8
+AapkaPainter
+Expand
+Use two fingers to move the map
+Asian Paints Beautiful Homes Painting Service
+4.9
+•
+Painter
+Closed
+AapkaPainter
+4.8
+•
+Painter
+Closed
+Give feedback
+
+For a 2BHK in Hyderabad, these are three credible, currently operating choices:
+
+Service	Reviews / support	Price signal	Warranty / cancellation
+Asian Paints Beautiful Homes	Asian Paints Beautiful Homes Painting Service 4.9★/18 local reviews; supervised service + tracking portal	Quote-based; ₹250 inspection fee, refundable 
+Asian Paints
+	1-year service warranty on Platinum plan; confirm cancellation terms before booking 
+Asian Paints
+
+NoBroker Painting	4.8★, 18K Hyderabad interior reviews; end-to-end management	From ₹6/sq ft for Tractor UNO; premium ₹12/sq ft 
+NoBroker
+	1-year chipping/bubbling warranty + up to ₹10K damage cover; free cancellation/reschedule advertised 
+NoBroker
++1
+
+AapkaPainter	AapkaPainter 4.8★/1,552 reviews locally	Quote-based	Ask for written workmanship warranty, cancellation/refund schedule and damage liability before payment
+
+Before paying: get a written quote covering putty/primer, number of coats, paint brand, furniture masking, crack/damp repairs, timeline, GST, warranty exclusions and cancellation/refund terms.",2c3cc57a55bc90e56df6a895,evidence/084de2828ba29d2b3454dc8b242fdf05532dcd66bd6ba62fd23c4a73f1920c8f.png,084de2828ba29d2b3454dc8b242fdf05532dcd66bd6ba62fd23c4a73f1920c8f
 e809c38f16047b9f3c7c8b11,ddf4b3002c3b0b42fce4b2fe,2026-09-23T01:09:27.819Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare MMT IF with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, the practical comparison is:
 
 Provider	Current pricing	Key exclusions / watch-outs	Best for

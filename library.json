@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-23T01:11:52Z",
+  "generated_at": "2026-09-23T01:12:23Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,12 +12,12 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 509,
-    "approved_paid_units": 235,
+    "valid_turns": 510,
+    "approved_paid_units": 236,
     "approved_advertisers": 99,
-    "approved_creatives": 185,
+    "approved_creatives": 186,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 122,
+    "complete_panel_paid_units": 123,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -66,6 +66,17 @@
       "categories": "Help desk software,Corporate travel"
     },
     {
+      "id": "2e81afd45de21f0c44616576",
+      "advertiser": "Homerun Retail Private Limited",
+      "placements": 9,
+      "creatives": 6,
+      "panel_placements": 6,
+      "reviewed_snapshot_placements": 3,
+      "first_seen": "2026-09-11T22:11:59.074Z",
+      "last_seen": "2026-09-23T01:11:06.757Z",
+      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel,Paint services"
+    },
+    {
       "id": "7211144fa6d33a5359842018",
       "advertiser": "abhibus",
       "placements": 9,
@@ -108,17 +119,6 @@
       "first_seen": "2026-09-22T21:41:50.076Z",
       "last_seen": "2026-09-22T23:53:43.925Z",
       "categories": "Vacation rentals,Corporate travel"
-    },
-    {
-      "id": "2e81afd45de21f0c44616576",
-      "advertiser": "Homerun Retail Private Limited",
-      "placements": 8,
-      "creatives": 5,
-      "panel_placements": 5,
-      "reviewed_snapshot_placements": 3,
-      "first_seen": "2026-09-11T22:11:59.074Z",
-      "last_seen": "2026-09-23T00:06:40.859Z",
-      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel"
     },
     {
       "id": "d11cd2bad34c540f1f5a7123",
@@ -1114,12 +1114,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 509,
-    "ad_turns": 122,
-    "ad_rate": 0.23968565815324164,
-    "ad_rate_low": 0.20463695775349988,
-    "ad_rate_high": 0.27863429013278695,
-    "paid_units": 122,
+    "turns": 510,
+    "ad_turns": 123,
+    "ad_rate": 0.2411764705882353,
+    "ad_rate_low": 0.20607134548439954,
+    "ad_rate_high": 0.2801516461924129,
+    "paid_units": 123,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -2095,21 +2095,36 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Paint services",
+        "industry": "Home improvement",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 183,
-        "ad_turns": 51,
-        "paid_units": 51,
+        "turns": 184,
+        "ad_turns": 52,
+        "paid_units": 52,
         "advertisers": 24,
-        "ad_rate": 0.2786885245901639,
-        "posterior_ad_rate": 0.27807486631016043,
-        "competition_score": 1.3070741462210522,
-        "ad_rate_low": 0.21878848931425365,
-        "ad_rate_high": 0.3476892115831911,
+        "ad_rate": 0.2826086956521739,
+        "posterior_ad_rate": 0.28191489361702127,
+        "competition_score": 1.3251239630929672,
+        "ad_rate_low": 0.2225094590090456,
+        "ad_rate_high": 0.35159979048627377,
         "evidence_strength": "established"
       },
       {
@@ -2199,6 +2214,60 @@
     ]
   },
   "ads": [
+    {
+      "id": "546f3ce189673ea78772d4e3",
+      "turn_id": "6404b3cf230b6fa900c8c15e",
+      "advertiser": "Homerun Retail Private Limited",
+      "advertiser_key": "2e81afd45de21f0c44616576",
+      "creative_id": "2c3cc57a55bc90e56df6a895",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "All Your Plywood Needs, Sorted",
+      "description": "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790125943.619172,
+      "captured_at": "2026-09-23T01:11:06.757Z",
+      "prompt": "I am comparing interior painting services for a two-bedroom flat in Hyderabad. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.9\nAsian Paints Beautiful Homes Painting Service\n4.8\nAapkaPainter\nExpand\nUse two fingers to move the map\nAsian Paints Beautiful Homes Painting Service\n4.9\n•\nPainter\nClosed\nAapkaPainter\n4.8\n•\nPainter\nClosed\nGive feedback\n\nFor a 2BHK in Hyderabad, these are three credible, currently operating choices:\n\nService\tReviews / support\tPrice signal\tWarranty / cancellation\nAsian Paints Beautiful Homes\tAsian Paints Beautiful Homes Painting Service 4.9★/18 local reviews; supervised service + tracking portal\tQuote-based; ₹250 inspection fee, refundable \nAsian Paints\n\t1-year service warranty on Platinum plan; confirm cancellation terms before booking \nAsian Paints\n\nNoBroker Painting\t4.8★, 18K Hyderabad interior reviews; end-to-end management\tFrom ₹6/sq ft for Tractor UNO; premium ₹12/sq ft \nNoBroker\n\t1-year chipping/bubbling warranty + up to ₹10K damage cover; free cancellation/reschedule advertised \nNoBroker\n+1\n\nAapkaPainter\tAapkaPainter 4.8★/1,552 reviews locally\tQuote-based\tAsk for written workmanship warranty, cancellation/refund schedule and damage liability before payment\n\nBefore paying: get a written quote covering putty/primer, number of coats, paint brand, furniture masking, crack/damp repairs, timeline, GST, warranty exclusions and cancellation/refund terms.",
+      "industry": "Home improvement",
+      "category": "Paint services",
+      "screenshot_sha256": "084de2828ba29d2b3454dc8b242fdf05532dcd66bd6ba62fd23c4a73f1920c8f",
+      "screenshot_relpath": "evidence/084de2828ba29d2b3454dc8b242fdf05532dcd66bd6ba62fd23c4a73f1920c8f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Homerun Retail Private Limited",
+        "format": "answer_card",
+        "headline": "All Your Plywood Needs, Sorted",
+        "description": "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",
+        "copy": [
+          "Homerun Retail Private Limited",
+          "All Your Plywood Needs, Sorted",
+          "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/95568a6575142e7f.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Homerun Retail Private Limited",
+              "All Your Plywood Needs, Sorted",
+              "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase."
+            ],
+            "text": "Homerun Retail Private Limited\n\nAll Your Plywood Needs, Sorted\n\nMultiple brands, fast 60-minute delivery and 1% cashback on every purchase.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/95568a6575142e7f.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "e809c38f16047b9f3c7c8b11",
       "turn_id": "ddf4b3002c3b0b42fce4b2fe",
