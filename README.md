@@ -68,6 +68,11 @@ stages. Filters expose sample strength, zero-ad categories, uncertainty, adverti
 competition score. Suggested next experiments remain tied to the visible sample size and 95%
 interval; they do not claim campaign spend, targeting, or market share.
 
+The same-conversation transition view conditions each follow-up on the immediately preceding
+settled turn. It reports zero-to-ad conversion for purchase-specific rescue prompts and ad-to-ad
+persistence for deepening prompts, with paired denominators and 95% confidence intervals. These
+are observed transitions and do not establish that prompt wording alone caused the change.
+
 `prompt_allocation` turns those observations into an exact next-run plan: 20% breadth, 20%
 promising-signal validation, and 60% adaptive conversation work. Its per-category integer counts
 sum to 50,000. Travel, hotel, flight, perfume, fragrance, and beauty retain a 3× focus multiplier.
