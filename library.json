@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-23T00:12:26Z",
+  "generated_at": "2026-09-23T00:17:06Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,24 +12,24 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 415,
-    "approved_paid_units": 211,
+    "valid_turns": 423,
+    "approved_paid_units": 214,
     "approved_advertisers": 96,
-    "approved_creatives": 176,
+    "approved_creatives": 177,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 98,
+    "complete_panel_paid_units": 101,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 17,
-      "creatives": 12,
-      "panel_placements": 13,
+      "placements": 19,
+      "creatives": 13,
+      "panel_placements": 15,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T23:51:39.680Z",
+      "last_seen": "2026-09-23T00:14:47.223Z",
       "categories": "Travel and leisure,Corporate travel,Honeymoon packages"
     },
     {
@@ -360,6 +360,17 @@
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T23:56:31.304Z",
       "last_seen": "2026-09-22T23:58:29.502Z",
+      "categories": "Corporate travel"
+    },
+    {
+      "id": "c4eee08d8414dd197fd04a30",
+      "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+      "placements": 2,
+      "creatives": 1,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:43:19.006Z",
+      "last_seen": "2026-09-23T00:13:12.255Z",
       "categories": "Corporate travel"
     },
     {
@@ -1034,17 +1045,6 @@
       "categories": "Beauty and personal care"
     },
     {
-      "id": "c4eee08d8414dd197fd04a30",
-      "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T23:43:19.006Z",
-      "last_seen": "2026-09-22T23:43:19.006Z",
-      "categories": "Corporate travel"
-    },
-    {
       "id": "f213f05545cbf449497a7d3a",
       "advertiser": "Zenni Optical",
       "placements": 1,
@@ -1081,12 +1081,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 415,
-    "ad_turns": 98,
-    "ad_rate": 0.236144578313253,
-    "ad_rate_low": 0.1978178902585233,
-    "ad_rate_high": 0.2793114111289225,
-    "paid_units": 98,
+    "turns": 423,
+    "ad_turns": 101,
+    "ad_rate": 0.23877068557919623,
+    "ad_rate_low": 0.2006079194988844,
+    "ad_rate_high": 0.28163561065375303,
+    "paid_units": 101,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1106,16 +1106,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 72,
-        "ad_turns": 46,
-        "paid_units": 46,
+        "turns": 80,
+        "ad_turns": 49,
+        "paid_units": 49,
         "advertisers": 17,
-        "creatives": 29,
-        "ad_rate": 0.6388888888888888,
-        "posterior_ad_rate": 0.618421052631579,
-        "competition_score": 2.627007804366428,
-        "ad_rate_low": 0.5235226614759323,
-        "ad_rate_high": 0.740184855243124,
+        "creatives": 30,
+        "ad_rate": 0.6125,
+        "posterior_ad_rate": 0.5952380952380952,
+        "competition_score": 2.5285282818116577,
+        "ad_rate_low": 0.5029345562232477,
+        "ad_rate_high": 0.711756003117223,
         "evidence_strength": "established"
       },
       {
@@ -1843,104 +1843,262 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 144,
+        "turns": 145,
         "ad_turns": 40,
         "paid_units": 40,
         "advertisers": 20,
-        "ad_rate": 0.2777777777777778,
-        "posterior_ad_rate": 0.27702702702702703,
-        "competition_score": 1.2353830835414135,
-        "ad_rate_low": 0.21112080405190403,
-        "ad_rate_high": 0.35598344806657956,
+        "ad_rate": 0.27586206896551724,
+        "posterior_ad_rate": 0.2751677852348993,
+        "competition_score": 1.2270919219069072,
+        "ad_rate_low": 0.20961008987731197,
+        "ad_rate_high": 0.3536840429457696,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 12,
-        "ad_turns": 12,
-        "paid_units": 12,
+        "turns": 13,
+        "ad_turns": 13,
+        "paid_units": 13,
         "advertisers": 8,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.8125,
-        "competition_score": 2.699066577095982,
-        "ad_rate_low": 0.7574992425007574,
+        "posterior_ad_rate": 0.8235294117647058,
+        "competition_score": 2.7357054899072395,
+        "ad_rate_low": 0.7718981569447083,
         "ad_rate_high": 1,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 101,
+        "turns": 102,
         "ad_turns": 18,
         "paid_units": 18,
         "advertisers": 12,
-        "ad_rate": 0.1782178217821782,
-        "posterior_ad_rate": 0.18095238095238095,
-        "competition_score": 0.6889499382770903,
-        "ad_rate_low": 0.1158097450050057,
-        "ad_rate_high": 0.26420734744684543,
+        "ad_rate": 0.17647058823529413,
+        "posterior_ad_rate": 0.1792452830188679,
+        "competition_score": 0.682450410557495,
+        "ad_rate_low": 0.11464223172099423,
+        "ad_rate_high": 0.26178442849578254,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 12,
-        "ad_turns": 11,
-        "paid_units": 11,
-        "advertisers": 6,
-        "ad_rate": 0.9166666666666666,
-        "posterior_ad_rate": 0.75,
-        "competition_score": 2.25,
-        "ad_rate_low": 0.6461140782014047,
-        "ad_rate_high": 0.9851352905492264,
+        "turns": 13,
+        "ad_turns": 12,
+        "paid_units": 12,
+        "advertisers": 7,
+        "ad_rate": 0.9230769230769231,
+        "posterior_ad_rate": 0.7647058823529411,
+        "competition_score": 2.4240602952205914,
+        "ad_rate_low": 0.6668546607175265,
+        "ad_rate_high": 0.9862899336203037,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 78,
+        "turns": 80,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 6,
-        "ad_rate": 0.07692307692307693,
-        "posterior_ad_rate": 0.08536585365853659,
-        "competition_score": 0.25609756097560976,
-        "ad_rate_low": 0.03572997725324493,
-        "ad_rate_high": 0.15783417594024104,
+        "ad_rate": 0.075,
+        "posterior_ad_rate": 0.08333333333333333,
+        "competition_score": 0.25,
+        "ad_rate_low": 0.03482477485108787,
+        "ad_rate_high": 0.15412200097380097,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 9,
-        "ad_turns": 8,
-        "paid_units": 8,
+        "turns": 10,
+        "ad_turns": 9,
+        "paid_units": 9,
         "advertisers": 7,
-        "ad_rate": 0.8888888888888888,
-        "posterior_ad_rate": 0.6923076923076923,
-        "competition_score": 2.194563462536985,
-        "ad_rate_low": 0.5649937852319399,
-        "ad_rate_high": 0.9801096286728695,
+        "ad_rate": 0.9,
+        "posterior_ad_rate": 0.7142857142857143,
+        "competition_score": 2.264232143887366,
+        "ad_rate_low": 0.5958436145024278,
+        "ad_rate_high": 0.9821242504842788,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 59,
+        "turns": 60,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.05084745762711865,
-        "posterior_ad_rate": 0.06349206349206349,
-        "competition_score": 0.1474240060245944,
-        "ad_rate_low": 0.017442401159453308,
-        "ad_rate_high": 0.1391672332228667,
+        "ad_rate": 0.05,
+        "posterior_ad_rate": 0.0625,
+        "competition_score": 0.14512050593046014,
+        "ad_rate_low": 0.01714919117914121,
+        "ad_rate_high": 0.13700734625099836,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "4702c8583c5eb01f0d978e2c",
+      "turn_id": "05c1ee801537b1073a720694",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "00a75d12f8f027f7cfc9f0c3",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122626.4411561,
+      "captured_at": "2026-09-23T00:14:47.223Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, I’d shortlist myBiz, Trip.Biz and Yatra Travel Pro, but the right choice depends heavily on how much travel is actually managed offline.\n\nPurchase-ready shortlist\nOption\tCost position\tKey trade-off\tBest fit\nMakeMyTrip myBiz\tNo annual subscription; negotiated service fee + applicable GST; 1.5% payment-gateway fee can apply. \nMakeMyTrip\n+1\n\tStrong self-serve platform and Indian inventory, but some GST/refund processes depend on supplier.\tBest starting point for a 50-person Indian SME\nTrip.Biz\tCustom quote; insist on transaction/offline/after-hours fees in writing.\tStronger managed/global support, but pricing isn't publicly transparent. 24/7 human support and emergency assistance are advertised. \nTrip.biz\n\tInternational travel + employees needing human support\nYatra Travel Pro\tCustom quote; intended for companies under 2,500 trips or ₹5 crore annual travel spend. \nYatra.com\n\tMore conventional corporate controls; 24/7 dedicated desk is positioned under Travel Elite, not Pro.\tIndia-heavy travel with approvals/MIS\nWhat I'd put in the PO/RFP\n\nRequire an all-in quote for 500 bookings/year, including:\n\nbooking + offline-agent fee\n\ncancellation/refund fee\n\namendment/reissue fee\n\npayment/card charges\n\nGST invoice collection charges\n\nimplementation/integration fees\n\nafter-hours support\n\nrefund SLA\n\ncredit period\n\nexit/minimum-contract terms\n\nMost important: myBiz's published terms explicitly say its service fee is mutually agreed, while the separate 1.5% payment-gateway charge can sit on top. \nMakeMyTrip\n\nFor a 50-person company, I would request quotes from all three using exactly the same 500-booking + 50-cancellation + 75-change scenario. That will reveal the actual TCO rather than comparing headline fares.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "bc44c0beda572c0eaba9e47e2d0c038fad704c8ac5a18a3645b099d31b47a072",
+      "screenshot_relpath": "evidence/bc44c0beda572c0eaba9e47e2d0c038fad704c8ac5a18a3645b099d31b47a072.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]"
+            ],
+            "text": "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]\n\n₹2,480.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c8cc0a6f03c7e4615c306019",
+      "turn_id": "449618d9fd655deec869e699",
+      "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+      "advertiser_key": "c4eee08d8414dd197fd04a30",
+      "creative_id": "1596a2623950b01c022ffe96",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "AI notes for in-person client meetings",
+      "description": "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122626.4411561,
+      "captured_at": "2026-09-23T00:13:12.255Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person company, I’d compare total programme cost, not just airfare. Public TMC pricing is mostly quote-based, so I would not invent a per-booking fee where the provider doesn’t publish one.\n\nProvider\tCost structure today\tCancellation / refund\tSupport / “warranty”\tBest fit\nTrip.Biz\tCustom quote; ask for booking + offline-service + amendment fees. No public India tariff found.\tSupplier/fare rules apply; Trip.Biz advertises special-circumstance change/cancellation assistance. \nTrip.biz\n\t24/7 human support, emergency assistance, alerts and duty-of-care. \nTrip.biz\n\tTech-forward 50-person company with domestic + international travel\nMakeMyTrip myBiz\tCustom corporate pricing; GST invoices and corporate fares.\tAirline/hotel rules apply; MMT convenience fee is non-refundable and refunds are processed after supplier receipt/service-fee deductions. \nMakeMyTrip\n+1\n\tOnline/app support; free cancellation/date-change available on selected myBiz fares. \nMakeMyTrip Biz\n\tPrimarily India travel, self-serve booking\nYatra for Business – Travel Pro\tCustom quote; designed for <2,500 trips or <₹5 crore annual travel. \nYatra.com\n\tSpecial corporate fares can include free rescheduling; otherwise supplier rules. \nYatra.com\n\tPolicies, approvals, MIS, GST; 24/7 dedicated desk is listed for Travel Elite, not Pro. \nYatra.com\n\tIndian SME wanting a conventional corporate portal\nFCM India\tCustom managed-TMC quote; transaction/management fees need negotiation.\tSupplier cancellation costs apply; get the fee schedule/SLA contractually.\t24/7 emergency assistance, traveller safety, payment solutions, visa/insurance support and local + multinational servicing. \nFCM Travel\n\tMore complex/international programme\nWhat the real annual cost looks like\n\nFor your 50-person company, request each vendor to price the same scenario, e.g. ₹50 lakh annual travel spend / 500 bookings:\n\nTotal = ₹50L travel spend + booking fees + offline/agent fees + cancellation/amendment fees + payment charges + implementation/integration + GST − negotiated corporate savings.\n\nThe biggest hidden-cost difference is usually changes and cancellations, not the initial booking fee.\n\nTerms I would demand before signing\n\nExact per-ticket/per-hotel fee, including offline bookings.\n\nCancellation + amendment fee separately from airline/hotel penalties.\n\n24/7 support SLA: response time, escalation and emergency handling.\n\nRefund SLA: when money is received from supplier vs when TMC credits you.\n\nNo markup ambiguity: ask whether quoted fare is net, marked-up or commission-inclusive.\n\nCredit terms: ideally monthly invoicing rather than employee reimbursement.\n\nGST invoice guarantee and reconciliation process.\n\nService-level remedy if support misses the agreed SLA.\n\nImplementation/exit fees and minimum contract period.\n\nWhether corporate-negotiated fares are actually cheaper than public fares after all fees.\n\nFor a 50-person company, the most useful RFP is therefore not “what is your subscription price?” but “quote us all-in cost for 500 bookings, including 50 cancellations and 75 changes.” That will expose the actual TCO much faster.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "42e7b4ea18d06dfaf6abc362afb472b1c6c04bee4dec89190516acba98c67019",
+      "screenshot_relpath": "evidence/42e7b4ea18d06dfaf6abc362afb472b1c6c04bee4dec89190516acba98c67019.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "AI notes for in-person client meetings",
+        "description": "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription.",
+        "copy": [
+          "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+          "AI notes for in-person client meetings",
+          "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b72082a5b05a57cba21246f73929037d.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+              "AI notes for in-person client meetings",
+              "Wear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription."
+            ],
+            "text": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED\n\nAI notes for in-person client meetings\n\nWear Neo 1 to capture conversations and get summaries and follow-up tasks. No subscription.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b72082a5b05a57cba21246f73929037d.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "21ed6bb173a8662d8dec9012",
+      "turn_id": "06bd0b69a3c8a9fa77a1ae23",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122626.4411561,
+      "captured_at": "2026-09-23T00:11:28.865Z",
+      "prompt": "Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, Trip.Biz is more directly comparable with corporate TMCs than ordinary Trip.com Flights. Current public pricing is largely quote-based, so the meaningful comparison is the fee structure and what is included.\n\nOption\tCurrent price\tExclusions / watch-outs\tBest for\nTrip.Biz\tCustom quote\tAirline/hotel fare, taxes and supplier cancellation fees; verify transaction/service fees and India GST invoicing\tTech-first teams needing global inventory + 24/7 support\nMakeMyTrip myBiz\tCustom service fee; 1.5% payment-gateway fee can apply\tSupplier cancellation rules; some international-LCC GST invoices require direct airline follow-up\tIndian SMBs wanting easy adoption and strong domestic inventory \nMakeMyTrip Biz\n+1\n\nFCM Travel India\tCustom quote\tVerify implementation, transaction, after-hours and offline-booking charges\tCompanies wanting a full-service TMC, policy control and traveller safety \nFCM Travel\n\nCorporate Traveller India\tCustom quote\tVerify transaction fees, offline servicing and international support\tSMEs wanting a dedicated human travel-management team; it is FCM’s SME-focused sister brand \nFCM Travel\n\nImportant: ask all four for an all-in quote against the same annual travel volume. Trip.Biz explicitly offers online/offline booking, approvals, reporting and 24/7 support. \nTrip.biz\n+1\n\nFor a 50-person company, I’d specifically compare per-booking fee + cancellation/amendment fee + after-hours fee + payment fee + GST invoicing + credit terms before choosing.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "13372f20a7672bd659f26982c7d01d25145541fa6ba9cd324fe46efa0b07a517",
+      "screenshot_relpath": "evidence/13372f20a7672bd659f26982c7d01d25145541fa6ba9cd324fe46efa0b07a517.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "055676cee9228fa1731485a5",
       "turn_id": "196c92d8cc398d36fc4f3998",
