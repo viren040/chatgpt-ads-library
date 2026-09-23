@@ -94,6 +94,10 @@ the review note. Brand-family counts are deduplicated; displayed-label counts re
 audit and no captured advertiser text is rewritten.
 
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
+`observed-advertisers.csv` is the complete approved advertiser directory, while
+`category-insights.csv` contains comparable category-level denominators, rates, intervals, and
+competition scores. `RESEARCH-REPORT.md` summarizes the current findings, failed approaches, speed
+improvements, and operating workflow directly from the verified release.
 `traffic_lane` records the scheduler's breadth, promising, or adaptive assignment; legacy turns
 captured before lane provenance was introduced are labeled `unassigned`.
 It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,
