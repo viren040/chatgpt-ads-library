@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-09-23T01:12:23Z",
+  "schema_version": 4,
+  "generated_at": "2026-09-23T01:13:12Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,7 +12,7 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 510,
+    "valid_turns": 511,
     "approved_paid_units": 236,
     "approved_advertisers": 99,
     "approved_creatives": 186,
@@ -1114,11 +1114,11 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 510,
+    "turns": 511,
     "ad_turns": 123,
-    "ad_rate": 0.2411764705882353,
-    "ad_rate_low": 0.20607134548439954,
-    "ad_rate_high": 0.2801516461924129,
+    "ad_rate": 0.24070450097847357,
+    "ad_rate_low": 0.20565970602578756,
+    "ad_rate_high": 0.27961887286138865,
     "paid_units": 123,
     "categories": [
       {
@@ -1449,6 +1449,21 @@
         "competition_score": 0.125,
         "ad_rate_low": 0,
         "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Fragrance layering",
+        "industry": "Beauty and personal care",
+        "turns": 4,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.375,
+        "competition_score": 0.75,
+        "ad_rate_low": 0.15003570882017148,
+        "ad_rate_high": 0.8499642911798285,
         "evidence_strength": "exploratory"
       },
       {
@@ -1812,21 +1827,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Fragrance layering",
-        "industry": "Beauty and personal care",
-        "turns": 3,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "creatives": 2,
-        "ad_rate": 0.6666666666666666,
-        "posterior_ad_rate": 0.42857142857142855,
-        "competition_score": 0.8571428571428571,
-        "ad_rate_low": 0.2076549551264879,
-        "ad_rate_high": 0.9385096847238394,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Home exercise equipment",
         "industry": "Sports and fitness",
         "turns": 3,
@@ -2144,15 +2144,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 121,
+        "turns": 122,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.15702479338842976,
-        "posterior_ad_rate": 0.16,
-        "competition_score": 0.6251024952973631,
-        "ad_rate_low": 0.10289037053228536,
-        "ad_rate_high": 0.23226714106641247,
+        "ad_rate": 0.1557377049180328,
+        "posterior_ad_rate": 0.15873015873015872,
+        "competition_score": 0.6201413643823045,
+        "ad_rate_low": 0.10202654859821357,
+        "ad_rate_high": 0.23046763456538255,
         "evidence_strength": "established"
       },
       {
