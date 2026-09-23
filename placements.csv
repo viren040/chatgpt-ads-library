@@ -1,4 +1,43 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+8081753de36824b5971d2e73,520bcefb50fdfb96f26fa2af,2026-09-23T01:53:12.897Z,Leela Diamonds,Leela Diamonds,Sponsored,product_card,0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds,,Travel and leisure,Honeymoon packages,complete_panel,True,human_visual,"Make this more purchase-specific: for a seven-day honeymoon package from India to Bali with flights and transfers, name three currently available providers or products with prices and important limitations.","Here are three currently listed India-market choices. Prices are advertised starting rates, so confirm the exact departure city/date and flight inventory before paying.
+
+Provider / package	Advertised price	Important limitations
+Veena World – Honeymoon Special Bali, 7 days	₹1,43,000/person	Group tour; one listed departure/date; advertised package is all-inclusive, but verify exact flight, room and transfer inclusions. 
+Veena World
+
+SOTC – Blissful Bali Honeymoon Special, 7N/8D	₹35,171/person	Longer than seven days; SOTC says packages can be booked with or without flights, so ₹35,171 isn't necessarily flight-inclusive. 
+SOTC
+
+Thomas Cook – Bali Honeymoon Package	₹25,600 starting	Starting price, not a confirmed 7-day flight-inclusive quote; Thomas Cook says flights may be optional and customisation can add cost. 
+Thomas Cook
++1
+
+Purchase check: For a true apples-to-apples comparison, request a written quote showing round-trip flights, baggage, private airport transfers, hotel category, taxes/TCS, honeymoon inclusions and cancellation penalties.",defc6fd2ea31492d2c75fa1d,evidence/6a6d4de1fa6d6360a9e07e4760285791162d4991bf24b7120b6e5de795f26a3d.png,6a6d4de1fa6d6360a9e07e4760285791162d4991bf24b7120b6e5de795f26a3d
+30a6a52916c1ae45ac230cc0,f9683de3473fb580a5009c67,2026-09-23T01:50:06.797Z,Shiprocket,Shiprocket,Ad,answer_card,Get ₹500 Cashback on Your First Recharge,Recharge ₹500 and get ₹500 cashback. Start shipping with Shiprocket today.,Payments,Payment gateways,complete_panel,True,human_visual,"Narrow this to high-intent choices for an online payment gateway with UPI for a new Indian clothing store. Compare named brands, total cost, availability, returns or cancellation, and support.","For a new clothing store, I’d narrow the purchase shortlist to these three. All are available in India and support UPI plus cards and other checkout methods. 
+IMARC Group
++1
+
+Provider	Total cost	Availability	Cancellation / refunds	Support
+Razorpay	2% + GST/transaction; ₹0 setup/AMC. Current offer: 0% platform fee for first 90 days. 
+Razorpay
+	Online onboarding; Shopify/e-commerce integrations	No subscription commitment; refunds can be initiated through dashboard, with applicable processing economics	Docs + merchant support
+Cashfree	Promotional 0% gateway fee may apply to qualifying new merchants; otherwise get a merchant-specific quote. 
+Inventiva
+	Online onboarding; strong e-commerce focus	Pay-as-you-go; refunds supported, but refund processing/settlement terms should be confirmed	Merchant support + documentation
+PayU	Quote-based, typically around the ~2% range depending on method/contract	Available for Indian online merchants	Pay-as-you-go; confirm refund/reversal charges in contract	Enterprise/merchant support
+What I'd verify before paying/signing
+
+UPI platform fee versus true 0-MDR.
+
+Settlement: T+1 vs instant and its cost.
+
+Refund/reversal charges.
+
+Shopify/WooCommerce plugin quality.
+
+Support SLA for payment failures.
+
+For a new store, don't buy an annual plan upfront. Get written confirmation of the transaction rate and refund terms first.",411f723f4cef76a912a61c28,evidence/546ba5aa0fb565e1f19a589fa990a99bfba2a2ac78514bcc3be5aa80991d8c7a.png,546ba5aa0fb565e1f19a589fa990a99bfba2a2ac78514bcc3be5aa80991d8c7a
 0568f618dd4164397ba2d647,fedd2ce890de862191f7f744,2026-09-23T01:45:06.371Z,Yves Saint Laurent,Yves Saint Laurent,Ad,answer_card,Iconic Libre Eau de Parfum by Yves Saint Laurent,"Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",Beauty and personal care,Rose perfume,complete_panel,True,human_visual,"I am comparing a modern rose fragrance available in India under ₹6,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently purchasable options under ₹6,000, with different takes on modern rose:
 
 Ahmed Al Maghribi Oud and Roses EDP

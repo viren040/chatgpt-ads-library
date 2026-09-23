@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T01:46:14Z",
+  "generated_at": "2026-09-23T01:54:33Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 559,
-    "approved_paid_units": 245,
-    "approved_advertisers": 99,
-    "approved_brand_families": 99,
-    "approved_advertiser_labels": 101,
-    "approved_creatives": 192,
+    "valid_turns": 571,
+    "approved_paid_units": 247,
+    "approved_advertisers": 100,
+    "approved_brand_families": 100,
+    "approved_advertiser_labels": 102,
+    "approved_creatives": 194,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 132,
+    "complete_panel_paid_units": 134,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -388,6 +388,19 @@
       "first_seen": "2026-09-21T23:55:46.758Z",
       "last_seen": "2026-09-22T21:12:04.982Z",
       "categories": "Beauty and personal care,Perfume miniatures"
+    },
+    {
+      "id": "68e7bac99d7ab7fbc3b2c7b8",
+      "advertiser": "Leela Diamonds",
+      "observed_advertiser_labels": "Leela Diamonds",
+      "advertiser_labels": 1,
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-22T09:31:40.058Z",
+      "last_seen": "2026-09-23T01:53:12.897Z",
+      "categories": "Commercial discovery,Honeymoon packages"
     },
     {
       "id": "c1a8f94c35b88f58460ea260",
@@ -819,19 +832,6 @@
       "categories": "Sleep support"
     },
     {
-      "id": "68e7bac99d7ab7fbc3b2c7b8",
-      "advertiser": "Leela Diamonds",
-      "observed_advertiser_labels": "Leela Diamonds",
-      "advertiser_labels": 1,
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-22T09:31:40.058Z",
-      "last_seen": "2026-09-22T09:31:40.058Z",
-      "categories": "Commercial discovery"
-    },
-    {
       "id": "92f3bb640fa3d06f07d1a2ed",
       "advertiser": "Lyft",
       "observed_advertiser_labels": "Lyft",
@@ -1064,6 +1064,19 @@
       "first_seen": "2026-09-11T22:41:25.735Z",
       "last_seen": "2026-09-11T22:41:25.735Z",
       "categories": "Search API"
+    },
+    {
+      "id": "d745b16ea0fe2d6d5e299fa4",
+      "advertiser": "Shiprocket",
+      "observed_advertiser_labels": "Shiprocket",
+      "advertiser_labels": 1,
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T01:50:06.797Z",
+      "last_seen": "2026-09-23T01:50:06.797Z",
+      "categories": "Payment gateways"
     },
     {
       "id": "cd5ed08075eb157307b1af8e",
@@ -1345,12 +1358,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 559,
-    "ad_turns": 132,
-    "ad_rate": 0.23613595706618962,
-    "ad_rate_low": 0.20280326470119533,
-    "ad_rate_high": 0.27307058684069496,
-    "paid_units": 132,
+    "turns": 571,
+    "ad_turns": 134,
+    "ad_rate": 0.23467600700525393,
+    "ad_rate_low": 0.20175891777231209,
+    "ad_rate_high": 0.2711393554215556,
+    "paid_units": 134,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1398,6 +1411,21 @@
         "evidence_strength": "established"
       },
       {
+        "category": "Honeymoon packages",
+        "industry": "Travel and leisure",
+        "turns": 8,
+        "ad_turns": 5,
+        "paid_units": 5,
+        "advertisers": 3,
+        "creatives": 3,
+        "ad_rate": 0.625,
+        "posterior_ad_rate": 0.5,
+        "competition_score": 1.160964047443681,
+        "ad_rate_low": 0.30573785458380187,
+        "ad_rate_high": 0.863158240538479,
+        "evidence_strength": "directional"
+      },
+      {
         "category": "Pilgrimage travel",
         "industry": "Travel and leisure",
         "turns": 8,
@@ -1443,21 +1471,6 @@
         "evidence_strength": "directional"
       },
       {
-        "category": "Honeymoon packages",
-        "industry": "Travel and leisure",
-        "turns": 7,
-        "ad_turns": 4,
-        "paid_units": 4,
-        "advertisers": 2,
-        "creatives": 2,
-        "ad_rate": 0.5714285714285714,
-        "posterior_ad_rate": 0.45454545454545453,
-        "competition_score": 0.9090909090909091,
-        "ad_rate_low": 0.2504542304090258,
-        "ad_rate_high": 0.8417830777373732,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Paint services",
         "industry": "Home improvement",
         "turns": 7,
@@ -1473,6 +1486,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Payment gateways",
+        "industry": "Payments",
+        "turns": 7,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.2857142857142857,
+        "posterior_ad_rate": 0.2727272727272727,
+        "competition_score": 0.5454545454545454,
+        "ad_rate_low": 0.0822171657090155,
+        "ad_rate_high": 0.6410709098517873,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Perfume gift sets",
         "industry": "Beauty and personal care",
         "turns": 7,
@@ -1485,6 +1513,21 @@
         "competition_score": 0.09090909090909091,
         "ad_rate_low": 0,
         "ad_rate_high": 0.35433884297520657,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Rose perfume",
+        "industry": "Beauty and personal care",
+        "turns": 7,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 2,
+        "creatives": 3,
+        "ad_rate": 0.42857142857142855,
+        "posterior_ad_rate": 0.36363636363636365,
+        "competition_score": 0.7272727272727273,
+        "ad_rate_low": 0.15821692226262685,
+        "ad_rate_high": 0.7495457695909742,
         "evidence_strength": "exploratory"
       },
       {
@@ -1530,6 +1573,36 @@
         "competition_score": 0.09090909090909091,
         "ad_rate_low": 0,
         "ad_rate_high": 0.35433884297520657,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Body mists",
+        "industry": "Beauty and personal care",
+        "turns": 6,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.16666666666666666,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.31699250014423125,
+        "ad_rate_low": 0.03005258587173032,
+        "ad_rate_high": 0.563509436563646,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Business hotels",
+        "industry": "Travel and leisure",
+        "turns": 6,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.16666666666666666,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.31699250014423125,
+        "ad_rate_low": 0.03005258587173032,
+        "ad_rate_high": 0.563509436563646,
         "evidence_strength": "exploratory"
       },
       {
@@ -1593,51 +1666,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Rose perfume",
-        "industry": "Beauty and personal care",
-        "turns": 6,
-        "ad_turns": 3,
-        "paid_units": 3,
-        "advertisers": 2,
-        "creatives": 3,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.8,
-        "ad_rate_low": 0.18761280689940868,
-        "ad_rate_high": 0.8123871931005913,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Body mists",
-        "industry": "Beauty and personal care",
-        "turns": 5,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.2,
-        "posterior_ad_rate": 0.2222222222222222,
-        "competition_score": 0.3522138890491458,
-        "ad_rate_low": 0.03622316096978745,
-        "ad_rate_high": 0.6244717358814613,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Business hotels",
-        "industry": "Travel and leisure",
-        "turns": 5,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.2,
-        "posterior_ad_rate": 0.2222222222222222,
-        "competition_score": 0.3522138890491458,
-        "ad_rate_low": 0.03622316096978745,
-        "ad_rate_high": 0.6244717358814613,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Fragrance layering",
         "industry": "Beauty and personal care",
         "turns": 5,
@@ -1665,6 +1693,21 @@
         "competition_score": 0.1111111111111111,
         "ad_rate_low": 0,
         "ad_rate_high": 0.43449149475208104,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Sensitive-skin fragrance",
+        "industry": "Beauty and personal care",
+        "turns": 5,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.2,
+        "posterior_ad_rate": 0.2222222222222222,
+        "competition_score": 0.3522138890491458,
+        "ad_rate_low": 0.03622316096978745,
+        "ad_rate_high": 0.6244717358814613,
         "evidence_strength": "exploratory"
       },
       {
@@ -1938,21 +1981,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Payment gateways",
-        "industry": "Payments",
-        "turns": 4,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.25,
-        "posterior_ad_rate": 0.25,
-        "competition_score": 0.396240625180289,
-        "ad_rate_low": 0.045586062644636216,
-        "ad_rate_high": 0.6993639475573634,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Perfume discovery sets",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -1965,21 +1993,6 @@
         "competition_score": 0.125,
         "ad_rate_low": 0,
         "ad_rate_high": 0.48990002040399916,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Sensitive-skin fragrance",
-        "industry": "Beauty and personal care",
-        "turns": 4,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.25,
-        "posterior_ad_rate": 0.25,
-        "competition_score": 0.396240625180289,
-        "ad_rate_low": 0.045586062644636216,
-        "ad_rate_high": 0.6993639475573634,
         "evidence_strength": "exploratory"
       },
       {
@@ -2298,6 +2311,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Power tools",
+        "industry": "Industrial supplies",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Product photography",
         "industry": "Creative services",
         "turns": 3,
@@ -2433,8 +2461,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Electric scooters",
-        "industry": "Automotive",
+        "category": "Commercial refrigeration",
+        "industry": "Industrial supplies",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2448,8 +2476,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Power tools",
-        "industry": "Industrial supplies",
+        "category": "Electric scooters",
+        "industry": "Automotive",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2491,21 +2519,36 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Healthy snacks",
+        "industry": "Food and beverage",
+        "turns": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 206,
+        "turns": 209,
         "ad_turns": 56,
         "paid_units": 56,
         "advertisers": 26,
-        "ad_rate": 0.27184466019417475,
-        "posterior_ad_rate": 0.2714285714285714,
-        "competition_score": 1.3048534788442065,
-        "ad_rate_low": 0.21567871103460357,
-        "ad_rate_high": 0.33636435382956054,
+        "ad_rate": 0.2679425837320574,
+        "posterior_ad_rate": 0.2676056338028169,
+        "competition_score": 1.2864752608323164,
+        "ad_rate_low": 0.2124831881424326,
+        "ad_rate_high": 0.3317788358228073,
         "evidence_strength": "established"
       },
       {
@@ -2525,15 +2568,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 136,
-        "ad_turns": 20,
-        "paid_units": 20,
-        "advertisers": 13,
-        "ad_rate": 0.14705882352941177,
-        "posterior_ad_rate": 0.15,
-        "competition_score": 0.5860335893412778,
-        "ad_rate_low": 0.09725850554788583,
-        "ad_rate_high": 0.2162504932049888,
+        "turns": 141,
+        "ad_turns": 21,
+        "paid_units": 21,
+        "advertisers": 14,
+        "ad_rate": 0.14893617021276595,
+        "posterior_ad_rate": 0.15172413793103448,
+        "competition_score": 0.6068965517241379,
+        "ad_rate_low": 0.09952282862708753,
+        "ad_rate_high": 0.21697188007538468,
         "evidence_strength": "established"
       },
       {
@@ -2553,15 +2596,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 104,
-        "ad_turns": 7,
-        "paid_units": 7,
-        "advertisers": 7,
-        "ad_rate": 0.0673076923076923,
-        "posterior_ad_rate": 0.07407407407407407,
-        "competition_score": 0.23480925936609717,
-        "ad_rate_low": 0.032983269269930095,
-        "ad_rate_high": 0.1324593799489242,
+        "turns": 108,
+        "ad_turns": 8,
+        "paid_units": 8,
+        "advertisers": 8,
+        "ad_rate": 0.07407407407407407,
+        "posterior_ad_rate": 0.08035714285714286,
+        "competition_score": 0.2669406504820202,
+        "ad_rate_low": 0.038009793445671555,
+        "ad_rate_high": 0.13939825508010056,
         "evidence_strength": "established"
       },
       {
@@ -2595,6 +2638,116 @@
     ]
   },
   "ads": [
+    {
+      "id": "8081753de36824b5971d2e73",
+      "turn_id": "520bcefb50fdfb96f26fa2af",
+      "advertiser": "Leela Diamonds",
+      "advertiser_key": "68e7bac99d7ab7fbc3b2c7b8",
+      "brand": "Leela Diamonds",
+      "brand_key": "68e7bac99d7ab7fbc3b2c7b8",
+      "creative_id": "defc6fd2ea31492d2c75fa1d",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Sponsored disclosure and Leela Diamonds advertiser label.",
+      "reviewed_at": 1790128472.980347,
+      "captured_at": "2026-09-23T01:53:12.897Z",
+      "prompt": "Make this more purchase-specific: for a seven-day honeymoon package from India to Bali with flights and transfers, name three currently available providers or products with prices and important limitations.",
+      "answer": "Here are three currently listed India-market choices. Prices are advertised starting rates, so confirm the exact departure city/date and flight inventory before paying.\n\nProvider / package\tAdvertised price\tImportant limitations\nVeena World – Honeymoon Special Bali, 7 days\t₹1,43,000/person\tGroup tour; one listed departure/date; advertised package is all-inclusive, but verify exact flight, room and transfer inclusions. \nVeena World\n\nSOTC – Blissful Bali Honeymoon Special, 7N/8D\t₹35,171/person\tLonger than seven days; SOTC says packages can be booked with or without flights, so ₹35,171 isn't necessarily flight-inclusive. \nSOTC\n\nThomas Cook – Bali Honeymoon Package\t₹25,600 starting\tStarting price, not a confirmed 7-day flight-inclusive quote; Thomas Cook says flights may be optional and customisation can add cost. \nThomas Cook\n+1\n\nPurchase check: For a true apples-to-apples comparison, request a written quote showing round-trip flights, baggage, private airport transfers, hotel category, taxes/TCS, honeymoon inclusions and cancellation penalties.",
+      "industry": "Travel and leisure",
+      "category": "Honeymoon packages",
+      "screenshot_sha256": "6a6d4de1fa6d6360a9e07e4760285791162d4991bf24b7120b6e5de795f26a3d",
+      "screenshot_relpath": "evidence/6a6d4de1fa6d6360a9e07e4760285791162d4991bf24b7120b6e5de795f26a3d.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Leela Diamonds",
+        "format": "product_card",
+        "headline": "0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds",
+        "description": null,
+        "copy": [
+          "Leela Diamonds",
+          "0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds",
+          null
+        ],
+        "image_urls": [
+          "https://images.openai.com/products/v1/2b/a0/2ba0ee4acd54e9f14162a4efe345dcb5b2140b1b9f612a31421da89f65f571e7.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds"
+            ],
+            "text": "0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds\n\n$239.14\nLeela Diamonds",
+            "image_urls": [
+              "https://images.openai.com/products/v1/2b/a0/2ba0ee4acd54e9f14162a4efe345dcb5b2140b1b9f612a31421da89f65f571e7.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "30a6a52916c1ae45ac230cc0",
+      "turn_id": "f9683de3473fb580a5009c67",
+      "advertiser": "Shiprocket",
+      "advertiser_key": "d745b16ea0fe2d6d5e299fa4",
+      "brand": "Shiprocket",
+      "brand_key": "d745b16ea0fe2d6d5e299fa4",
+      "creative_id": "411f723f4cef76a912a61c28",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Get ₹500 Cashback on Your First Recharge",
+      "description": "Recharge ₹500 and get ₹500 cashback. Start shipping with Shiprocket today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Ad disclosure and Shiprocket advertiser label.",
+      "reviewed_at": 1790128472.908509,
+      "captured_at": "2026-09-23T01:50:06.797Z",
+      "prompt": "Narrow this to high-intent choices for an online payment gateway with UPI for a new Indian clothing store. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a new clothing store, I’d narrow the purchase shortlist to these three. All are available in India and support UPI plus cards and other checkout methods. \nIMARC Group\n+1\n\nProvider\tTotal cost\tAvailability\tCancellation / refunds\tSupport\nRazorpay\t2% + GST/transaction; ₹0 setup/AMC. Current offer: 0% platform fee for first 90 days. \nRazorpay\n\tOnline onboarding; Shopify/e-commerce integrations\tNo subscription commitment; refunds can be initiated through dashboard, with applicable processing economics\tDocs + merchant support\nCashfree\tPromotional 0% gateway fee may apply to qualifying new merchants; otherwise get a merchant-specific quote. \nInventiva\n\tOnline onboarding; strong e-commerce focus\tPay-as-you-go; refunds supported, but refund processing/settlement terms should be confirmed\tMerchant support + documentation\nPayU\tQuote-based, typically around the ~2% range depending on method/contract\tAvailable for Indian online merchants\tPay-as-you-go; confirm refund/reversal charges in contract\tEnterprise/merchant support\nWhat I'd verify before paying/signing\n\nUPI platform fee versus true 0-MDR.\n\nSettlement: T+1 vs instant and its cost.\n\nRefund/reversal charges.\n\nShopify/WooCommerce plugin quality.\n\nSupport SLA for payment failures.\n\nFor a new store, don't buy an annual plan upfront. Get written confirmation of the transaction rate and refund terms first.",
+      "industry": "Payments",
+      "category": "Payment gateways",
+      "screenshot_sha256": "546ba5aa0fb565e1f19a589fa990a99bfba2a2ac78514bcc3be5aa80991d8c7a",
+      "screenshot_relpath": "evidence/546ba5aa0fb565e1f19a589fa990a99bfba2a2ac78514bcc3be5aa80991d8c7a.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Shiprocket",
+        "format": "answer_card",
+        "headline": "Get ₹500 Cashback on Your First Recharge",
+        "description": "Recharge ₹500 and get ₹500 cashback. Start shipping with Shiprocket today.",
+        "copy": [
+          "Shiprocket",
+          "Get ₹500 Cashback on Your First Recharge",
+          "Recharge ₹500 and get ₹500 cashback. Start shipping with Shiprocket today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/361efd5eccea51aa.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Shiprocket",
+              "Get ₹500 Cashback on Your First Recharge",
+              "Recharge ₹500 and get ₹500 cashback. Start shipping with Shiprocket today."
+            ],
+            "text": "Shiprocket\n\nGet ₹500 Cashback on Your First Recharge\n\nRecharge ₹500 and get ₹500 cashback. Start shipping with Shiprocket today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/361efd5eccea51aa.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "0568f618dd4164397ba2d647",
       "turn_id": "fedd2ce890de862191f7f744",
