@@ -1,4 +1,54 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+2574beb78e75d127b0900dad,229e41d2733bcebbbf16d425,2026-09-23T01:40:11.550Z,Take App (MX),Take App (MX),Ad,answer_card,Simplify WhatsApp Ordering,"Save your time. Fewer mistakes, faster deals.",Payments,Payment gateways,complete_panel,True,human_visual,"Make this more purchase-specific: for an online payment gateway with UPI for a new Indian clothing store, name three currently available providers or products with prices and important limitations.","For a new Indian clothing store, these are three purchase-ready options:
+
+Provider	Current price	Important limitations / terms
+Cashfree Payments	0% platform fee up to ₹20 lakh GMV under its new-merchant offer; then 1.95% + GST. 
+Cashfree
+	Offer applies to eligible domestic payments and ends when ₹20 lakh is used or the campaign ends; EMI, Amex, Diners, international and some other methods are excluded.
+PhonePe PG	0% promotional fee; standard displayed rate 1.99%. 
+PhonePe
+	Promotion is conditional/time-limited. Supports UPI, cards and net banking; zero setup and AMC.
+Razorpay	2% + GST; currently advertises 0% platform fees for the first 90 days. 
+Razorpay
+	No setup/AMC; promotional pricing has eligibility limits. Custom pricing is available above roughly ₹5 lakh/month.
+
+Practical buying point: For a new clothing store, compare the effective fee after promotions, settlement timing, refund/chargeback costs, and Shopify/WooCommerce integration—not just the headline UPI rate.",1e470ec07eaca56c6d560e55,evidence/c0a991bbb741f4d4f55466fc1558802ca1ce241edd544ec7effcd6d41a071557.png,c0a991bbb741f4d4f55466fc1558802ca1ce241edd544ec7effcd6d41a071557
+018820fc2a193eaf611587ad,d08429afbee225da201d4da7,2026-09-23T01:37:15.872Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,human_visual,"Make this more purchase-specific: for interior painting services for a two-bedroom flat in Hyderabad, name three currently available providers or products with prices and important limitations.","4.9
+Asian Paints Beautiful Homes Painting Service
+4.8
+AapkaPainter
+4.8
+Deccan Clap
+Expand
+Use two fingers to move the map
+Asian Paints Beautiful Homes Painting Service
+4.9
+•
+Painter
+Closed
+AapkaPainter
+4.8
+•
+Painter
+Closed
+Deccan Clap
+4.8
+•
+Painter
+Open
+Give feedback
+
+For a 2 BHK interior repaint in Hyderabad, these are three purchase-ready options. Current market pricing is roughly ₹25,000–₹70,000 for a standard 2 BHK, depending on paint and wall condition. 
+Asian Paints
+
+Provider	Indicative cost	What differentiates it	Important limitation
+Asian Paints Beautiful Homes Painting Service	₹25k–₹70k	Branded paint + supervised service; Platinum includes technical evaluation, cleaning and 1-year service/products warranty in Hyderabad. 
+Asian Paints
+	Final quote requires site assessment; premium finishes cost more
+AapkaPainter	Quote required	Large Hyderabad operation; useful if you want a dedicated painting contractor rather than buying directly from a paint brand	Published fixed 2-BHK pricing isn't available; verify preparation/coats and warranty
+Deccan Clap	Quote required	Hyderabad-focused local provider; potentially more flexible on labour, paint brand and scope	Get exclusions in writing; don't assume putty/primer/crack repair are included
+
+Before paying: ask all three to quote the same paint grade, putty/primer, number of coats, crack repair, masking, furniture protection, cleanup and warranty.",6ddd29ff9464de2bdd360543,evidence/68090440c9188b2e94bed03762f37bfc2c56722e9cf036952fca85a5b891a06f.png,68090440c9188b2e94bed03762f37bfc2c56722e9cf036952fca85a5b891a06f
 985770d193af27d2a5762503,1f05c6b5e8091eae235655de,2026-09-23T01:35:36.011Z,TwixAir LLC,TwixAir LLC,Sponsored,product_card,Indonesia eSIM - 30 Day 2GB/Day,,Travel and leisure,Honeymoon packages,complete_panel,True,exact_visual_inheritance,"Go deeper on the total cost of buying a seven-day honeymoon package from India to Bali with flights and transfers. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 7-day / 6-night Bali honeymoon for two, I’d compare the strongest currently published options this way. Prices are starting prices and can move with dates and flights.
 
 Option	Published package cost	Extra costs / exclusions	Cancellation & support

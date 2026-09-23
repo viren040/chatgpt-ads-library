@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T01:43:18Z",
+  "generated_at": "2026-09-23T01:43:32Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 552,
-    "approved_paid_units": 242,
-    "approved_advertisers": 98,
-    "approved_brand_families": 98,
-    "approved_advertiser_labels": 100,
-    "approved_creatives": 190,
+    "valid_turns": 554,
+    "approved_paid_units": 244,
+    "approved_advertisers": 99,
+    "approved_brand_families": 99,
+    "approved_advertiser_labels": 101,
+    "approved_creatives": 191,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 129,
+    "complete_panel_paid_units": 131,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -234,6 +234,19 @@
       "categories": "Travel and leisure,Flight booking"
     },
     {
+      "id": "650dd4b7a6b9b1b65b11e845",
+      "advertiser": "Birla Opus",
+      "observed_advertiser_labels": "Birla Opus",
+      "advertiser_labels": 1,
+      "placements": 3,
+      "creatives": 1,
+      "panel_placements": 3,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T01:22:39.763Z",
+      "last_seen": "2026-09-23T01:37:15.872Z",
+      "categories": "Paint services"
+    },
+    {
       "id": "4cf65a63520b6021070f08da",
       "advertiser": "Guest Reservations",
       "observed_advertiser_labels": "Guest Reservations",
@@ -297,19 +310,6 @@
       "first_seen": "2026-09-22T23:27:23.985Z",
       "last_seen": "2026-09-22T23:45:02.476Z",
       "categories": "Corporate travel"
-    },
-    {
-      "id": "650dd4b7a6b9b1b65b11e845",
-      "advertiser": "Birla Opus",
-      "observed_advertiser_labels": "Birla Opus",
-      "advertiser_labels": 1,
-      "placements": 2,
-      "creatives": 1,
-      "panel_placements": 2,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-23T01:22:39.763Z",
-      "last_seen": "2026-09-23T01:25:56.765Z",
-      "categories": "Paint services"
     },
     {
       "id": "d5982a03495f5fcda2bb5a52",
@@ -1118,6 +1118,19 @@
       "categories": "Home textiles"
     },
     {
+      "id": "da7bc7bad3da0abb03b60f6f",
+      "advertiser": "Take App (MX)",
+      "observed_advertiser_labels": "Take App (MX)",
+      "advertiser_labels": 1,
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T01:40:11.550Z",
+      "last_seen": "2026-09-23T01:40:11.550Z",
+      "categories": "Payment gateways"
+    },
+    {
       "id": "3de60f47cf5c51889bbec3ac",
       "advertiser": "Tally Solutions Private Limited",
       "observed_advertiser_labels": "Tally Solutions Private Limited",
@@ -1332,12 +1345,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 552,
-    "ad_turns": 129,
-    "ad_rate": 0.23369565217391305,
-    "ad_rate_low": 0.20030719138271458,
-    "ad_rate_high": 0.27076514289381315,
-    "paid_units": 129,
+    "turns": 554,
+    "ad_turns": 131,
+    "ad_rate": 0.2364620938628159,
+    "ad_rate_low": 0.2029691173255096,
+    "ad_rate_high": 0.2735848004891531,
+    "paid_units": 131,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1445,6 +1458,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Paint services",
+        "industry": "Home improvement",
+        "turns": 7,
+        "ad_turns": 6,
+        "paid_units": 6,
+        "advertisers": 2,
+        "creatives": 4,
+        "ad_rate": 0.8571428571428571,
+        "posterior_ad_rate": 0.6363636363636364,
+        "competition_score": 1.2727272727272727,
+        "ad_rate_low": 0.48686549668097007,
+        "ad_rate_high": 0.9743210440510253,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Perfume gift sets",
         "industry": "Beauty and personal care",
         "turns": 7,
@@ -1547,21 +1575,6 @@
         "competition_score": 0.1,
         "ad_rate_low": 0,
         "ad_rate_high": 0.3903430336530645,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Paint services",
-        "industry": "Home improvement",
-        "turns": 6,
-        "ad_turns": 5,
-        "paid_units": 5,
-        "advertisers": 2,
-        "creatives": 4,
-        "ad_rate": 0.8333333333333334,
-        "posterior_ad_rate": 0.6,
-        "competition_score": 1.2,
-        "ad_rate_low": 0.43649056343635395,
-        "ad_rate_high": 0.9699474141282697,
         "evidence_strength": "exploratory"
       },
       {
@@ -1910,6 +1923,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Payment gateways",
+        "industry": "Payments",
+        "turns": 4,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.25,
+        "posterior_ad_rate": 0.25,
+        "competition_score": 0.396240625180289,
+        "ad_rate_low": 0.045586062644636216,
+        "ad_rate_high": 0.6993639475573634,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Perfume discovery sets",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -2240,21 +2268,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Payment gateways",
-        "industry": "Payments",
-        "turns": 3,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.14285714285714285,
-        "competition_score": 0.14285714285714285,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.5615060804490177,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Pest control",
         "industry": "Home improvement",
         "turns": 3,
@@ -2497,15 +2510,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 133,
-        "ad_turns": 18,
-        "paid_units": 18,
-        "advertisers": 11,
-        "ad_rate": 0.13533834586466165,
-        "posterior_ad_rate": 0.1386861313868613,
-        "competition_score": 0.5131996689392756,
-        "ad_rate_low": 0.08735194240933154,
-        "ad_rate_high": 0.20379928645674428,
+        "turns": 135,
+        "ad_turns": 20,
+        "paid_units": 20,
+        "advertisers": 13,
+        "ad_rate": 0.14814814814814814,
+        "posterior_ad_rate": 0.1510791366906475,
+        "competition_score": 0.5902496583293446,
+        "ad_rate_low": 0.09799524269787924,
+        "ad_rate_high": 0.21777178966129845,
         "evidence_strength": "established"
       },
       {
@@ -2567,6 +2580,118 @@
     ]
   },
   "ads": [
+    {
+      "id": "2574beb78e75d127b0900dad",
+      "turn_id": "229e41d2733bcebbbf16d425",
+      "advertiser": "Take App (MX)",
+      "advertiser_key": "da7bc7bad3da0abb03b60f6f",
+      "brand": "Take App (MX)",
+      "brand_key": "da7bc7bad3da0abb03b60f6f",
+      "creative_id": "1e470ec07eaca56c6d560e55",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Simplify WhatsApp Ordering",
+      "description": "Save your time. Fewer mistakes, faster deals.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790127812.203713,
+      "captured_at": "2026-09-23T01:40:11.550Z",
+      "prompt": "Make this more purchase-specific: for an online payment gateway with UPI for a new Indian clothing store, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a new Indian clothing store, these are three purchase-ready options:\n\nProvider\tCurrent price\tImportant limitations / terms\nCashfree Payments\t0% platform fee up to ₹20 lakh GMV under its new-merchant offer; then 1.95% + GST. \nCashfree\n\tOffer applies to eligible domestic payments and ends when ₹20 lakh is used or the campaign ends; EMI, Amex, Diners, international and some other methods are excluded.\nPhonePe PG\t0% promotional fee; standard displayed rate 1.99%. \nPhonePe\n\tPromotion is conditional/time-limited. Supports UPI, cards and net banking; zero setup and AMC.\nRazorpay\t2% + GST; currently advertises 0% platform fees for the first 90 days. \nRazorpay\n\tNo setup/AMC; promotional pricing has eligibility limits. Custom pricing is available above roughly ₹5 lakh/month.\n\nPractical buying point: For a new clothing store, compare the effective fee after promotions, settlement timing, refund/chargeback costs, and Shopify/WooCommerce integration—not just the headline UPI rate.",
+      "industry": "Payments",
+      "category": "Payment gateways",
+      "screenshot_sha256": "c0a991bbb741f4d4f55466fc1558802ca1ce241edd544ec7effcd6d41a071557",
+      "screenshot_relpath": "evidence/c0a991bbb741f4d4f55466fc1558802ca1ce241edd544ec7effcd6d41a071557.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Take App (MX)",
+        "format": "answer_card",
+        "headline": "Simplify WhatsApp Ordering",
+        "description": "Save your time. Fewer mistakes, faster deals.",
+        "copy": [
+          "Take App (MX)",
+          "Simplify WhatsApp Ordering",
+          "Save your time. Fewer mistakes, faster deals."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/8d23387fd1505c83b4c25c71160c39eb.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Take App (MX)",
+              "Simplify WhatsApp Ordering",
+              "Save your time. Fewer mistakes, faster deals."
+            ],
+            "text": "Take App (MX)\n\nSimplify WhatsApp Ordering\n\nSave your time. Fewer mistakes, faster deals.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/8d23387fd1505c83b4c25c71160c39eb.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "018820fc2a193eaf611587ad",
+      "turn_id": "d08429afbee225da201d4da7",
+      "advertiser": "Birla Opus",
+      "advertiser_key": "650dd4b7a6b9b1b65b11e845",
+      "brand": "Birla Opus",
+      "brand_key": "650dd4b7a6b9b1b65b11e845",
+      "creative_id": "6ddd29ff9464de2bdd360543",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Upgrade Your Walls with PaintCraft",
+      "description": "Home Painting Done Right",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790127812.203713,
+      "captured_at": "2026-09-23T01:37:15.872Z",
+      "prompt": "Make this more purchase-specific: for interior painting services for a two-bedroom flat in Hyderabad, name three currently available providers or products with prices and important limitations.",
+      "answer": "4.9\nAsian Paints Beautiful Homes Painting Service\n4.8\nAapkaPainter\n4.8\nDeccan Clap\nExpand\nUse two fingers to move the map\nAsian Paints Beautiful Homes Painting Service\n4.9\n•\nPainter\nClosed\nAapkaPainter\n4.8\n•\nPainter\nClosed\nDeccan Clap\n4.8\n•\nPainter\nOpen\nGive feedback\n\nFor a 2 BHK interior repaint in Hyderabad, these are three purchase-ready options. Current market pricing is roughly ₹25,000–₹70,000 for a standard 2 BHK, depending on paint and wall condition. \nAsian Paints\n\nProvider\tIndicative cost\tWhat differentiates it\tImportant limitation\nAsian Paints Beautiful Homes Painting Service\t₹25k–₹70k\tBranded paint + supervised service; Platinum includes technical evaluation, cleaning and 1-year service/products warranty in Hyderabad. \nAsian Paints\n\tFinal quote requires site assessment; premium finishes cost more\nAapkaPainter\tQuote required\tLarge Hyderabad operation; useful if you want a dedicated painting contractor rather than buying directly from a paint brand\tPublished fixed 2-BHK pricing isn't available; verify preparation/coats and warranty\nDeccan Clap\tQuote required\tHyderabad-focused local provider; potentially more flexible on labour, paint brand and scope\tGet exclusions in writing; don't assume putty/primer/crack repair are included\n\nBefore paying: ask all three to quote the same paint grade, putty/primer, number of coats, crack repair, masking, furniture protection, cleanup and warranty.",
+      "industry": "Home improvement",
+      "category": "Paint services",
+      "screenshot_sha256": "68090440c9188b2e94bed03762f37bfc2c56722e9cf036952fca85a5b891a06f",
+      "screenshot_relpath": "evidence/68090440c9188b2e94bed03762f37bfc2c56722e9cf036952fca85a5b891a06f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Birla Opus",
+        "format": "answer_card",
+        "headline": "Upgrade Your Walls with PaintCraft",
+        "description": "Home Painting Done Right",
+        "copy": [
+          "Birla Opus",
+          "Upgrade Your Walls with PaintCraft",
+          "Home Painting Done Right"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/f0e8ffdf70835df68a2ecf7365cfa7b6.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Birla Opus",
+              "Upgrade Your Walls with PaintCraft",
+              "Home Painting Done Right"
+            ],
+            "text": "Birla Opus\n\nUpgrade Your Walls with PaintCraft\n\nHome Painting Done Right",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/f0e8ffdf70835df68a2ecf7365cfa7b6.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "985770d193af27d2a5762503",
       "turn_id": "1f05c6b5e8091eae235655de",
