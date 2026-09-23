@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-09-23T00:37:05Z",
+  "schema_version": 4,
+  "generated_at": "2026-09-23T00:42:50Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,7 +12,7 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 451,
+    "valid_turns": 457,
     "approved_paid_units": 223,
     "approved_advertisers": 98,
     "approved_creatives": 180,
@@ -1103,11 +1103,11 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 451,
+    "turns": 457,
     "ad_turns": 110,
-    "ad_rate": 0.24390243902439024,
-    "ad_rate_low": 0.2065402268708537,
-    "ad_rate_high": 0.2855906600137233,
+    "ad_rate": 0.24070021881838075,
+    "ad_rate_low": 0.20376956332445162,
+    "ad_rate_high": 0.28195394774746546,
     "paid_units": 110,
     "categories": [
       {
@@ -1128,16 +1128,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 90,
+        "turns": 92,
         "ad_turns": 56,
         "paid_units": 56,
         "advertisers": 17,
         "creatives": 31,
-        "ad_rate": 0.6222222222222222,
-        "posterior_ad_rate": 0.6063829787234043,
-        "competition_score": 2.575870939003025,
-        "ad_rate_low": 0.5189957287533067,
-        "ad_rate_high": 0.7154418767436157,
+        "ad_rate": 0.6086956521739131,
+        "posterior_ad_rate": 0.59375,
+        "competition_score": 2.5222069611071287,
+        "ad_rate_low": 0.5065323092393207,
+        "ad_rate_high": 0.7021453422189189,
         "evidence_strength": "established"
       },
       {
@@ -1801,6 +1801,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Weekend resorts",
+        "industry": "Travel and leisure",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1843,6 +1858,21 @@
         "competition_score": 0.16666666666666666,
         "ad_rate_low": 0,
         "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Air conditioners",
+        "industry": "Home improvement",
+        "turns": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
       },
       {
@@ -1891,18 +1921,18 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Weekend resorts",
-        "industry": "Travel and leisure",
+        "category": "Vehicle servicing",
+        "industry": "Automotive",
         "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
-        "ad_rate_high": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
       },
       {
@@ -1925,15 +1955,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 158,
+        "turns": 162,
         "ad_turns": 46,
         "paid_units": 46,
         "advertisers": 22,
-        "ad_rate": 0.2911392405063291,
-        "posterior_ad_rate": 0.29012345679012347,
-        "competition_score": 1.3302051699623108,
-        "ad_rate_low": 0.2259306191371533,
-        "ad_rate_high": 0.36626322966315517,
+        "ad_rate": 0.2839506172839506,
+        "posterior_ad_rate": 0.28313253012048195,
+        "competition_score": 1.298152033336713,
+        "ad_rate_low": 0.22014486785220827,
+        "ad_rate_high": 0.3577656202279839,
         "evidence_strength": "established"
       },
       {
@@ -1953,15 +1983,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 107,
+        "turns": 109,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.17757009345794392,
-        "posterior_ad_rate": 0.18018018018018017,
-        "competition_score": 0.7039442514609944,
-        "ad_rate_low": 0.11672859553461687,
-        "ad_rate_high": 0.26076144430602055,
+        "ad_rate": 0.1743119266055046,
+        "posterior_ad_rate": 0.17699115044247787,
+        "competition_score": 0.6914850611696494,
+        "ad_rate_low": 0.11452781593206733,
+        "ad_rate_high": 0.2562716055578796,
         "evidence_strength": "established"
       },
       {
