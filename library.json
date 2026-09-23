@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T02:20:49Z",
+  "generated_at": "2026-09-23T02:28:12Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 611,
-    "approved_paid_units": 256,
-    "approved_advertisers": 101,
-    "approved_brand_families": 101,
-    "approved_advertiser_labels": 103,
-    "approved_creatives": 198,
+    "valid_turns": 621,
+    "approved_paid_units": 258,
+    "approved_advertisers": 102,
+    "approved_brand_families": 102,
+    "approved_advertiser_labels": 104,
+    "approved_creatives": 199,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 143,
+    "complete_panel_paid_units": 145,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -69,13 +69,13 @@
       "advertiser": "Homerun Retail Private Limited",
       "observed_advertiser_labels": "Homerun Retail Private Limited",
       "advertiser_labels": 1,
-      "placements": 11,
+      "placements": 12,
       "creatives": 7,
-      "panel_placements": 8,
+      "panel_placements": 9,
       "reviewed_snapshot_placements": 3,
       "first_seen": "2026-09-11T22:11:59.074Z",
-      "last_seen": "2026-09-23T01:20:52.589Z",
-      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel,Paint services"
+      "last_seen": "2026-09-23T02:23:41.908Z",
+      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel,Paint services,Bathroom fittings"
     },
     {
       "id": "504ef25d14dd959439fe6a46",
@@ -910,6 +910,19 @@
       "categories": "Beauty and personal care"
     },
     {
+      "id": "91b41cfcf6003b71b669d4e3",
+      "advertiser": "Nestle Professional",
+      "observed_advertiser_labels": "Nestle Professional",
+      "advertiser_labels": 1,
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T02:23:23.868Z",
+      "last_seen": "2026-09-23T02:23:23.868Z",
+      "categories": "Card terminals"
+    },
+    {
       "id": "c41f3c8bb00a61cb2402bb52",
       "advertiser": "Nutrabox",
       "observed_advertiser_labels": "Nutrabox",
@@ -1371,12 +1384,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 611,
-    "ad_turns": 143,
-    "ad_rate": 0.23404255319148937,
-    "ad_rate_low": 0.20219548637632692,
-    "ad_rate_high": 0.2692130845466555,
-    "paid_units": 143,
+    "turns": 621,
+    "ad_turns": 145,
+    "ad_rate": 0.23349436392914655,
+    "ad_rate_low": 0.20192078695434912,
+    "ad_rate_high": 0.26834495719584833,
+    "paid_units": 145,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1424,6 +1437,21 @@
         "evidence_strength": "established"
       },
       {
+        "category": "Wi-Fi routers",
+        "industry": "Electronics",
+        "turns": 13,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.07692307692307693,
+        "posterior_ad_rate": 0.11764705882352941,
+        "competition_score": 0.18646617655543013,
+        "ad_rate_low": 0.013710066379696295,
+        "ad_rate_high": 0.3331453392824736,
+        "evidence_strength": "directional"
+      },
+      {
         "category": "Honeymoon packages",
         "industry": "Travel and leisure",
         "turns": 9,
@@ -1451,21 +1479,6 @@
         "competition_score": 0.9942163464312139,
         "ad_rate_low": 0.188775429471914,
         "ad_rate_high": 0.7333526542559703,
-        "evidence_strength": "directional"
-      },
-      {
-        "category": "Wi-Fi routers",
-        "industry": "Electronics",
-        "turns": 9,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.1111111111111111,
-        "posterior_ad_rate": 0.15384615384615385,
-        "competition_score": 0.2438403847263317,
-        "ad_rate_low": 0.019890371327130535,
-        "ad_rate_high": 0.4350062147680601,
         "evidence_strength": "directional"
       },
       {
@@ -1574,6 +1587,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Citrus perfume",
+        "industry": "Beauty and personal care",
+        "turns": 7,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.2857142857142857,
+        "posterior_ad_rate": 0.2727272727272727,
+        "competition_score": 0.5454545454545454,
+        "ad_rate_low": 0.0822171657090155,
+        "ad_rate_high": 0.6410709098517873,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Paint services",
         "industry": "Home improvement",
         "turns": 7,
@@ -1661,21 +1689,6 @@
         "competition_score": 0.09090909090909091,
         "ad_rate_low": 0,
         "ad_rate_high": 0.35433884297520657,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Citrus perfume",
-        "industry": "Beauty and personal care",
-        "turns": 6,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "creatives": 2,
-        "ad_rate": 0.3333333333333333,
-        "posterior_ad_rate": 0.3,
-        "competition_score": 0.6,
-        "ad_rate_low": 0.09676933255921683,
-        "ad_rate_high": 0.7000116786584712,
         "evidence_strength": "exploratory"
       },
       {
@@ -2339,6 +2352,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Modular kitchens",
+        "industry": "Home improvement",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Pest control",
         "industry": "Home improvement",
         "turns": 3,
@@ -2534,8 +2562,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Modular kitchens",
-        "industry": "Home improvement",
+        "category": "Jewellery",
+        "industry": "Fashion and accessories",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2564,6 +2592,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Bathroom fittings",
+        "industry": "Home improvement",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Car rentals",
         "industry": "Travel and leisure",
         "turns": 1,
@@ -2577,21 +2620,36 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Card terminals",
+        "industry": "Payments",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 220,
-        "ad_turns": 57,
-        "paid_units": 57,
-        "advertisers": 26,
-        "ad_rate": 0.2590909090909091,
-        "posterior_ad_rate": 0.25892857142857145,
-        "competition_score": 1.2447615423184868,
-        "ad_rate_low": 0.20567904172570645,
-        "ad_rate_high": 0.32077180565922997,
+        "turns": 224,
+        "ad_turns": 59,
+        "paid_units": 59,
+        "advertisers": 27,
+        "ad_rate": 0.26339285714285715,
+        "posterior_ad_rate": 0.2631578947368421,
+        "competition_score": 1.278416051349361,
+        "ad_rate_low": 0.21004809745881153,
+        "ad_rate_high": 0.32471640559945353,
         "evidence_strength": "established"
       },
       {
@@ -2611,15 +2669,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 157,
+        "turns": 158,
         "ad_turns": 23,
         "paid_units": 23,
         "advertisers": 16,
-        "ad_rate": 0.1464968152866242,
-        "posterior_ad_rate": 0.14906832298136646,
-        "competition_score": 0.6216037269230776,
-        "ad_rate_low": 0.0996437089975583,
-        "ad_rate_high": 0.2102363220391884,
+        "ad_rate": 0.14556962025316456,
+        "posterior_ad_rate": 0.14814814814814814,
+        "competition_score": 0.6177666668803425,
+        "ad_rate_low": 0.09899957225581027,
+        "ad_rate_high": 0.20896574692047074,
         "evidence_strength": "established"
       },
       {
@@ -2639,15 +2697,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 117,
+        "turns": 120,
         "ad_turns": 10,
         "paid_units": 10,
         "advertisers": 10,
-        "ad_rate": 0.08547008547008547,
-        "posterior_ad_rate": 0.09090909090909091,
-        "competition_score": 0.32590568188374147,
-        "ad_rate_low": 0.04708697489506693,
-        "ad_rate_high": 0.15020932042045354,
+        "ad_rate": 0.08333333333333333,
+        "posterior_ad_rate": 0.08870967741935484,
+        "competition_score": 0.3180208669994574,
+        "ad_rate_low": 0.045893154816730314,
+        "ad_rate_high": 0.14662373772987763,
         "evidence_strength": "established"
       },
       {
@@ -2667,20 +2725,132 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 65,
+        "turns": 67,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.046153846153846156,
-        "posterior_ad_rate": 0.057971014492753624,
-        "competition_score": 0.1346045272398471,
-        "ad_rate_low": 0.01581955358590327,
-        "ad_rate_high": 0.12714051706904955,
+        "ad_rate": 0.04477611940298507,
+        "posterior_ad_rate": 0.056338028169014086,
+        "competition_score": 0.13081285041618942,
+        "ad_rate_low": 0.015343696938151803,
+        "ad_rate_high": 0.12358032510539321,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "d529eeb2aef10997fd9dd446",
+      "turn_id": "b90a2ff0bfb7c3cb19c70569",
+      "advertiser": "Homerun Retail Private Limited",
+      "advertiser_key": "2e81afd45de21f0c44616576",
+      "brand": "Homerun Retail Private Limited",
+      "brand_key": "2e81afd45de21f0c44616576",
+      "creative_id": "2c3cc57a55bc90e56df6a895",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "All Your Plywood Needs, Sorted",
+      "description": "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser: Homerun Retail Private Limited.",
+      "reviewed_at": 1790130492.247324,
+      "captured_at": "2026-09-23T02:23:41.908Z",
+      "prompt": "I am comparing water-saving taps and shower fittings for a Mumbai apartment. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a Mumbai apartment, these are three credible India-available choices. Prices are current listings and can vary by seller.\n\nChoice\tIndicative price\tReviews / support\tReturns & warranty\nJaquar water-saving faucets / sensor range\t~₹1,300–₹8,600+\tStrong India service network; 10-year faucet warranty. \nJaquar\n+1\n\tReturn terms depend on seller; verify before purchase.\nKohler Hone / July shower fittings\t₹2,769–₹5,299+\tPremium support; warranty applies when bought through authorised dealers. \nKohler India\n\t7-day return, but only for damage/defect/missing/wrong items; installed products aren't returnable. \nKohler India\n\nHindware Flora fittings\t~₹1,300+\tEstablished Indian brand; readily available.\tCheck product-specific warranty and seller return policy before ordering.\n\nWater-saving note: Jaquar explicitly uses flow regulators/aerators, with some products claiming substantial flow reduction. \nJaquar\n\nFor a purchase shortlist, I'd verify actual flow rate (L/min) first—“water-saving” marketing alone doesn't establish how much Mumbai household consumption will fall.",
+      "industry": "Home improvement",
+      "category": "Bathroom fittings",
+      "screenshot_sha256": "baee94675af4174d6eda0686319bfdd88ba7b25bc9e65103aebaa40ed9ac6707",
+      "screenshot_relpath": "evidence/baee94675af4174d6eda0686319bfdd88ba7b25bc9e65103aebaa40ed9ac6707.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Homerun Retail Private Limited",
+        "format": "answer_card",
+        "headline": "All Your Plywood Needs, Sorted",
+        "description": "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",
+        "copy": [
+          "Homerun Retail Private Limited",
+          "All Your Plywood Needs, Sorted",
+          "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/95568a6575142e7f.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Homerun Retail Private Limited",
+              "All Your Plywood Needs, Sorted",
+              "Multiple brands, fast 60-minute delivery and 1% cashback on every purchase."
+            ],
+            "text": "Homerun Retail Private Limited\n\nAll Your Plywood Needs, Sorted\n\nMultiple brands, fast 60-minute delivery and 1% cashback on every purchase.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/95568a6575142e7f.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "2b1142fa209267d7d57f1c57",
+      "turn_id": "9faa3f488f8a806b35ddf3d8",
+      "advertiser": "Nestle Professional",
+      "advertiser_key": "91b41cfcf6003b71b669d4e3",
+      "brand": "Nestle Professional",
+      "brand_key": "91b41cfcf6003b71b669d4e3",
+      "creative_id": "a98423d999912b5279703544",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Coffee Machines by Nescafé",
+      "description": "Expert preferred coffee to delight your employees",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser: Nestle Professional.",
+      "reviewed_at": 1790130492.196755,
+      "captured_at": "2026-09-23T02:23:23.868Z",
+      "prompt": "I am comparing card payment terminals for a restaurant in Mumbai. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a Mumbai restaurant, these are three credible India-available choices. Pricing is indicative because POS fees are usually negotiated by merchant profile.\n\nProvider\tTypical cost\tReviews / support\tReturns / warranty\nPine Labs Touch\tFrom ₹350/month\tStrong restaurant-focused offering; 18,500+ pincodes of field support. Reviews are mixed, with recurring complaints about support/refunds. \nPine Labs\n+1\n\tNo cancellation/refund after working installation; pre-deployment cancellation possible subject to conditions. \nPine Labs\n\nPaytm POS\t~₹299/month indicative\tLarge merchant network; support available through Paytm.\tWarranty depends on the specific terminal/manufacturer; invoice is used for claims. Confirm rental lock-in and termination charges before signing. \nPaytm Support\n+1\n\nmSwipe WisePOS\tQuote-based\tEstablished Indian POS specialist; useful alternative for card-heavy restaurants.\tConfirm device warranty, rental commitment and retrieval charges in the merchant agreement; online listings show lifetime-rental variants.\n\nFor a restaurant: ask all three for MDR, monthly rental, replacement SLA, paper-roll charges, settlement timing and termination fee in writing. Pine Labs currently publishes the clearest support coverage and cancellation policy. \nPine Labs\n+1",
+      "industry": "Payments",
+      "category": "Card terminals",
+      "screenshot_sha256": "6dd632dc0cfb576a9420c6d162bb5031d45defab0290287cf8168afdf1d49f0a",
+      "screenshot_relpath": "evidence/6dd632dc0cfb576a9420c6d162bb5031d45defab0290287cf8168afdf1d49f0a.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Nestle Professional",
+        "format": "answer_card",
+        "headline": "Coffee Machines by Nescafé",
+        "description": "Expert preferred coffee to delight your employees",
+        "copy": [
+          "Nestle Professional",
+          "Coffee Machines by Nescafé",
+          "Expert preferred coffee to delight your employees"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/54e4bec2878450b7a6e90a71ab990bf3.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Nestle Professional",
+              "Coffee Machines by Nescafé",
+              "Expert preferred coffee to delight your employees"
+            ],
+            "text": "Nestle Professional\n\nCoffee Machines by Nescafé\n\nExpert preferred coffee to delight your employees",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/54e4bec2878450b7a6e90a71ab990bf3.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "ca1383aa462f9cc927a9d3d5",
       "turn_id": "7afc3df6594a370d0efb42a2",

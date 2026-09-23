@@ -1,4 +1,40 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+d529eeb2aef10997fd9dd446,b90a2ff0bfb7c3cb19c70569,2026-09-23T02:23:41.908Z,Homerun Retail Private Limited,Homerun Retail Private Limited,Ad,answer_card,"All Your Plywood Needs, Sorted","Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",Home improvement,Bathroom fittings,complete_panel,True,human_visual,"I am comparing water-saving taps and shower fittings for a Mumbai apartment. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a Mumbai apartment, these are three credible India-available choices. Prices are current listings and can vary by seller.
+
+Choice	Indicative price	Reviews / support	Returns & warranty
+Jaquar water-saving faucets / sensor range	~₹1,300–₹8,600+	Strong India service network; 10-year faucet warranty. 
+Jaquar
++1
+	Return terms depend on seller; verify before purchase.
+Kohler Hone / July shower fittings	₹2,769–₹5,299+	Premium support; warranty applies when bought through authorised dealers. 
+Kohler India
+	7-day return, but only for damage/defect/missing/wrong items; installed products aren't returnable. 
+Kohler India
+
+Hindware Flora fittings	~₹1,300+	Established Indian brand; readily available.	Check product-specific warranty and seller return policy before ordering.
+
+Water-saving note: Jaquar explicitly uses flow regulators/aerators, with some products claiming substantial flow reduction. 
+Jaquar
+
+For a purchase shortlist, I'd verify actual flow rate (L/min) first—“water-saving” marketing alone doesn't establish how much Mumbai household consumption will fall.",2c3cc57a55bc90e56df6a895,evidence/baee94675af4174d6eda0686319bfdd88ba7b25bc9e65103aebaa40ed9ac6707.png,baee94675af4174d6eda0686319bfdd88ba7b25bc9e65103aebaa40ed9ac6707
+2b1142fa209267d7d57f1c57,9faa3f488f8a806b35ddf3d8,2026-09-23T02:23:23.868Z,Nestle Professional,Nestle Professional,Ad,answer_card,Coffee Machines by Nescafé,Expert preferred coffee to delight your employees,Payments,Card terminals,complete_panel,True,human_visual,"I am comparing card payment terminals for a restaurant in Mumbai. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a Mumbai restaurant, these are three credible India-available choices. Pricing is indicative because POS fees are usually negotiated by merchant profile.
+
+Provider	Typical cost	Reviews / support	Returns / warranty
+Pine Labs Touch	From ₹350/month	Strong restaurant-focused offering; 18,500+ pincodes of field support. Reviews are mixed, with recurring complaints about support/refunds. 
+Pine Labs
++1
+	No cancellation/refund after working installation; pre-deployment cancellation possible subject to conditions. 
+Pine Labs
+
+Paytm POS	~₹299/month indicative	Large merchant network; support available through Paytm.	Warranty depends on the specific terminal/manufacturer; invoice is used for claims. Confirm rental lock-in and termination charges before signing. 
+Paytm Support
++1
+
+mSwipe WisePOS	Quote-based	Established Indian POS specialist; useful alternative for card-heavy restaurants.	Confirm device warranty, rental commitment and retrieval charges in the merchant agreement; online listings show lifetime-rental variants.
+
+For a restaurant: ask all three for MDR, monthly rental, replacement SLA, paper-roll charges, settlement timing and termination fee in writing. Pine Labs currently publishes the clearest support coverage and cancellation policy. 
+Pine Labs
++1",a98423d999912b5279703544,evidence/6dd632dc0cfb576a9420c6d162bb5031d45defab0290287cf8168afdf1d49f0a.png,6dd632dc0cfb576a9420c6d162bb5031d45defab0290287cf8168afdf1d49f0a
 ca1383aa462f9cc927a9d3d5,7afc3df6594a370d0efb42a2,2026-09-23T02:14:59.436Z,Leela Diamonds,Leela Diamonds,Sponsored,product_card,1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds,,Beauty and personal care,Luxury perfume gifts,complete_panel,True,human_visual,"Go deeper on the total cost of buying a luxury perfume gift for an anniversary in India under ₹15,000. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For an anniversary gift, I’d compare landed cost + return protection, not just sticker price. Current India listings:
 
 Option	Product cost	Fees / return	Support & warranty
