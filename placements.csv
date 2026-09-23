@@ -1,4 +1,66 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+742b27e6187a6c482a403e74,28aa2c1e91c7a7ac2ef57074,2026-09-23T02:10:01.547Z,Trip.com/flights,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, the main switching cost is implementation/admin effort, not a published subscription fee. Most providers quote pricing after assessing travel volume.
+
+Provider	Cost model	Switching difficulty
+MakeMyTrip myBiz	No public platform fee; corporate fares + booking economics	Low — account, policies and employee upload can be set up quickly. 
+MakeMyTrip Biz
++1
+
+Thomas Cook India	Custom quote; managed servicing/booking fees negotiated	Medium-high — policy, approval workflows, GST/expense setup and dedicated servicing need migration. 
+Thomas Cook
+
+FCM Travel	Custom enterprise/TMC commercial terms	High — deeper programme configuration, integrations and implementation; suited to structured corporate travel. 
+FCM Travel
++1
+
+Practical switching cost: budget 1–4 weeks for a basic platform migration and potentially 4–8+ weeks for a fully managed TMC rollout, depending on integrations and approval complexity.
+
+Before switching, request: per-booking/service fees, GST treatment, cancellation/change handling fees, implementation fee, minimum commitment, and data/export terms.",3ef4ecc7fb3e5cccf7573aa3,evidence/9fa5fac1997f6dc654c6b3e6cba9b0dafd272c0ffa5bf5b3cbfddd56a474d643.png,9fa5fac1997f6dc654c6b3e6cba9b0dafd272c0ffa5bf5b3cbfddd56a474d643
+7122be2c39098bd6abcbe963,2d9048a8da1c8f7a813eec33,2026-09-23T02:08:17.668Z,Trip.com/flights,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.","For a 50-person Indian company, I’d shortlist these three for an actual procurement/RFP:
+
+Provider	Total cost	Availability	Cancellation/returns	Support
+MakeMyTrip myBiz	₹0 annual subscription; transaction/service charges depend on booking/payment. 
+MakeMyTrip
+	Available now; designed for SMEs and corporates.	Selected myBiz fares offer free cancellation/date changes; otherwise airline/hotel rules apply. 
+MakeMyTrip Biz
+	24/7 support and dedicated support manager. 
+MakeMyTrip Biz
++1
+
+Thomas Cook India Corporate Travel	Custom quote; expect negotiated management/transaction fees rather than a published tariff.	India-wide corporate service, including 200+ branches. 
+Thomas Cook
+	Supplier/fare-specific; contract should specify change/refund handling.	24/7 emergency desk, dedicated servicing and optional on-site “implant.” 
+Thomas Cook
+
+FCM Travel India	Custom quote; management fees negotiated according to programme scope.	Available in India with local and global travel inventory. 
+FCM Travel
+	Supplier/fare rules; contract should define refund and disruption handling.	24/7 traveller support, risk management and dedicated technology. 
+FCM Travel
++1
+
+Procurement focus: ask each for an all-in quote covering booking fees, mark-ups, GST, cancellations/changes, after-hours assistance, credit terms and implementation.",3ef4ecc7fb3e5cccf7573aa3,evidence/c4cfa30f569bd97b889247ae6b86ee36c7a57c40c6d8dce0a76dd9f65b1e1c2f.png,c4cfa30f569bd97b889247ae6b86ee36c7a57c40c6d8dce0a76dd9f65b1e1c2f
+701b5c53f5fb7b205a473ced,f937b874095abaec69d82d73,2026-09-23T02:06:41.144Z,HSBC - Credit Cards,HSBC - Credit Cards,Ad,answer_card,HSBC Taj Credit Card,"Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.","For a 50-person Indian company, I’d narrow the buying shortlist to these three:
+
+Provider	Total cost	Cancellation / returns	Support & availability
+MakeMyTrip myBiz	Custom service fee + travel cost + GST; 1.5% payment-gateway fee can apply to certain card/wallet repayments. 
+MakeMyTrip
+	Depends on airline/hotel; corporate fares can include reduced cancellation fees. 
+MakeMyTrip Biz
+	24×7 support; immediately available online across India. 
+MakeMyTrip Biz
+
+Thomas Cook India Corporate Travel	Custom quote; no standard public fee.	Supplier-specific cancellation rules; negotiate corporate waiver/change terms.	200+ India branches, self-booking, expense/GST tools and 24×7 emergency desk. 
+Thomas Cook
+
+FCM Travel India	Custom managed-service quote; ask for per-transaction + management fees.	Supplier charges can reach 100% of booking cost; reissue/change fees may apply. 
+FCM Travel
+	24×7 emergency assistance, corporate policy management, payment solutions and traveller-safety support. 
+FCM Travel
++1
+
+What I’d request in the RFQ: all-in fee per booking, monthly minimums, credit period, cancellation/reissue fees, unused-ticket refunds, 24×7 SLA, implementation cost and GST reconciliation.
+
+For a 50-person company, don't compare only the booking fee. Ask all three to price the same hypothetical monthly travel volume so the quotes are genuinely comparable.",f5c244015f730d6641372e64,evidence/c68e5fb558ed21dfbc216d2c91588c4651a03be69f61dea84b706f1052c267c5.png,c68e5fb558ed21dfbc216d2c91588c4651a03be69f61dea84b706f1052c267c5
 a5339921e22f689275ac591e,1087ea8e39ca204fe494f53e,2026-09-23T01:58:43.812Z,Insurte,Insurte,Ad,answer_card,"Schengen travel insurance, compare and buy online",100% compliant with Schengen Visa requirements. Get your official certificate instantly.,Travel and leisure,Corporate travel,complete_panel,True,human_visual,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d shortlist these three based on the current published commercial terms. There isn’t enough public pricing to honestly calculate one “cheapest” annual cost, so the purchase decision should be based on the all-in quote you negotiate.
 
 Option	Value proposition	Exact trade-off	Verify before paying

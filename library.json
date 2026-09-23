@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T02:03:13Z",
+  "generated_at": "2026-09-23T02:11:14Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 585,
-    "approved_paid_units": 250,
+    "valid_turns": 595,
+    "approved_paid_units": 253,
     "approved_advertisers": 100,
     "approved_brand_families": 100,
     "approved_advertiser_labels": 102,
     "approved_creatives": 196,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 137,
+    "complete_panel_paid_units": 140,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -43,12 +43,12 @@
       "advertiser": "Trip.com/flights",
       "observed_advertiser_labels": "Trip.com/flights",
       "advertiser_labels": 1,
-      "placements": 13,
+      "placements": 15,
       "creatives": 5,
-      "panel_placements": 13,
+      "panel_placements": 15,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-23T01:53:32.635Z",
+      "last_seen": "2026-09-23T02:10:01.547Z",
       "categories": "Corporate travel,Honeymoon packages"
     },
     {
@@ -91,6 +91,19 @@
       "categories": "Help desk software,Corporate travel"
     },
     {
+      "id": "ca82b10559cc43464054b038",
+      "advertiser": "HSBC - Credit Cards",
+      "observed_advertiser_labels": "HSBC - Credit Cards",
+      "advertiser_labels": 1,
+      "placements": 9,
+      "creatives": 4,
+      "panel_placements": 9,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T21:41:50.076Z",
+      "last_seen": "2026-09-23T02:06:41.144Z",
+      "categories": "Vacation rentals,Corporate travel"
+    },
+    {
       "id": "025aab1cc9385a7e85d0e57f",
       "advertiser": "trivago",
       "observed_advertiser_labels": "trivago",
@@ -115,19 +128,6 @@
       "first_seen": "2026-09-21T06:24:21.524Z",
       "last_seen": "2026-09-23T00:06:07.565Z",
       "categories": "Commercial discovery,Travel and leisure,Vacation rentals,Weekend resorts"
-    },
-    {
-      "id": "ca82b10559cc43464054b038",
-      "advertiser": "HSBC - Credit Cards",
-      "observed_advertiser_labels": "HSBC - Credit Cards",
-      "advertiser_labels": 1,
-      "placements": 8,
-      "creatives": 4,
-      "panel_placements": 8,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T21:41:50.076Z",
-      "last_seen": "2026-09-22T23:53:43.925Z",
-      "categories": "Vacation rentals,Corporate travel"
     },
     {
       "id": "09ae09923951d80931c6258f",
@@ -1358,12 +1358,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 585,
-    "ad_turns": 137,
-    "ad_rate": 0.2341880341880342,
-    "ad_rate_low": 0.201672420144615,
-    "ad_rate_high": 0.27017196041545416,
-    "paid_units": 137,
+    "turns": 595,
+    "ad_turns": 140,
+    "ad_rate": 0.23529411764705882,
+    "ad_rate_low": 0.20297532735596435,
+    "ad_rate_high": 0.2710091119348264,
+    "paid_units": 140,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1383,16 +1383,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 108,
-        "ad_turns": 68,
-        "paid_units": 68,
+        "turns": 111,
+        "ad_turns": 71,
+        "paid_units": 71,
         "advertisers": 19,
-        "creatives": 37,
-        "ad_rate": 0.6296296296296297,
-        "posterior_ad_rate": 0.6160714285714286,
-        "competition_score": 2.7059812693904868,
-        "ad_rate_low": 0.5355679840159537,
-        "ad_rate_high": 0.7147860881718548,
+        "creatives": 38,
+        "ad_rate": 0.6396396396396397,
+        "posterior_ad_rate": 0.6260869565217392,
+        "competition_score": 2.7499726473049635,
+        "ad_rate_low": 0.5470346275842797,
+        "ad_rate_high": 0.7229023987197774,
         "evidence_strength": "established"
       },
       {
@@ -1636,6 +1636,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Fragrance layering",
+        "industry": "Beauty and personal care",
+        "turns": 6,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.3,
+        "competition_score": 0.6,
+        "ad_rate_low": 0.09676933255921683,
+        "ad_rate_high": 0.7000116786584712,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Hostels",
         "industry": "Travel and leisure",
         "turns": 6,
@@ -1681,18 +1696,33 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Fragrance layering",
-        "industry": "Beauty and personal care",
-        "turns": 5,
+        "category": "Tea subscriptions",
+        "industry": "Food and beverage",
+        "turns": 6,
         "ad_turns": 2,
         "paid_units": 2,
         "advertisers": 2,
         "creatives": 2,
-        "ad_rate": 0.4,
-        "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.6666666666666666,
-        "ad_rate_low": 0.1176182311592533,
-        "ad_rate_high": 0.769280067791163,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.3,
+        "competition_score": 0.6,
+        "ad_rate_low": 0.09676933255921683,
+        "ad_rate_high": 0.7000116786584712,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Weekend resorts",
+        "industry": "Travel and leisure",
+        "turns": 6,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.16666666666666666,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.31699250014423125,
+        "ad_rate_low": 0.03005258587173032,
+        "ad_rate_high": 0.563509436563646,
         "evidence_strength": "exploratory"
       },
       {
@@ -1708,21 +1738,6 @@
         "competition_score": 0.1111111111111111,
         "ad_rate_low": 0,
         "ad_rate_high": 0.43449149475208104,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Tea subscriptions",
-        "industry": "Food and beverage",
-        "turns": 5,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "creatives": 2,
-        "ad_rate": 0.4,
-        "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.6666666666666666,
-        "ad_rate_low": 0.1176182311592533,
-        "ad_rate_high": 0.769280067791163,
         "evidence_strength": "exploratory"
       },
       {
@@ -2101,21 +2116,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Weekend resorts",
-        "industry": "Travel and leisure",
-        "turns": 4,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.25,
-        "posterior_ad_rate": 0.25,
-        "competition_score": 0.396240625180289,
-        "ad_rate_low": 0.045586062644636216,
-        "ad_rate_high": 0.6993639475573634,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Women's perfume",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -2431,6 +2431,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Trademark support",
+        "industry": "Business services",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Train booking",
         "industry": "Travel and leisure",
         "turns": 3,
@@ -2540,15 +2555,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 211,
-        "ad_turns": 56,
-        "paid_units": 56,
+        "turns": 214,
+        "ad_turns": 57,
+        "paid_units": 57,
         "advertisers": 26,
-        "ad_rate": 0.26540284360189575,
-        "posterior_ad_rate": 0.2651162790697674,
-        "competition_score": 1.2745080491036438,
-        "ad_rate_low": 0.21040506877617782,
-        "ad_rate_high": 0.32879031982640194,
+        "ad_rate": 0.26635514018691586,
+        "posterior_ad_rate": 0.26605504587155965,
+        "competition_score": 1.279021034308904,
+        "ad_rate_low": 0.21162816233838233,
+        "ad_rate_high": 0.3293226936964613,
         "evidence_strength": "established"
       },
       {
@@ -2568,15 +2583,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 145,
+        "turns": 149,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 14,
-        "ad_rate": 0.14482758620689656,
-        "posterior_ad_rate": 0.1476510067114094,
-        "competition_score": 0.5906040268456376,
-        "ad_rate_low": 0.09671747603267106,
-        "ad_rate_high": 0.2112716882869815,
+        "ad_rate": 0.14093959731543623,
+        "posterior_ad_rate": 0.1437908496732026,
+        "competition_score": 0.5751633986928104,
+        "ad_rate_low": 0.09406606437422982,
+        "ad_rate_high": 0.20586275081744576,
         "evidence_strength": "established"
       },
       {
@@ -2596,15 +2611,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 113,
-        "ad_turns": 8,
-        "paid_units": 8,
-        "advertisers": 8,
-        "ad_rate": 0.07079646017699115,
-        "posterior_ad_rate": 0.07692307692307693,
-        "competition_score": 0.25553293037595093,
-        "ad_rate_low": 0.036307273195638715,
-        "ad_rate_high": 0.13350895664031015,
+        "turns": 116,
+        "ad_turns": 10,
+        "paid_units": 10,
+        "advertisers": 10,
+        "ad_rate": 0.08620689655172414,
+        "posterior_ad_rate": 0.09166666666666666,
+        "competition_score": 0.328621562566106,
+        "ad_rate_low": 0.04749884203823806,
+        "ad_rate_high": 0.15144376219935554,
         "evidence_strength": "established"
       },
       {
@@ -2638,6 +2653,174 @@
     ]
   },
   "ads": [
+    {
+      "id": "742b27e6187a6c482a403e74",
+      "turn_id": "28aa2c1e91c7a7ac2ef57074",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "brand": "Trip.com/flights",
+      "brand_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Ad disclosure and Trip.com/flights advertiser label; visual variant differs at pixel level from the prior capture.",
+      "reviewed_at": 1790129474.50026,
+      "captured_at": "2026-09-23T02:10:01.547Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, the main switching cost is implementation/admin effort, not a published subscription fee. Most providers quote pricing after assessing travel volume.\n\nProvider\tCost model\tSwitching difficulty\nMakeMyTrip myBiz\tNo public platform fee; corporate fares + booking economics\tLow — account, policies and employee upload can be set up quickly. \nMakeMyTrip Biz\n+1\n\nThomas Cook India\tCustom quote; managed servicing/booking fees negotiated\tMedium-high — policy, approval workflows, GST/expense setup and dedicated servicing need migration. \nThomas Cook\n\nFCM Travel\tCustom enterprise/TMC commercial terms\tHigh — deeper programme configuration, integrations and implementation; suited to structured corporate travel. \nFCM Travel\n+1\n\nPractical switching cost: budget 1–4 weeks for a basic platform migration and potentially 4–8+ weeks for a fully managed TMC rollout, depending on integrations and approval complexity.\n\nBefore switching, request: per-booking/service fees, GST treatment, cancellation/change handling fees, implementation fee, minimum commitment, and data/export terms.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "9fa5fac1997f6dc654c6b3e6cba9b0dafd272c0ffa5bf5b3cbfddd56a474d643",
+      "screenshot_relpath": "evidence/9fa5fac1997f6dc654c6b3e6cba9b0dafd272c0ffa5bf5b3cbfddd56a474d643.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "7122be2c39098bd6abcbe963",
+      "turn_id": "2d9048a8da1c8f7a813eec33",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "brand": "Trip.com/flights",
+      "brand_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Ad disclosure and Trip.com/flights advertiser label.",
+      "reviewed_at": 1790129419.343006,
+      "captured_at": "2026-09-23T02:08:17.668Z",
+      "prompt": "Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three for an actual procurement/RFP:\n\nProvider\tTotal cost\tAvailability\tCancellation/returns\tSupport\nMakeMyTrip myBiz\t₹0 annual subscription; transaction/service charges depend on booking/payment. \nMakeMyTrip\n\tAvailable now; designed for SMEs and corporates.\tSelected myBiz fares offer free cancellation/date changes; otherwise airline/hotel rules apply. \nMakeMyTrip Biz\n\t24/7 support and dedicated support manager. \nMakeMyTrip Biz\n+1\n\nThomas Cook India Corporate Travel\tCustom quote; expect negotiated management/transaction fees rather than a published tariff.\tIndia-wide corporate service, including 200+ branches. \nThomas Cook\n\tSupplier/fare-specific; contract should specify change/refund handling.\t24/7 emergency desk, dedicated servicing and optional on-site “implant.” \nThomas Cook\n\nFCM Travel India\tCustom quote; management fees negotiated according to programme scope.\tAvailable in India with local and global travel inventory. \nFCM Travel\n\tSupplier/fare rules; contract should define refund and disruption handling.\t24/7 traveller support, risk management and dedicated technology. \nFCM Travel\n+1\n\nProcurement focus: ask each for an all-in quote covering booking fees, mark-ups, GST, cancellations/changes, after-hours assistance, credit terms and implementation.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "c4cfa30f569bd97b889247ae6b86ee36c7a57c40c6d8dce0a76dd9f65b1e1c2f",
+      "screenshot_relpath": "evidence/c4cfa30f569bd97b889247ae6b86ee36c7a57c40c6d8dce0a76dd9f65b1e1c2f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "701b5c53f5fb7b205a473ced",
+      "turn_id": "f937b874095abaec69d82d73",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "brand": "HSBC - Credit Cards",
+      "brand_key": "ca82b10559cc43464054b038",
+      "creative_id": "f5c244015f730d6641372e64",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HSBC Taj Credit Card",
+      "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Ad disclosure and HSBC - Credit Cards advertiser label.",
+      "reviewed_at": 1790129419.459399,
+      "captured_at": "2026-09-23T02:06:41.144Z",
+      "prompt": "Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a 50-person Indian company, I’d narrow the buying shortlist to these three:\n\nProvider\tTotal cost\tCancellation / returns\tSupport & availability\nMakeMyTrip myBiz\tCustom service fee + travel cost + GST; 1.5% payment-gateway fee can apply to certain card/wallet repayments. \nMakeMyTrip\n\tDepends on airline/hotel; corporate fares can include reduced cancellation fees. \nMakeMyTrip Biz\n\t24×7 support; immediately available online across India. \nMakeMyTrip Biz\n\nThomas Cook India Corporate Travel\tCustom quote; no standard public fee.\tSupplier-specific cancellation rules; negotiate corporate waiver/change terms.\t200+ India branches, self-booking, expense/GST tools and 24×7 emergency desk. \nThomas Cook\n\nFCM Travel India\tCustom managed-service quote; ask for per-transaction + management fees.\tSupplier charges can reach 100% of booking cost; reissue/change fees may apply. \nFCM Travel\n\t24×7 emergency assistance, corporate policy management, payment solutions and traveller-safety support. \nFCM Travel\n+1\n\nWhat I’d request in the RFQ: all-in fee per booking, monthly minimums, credit period, cancellation/reissue fees, unused-ticket refunds, 24×7 SLA, implementation cost and GST reconciliation.\n\nFor a 50-person company, don't compare only the booking fee. Ask all three to price the same hypothetical monthly travel volume so the quotes are genuinely comparable.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "c68e5fb558ed21dfbc216d2c91588c4651a03be69f61dea84b706f1052c267c5",
+      "screenshot_relpath": "evidence/c68e5fb558ed21dfbc216d2c91588c4651a03be69f61dea84b706f1052c267c5.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "HSBC Taj Credit Card",
+        "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+        "copy": [
+          "HSBC - Credit Cards",
+          "HSBC Taj Credit Card",
+          "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "HSBC Taj Credit Card",
+              "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+            ],
+            "text": "HSBC - Credit Cards\n\nHSBC Taj Credit Card\n\nGet Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "a5339921e22f689275ac591e",
       "turn_id": "1087ea8e39ca204fe494f53e",
