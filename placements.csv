@@ -1,4 +1,23 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+0568f618dd4164397ba2d647,fedd2ce890de862191f7f744,2026-09-23T01:45:06.371Z,Yves Saint Laurent,Yves Saint Laurent,Ad,answer_card,Iconic Libre Eau de Parfum by Yves Saint Laurent,"Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",Beauty and personal care,Rose perfume,complete_panel,True,human_visual,"I am comparing a modern rose fragrance available in India under ₹6,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently purchasable options under ₹6,000, with different takes on modern rose:
+
+Ahmed Al Maghribi Oud and Roses EDP
+₹3,800•Rich oud and rose blend for a warm, floral scent.
+Perfumer's Workshop Tea Rose
+₹4,570•Fresh tea rose fragrance with high customer ratings.
+4.6
+Chopard Brilliant Wish Eau de Parfum
+₹4,720•Elegant floral perfume with a bright, sparkling character.
+3.6
+Give feedback
+Fragrance	Approx. price	What differentiates it
+Ahmed Al Maghribi Oud & Roses	₹3,800	Rose with oud, giving it a darker, richer Middle-Eastern character. Unisex. 
+Nykaa
+
+Perfumer's Workshop Tea Rose	₹1,250–₹4,570	Much more rose-forward and fresh, with a classic tea-rose profile. Good if you want the rose itself to dominate.
+Chopard Brilliant Wish	₹4,720	A more polished designer-style floral, rather than a straight rose soliflore.
+
+For a genuinely modern rose, I'd focus on Ahmed Al Maghribi if you like darker/unisex scents, or Chopard if you want something softer and more mainstream.",ed446579d3aae1b11ee2a58c,evidence/6be535ff53eda9bcfb0df3b44cff9ffb8a4c2bbd7dbd4151c9b201089de00f1e.png,6be535ff53eda9bcfb0df3b44cff9ffb8a4c2bbd7dbd4151c9b201089de00f1e
 2574beb78e75d127b0900dad,229e41d2733bcebbbf16d425,2026-09-23T01:40:11.550Z,Take App (MX),Take App (MX),Ad,answer_card,Simplify WhatsApp Ordering,"Save your time. Fewer mistakes, faster deals.",Payments,Payment gateways,complete_panel,True,human_visual,"Make this more purchase-specific: for an online payment gateway with UPI for a new Indian clothing store, name three currently available providers or products with prices and important limitations.","For a new Indian clothing store, these are three purchase-ready options:
 
 Provider	Current price	Important limitations / terms

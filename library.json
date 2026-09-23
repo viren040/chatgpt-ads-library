@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T01:43:32Z",
+  "generated_at": "2026-09-23T01:46:14Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 554,
-    "approved_paid_units": 244,
+    "valid_turns": 559,
+    "approved_paid_units": 245,
     "approved_advertisers": 99,
     "approved_brand_families": 99,
     "approved_advertiser_labels": 101,
-    "approved_creatives": 191,
+    "approved_creatives": 192,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 131,
+    "complete_panel_paid_units": 132,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -453,6 +453,19 @@
       "first_seen": "2026-09-22T23:56:31.304Z",
       "last_seen": "2026-09-22T23:58:29.502Z",
       "categories": "Corporate travel"
+    },
+    {
+      "id": "8818ae92710f7995dc845d8d",
+      "advertiser": "Yves Saint Laurent",
+      "observed_advertiser_labels": "Yves Saint Laurent",
+      "advertiser_labels": 1,
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-20T22:17:57.122Z",
+      "last_seen": "2026-09-23T01:45:06.371Z",
+      "categories": "Beauty and personal care,Rose perfume"
     },
     {
       "id": "c4eee08d8414dd197fd04a30",
@@ -1261,19 +1274,6 @@
       "categories": "Commercial discovery"
     },
     {
-      "id": "8818ae92710f7995dc845d8d",
-      "advertiser": "Yves Saint Laurent",
-      "observed_advertiser_labels": "Yves Saint Laurent",
-      "advertiser_labels": 1,
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-20T22:17:57.122Z",
-      "last_seen": "2026-09-20T22:17:57.122Z",
-      "categories": "Beauty and personal care"
-    },
-    {
       "id": "f213f05545cbf449497a7d3a",
       "advertiser": "Zenni Optical",
       "observed_advertiser_labels": "Zenni Optical",
@@ -1345,12 +1345,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 554,
-    "ad_turns": 131,
-    "ad_rate": 0.2364620938628159,
-    "ad_rate_low": 0.2029691173255096,
-    "ad_rate_high": 0.2735848004891531,
-    "paid_units": 131,
+    "turns": 559,
+    "ad_turns": 132,
+    "ad_rate": 0.23613595706618962,
+    "ad_rate_low": 0.20280326470119533,
+    "ad_rate_high": 0.27307058684069496,
+    "paid_units": 132,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1590,6 +1590,21 @@
         "competition_score": 0.31699250014423125,
         "ad_rate_low": 0.03005258587173032,
         "ad_rate_high": 0.563509436563646,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Rose perfume",
+        "industry": "Beauty and personal care",
+        "turns": 6,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 2,
+        "creatives": 3,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.8,
+        "ad_rate_low": 0.18761280689940868,
+        "ad_rate_high": 0.8123871931005913,
         "evidence_strength": "exploratory"
       },
       {
@@ -1953,21 +1968,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Rose perfume",
-        "industry": "Beauty and personal care",
-        "turns": 4,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 1,
-        "creatives": 2,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.375,
-        "competition_score": 0.5943609377704335,
-        "ad_rate_low": 0.15003570882017148,
-        "ad_rate_high": 0.8499642911798285,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Sensitive-skin fragrance",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -2283,6 +2283,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Podcast equipment",
+        "industry": "Creative services",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Product photography",
         "industry": "Creative services",
         "turns": 3,
@@ -2403,8 +2418,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Electric scooters",
-        "industry": "Automotive",
+        "category": "Coffee beans",
+        "industry": "Food and beverage",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2418,8 +2433,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Podcast equipment",
-        "industry": "Creative services",
+        "category": "Electric scooters",
+        "industry": "Automotive",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2482,15 +2497,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 203,
-        "ad_turns": 55,
-        "paid_units": 55,
-        "advertisers": 25,
-        "ad_rate": 0.270935960591133,
-        "posterior_ad_rate": 0.27053140096618356,
-        "competition_score": 1.2863463773968802,
-        "ad_rate_low": 0.21447166178226112,
-        "ad_rate_high": 0.3359089193000743,
+        "turns": 206,
+        "ad_turns": 56,
+        "paid_units": 56,
+        "advertisers": 26,
+        "ad_rate": 0.27184466019417475,
+        "posterior_ad_rate": 0.2714285714285714,
+        "competition_score": 1.3048534788442065,
+        "ad_rate_low": 0.21567871103460357,
+        "ad_rate_high": 0.33636435382956054,
         "evidence_strength": "established"
       },
       {
@@ -2510,15 +2525,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 135,
+        "turns": 136,
         "ad_turns": 20,
         "paid_units": 20,
         "advertisers": 13,
-        "ad_rate": 0.14814814814814814,
-        "posterior_ad_rate": 0.1510791366906475,
-        "competition_score": 0.5902496583293446,
-        "ad_rate_low": 0.09799524269787924,
-        "ad_rate_high": 0.21777178966129845,
+        "ad_rate": 0.14705882352941177,
+        "posterior_ad_rate": 0.15,
+        "competition_score": 0.5860335893412778,
+        "ad_rate_low": 0.09725850554788583,
+        "ad_rate_high": 0.2162504932049888,
         "evidence_strength": "established"
       },
       {
@@ -2538,15 +2553,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 103,
+        "turns": 104,
         "ad_turns": 7,
         "paid_units": 7,
         "advertisers": 7,
-        "ad_rate": 0.06796116504854369,
-        "posterior_ad_rate": 0.07476635514018691,
-        "competition_score": 0.2370037384255934,
-        "ad_rate_low": 0.03330731523877016,
-        "ad_rate_high": 0.13368381930058532,
+        "ad_rate": 0.0673076923076923,
+        "posterior_ad_rate": 0.07407407407407407,
+        "competition_score": 0.23480925936609717,
+        "ad_rate_low": 0.032983269269930095,
+        "ad_rate_high": 0.1324593799489242,
         "evidence_strength": "established"
       },
       {
@@ -2580,6 +2595,62 @@
     ]
   },
   "ads": [
+    {
+      "id": "0568f618dd4164397ba2d647",
+      "turn_id": "fedd2ce890de862191f7f744",
+      "advertiser": "Yves Saint Laurent",
+      "advertiser_key": "8818ae92710f7995dc845d8d",
+      "brand": "Yves Saint Laurent",
+      "brand_key": "8818ae92710f7995dc845d8d",
+      "creative_id": "ed446579d3aae1b11ee2a58c",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+      "description": "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Ad disclosure and Yves Saint Laurent advertiser label.",
+      "reviewed_at": 1790127974.303753,
+      "captured_at": "2026-09-23T01:45:06.371Z",
+      "prompt": "I am comparing a modern rose fragrance available in India under ₹6,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "Here are three currently purchasable options under ₹6,000, with different takes on modern rose:\n\nAhmed Al Maghribi Oud and Roses EDP\n₹3,800•Rich oud and rose blend for a warm, floral scent.\nPerfumer's Workshop Tea Rose\n₹4,570•Fresh tea rose fragrance with high customer ratings.\n4.6\nChopard Brilliant Wish Eau de Parfum\n₹4,720•Elegant floral perfume with a bright, sparkling character.\n3.6\nGive feedback\nFragrance\tApprox. price\tWhat differentiates it\nAhmed Al Maghribi Oud & Roses\t₹3,800\tRose with oud, giving it a darker, richer Middle-Eastern character. Unisex. \nNykaa\n\nPerfumer's Workshop Tea Rose\t₹1,250–₹4,570\tMuch more rose-forward and fresh, with a classic tea-rose profile. Good if you want the rose itself to dominate.\nChopard Brilliant Wish\t₹4,720\tA more polished designer-style floral, rather than a straight rose soliflore.\n\nFor a genuinely modern rose, I'd focus on Ahmed Al Maghribi if you like darker/unisex scents, or Chopard if you want something softer and more mainstream.",
+      "industry": "Beauty and personal care",
+      "category": "Rose perfume",
+      "screenshot_sha256": "6be535ff53eda9bcfb0df3b44cff9ffb8a4c2bbd7dbd4151c9b201089de00f1e",
+      "screenshot_relpath": "evidence/6be535ff53eda9bcfb0df3b44cff9ffb8a4c2bbd7dbd4151c9b201089de00f1e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Yves Saint Laurent",
+        "format": "answer_card",
+        "headline": "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+        "description": "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",
+        "copy": [
+          "Yves Saint Laurent",
+          "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+          "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/827b5d4b7244554abb046585f33d0148.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Yves Saint Laurent",
+              "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+              "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman."
+            ],
+            "text": "Yves Saint Laurent\n\nIconic Libre Eau de Parfum by Yves Saint Laurent\n\nExperience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/827b5d4b7244554abb046585f33d0148.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "2574beb78e75d127b0900dad",
       "turn_id": "229e41d2733bcebbbf16d425",
