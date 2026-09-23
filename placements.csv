@@ -1,4 +1,42 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+8e530b189b5482fadce98a1b,0a6464e0bb68a217bbe63e36,2026-09-23T08:59:33.447Z,Housiey,Housiey,Ad,answer_card,Explore 1500+ Projects in Bangalore,"Compare Pros&Cons, Bottom Rates, Litigation Details - Free Site Visit & No Brokerage",Real estate services,Property management,complete_panel,True,human_visual,I am comparing rental property management for an apartment in Bengaluru. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.5
+Housewise - #1 Property Management Company in Bengaluru
+4.7
+Tenanted.in
+4.4
+PropertyAngel
+Expand
+Use two fingers to move the map
+Housewise - #1 Property Management Company in Bengaluru
+4.5
+•
+Property management company
+Open
+Tenanted.in
+4.7
+•
+Property management company
+Open
+PropertyAngel
+4.4
+•
+Property management company
+Open
+Give feedback
+
+For an apartment in Bengaluru, three practical options are:
+
+Provider	What differentiates it	Indicative cost
+Housewise - #1 Property Management Company in Bengaluru	Dedicated property-management model covering tenant search, rent collection, inspections and maintenance; useful if you’re living outside Bengaluru.	Quote-based
+Tenanted.in	Bengaluru-focused operator, particularly relevant around HSR and nearby areas; more hands-on/local than a national marketplace.	Quote-based
+PropertyAngel	Established Bengaluru operator with a broad property-management offering and substantial local review volume.	Quote-based
+
+Benchmark: NoBroker’s property-management plans
+ currently list ₹7,999 for a 365-day basic service, ₹15,999 + GST for its Assure plan, and ₹29,999 for Premium. Services include tenant search, inspections, rent collection and maintenance. 
+NoBroker
++1
+
+For a single apartment, I’d ask each provider for an all-in annual quote, including tenant placement, rent collection, inspections, repairs, move-out and renewal fees, since headline pricing can exclude these.",abe89446785f98d4d58d0874,evidence/2562730c1f8c2c7c2cb26f3c57ad6080dc7977b29819b90e78e580251e688779.png,2562730c1f8c2c7c2cb26f3c57ad6080dc7977b29819b90e78e580251e688779
 64d1044b590975d51c39da5d,02814b4bfee956f273f92255,2026-09-23T08:44:05.211Z,MakeMyTrip Hotels,MakeMyTrip,Ad,answer_card,Top Rated Hotels In Delhi,"Find stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, these are three currently available managed-TMC options. Exact programme fees are quote-based, so I would not treat any published fare as the total programme cost.
 
 Provider	Current commercial offer	Cost to budget	Verify before paying
