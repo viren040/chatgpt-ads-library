@@ -1,13 +1,13 @@
 # ChatGPT Ads research report
 
-Generated from the verified first-party library at 2026-09-23T09:09:01Z. Rates use complete-panel observations, including both ad and zero-ad outcomes. Positive-only reviewed migrations contribute to the advertiser directory but not appearance rates.
+Generated from the verified first-party library at 2026-09-23T09:25:00Z. Rates use complete-panel observations, including both ad and zero-ad outcomes. Positive-only reviewed migrations contribute to the advertiser directory but not appearance rates.
 
 ## Current evidence
 
 - **104** approved advertiser families and **106** displayed advertiser labels
-- **278** approved paid placements across **205** creative variants
-- **165 of 892** complete-panel turns contained an approved paid placement (18.5%)
-- **165** rate-eligible placements and **113** reviewed positive-only placements
+- **279** approved paid placements across **206** creative variants
+- **166 of 896** complete-panel turns contained an approved paid placement (18.5%)
+- **166** rate-eligible placements and **113** reviewed positive-only placements
 
 ## What worked
 
@@ -19,7 +19,7 @@ Generated from the verified first-party library at 2026-09-23T09:09:01Z. Rates u
 | Luxury perfume gifts | 9 | 4 | 44.4% | 4 | directional |
 | Citrus perfume | 11 | 4 | 36.4% | 3 | directional |
 | Fragrance layering | 8 | 3 | 37.5% | 3 | directional |
-| Vacation rentals | 139 | 25 | 18.0% | 7 | established |
+| Vacation rentals | 141 | 26 | 18.4% | 7 | established |
 | Paint services | 33 | 9 | 27.3% | 2 | established |
 | Fleet tracking | 8 | 2 | 25.0% | 2 | directional |
 | Coworking | 12 | 4 | 33.3% | 1 | directional |
@@ -30,7 +30,7 @@ After a paid placement appeared, deeper turns retained a placement in 51 of 53 t
 
 ## What did not work
 
-A more purchase-specific follow-up rescued 38 of 484 prior zero-ad turns (7.9%). The yield fell with depth, so zero-ad conversations should receive one follow-up before capacity returns to breadth.
+A more purchase-specific follow-up rescued 38 of 485 prior zero-ad turns (7.8%). The yield fell with depth, so zero-ad conversations should receive one follow-up before capacity returns to breadth.
 
 Mature zero-signal categories currently excluded from the next evidence-led allocation: **None yet**.
 
@@ -57,9 +57,9 @@ time, account spacing, and platform availability still determine collection thro
 - **Trip.com/flights** — 17 placements, 5 creatives; Corporate travel,Honeymoon packages
 - **DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED** — 13 placements, 6 creatives; Vacation rentals,Intercity buses,Corporate travel,Fleet tracking
 - **Homerun Retail Private Limited** — 12 placements, 7 creatives; Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel,Paint services,Bathroom fittings
+- **trivago** — 11 placements, 9 creatives; Travel and leisure,Vacation rentals
 - **Zoho Corporation** — 11 placements, 4 creatives; Help desk software,Corporate travel
 - **MakeMyTrip** — 10 placements, 6 creatives; Domestic flights,Vacation rentals,Corporate travel,Honeymoon packages
-- **trivago** — 10 placements, 8 creatives; Travel and leisure,Vacation rentals
 - **HSBC - Credit Cards** — 9 placements, 4 creatives; Vacation rentals,Corporate travel
 - **Agoda Company Pte. Ltd.** — 8 placements, 7 creatives; Commercial discovery,Travel and leisure,Vacation rentals,Weekend resorts
 - **abhibus** — 7 placements, 6 creatives; Commercial discovery,Travel and leisure,Logistics,Intercity buses

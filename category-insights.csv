@@ -5,7 +5,7 @@ Intercity buses,Travel and leisure,29,13,0.4482758620689655,0.2841291114874579,0
 Luxury perfume gifts,Beauty and personal care,9,4,0.4444444444444444,0.188775429471914,0.7333526542559703,4,4,0.9942163464312139,directional
 Citrus perfume,Beauty and personal care,11,4,0.36363636363636365,0.15166223614131383,0.6462032231083628,3,3,0.7739760316291207,directional
 Fragrance layering,Beauty and personal care,8,3,0.375,0.13684175946152105,0.6942621454161981,3,3,0.7739760316291207,directional
-Vacation rentals,Travel and leisure,139,25,0.17985611510791366,0.12489545308444837,0.252036757140024,7,17,0.5763500002622386,established
+Vacation rentals,Travel and leisure,141,26,0.18439716312056736,0.12905789113836175,0.25647775607901224,7,18,0.5902618968202926,established
 Paint services,Home improvement,33,9,0.2727272727272727,0.15067272656322814,0.44217883254386814,2,4,0.5405405405405406,established
 Fleet tracking,Logistics,8,2,0.25,0.07147768885802763,0.5907301208974108,2,2,0.5,directional
 Coworking,Real estate services,12,4,0.3333333333333333,0.13811783989736134,0.609382412602386,1,1,0.4953007814753613,directional
@@ -26,7 +26,6 @@ Card terminals,Payments,8,1,0.125,0.02241690886329617,0.4708948057698615,1,1,0.2
 Sensitive-skin fragrance,Beauty and personal care,8,1,0.125,0.02241690886329617,0.4708948057698615,1,1,0.2641604167868593,directional
 Wi-Fi routers,Electronics,13,1,0.07692307692307693,0.013710066379696295,0.3331453392824736,1,1,0.18646617655543013,directional
 Air conditioners,Home improvement,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
-Badminton equipment,Sports and fitness,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Car accessories,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Commercial refrigeration,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Drip irrigation,Agriculture,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
@@ -38,7 +37,6 @@ Pest control,Home improvement,3,0,0.0,0,0.5615060804490177,0,0,0.142857142857142
 Podcast equipment,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Printers,Electronics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Printing services,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
-Sports venue booking,Sports and fitness,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Tablets,Electronics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Trademark support,Business services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Water pumps,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
@@ -46,6 +44,7 @@ Airport lounge access,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125
 Airport transfers,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Attar and alcohol-free fragrance,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Attendance systems,Business services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Badminton equipment,Sports and fitness,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Car fragrance,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Car tyres,Automotive,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Coffee beans,Food and beverage,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
@@ -83,6 +82,7 @@ Product photography,Creative services,4,0,0.0,0,0.48990002040399916,0,0,0.125,ex
 Smartphones,Electronics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Soil testing,Agriculture,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Solid perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Sports venue booking,Sports and fitness,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Subscription billing,Payments,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Train booking,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Translation services,Business services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory

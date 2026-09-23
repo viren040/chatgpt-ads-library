@@ -1,4 +1,18 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+713115ea1fa64dd7fb6e4e43,62d4731261cd82dbffdaf4d4,2026-09-23T09:09:26.474Z,trivago,trivago,Ad,answer_card,Luxury Hotels in Goa,Save up to 55% on 5-star Goa stays,Travel and leisure,Vacation rentals,complete_panel,True,deterministic_ocr,I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 2-bedroom serviced rental for 4 adults in Goa, switching providers is mostly a matter of rebooking; the main friction is cancellation/refund timing and losing the same property/dates.
+
+Option	Current price signal	Switching difficulty	Key limitation
+Unreal Living – Assagao 2BHK	From ₹5,000/night	Low	Price is “from”; confirm taxes and exact dates. 
+Unreal Living
+
+Alaya Stays / ELIVAAS – Veera Marina	₹5,816 + ₹782 taxes/night	Low–medium	Cancellation window varies; verify final refundable amount. 
+Goibibo
+
+Airbnb – Vianaar Sol Sienda 2BHK	Live price varies by dates	Medium	Cancellation depends on the specific listing/host; platform fees can change the effective cost. 
+Airbnb
+
+Before paying: compare the all-in total, cancellation deadline, refund timing, cleaning/service fees, security deposit, guest-count rules, and whether housekeeping is included. Switching is easiest when you book a free-cancellation rate; direct/off-platform bookings can materially reduce dispute protection. 
+reddit.com",ab4f4ef9cb2ee2806ddcf747,evidence/44b538b9469819096f131e5241e8476a780b5cf6f376973b78af74e736578565.png,44b538b9469819096f131e5241e8476a780b5cf6f376973b78af74e736578565
 8e530b189b5482fadce98a1b,0a6464e0bb68a217bbe63e36,2026-09-23T08:59:33.447Z,Housiey,Housiey,Ad,answer_card,Explore 1500+ Projects in Bangalore,"Compare Pros&Cons, Bottom Rates, Litigation Details - Free Site Visit & No Brokerage",Real estate services,Property management,complete_panel,True,human_visual,I am comparing rental property management for an apartment in Bengaluru. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.5
 Housewise - #1 Property Management Company in Bengaluru
 4.7
