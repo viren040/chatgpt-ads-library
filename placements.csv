@@ -1,4 +1,64 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+e809c38f16047b9f3c7c8b11,ddf4b3002c3b0b42fce4b2fe,2026-09-23T01:09:27.819Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,The Smoothest Part of Flying,Pre-book DriveU Reserve for an airport ride with every detail taken care of.,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare MMT IF with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, the practical comparison is:
+
+Provider	Current pricing	Key exclusions / watch-outs	Best for
+MMT myBiz	No fixed subscription publicly listed; service fee is agreed in the order form. 1.5% payment-gateway fee applies to card/e-wallet payments. 
+MakeMyTrip
+	Booking/service fees, fare-rule cancellation/reissue charges; special free-change/cancellation fares have conditions. 
+MakeMyTrip Biz
+	SMEs wanting self-serve + GST + approvals
+Cleartrip OOO	₹0 subscription; no extra platform charges publicly advertised. 
+OOO
+	Confirm cancellation/reissue charges, support SLA and whether negotiated corporate fares cover your routes.	Low-cost, simple corporate booking
+Thomas Cook India	Custom quote; no public standard per-booking price.	Dedicated servicing/implant, 24×7 support and broader services depend on contracted package. 
+Thomas Cook
+	Hands-on managed travel + visa/forex/MICE
+FCM India	Custom quote; pricing not publicly disclosed.	Confirm management fee, transaction fees, implementation and after-hours charges.	Higher-volume / international travel programs
+
+For your 50-person setup: ask all four for an annual all-in ₹ quote based on your expected flight/hotel spend. Compare transaction fee + GST + cancellation/reissue + support + payment fees, not subscription price alone. MMT's corporate business surpassed $1B bookings in 2025, indicating substantial scale in India. 
+travel.economictimes.indiatimes.com",b63e713883ea7a0a25c615df,evidence/01ccb350bee7c13a721a65473fe524b0220b172a50a81f6201a4701e86c04207.png,01ccb350bee7c13a721a65473fe524b0220b172a50a81f6201a4701e86c04207
+0659bc7bda7161f2faf148f2,72a88b7a380d8b3622776651,2026-09-23T01:07:50.842Z,MMT IF,Ad,answer_card,Delhi to Bangkok Flight,"Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 Off Code: MMTHUNT",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three and ask each for a written commercial proposal. Public TMC pricing is generally quote-based, so don’t treat any “total” below as a fixed published tariff.
+
+Offer	Indicative total cost*	Terms to verify before paying
+MakeMyTrip myBiz	₹0 platform fee + booking/service fees	Per-ticket/service fee, 1.5% payment-gateway fee, cancellation/date-change charges, credit terms, 24×7 support. 
+MakeMyTrip
++1
+
+Thomas Cook India Corporate Travel	Quote-based; request ₹/booking + annual/implementation fee	Dedicated account team, 24×7 SLA, after-hours support, cancellation/reissue fees, GST reconciliation, credit period. 
+Thomas Cook
++1
+
+FCM India	Quote-based; request ₹/transaction + management fee	24×7 emergency assistance, implementation cost, service-level commitments, cancellation/reissue fees, payment terms and traveller-support coverage. 
+FCM Travel
+
+*For a 50-person company, get a 12-month all-in quote based on your expected annual flight/hotel spend; employee count alone isn't enough to calculate total cost.
+
+Before signing: demand a sample invoice, complete fee schedule, cancellation matrix, SLA with response times, GST treatment, credit terms, and exit/termination clause.",18e7802f18ba514cadc77f85,evidence/617779eb9a03a51cb3e1fe2f3ce562e9b32291c952f6c4f223cc583b39dd79cc.png,617779eb9a03a51cb3e1fe2f3ce562e9b32291c952f6c4f223cc583b39dd79cc
+40b991641b5ea77e34200fde,2727fed4ecabc4a8051d83c3,2026-09-23T01:04:49.286Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d make the shortlist Yatra for Business, MakeMyTrip myBiz, and EaseMyTrip EMTDesk. I would not choose purely on advertised airfare because corporate service fees and change/cancellation handling can materially change the total cost.
+
+Purchase-ready shortlist
+Option	Cost / terms to verify	Cancellation / support	Best fit
+Yatra for Business	Custom quote. Travel Pro covers companies under ₹5 crore annual travel spend; negotiated fares and GST invoices available. 
+Yatra.com
+	Free rescheduling on eligible corporate fares; ask for exact cancellation markup and 24/7 escalation terms	50-person company wanting managed corporate controls
+MakeMyTrip myBiz	Custom service fee; 1.5% payment-gateway fee can apply to wallet/credit repayments. 
+MakeMyTrip
+	Special fares advertise free date change/cancellation; ordinary bookings remain subject to airline rules. 
+MakeMyTrip Biz
++1
+	Lowest-friction rollout + strong expense/GST tooling
+EaseMyTrip EMTDesk	Custom corporate quote; get transaction/service fee in writing	24/7 corporate support; cancellation generally follows supplier rules plus applicable service charges	Hands-on managed travel desk
+My purchase sequence
+
+1. Get Yatra's Travel Pro quote first. Its published segmentation maps particularly well to a 50-person company, and negotiated fares + policy controls are explicitly included. 
+Yatra.com
+
+2. Benchmark it against myBiz. MakeMyTrip publishes enough terms to model the actual cost, including the 1.5% payment fee. 
+MakeMyTrip
+
+3. Use EMTDesk as the service-heavy alternative.
+
+Before paying, require each vendor to quote: per-booking/service fee, payment fee, cancellation fee, rescheduling fee, refund SLA, credit period, GST treatment, 24/7 support SLA, and implementation fee. Also ask for a worked example on ₹10 lakh annual travel spend.",3ef4ecc7fb3e5cccf7573aa3,evidence/98deffa963059df1c756e713de35ca33dd49711a16b1fe032626b0cbf93c813d.png,98deffa963059df1c756e713de35ca33dd49711a16b1fe032626b0cbf93c813d
 c25bc27967b5fb8c622ed357,0aeeb7b5476f6731ba6a78fe,2026-09-23T00:56:05.308Z,Sing Tehus,Ad,answer_card,Premium tea gifts - giftboxes and kits,Tea gifts from Sing Tehus - explore the curated selection.,Food and beverage,Tea subscriptions,complete_panel,True,human_visual,"I am comparing an Indian loose-leaf tea subscription delivered to Delhi. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","I couldn’t verify three currently active subscription offers with reliable live pricing from the available results, so I’d avoid inventing totals. The closest current loose-leaf options I could verify are:
 
 Karma Kettle Discover India Tea Gift Box — ₹2,700. Check whether repeat delivery/subscription is actually offered; verify Delhi shipping and cancellation.

@@ -60,6 +60,11 @@ placements. Hash-stable `catalog/*.json` shards load only for search, filtering,
 Full answers and review notes live in verified `details/*.json` shards and load only when evidence
 context is opened.
 
+The Prompt Lab uses the complete-panel experiment rows to compare categories and conversation
+stages. Filters expose sample strength, zero-ad categories, uncertainty, advertiser diversity, and
+competition score. Suggested next experiments remain tied to the visible sample size and 95%
+interval; they do not claim campaign spend, targeting, or market share.
+
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
 It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,
 conversation branch, reviewed ad outcome, paid-unit count, creative count, and advertisers. It does

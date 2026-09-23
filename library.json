@@ -1,6 +1,6 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-09-23T00:58:00Z",
+  "schema_version": 5,
+  "generated_at": "2026-09-23T01:11:52Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,12 +12,12 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 486,
-    "approved_paid_units": 232,
+    "valid_turns": 509,
+    "approved_paid_units": 235,
     "approved_advertisers": 99,
     "approved_creatives": 185,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 119,
+    "complete_panel_paid_units": 122,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -35,23 +35,23 @@
     {
       "id": "d11acd0c3697436b74d704d0",
       "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
-      "placements": 11,
+      "placements": 12,
       "creatives": 5,
-      "panel_placements": 11,
+      "panel_placements": 12,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-22T23:31:48.711Z",
+      "last_seen": "2026-09-23T01:09:27.819Z",
       "categories": "Vacation rentals,Intercity buses,Corporate travel"
     },
     {
       "id": "ab56d48dc66e2f9280d61b1f",
       "advertiser": "Trip.com/flights",
-      "placements": 11,
+      "placements": 12,
       "creatives": 4,
-      "panel_placements": 11,
+      "panel_placements": 12,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-23T00:46:56.841Z",
+      "last_seen": "2026-09-23T01:04:49.286Z",
       "categories": "Corporate travel"
     },
     {
@@ -143,6 +143,17 @@
       "categories": "Beauty and personal care,Fragrances,Fragrance layering"
     },
     {
+      "id": "8b81ad04e70a5eee412cdec2",
+      "advertiser": "MMT IF",
+      "placements": 4,
+      "creatives": 2,
+      "panel_placements": 4,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:16:05.071Z",
+      "last_seen": "2026-09-23T01:07:50.842Z",
+      "categories": "Vacation rentals,Corporate travel"
+    },
+    {
       "id": "3753cc4faebd4066a665cc3a",
       "advertiser": "Nexxbase Marketing Pvt. Ltd",
       "placements": 4,
@@ -207,17 +218,6 @@
       "first_seen": "2026-09-20T11:24:17.090Z",
       "last_seen": "2026-09-21T09:09:49.619Z",
       "categories": "Travel and leisure"
-    },
-    {
-      "id": "8b81ad04e70a5eee412cdec2",
-      "advertiser": "MMT IF",
-      "placements": 3,
-      "creatives": 2,
-      "panel_placements": 3,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:16:05.071Z",
-      "last_seen": "2026-09-23T00:29:13.685Z",
-      "categories": "Vacation rentals,Corporate travel"
     },
     {
       "id": "8848574dfbc6f190fb67e0a3",
@@ -1114,12 +1114,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 486,
-    "ad_turns": 119,
-    "ad_rate": 0.2448559670781893,
-    "ad_rate_low": 0.20872427201537197,
-    "ad_rate_high": 0.2849896142695005,
-    "paid_units": 119,
+    "turns": 509,
+    "ad_turns": 122,
+    "ad_rate": 0.23968565815324164,
+    "ad_rate_low": 0.20463695775349988,
+    "ad_rate_high": 0.27863429013278695,
+    "paid_units": 122,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1139,16 +1139,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 99,
-        "ad_turns": 63,
-        "paid_units": 63,
+        "turns": 102,
+        "ad_turns": 66,
+        "paid_units": 66,
         "advertisers": 18,
-        "creatives": 34,
-        "ad_rate": 0.6363636363636364,
-        "posterior_ad_rate": 0.6213592233009708,
-        "competition_score": 2.685469884201856,
-        "ad_rate_low": 0.5381571567598795,
-        "ad_rate_high": 0.7243825159017672,
+        "creatives": 36,
+        "ad_rate": 0.6470588235294118,
+        "posterior_ad_rate": 0.6320754716981132,
+        "competition_score": 2.7317847392212573,
+        "ad_rate_low": 0.5505209704774588,
+        "ad_rate_high": 0.7329214566967336,
         "evidence_strength": "established"
       },
       {
@@ -1332,6 +1332,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Wi-Fi routers",
+        "industry": "Electronics",
+        "turns": 5,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.2,
+        "posterior_ad_rate": 0.2222222222222222,
+        "competition_score": 0.3522138890491458,
+        "ad_rate_low": 0.03622316096978745,
+        "ad_rate_high": 0.6244717358814613,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Airport lounge access",
         "industry": "Travel and leisure",
         "turns": 4,
@@ -1359,6 +1374,36 @@
         "competition_score": 0.125,
         "ad_rate_low": 0,
         "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Body mists",
+        "industry": "Beauty and personal care",
+        "turns": 4,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.25,
+        "posterior_ad_rate": 0.25,
+        "competition_score": 0.396240625180289,
+        "ad_rate_low": 0.045586062644636216,
+        "ad_rate_high": 0.6993639475573634,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Business hotels",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.25,
+        "posterior_ad_rate": 0.25,
+        "competition_score": 0.396240625180289,
+        "ad_rate_low": 0.045586062644636216,
+        "ad_rate_high": 0.6993639475573634,
         "evidence_strength": "exploratory"
       },
       {
@@ -1752,6 +1797,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Drip irrigation",
+        "industry": "Agriculture",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Fragrance layering",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1764,6 +1824,21 @@
         "competition_score": 0.8571428571428571,
         "ad_rate_low": 0.2076549551264879,
         "ad_rate_high": 0.9385096847238394,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Home exercise equipment",
+        "industry": "Sports and fitness",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
         "evidence_strength": "exploratory"
       },
       {
@@ -1812,6 +1887,36 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Pest control",
+        "industry": "Home improvement",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Product photography",
+        "industry": "Creative services",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Rose perfume",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1844,6 +1949,21 @@
       {
         "category": "Sports venue booking",
         "industry": "Sports and fitness",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Tablets",
+        "industry": "Electronics",
         "turns": 3,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1902,6 +2022,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Warehouse fulfilment",
+        "industry": "Logistics",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Weekend resorts",
         "industry": "Travel and leisure",
         "turns": 3,
@@ -1914,66 +2049,6 @@
         "competition_score": 0.45284642877747316,
         "ad_rate_low": 0.0614903152761605,
         "ad_rate_high": 0.7923450448735121,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Wi-Fi routers",
-        "industry": "Electronics",
-        "turns": 3,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.3333333333333333,
-        "posterior_ad_rate": 0.2857142857142857,
-        "competition_score": 0.45284642877747316,
-        "ad_rate_low": 0.0614903152761605,
-        "ad_rate_high": 0.7923450448735121,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Body mists",
-        "industry": "Beauty and personal care",
-        "turns": 2,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.5283208335737186,
-        "ad_rate_low": 0.09452865480086614,
-        "ad_rate_high": 0.9054713451991339,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Business hotels",
-        "industry": "Travel and leisure",
-        "turns": 2,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.3333333333333333,
-        "competition_score": 0.5283208335737186,
-        "ad_rate_low": 0.09452865480086614,
-        "ad_rate_high": 0.9054713451991339,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Drip irrigation",
-        "industry": "Agriculture",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -2007,21 +2082,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Tablets",
-        "industry": "Electronics",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Car rentals",
         "industry": "Travel and leisure",
         "turns": 1,
@@ -2041,43 +2101,43 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 174,
-        "ad_turns": 50,
-        "paid_units": 50,
+        "turns": 183,
+        "ad_turns": 51,
+        "paid_units": 51,
         "advertisers": 24,
-        "ad_rate": 0.28735632183908044,
-        "posterior_ad_rate": 0.28651685393258425,
-        "competition_score": 1.3467552001415486,
-        "ad_rate_low": 0.22528140970277455,
-        "ad_rate_high": 0.3586179704197614,
+        "ad_rate": 0.2786885245901639,
+        "posterior_ad_rate": 0.27807486631016043,
+        "competition_score": 1.3070741462210522,
+        "ad_rate_low": 0.21878848931425365,
+        "ad_rate_high": 0.3476892115831911,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 16,
-        "ad_turns": 16,
-        "paid_units": 16,
-        "advertisers": 8,
+        "turns": 17,
+        "ad_turns": 17,
+        "paid_units": 17,
+        "advertisers": 9,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.85,
-        "competition_score": 2.823638880654258,
-        "ad_rate_low": 0.8063865817272802,
+        "posterior_ad_rate": 0.8571428571428571,
+        "competition_score": 2.965227101689112,
+        "ad_rate_low": 0.8156763396284354,
         "ad_rate_high": 1,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 117,
+        "turns": 121,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.1623931623931624,
-        "posterior_ad_rate": 0.1652892561983471,
-        "competition_score": 0.6457670405964494,
-        "ad_rate_low": 0.10649722549629985,
-        "ad_rate_high": 0.23975439646170138,
+        "ad_rate": 0.15702479338842976,
+        "posterior_ad_rate": 0.16,
+        "competition_score": 0.6251024952973631,
+        "ad_rate_low": 0.10289037053228536,
+        "ad_rate_high": 0.23226714106641247,
         "evidence_strength": "established"
       },
       {
@@ -2097,48 +2157,210 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 89,
+        "turns": 96,
         "ad_turns": 7,
         "paid_units": 7,
         "advertisers": 7,
-        "ad_rate": 0.07865168539325842,
-        "posterior_ad_rate": 0.08602150537634409,
-        "competition_score": 0.2726817205541774,
-        "ad_rate_low": 0.03861933093175789,
-        "ad_rate_high": 0.15355314347626609,
+        "ad_rate": 0.07291666666666667,
+        "posterior_ad_rate": 0.08,
+        "competition_score": 0.25359400011538497,
+        "ad_rate_low": 0.0357671262379895,
+        "ad_rate_high": 0.14293193307195748,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 11,
-        "ad_turns": 10,
-        "paid_units": 10,
+        "turns": 12,
+        "ad_turns": 11,
+        "paid_units": 11,
         "advertisers": 8,
-        "ad_rate": 0.9090909090909091,
-        "posterior_ad_rate": 0.7333333333333333,
-        "competition_score": 2.4360806029173987,
-        "ad_rate_low": 0.6226353745137962,
-        "ad_rate_high": 0.9837682477371741,
+        "ad_rate": 0.9166666666666666,
+        "posterior_ad_rate": 0.75,
+        "competition_score": 2.4914460711655217,
+        "ad_rate_low": 0.6461140782014047,
+        "ad_rate_high": 0.9851352905492264,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 64,
+        "turns": 65,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.046875,
-        "posterior_ad_rate": 0.058823529411764705,
-        "competition_score": 0.13658400558160955,
-        "ad_rate_low": 0.016068725432185196,
-        "ad_rate_high": 0.12899860788542522,
+        "ad_rate": 0.046153846153846156,
+        "posterior_ad_rate": 0.057971014492753624,
+        "competition_score": 0.1346045272398471,
+        "ad_rate_low": 0.01581955358590327,
+        "ad_rate_high": 0.12714051706904955,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "e809c38f16047b9f3c7c8b11",
+      "turn_id": "ddf4b3002c3b0b42fce4b2fe",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "b63e713883ea7a0a25c615df",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "The Smoothest Part of Flying",
+      "description": "Pre-book DriveU Reserve for an airport ride with every detail taken care of.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790125912.204854,
+      "captured_at": "2026-09-23T01:09:27.819Z",
+      "prompt": "Compare MMT IF with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, the practical comparison is:\n\nProvider\tCurrent pricing\tKey exclusions / watch-outs\tBest for\nMMT myBiz\tNo fixed subscription publicly listed; service fee is agreed in the order form. 1.5% payment-gateway fee applies to card/e-wallet payments. \nMakeMyTrip\n\tBooking/service fees, fare-rule cancellation/reissue charges; special free-change/cancellation fares have conditions. \nMakeMyTrip Biz\n\tSMEs wanting self-serve + GST + approvals\nCleartrip OOO\t₹0 subscription; no extra platform charges publicly advertised. \nOOO\n\tConfirm cancellation/reissue charges, support SLA and whether negotiated corporate fares cover your routes.\tLow-cost, simple corporate booking\nThomas Cook India\tCustom quote; no public standard per-booking price.\tDedicated servicing/implant, 24×7 support and broader services depend on contracted package. \nThomas Cook\n\tHands-on managed travel + visa/forex/MICE\nFCM India\tCustom quote; pricing not publicly disclosed.\tConfirm management fee, transaction fees, implementation and after-hours charges.\tHigher-volume / international travel programs\n\nFor your 50-person setup: ask all four for an annual all-in ₹ quote based on your expected flight/hotel spend. Compare transaction fee + GST + cancellation/reissue + support + payment fees, not subscription price alone. MMT's corporate business surpassed $1B bookings in 2025, indicating substantial scale in India. \ntravel.economictimes.indiatimes.com",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "01ccb350bee7c13a721a65473fe524b0220b172a50a81f6201a4701e86c04207",
+      "screenshot_relpath": "evidence/01ccb350bee7c13a721a65473fe524b0220b172a50a81f6201a4701e86c04207.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "The Smoothest Part of Flying",
+        "description": "Pre-book DriveU Reserve for an airport ride with every detail taken care of.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "The Smoothest Part of Flying",
+          "Pre-book DriveU Reserve for an airport ride with every detail taken care of."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "The Smoothest Part of Flying",
+              "Pre-book DriveU Reserve for an airport ride with every detail taken care of."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nThe Smoothest Part of Flying\n\nPre-book DriveU Reserve for an airport ride with every detail taken care of.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b45e66ff3dbc54569629b88de303defd.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "0659bc7bda7161f2faf148f2",
+      "turn_id": "72a88b7a380d8b3622776651",
+      "advertiser": "MMT IF",
+      "advertiser_key": "8b81ad04e70a5eee412cdec2",
+      "creative_id": "18e7802f18ba514cadc77f85",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Delhi to Bangkok Flight",
+      "description": "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 Off Code: MMTHUNT",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790125912.204854,
+      "captured_at": "2026-09-23T01:07:50.842Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three and ask each for a written commercial proposal. Public TMC pricing is generally quote-based, so don’t treat any “total” below as a fixed published tariff.\n\nOffer\tIndicative total cost*\tTerms to verify before paying\nMakeMyTrip myBiz\t₹0 platform fee + booking/service fees\tPer-ticket/service fee, 1.5% payment-gateway fee, cancellation/date-change charges, credit terms, 24×7 support. \nMakeMyTrip\n+1\n\nThomas Cook India Corporate Travel\tQuote-based; request ₹/booking + annual/implementation fee\tDedicated account team, 24×7 SLA, after-hours support, cancellation/reissue fees, GST reconciliation, credit period. \nThomas Cook\n+1\n\nFCM India\tQuote-based; request ₹/transaction + management fee\t24×7 emergency assistance, implementation cost, service-level commitments, cancellation/reissue fees, payment terms and traveller-support coverage. \nFCM Travel\n\n*For a 50-person company, get a 12-month all-in quote based on your expected annual flight/hotel spend; employee count alone isn't enough to calculate total cost.\n\nBefore signing: demand a sample invoice, complete fee schedule, cancellation matrix, SLA with response times, GST treatment, credit terms, and exit/termination clause.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "617779eb9a03a51cb3e1fe2f3ce562e9b32291c952f6c4f223cc583b39dd79cc",
+      "screenshot_relpath": "evidence/617779eb9a03a51cb3e1fe2f3ce562e9b32291c952f6c4f223cc583b39dd79cc.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "MMT IF",
+        "format": "answer_card",
+        "headline": "Delhi to Bangkok Flight",
+        "description": "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 Off Code: MMTHUNT",
+        "copy": [
+          "MMT IF",
+          "Delhi to Bangkok Flight",
+          "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 Off Code: MMTHUNT"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/066fe1433c565ef9a5c5219b360a0c95.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "MMT IF",
+              "Delhi to Bangkok Flight",
+              "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 Off Code: MMTHUNT"
+            ],
+            "text": "MMT IF\n\nDelhi to Bangkok Flight\n\nBook Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 Off Code: MMTHUNT",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/066fe1433c565ef9a5c5219b360a0c95.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "40b991641b5ea77e34200fde",
+      "turn_id": "2727fed4ecabc4a8051d83c3",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790125912.204854,
+      "captured_at": "2026-09-23T01:04:49.286Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, I’d make the shortlist Yatra for Business, MakeMyTrip myBiz, and EaseMyTrip EMTDesk. I would not choose purely on advertised airfare because corporate service fees and change/cancellation handling can materially change the total cost.\n\nPurchase-ready shortlist\nOption\tCost / terms to verify\tCancellation / support\tBest fit\nYatra for Business\tCustom quote. Travel Pro covers companies under ₹5 crore annual travel spend; negotiated fares and GST invoices available. \nYatra.com\n\tFree rescheduling on eligible corporate fares; ask for exact cancellation markup and 24/7 escalation terms\t50-person company wanting managed corporate controls\nMakeMyTrip myBiz\tCustom service fee; 1.5% payment-gateway fee can apply to wallet/credit repayments. \nMakeMyTrip\n\tSpecial fares advertise free date change/cancellation; ordinary bookings remain subject to airline rules. \nMakeMyTrip Biz\n+1\n\tLowest-friction rollout + strong expense/GST tooling\nEaseMyTrip EMTDesk\tCustom corporate quote; get transaction/service fee in writing\t24/7 corporate support; cancellation generally follows supplier rules plus applicable service charges\tHands-on managed travel desk\nMy purchase sequence\n\n1. Get Yatra's Travel Pro quote first. Its published segmentation maps particularly well to a 50-person company, and negotiated fares + policy controls are explicitly included. \nYatra.com\n\n2. Benchmark it against myBiz. MakeMyTrip publishes enough terms to model the actual cost, including the 1.5% payment fee. \nMakeMyTrip\n\n3. Use EMTDesk as the service-heavy alternative.\n\nBefore paying, require each vendor to quote: per-booking/service fee, payment fee, cancellation fee, rescheduling fee, refund SLA, credit period, GST treatment, 24/7 support SLA, and implementation fee. Also ask for a worked example on ₹10 lakh annual travel spend.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "98deffa963059df1c756e713de35ca33dd49711a16b1fe032626b0cbf93c813d",
+      "screenshot_relpath": "evidence/98deffa963059df1c756e713de35ca33dd49711a16b1fe032626b0cbf93c813d.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "c25bc27967b5fb8c622ed357",
       "turn_id": "0aeeb7b5476f6731ba6a78fe",
