@@ -1,6 +1,6 @@
 # ChatGPT Ads research report
 
-Generated from the verified first-party library at 2026-09-23T06:37:31Z. Rates use complete-panel observations, including both ad and zero-ad outcomes. Positive-only reviewed migrations contribute to the advertiser directory but not appearance rates.
+Generated from the verified first-party library at 2026-09-23T06:42:22Z. Rates use complete-panel observations, including both ad and zero-ad outcomes. Positive-only reviewed migrations contribute to the advertiser directory but not appearance rates.
 
 ## Current evidence
 
@@ -45,6 +45,11 @@ Prompts that merely mention a product or brand do not establish an ad. The colle
 5. Continue ad-bearing conversations when the objective is creative variation; prioritize breadth and promising categories when the objective is new advertisers.
 6. Keep the 20% breadth / 20% promising / 60% adaptive allocation and rebalance it from reviewed evidence, not pending detections.
 7. Measure a complete uninterrupted 60-minute browser window before converting a short run into daily capacity.
+
+An offline coordinator validation on 2026-09-23 ran 20 concurrent workers through 200 complete
+lifecycles and 600 HTTP requests in 2.387 seconds, with every observation persisted and no write
+failures or abandoned leases. This validates the per-laptop control plane only; browser response
+time, account spacing, and platform availability still determine collection throughput.
 
 ## Most frequently observed advertisers
 
