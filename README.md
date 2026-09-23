@@ -14,7 +14,7 @@ Every published placement has:
 - an explicit **Ad** or **Sponsored** disclosure;
 - a visible advertiser identity;
 - the prompt and completed assistant answer from the observed turn;
-- a visually reviewed embedded or content-addressed HTTPS screenshot; and
+- a verified embedded or content-addressed HTTPS screenshot; and
 - content hashes recorded in `manifest.json`.
 
 Organic brand mentions, historical candidate lists, incomplete responses, rejected detections,
@@ -37,7 +37,7 @@ The standalone interface supports:
 
 Every placement carries an `evidence_design` and `rate_eligible` field. A `complete_panel` record
 comes from a panel that preserves both ad and zero-ad turns, so it may contribute to appearance
-rates. A `reviewed_positive_only` record proves a visually reviewed appearance, but its source did
+rates. A `reviewed_positive_only` record proves a verified appearance, but its source did
 not preserve the corresponding zero-ad turns. It remains searchable and is excluded from every
 denominator-based rate.
 
