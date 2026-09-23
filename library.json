@@ -1,6 +1,6 @@
 {
   "schema_version": 10,
-  "generated_at": "2026-09-23T03:55:31Z",
+  "generated_at": "2026-09-23T03:58:20Z",
   "evidence_scope": "verified_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -1355,7 +1355,7 @@
     }
   ],
   "advertiser_discovery": {
-    "at": 1790135731.597451,
+    "at": 1790135900.198315,
     "target_advertisers": 1000,
     "approved_advertisers": 102,
     "approved_advertiser_labels": 104,
