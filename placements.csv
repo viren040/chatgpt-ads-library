@@ -1,4 +1,22 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+166d71bcfab383482c86d86a,9fd35f344a9a786b559b4e69,2026-09-23T04:30:15.723Z,Duke & D’Or,Duke & D’Or,Ad,answer_card,Try It Zero Risk. Full Price Back.,Try all 3 scents for ₹599. Love one? Get the full price back on your full-size bottle.,Beauty and personal care,Citrus perfume,complete_panel,True,deterministic_ocr,"I am comparing a fresh citrus fragrance for office and daytime use under ₹5,000. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently listed India options under ₹5,000. Prices can move with sales.
+
+Fragrance	Current price	Reliability	Important limitation
+Skinn Raw 100ml EDP	₹2,696	Titan/Skinn official store; 10% off	Fresh citrus/aquatic profile, but performance is only moderate for some users. 
+Skinn
++1
+
+Skinn Amalfi Bleu 90ml	₹2,546	Titan/Skinn official store; 15% off	Bright citrus and easy daytime wear; less versatile for evenings. 
+Skinn
++1
+
+Skinn Sea Breeze 100ml EDP	₹4,495	Titan/Skinn official store	Much closer to your ₹5k ceiling; currently listed as a new arrival, so fewer long-term user reports. 
+Skinn
+
+Purchase terms: listed prices include taxes; buying directly from Skinn avoids marketplace-seller authenticity concerns. The official catalogue also shows 50ml Raw at ₹1,646 if you want to test the scent before committing to 100ml. 
+Skinn
+
+For office/daytime: Raw and Amalfi Bleu are the most straightforward citrus/fresh choices; Sea Breeze is the pricier option to sample if you want something newer.",be75e1c8c1b338400801fbce,evidence/c996b9728c6ec66b354fd6f6428c6d6d243839d7898b0fe979916c9e721044b2.png,c996b9728c6ec66b354fd6f6428c6d6d243839d7898b0fe979916c9e721044b2
 38f75e42af791be6e8cd598a,4ff384d9a480438dc59fdf22,2026-09-23T03:52:14.078Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,deterministic_ocr,"I am comparing interior painting services for a two-bedroom flat in Hyderabad. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","5.0
 Asian Paints Beautiful Homes Painting Service
 4.8
