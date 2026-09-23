@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T01:24:51Z",
+  "generated_at": "2026-09-23T01:25:27Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 530,
-    "approved_paid_units": 239,
+    "valid_turns": 531,
+    "approved_paid_units": 240,
     "approved_advertisers": 98,
     "approved_brand_families": 98,
     "approved_advertiser_labels": 100,
-    "approved_creatives": 188,
+    "approved_creatives": 189,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 126,
+    "complete_panel_paid_units": 127,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -160,12 +160,12 @@
       "advertiser": "The Man Company",
       "observed_advertiser_labels": "The Man Company",
       "advertiser_labels": 1,
-      "placements": 6,
-      "creatives": 6,
-      "panel_placements": 1,
+      "placements": 7,
+      "creatives": 7,
+      "panel_placements": 2,
       "reviewed_snapshot_placements": 5,
       "first_seen": "2026-09-19T11:52:46.933Z",
-      "last_seen": "2026-09-22T21:19:37.930Z",
+      "last_seen": "2026-09-23T01:23:46.929Z",
       "categories": "Beauty and personal care,Rose perfume"
     },
     {
@@ -1332,12 +1332,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 530,
-    "ad_turns": 126,
-    "ad_rate": 0.23773584905660378,
-    "ad_rate_low": 0.203461988039305,
-    "ad_rate_high": 0.2757842902574782,
-    "paid_units": 126,
+    "turns": 531,
+    "ad_turns": 127,
+    "ad_rate": 0.2391713747645951,
+    "ad_rate_low": 0.20484355251828035,
+    "ad_rate_high": 0.27724609795019484,
+    "paid_units": 127,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1895,6 +1895,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Rose perfume",
+        "industry": "Beauty and personal care",
+        "turns": 4,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 1,
+        "creatives": 2,
+        "ad_rate": 0.5,
+        "posterior_ad_rate": 0.375,
+        "competition_score": 0.5943609377704335,
+        "ad_rate_low": 0.15003570882017148,
+        "ad_rate_high": 0.8499642911798285,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Sensitive-skin fragrance",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -2240,21 +2255,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Rose perfume",
-        "industry": "Beauty and personal care",
-        "turns": 3,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.3333333333333333,
-        "posterior_ad_rate": 0.2857142857142857,
-        "competition_score": 0.45284642877747316,
-        "ad_rate_low": 0.0614903152761605,
-        "ad_rate_high": 0.7923450448735121,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Sports venue booking",
         "industry": "Sports and fitness",
         "turns": 3,
@@ -2394,15 +2394,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 192,
-        "ad_turns": 53,
-        "paid_units": 53,
-        "advertisers": 24,
-        "ad_rate": 0.2760416666666667,
-        "posterior_ad_rate": 0.2755102040816326,
-        "competition_score": 1.295019106018464,
-        "ad_rate_low": 0.21767028870467015,
-        "ad_rate_high": 0.3431993120338858,
+        "turns": 193,
+        "ad_turns": 54,
+        "paid_units": 54,
+        "advertisers": 25,
+        "ad_rate": 0.27979274611398963,
+        "posterior_ad_rate": 0.27918781725888325,
+        "competition_score": 1.3275066630405623,
+        "ad_rate_low": 0.22123214322930157,
+        "ad_rate_high": 0.3469485665393652,
         "evidence_strength": "established"
       },
       {
@@ -2492,6 +2492,62 @@
     ]
   },
   "ads": [
+    {
+      "id": "5d16e63853dd02cd2e0ac0ff",
+      "turn_id": "8201bb83f3b6b0de0366e861",
+      "advertiser": "The Man Company",
+      "advertiser_key": "d11cd2bad34c540f1f5a7123",
+      "brand": "The Man Company",
+      "brand_key": "d11cd2bad34c540f1f5a7123",
+      "creative_id": "f4bb486ca6bc678e42b87afa",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "₹599 + Free Gift Won't Last Forever",
+      "description": "Don’t let this go—3 great-smelling, long-lasting perfumes + a FREE gift for ₹599.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790126727.6868238,
+      "captured_at": "2026-09-23T01:23:46.929Z",
+      "prompt": "I am comparing a modern rose fragrance available in India under ₹6,000. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a modern rose fragrance under ₹6,000 in India, these three are currently purchasable:\n\nFragrance\tCurrent price / reviews\tSupport & returns\tWarranty/cancellation\nL’Atelier Parfum Rose Coup De Foudre 15ml\t₹1,600; 4.6/5, 2,362 international reviews\tSephora India customer care; third-party delivery\tCancellation/return subject to Sephora India terms; fragrance is an exclusive. \nSephora India\n\nForest Essentials Gulnar Rose & Carnation\t~₹1,750; 4.3/5, 108 verified Nykaa ratings\tNykaa support; verified-buyer reviews praise its distinctive rose character, though longevity feedback varies\tNykaa allows eligible returns within 15 days, with original packaging/seals; cancellation before shipment. \nNykaa\n+1\n\nSolinotes Rose EDP 50ml\t₹2,520; 3/5 (2 ratings)\tNykaa support; 100% genuine listing\t15-day return/replacement only for eligible unused/defective/damaged/wrong items; cancellation before shipment. \nNykaaman\n+1\n\nPractical distinction: L’Atelier is a cooler, woody-musky modern rose; Forest Essentials is richer and more traditional-luxury; Solinotes is the simplest budget experiment. None offers a conventional perfume “warranty”; protection is primarily retailer return/replacement policy.",
+      "industry": "Beauty and personal care",
+      "category": "Rose perfume",
+      "screenshot_sha256": "4dbc94b0ff32697570bb0266d5034fea302eb856064d2a041071ce5212d70b9f",
+      "screenshot_relpath": "evidence/4dbc94b0ff32697570bb0266d5034fea302eb856064d2a041071ce5212d70b9f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "The Man Company",
+        "format": "answer_card",
+        "headline": "₹599 + Free Gift Won't Last Forever",
+        "description": "Don’t let this go—3 great-smelling, long-lasting perfumes + a FREE gift for ₹599.",
+        "copy": [
+          "The Man Company",
+          "₹599 + Free Gift Won't Last Forever",
+          "Don’t let this go—3 great-smelling, long-lasting perfumes + a FREE gift for ₹599."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b5bc410434585337818e5db207bb6f56.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "The Man Company",
+              "₹599 + Free Gift Won't Last Forever",
+              "Don’t let this go—3 great-smelling, long-lasting perfumes + a FREE gift for ₹599."
+            ],
+            "text": "The Man Company\n\n₹599 + Free Gift Won't Last Forever\n\nDon’t let this go—3 great-smelling, long-lasting perfumes + a FREE gift for ₹599.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b5bc410434585337818e5db207bb6f56.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "2cc8dd1499d9e629db5fe2f1",
       "turn_id": "06069bfe7467e07478f4f728",

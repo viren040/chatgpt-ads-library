@@ -1,4 +1,19 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+5d16e63853dd02cd2e0ac0ff,8201bb83f3b6b0de0366e861,2026-09-23T01:23:46.929Z,The Man Company,The Man Company,Ad,answer_card,₹599 + Free Gift Won't Last Forever,"Don’t let this go—3 great-smelling, long-lasting perfumes + a FREE gift for ₹599.",Beauty and personal care,Rose perfume,complete_panel,True,human_visual,"I am comparing a modern rose fragrance available in India under ₹6,000. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a modern rose fragrance under ₹6,000 in India, these three are currently purchasable:
+
+Fragrance	Current price / reviews	Support & returns	Warranty/cancellation
+L’Atelier Parfum Rose Coup De Foudre 15ml	₹1,600; 4.6/5, 2,362 international reviews	Sephora India customer care; third-party delivery	Cancellation/return subject to Sephora India terms; fragrance is an exclusive. 
+Sephora India
+
+Forest Essentials Gulnar Rose & Carnation	~₹1,750; 4.3/5, 108 verified Nykaa ratings	Nykaa support; verified-buyer reviews praise its distinctive rose character, though longevity feedback varies	Nykaa allows eligible returns within 15 days, with original packaging/seals; cancellation before shipment. 
+Nykaa
++1
+
+Solinotes Rose EDP 50ml	₹2,520; 3/5 (2 ratings)	Nykaa support; 100% genuine listing	15-day return/replacement only for eligible unused/defective/damaged/wrong items; cancellation before shipment. 
+Nykaaman
++1
+
+Practical distinction: L’Atelier is a cooler, woody-musky modern rose; Forest Essentials is richer and more traditional-luxury; Solinotes is the simplest budget experiment. None offers a conventional perfume “warranty”; protection is primarily retailer return/replacement policy.",f4bb486ca6bc678e42b87afa,evidence/4dbc94b0ff32697570bb0266d5034fea302eb856064d2a041071ce5212d70b9f.png,4dbc94b0ff32697570bb0266d5034fea302eb856064d2a041071ce5212d70b9f
 2cc8dd1499d9e629db5fe2f1,06069bfe7467e07478f4f728,2026-09-23T01:22:39.763Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,human_visual,"Go deeper on the total cost of buying interior painting services for a two-bedroom flat in Hyderabad. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 2BHK Hyderabad repaint, I’d compare the three strongest organised options this way. Prices below are current public prices, but the final quote can change after inspection.
 
 Provider	Likely total cost	Extra/exclusions to watch	Cancellation	Warranty/support
