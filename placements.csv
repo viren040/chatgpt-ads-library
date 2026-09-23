@@ -1,4 +1,49 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+a5339921e22f689275ac591e,1087ea8e39ca204fe494f53e,2026-09-23T01:58:43.812Z,Insurte,Insurte,Ad,answer_card,"Schengen travel insurance, compare and buy online",100% compliant with Schengen Visa requirements. Get your official certificate instantly.,Travel and leisure,Corporate travel,complete_panel,True,human_visual,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d shortlist these three based on the current published commercial terms. There isn’t enough public pricing to honestly calculate one “cheapest” annual cost, so the purchase decision should be based on the all-in quote you negotiate.
+
+Option	Value proposition	Exact trade-off	Verify before paying
+Cleartrip OOO	₹0 subscription / no extra platform charges publicly advertised; GST-compliant. 
+OOO
+	More self-serve than a traditional TMC.	Written confirmation that there are no transaction/service fees; cancellation/reissue charges; dedicated RM; 24×7 SLA; credit terms.
+MMT myBiz	Corporate platform with negotiated service fee.	1.5% payment-gateway fee on wallet/card repayments, on top of agreed service fee. 
+MakeMyTrip
+	Per-booking fee, payment method, cancellation/reissue charges, credit limit, support SLA.
+Thomas Cook India	More fully managed: air, hotels, rail, visa, forex, MICE, dedicated servicing and 24×7 emergency desk. 
+Thomas Cook
+	Likely higher service cost; pricing is quote-based.	Management/transaction fees, implant cost, after-hours charges, SLA, credit period and refund handling.
+Purchase-ready RFQ
+
+Ask each for a 12-month all-in quote using the same assumptions: 50 travellers, expected annual travel spend, domestic/international split and ~number of trips.
+
+My shortlist order for evaluation: Cleartrip OOO → MMT myBiz → Thomas Cook, not as a quality ranking, but because it lets you compare a low-fee platform against increasingly managed-service models.
+
+Do not sign until cancellation/reissue fees, GST, payment fees, refund timelines, 24×7 response SLA and termination terms are explicitly written into the commercial agreement.",8231e728240f01b5518f8b16,evidence/891d12941fcca965c0c47a1cedbaae9e432d07c21b2958034363756a5aeff102.png,891d12941fcca965c0c47a1cedbaae9e432d07c21b2958034363756a5aeff102
+5eabfece658a9645b5b9e814,7e839ec9e5f9648859d041ed,2026-09-23T01:56:54.522Z,TwixAir LLC,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, the real cost is mostly transaction/service fees plus supplier cancellation charges, rather than a simple monthly subscription.
+
+Provider	Total-cost picture	Cancellation / exclusions	Support
+MMT myBiz	Quote-based service fee per order + fare/hotel price + GST. 1.5% payment-gateway fee applies to wallet/card repayments. 
+MakeMyTrip
+	No universal cancellation policy: airline/hotel supplier rules apply. MMT describes its service largely “as-is”, unless your contract specifies otherwise. 
+MakeMyTrip
+	Self-serve platform + corporate support.
+Cleartrip OOO	₹0 subscription / platform fee publicly advertised; booking prices and supplier charges still apply. 
+OOO
+	Verify airline/hotel cancellation, reissue and service charges before contracting.	Corporate reporting, approvals, GST and stated round-the-clock support. 
+OOO
+
+Thomas Cook India	Custom quote; negotiate transaction/management fees and credit terms.	Supplier cancellation/reissue costs need to be passed through; scope can include air, hotels, rail, forex, visas and MICE. 
+Thomas Cook
+	24×7 emergency desk, dedicated corporate servicing and SLA-backed service. 
+Thomas Cook
+
+FCM India	Custom quote; get management + transaction + implementation fees itemised.	Cancellation can be up to 100% of booking cost; changes/reissues can add fees. Refunds may wait until FCM receives supplier funds. 
+FCM Travel
+	Managed travel model; negotiate explicit SLA and after-hours coverage.
+What I’d put in the RFQ
+
+Ask each for a 12-month all-in quote based on your actual expected travel spend, with: per-booking fee, hotel fee, cancellation/reissue fee, GST, payment fees, after-hours fee, implementation fee, credit period and SLA.
+
+For a 50-person company, don't compare “₹0 subscription” against managed TMC pricing directly. The decisive number is your effective cost per trip after servicing and change/cancellation fees.",72292d55e9c327a435ee7df6,evidence/333f1782921d7b51efe86f56f90d2645865bde8142ff290a2f0d14112c933687.png,333f1782921d7b51efe86f56f90d2645865bde8142ff290a2f0d14112c933687
 08660e18377c9b6e64c92a4f,2c40278d6a2b89bd64b858a9,2026-09-23T01:53:32.635Z,Trip.com/flights,Trip.com/flights,Sponsored,product_card,Bengaluru to Qingdao flight tickets,,Travel and leisure,Honeymoon packages,complete_panel,True,human_visual,Which option for a seven-day honeymoon package from India to Bali with flights and transfers offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"Based on currently published September 2026 prices, I’d use Desh Pardesh as the price benchmark, but not book it blindly because its ₹58,999/person price excludes flights. A realistic 7-day honeymoon including flights is roughly ₹1.6–2.5 lakh for two. 
 Desh Pardesh Holidays
 +1

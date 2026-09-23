@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T02:02:44Z",
+  "generated_at": "2026-09-23T02:03:13Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 583,
-    "approved_paid_units": 248,
+    "valid_turns": 585,
+    "approved_paid_units": 250,
     "approved_advertisers": 100,
     "approved_brand_families": 100,
     "approved_advertiser_labels": 102,
-    "approved_creatives": 195,
+    "approved_creatives": 196,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 135,
+    "complete_panel_paid_units": 137,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -30,12 +30,12 @@
       "advertiser": "TwixAir LLC",
       "observed_advertiser_labels": "TwixAir LLC",
       "advertiser_labels": 1,
-      "placements": 24,
+      "placements": 25,
       "creatives": 14,
-      "panel_placements": 20,
+      "panel_placements": 21,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-23T01:35:36.011Z",
+      "last_seen": "2026-09-23T01:56:54.522Z",
       "categories": "Travel and leisure,Corporate travel,Honeymoon packages"
     },
     {
@@ -182,6 +182,19 @@
       "categories": "Beauty and personal care,Fragrances,Fragrance layering"
     },
     {
+      "id": "b8530548439043c9ca79ec47",
+      "advertiser": "Insurte",
+      "observed_advertiser_labels": "Insurte",
+      "advertiser_labels": 1,
+      "placements": 4,
+      "creatives": 4,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 3,
+      "first_seen": "2026-09-20T11:24:17.090Z",
+      "last_seen": "2026-09-23T01:58:43.812Z",
+      "categories": "Travel and leisure,Corporate travel"
+    },
+    {
       "id": "3753cc4faebd4066a665cc3a",
       "advertiser": "Nexxbase Marketing Pvt. Ltd",
       "observed_advertiser_labels": "Nexxbase Marketing Pvt. Ltd",
@@ -257,19 +270,6 @@
       "reviewed_snapshot_placements": 3,
       "first_seen": "2026-09-14T10:04:42.211Z",
       "last_seen": "2026-09-21T04:07:56.700Z",
-      "categories": "Travel and leisure"
-    },
-    {
-      "id": "b8530548439043c9ca79ec47",
-      "advertiser": "Insurte",
-      "observed_advertiser_labels": "Insurte",
-      "advertiser_labels": 1,
-      "placements": 3,
-      "creatives": 3,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 3,
-      "first_seen": "2026-09-20T11:24:17.090Z",
-      "last_seen": "2026-09-21T09:09:49.619Z",
       "categories": "Travel and leisure"
     },
     {
@@ -1358,12 +1358,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 583,
-    "ad_turns": 135,
-    "ad_rate": 0.23156089193825044,
-    "ad_rate_low": 0.19914320861299872,
-    "ad_rate_high": 0.2674931034684897,
-    "paid_units": 135,
+    "turns": 585,
+    "ad_turns": 137,
+    "ad_rate": 0.2341880341880342,
+    "ad_rate_low": 0.201672420144615,
+    "ad_rate_high": 0.27017196041545416,
+    "paid_units": 137,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1383,16 +1383,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 106,
-        "ad_turns": 66,
-        "paid_units": 66,
-        "advertisers": 18,
-        "creatives": 36,
-        "ad_rate": 0.6226415094339622,
-        "posterior_ad_rate": 0.6090909090909091,
-        "competition_score": 2.6324471123404845,
-        "ad_rate_low": 0.5276006299875899,
-        "ad_rate_high": 0.7091038608428422,
+        "turns": 108,
+        "ad_turns": 68,
+        "paid_units": 68,
+        "advertisers": 19,
+        "creatives": 37,
+        "ad_rate": 0.6296296296296297,
+        "posterior_ad_rate": 0.6160714285714286,
+        "competition_score": 2.7059812693904868,
+        "ad_rate_low": 0.5355679840159537,
+        "ad_rate_high": 0.7147860881718548,
         "evidence_strength": "established"
       },
       {
@@ -2582,15 +2582,15 @@
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 16,
-        "ad_turns": 15,
-        "paid_units": 15,
+        "turns": 17,
+        "ad_turns": 16,
+        "paid_units": 16,
         "advertisers": 8,
-        "ad_rate": 0.9375,
-        "posterior_ad_rate": 0.8,
-        "competition_score": 2.65754247590989,
-        "ad_rate_low": 0.7167073163197013,
-        "ad_rate_high": 0.9888809426916687,
+        "ad_rate": 0.9411764705882353,
+        "posterior_ad_rate": 0.8095238095238095,
+        "competition_score": 2.6891798863373886,
+        "ad_rate_low": 0.730174547964372,
+        "ad_rate_high": 0.9895398693548358,
         "evidence_strength": "directional"
       },
       {
@@ -2610,15 +2610,15 @@
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 13,
-        "ad_turns": 12,
-        "paid_units": 12,
-        "advertisers": 8,
-        "ad_rate": 0.9230769230769231,
-        "posterior_ad_rate": 0.7647058823529411,
-        "competition_score": 2.540297954913865,
-        "ad_rate_low": 0.6668546607175265,
-        "ad_rate_high": 0.9862899336203037,
+        "turns": 14,
+        "ad_turns": 13,
+        "paid_units": 13,
+        "advertisers": 9,
+        "ad_rate": 0.9285714285714286,
+        "posterior_ad_rate": 0.7777777777777778,
+        "competition_score": 2.690669036717898,
+        "ad_rate_low": 0.685307304460422,
+        "ad_rate_high": 0.9872781138877084,
         "evidence_strength": "directional"
       },
       {
@@ -2638,6 +2638,116 @@
     ]
   },
   "ads": [
+    {
+      "id": "a5339921e22f689275ac591e",
+      "turn_id": "1087ea8e39ca204fe494f53e",
+      "advertiser": "Insurte",
+      "advertiser_key": "b8530548439043c9ca79ec47",
+      "brand": "Insurte",
+      "brand_key": "b8530548439043c9ca79ec47",
+      "creative_id": "8231e728240f01b5518f8b16",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Schengen travel insurance, compare and buy online",
+      "description": "100% compliant with Schengen Visa requirements. Get your official certificate instantly.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Ad disclosure and Insurte advertiser label.",
+      "reviewed_at": 1790128993.508909,
+      "captured_at": "2026-09-23T01:58:43.812Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three based on the current published commercial terms. There isn’t enough public pricing to honestly calculate one “cheapest” annual cost, so the purchase decision should be based on the all-in quote you negotiate.\n\nOption\tValue proposition\tExact trade-off\tVerify before paying\nCleartrip OOO\t₹0 subscription / no extra platform charges publicly advertised; GST-compliant. \nOOO\n\tMore self-serve than a traditional TMC.\tWritten confirmation that there are no transaction/service fees; cancellation/reissue charges; dedicated RM; 24×7 SLA; credit terms.\nMMT myBiz\tCorporate platform with negotiated service fee.\t1.5% payment-gateway fee on wallet/card repayments, on top of agreed service fee. \nMakeMyTrip\n\tPer-booking fee, payment method, cancellation/reissue charges, credit limit, support SLA.\nThomas Cook India\tMore fully managed: air, hotels, rail, visa, forex, MICE, dedicated servicing and 24×7 emergency desk. \nThomas Cook\n\tLikely higher service cost; pricing is quote-based.\tManagement/transaction fees, implant cost, after-hours charges, SLA, credit period and refund handling.\nPurchase-ready RFQ\n\nAsk each for a 12-month all-in quote using the same assumptions: 50 travellers, expected annual travel spend, domestic/international split and ~number of trips.\n\nMy shortlist order for evaluation: Cleartrip OOO → MMT myBiz → Thomas Cook, not as a quality ranking, but because it lets you compare a low-fee platform against increasingly managed-service models.\n\nDo not sign until cancellation/reissue fees, GST, payment fees, refund timelines, 24×7 response SLA and termination terms are explicitly written into the commercial agreement.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "891d12941fcca965c0c47a1cedbaae9e432d07c21b2958034363756a5aeff102",
+      "screenshot_relpath": "evidence/891d12941fcca965c0c47a1cedbaae9e432d07c21b2958034363756a5aeff102.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Insurte",
+        "format": "answer_card",
+        "headline": "Schengen travel insurance, compare and buy online",
+        "description": "100% compliant with Schengen Visa requirements. Get your official certificate instantly.",
+        "copy": [
+          "Insurte",
+          "Schengen travel insurance, compare and buy online",
+          "100% compliant with Schengen Visa requirements. Get your official certificate instantly."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/8318ad5a5fcf82e1.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Insurte",
+              "Schengen travel insurance, compare and buy online",
+              "100% compliant with Schengen Visa requirements. Get your official certificate instantly."
+            ],
+            "text": "Insurte\n\nSchengen travel insurance, compare and buy online\n\n100% compliant with Schengen Visa requirements. Get your official certificate instantly.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/8318ad5a5fcf82e1.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "5eabfece658a9645b5b9e814",
+      "turn_id": "7e839ec9e5f9648859d041ed",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "brand": "TwixAir LLC",
+      "brand_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the Sponsored disclosure and TwixAir LLC advertiser label.",
+      "reviewed_at": 1790128993.611101,
+      "captured_at": "2026-09-23T01:56:54.522Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, the real cost is mostly transaction/service fees plus supplier cancellation charges, rather than a simple monthly subscription.\n\nProvider\tTotal-cost picture\tCancellation / exclusions\tSupport\nMMT myBiz\tQuote-based service fee per order + fare/hotel price + GST. 1.5% payment-gateway fee applies to wallet/card repayments. \nMakeMyTrip\n\tNo universal cancellation policy: airline/hotel supplier rules apply. MMT describes its service largely “as-is”, unless your contract specifies otherwise. \nMakeMyTrip\n\tSelf-serve platform + corporate support.\nCleartrip OOO\t₹0 subscription / platform fee publicly advertised; booking prices and supplier charges still apply. \nOOO\n\tVerify airline/hotel cancellation, reissue and service charges before contracting.\tCorporate reporting, approvals, GST and stated round-the-clock support. \nOOO\n\nThomas Cook India\tCustom quote; negotiate transaction/management fees and credit terms.\tSupplier cancellation/reissue costs need to be passed through; scope can include air, hotels, rail, forex, visas and MICE. \nThomas Cook\n\t24×7 emergency desk, dedicated corporate servicing and SLA-backed service. \nThomas Cook\n\nFCM India\tCustom quote; get management + transaction + implementation fees itemised.\tCancellation can be up to 100% of booking cost; changes/reissues can add fees. Refunds may wait until FCM receives supplier funds. \nFCM Travel\n\tManaged travel model; negotiate explicit SLA and after-hours coverage.\nWhat I’d put in the RFQ\n\nAsk each for a 12-month all-in quote based on your actual expected travel spend, with: per-booking fee, hotel fee, cancellation/reissue fee, GST, payment fees, after-hours fee, implementation fee, credit period and SLA.\n\nFor a 50-person company, don't compare “₹0 subscription” against managed TMC pricing directly. The decisive number is your effective cost per trip after servicing and change/cancellation fees.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "333f1782921d7b51efe86f56f90d2645865bde8142ff290a2f0d14112c933687",
+      "screenshot_relpath": "evidence/333f1782921d7b51efe86f56f90d2645865bde8142ff290a2f0d14112c933687.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "08660e18377c9b6e64c92a4f",
       "turn_id": "2c40278d6a2b89bd64b858a9",
