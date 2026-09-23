@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T02:17:55Z",
+  "generated_at": "2026-09-23T02:20:49Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 603,
-    "approved_paid_units": 253,
-    "approved_advertisers": 100,
-    "approved_brand_families": 100,
-    "approved_advertiser_labels": 102,
-    "approved_creatives": 196,
+    "valid_turns": 611,
+    "approved_paid_units": 256,
+    "approved_advertisers": 101,
+    "approved_brand_families": 101,
+    "approved_advertiser_labels": 103,
+    "approved_creatives": 198,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 140,
+    "complete_panel_paid_units": 143,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -273,6 +273,19 @@
       "categories": "Travel and leisure"
     },
     {
+      "id": "68e7bac99d7ab7fbc3b2c7b8",
+      "advertiser": "Leela Diamonds",
+      "observed_advertiser_labels": "Leela Diamonds",
+      "advertiser_labels": 1,
+      "placements": 3,
+      "creatives": 3,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-22T09:31:40.058Z",
+      "last_seen": "2026-09-23T02:14:59.436Z",
+      "categories": "Commercial discovery,Honeymoon packages,Luxury perfume gifts"
+    },
+    {
       "id": "8848574dfbc6f190fb67e0a3",
       "advertiser": "OfficeKit HR",
       "observed_advertiser_labels": "OfficeKit HR",
@@ -297,6 +310,19 @@
       "first_seen": "2026-09-11T20:37:59.783Z",
       "last_seen": "2026-09-15T07:48:36.482Z",
       "categories": "Sports and fitness,Support footwear"
+    },
+    {
+      "id": "8818ae92710f7995dc845d8d",
+      "advertiser": "Yves Saint Laurent",
+      "observed_advertiser_labels": "Yves Saint Laurent",
+      "advertiser_labels": 1,
+      "placements": 3,
+      "creatives": 2,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-20T22:17:57.122Z",
+      "last_seen": "2026-09-23T02:13:28.705Z",
+      "categories": "Beauty and personal care,Rose perfume,Luxury perfume gifts"
     },
     {
       "id": "41805db8eb323d5199cb8ae2",
@@ -390,19 +416,6 @@
       "categories": "Beauty and personal care,Perfume miniatures"
     },
     {
-      "id": "68e7bac99d7ab7fbc3b2c7b8",
-      "advertiser": "Leela Diamonds",
-      "observed_advertiser_labels": "Leela Diamonds",
-      "advertiser_labels": 1,
-      "placements": 2,
-      "creatives": 2,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-22T09:31:40.058Z",
-      "last_seen": "2026-09-23T01:53:12.897Z",
-      "categories": "Commercial discovery,Honeymoon packages"
-    },
-    {
       "id": "c1a8f94c35b88f58460ea260",
       "advertiser": "Matcha Outlet",
       "observed_advertiser_labels": "Matcha Outlet",
@@ -466,19 +479,6 @@
       "first_seen": "2026-09-22T23:56:31.304Z",
       "last_seen": "2026-09-22T23:58:29.502Z",
       "categories": "Corporate travel"
-    },
-    {
-      "id": "8818ae92710f7995dc845d8d",
-      "advertiser": "Yves Saint Laurent",
-      "observed_advertiser_labels": "Yves Saint Laurent",
-      "advertiser_labels": 1,
-      "placements": 2,
-      "creatives": 2,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-20T22:17:57.122Z",
-      "last_seen": "2026-09-23T01:45:06.371Z",
-      "categories": "Beauty and personal care,Rose perfume"
     },
     {
       "id": "c4eee08d8414dd197fd04a30",
@@ -975,6 +975,19 @@
       "categories": "Commercial discovery"
     },
     {
+      "id": "f987824c948e43cb48692a11",
+      "advertiser": "Palmonas",
+      "observed_advertiser_labels": "Palmonas",
+      "advertiser_labels": 1,
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T02:13:21.598Z",
+      "last_seen": "2026-09-23T02:13:21.598Z",
+      "categories": "Luxury perfume gifts"
+    },
+    {
       "id": "6ebed77fd736d8b9f9e3c121",
       "advertiser": "PeekHire",
       "observed_advertiser_labels": "PeekHire",
@@ -1358,12 +1371,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 603,
-    "ad_turns": 140,
-    "ad_rate": 0.23217247097844113,
-    "ad_rate_low": 0.20023166315809082,
-    "ad_rate_high": 0.26750423365583886,
-    "paid_units": 140,
+    "turns": 611,
+    "ad_turns": 143,
+    "ad_rate": 0.23404255319148937,
+    "ad_rate_low": 0.20219548637632692,
+    "ad_rate_high": 0.2692130845466555,
+    "paid_units": 143,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1423,6 +1436,36 @@
         "competition_score": 1.3919028850036994,
         "ad_rate_low": 0.35419734749908977,
         "ad_rate_high": 0.879418401317257,
+        "evidence_strength": "directional"
+      },
+      {
+        "category": "Luxury perfume gifts",
+        "industry": "Beauty and personal care",
+        "turns": 9,
+        "ad_turns": 4,
+        "paid_units": 4,
+        "advertisers": 4,
+        "creatives": 4,
+        "ad_rate": 0.4444444444444444,
+        "posterior_ad_rate": 0.38461538461538464,
+        "competition_score": 0.9942163464312139,
+        "ad_rate_low": 0.188775429471914,
+        "ad_rate_high": 0.7333526542559703,
+        "evidence_strength": "directional"
+      },
+      {
+        "category": "Wi-Fi routers",
+        "industry": "Electronics",
+        "turns": 9,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.1111111111111111,
+        "posterior_ad_rate": 0.15384615384615385,
+        "competition_score": 0.2438403847263317,
+        "ad_rate_low": 0.019890371327130535,
+        "ad_rate_high": 0.4350062147680601,
         "evidence_strength": "directional"
       },
       {
@@ -1696,21 +1739,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Luxury perfume gifts",
-        "industry": "Beauty and personal care",
-        "turns": 6,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.16666666666666666,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.31699250014423125,
-        "ad_rate_low": 0.03005258587173032,
-        "ad_rate_high": 0.563509436563646,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Perfume miniatures",
         "industry": "Beauty and personal care",
         "turns": 6,
@@ -1753,21 +1781,6 @@
         "competition_score": 0.31699250014423125,
         "ad_rate_low": 0.03005258587173032,
         "ad_rate_high": 0.563509436563646,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Wi-Fi routers",
-        "industry": "Electronics",
-        "turns": 5,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 0.2,
-        "posterior_ad_rate": 0.2222222222222222,
-        "competition_score": 0.3522138890491458,
-        "ad_rate_low": 0.03622316096978745,
-        "ad_rate_high": 0.6244717358814613,
         "evidence_strength": "exploratory"
       },
       {
@@ -2521,6 +2534,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Modular kitchens",
+        "industry": "Home improvement",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -2549,36 +2577,21 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Modular kitchens",
-        "industry": "Home improvement",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 218,
+        "turns": 220,
         "ad_turns": 57,
         "paid_units": 57,
         "advertisers": 26,
-        "ad_rate": 0.26146788990825687,
-        "posterior_ad_rate": 0.26126126126126126,
-        "competition_score": 1.2559756102673019,
-        "ad_rate_low": 0.20762447181563742,
-        "ad_rate_high": 0.32357256246467797,
+        "ad_rate": 0.2590909090909091,
+        "posterior_ad_rate": 0.25892857142857145,
+        "competition_score": 1.2447615423184868,
+        "ad_rate_low": 0.20567904172570645,
+        "ad_rate_high": 0.32077180565922997,
         "evidence_strength": "established"
       },
       {
@@ -2598,29 +2611,29 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 152,
-        "ad_turns": 21,
-        "paid_units": 21,
-        "advertisers": 14,
-        "ad_rate": 0.13815789473684212,
-        "posterior_ad_rate": 0.14102564102564102,
-        "competition_score": 0.5641025641025641,
-        "ad_rate_low": 0.09217105465530899,
-        "ad_rate_high": 0.201984036154847,
+        "turns": 157,
+        "ad_turns": 23,
+        "paid_units": 23,
+        "advertisers": 16,
+        "ad_rate": 0.1464968152866242,
+        "posterior_ad_rate": 0.14906832298136646,
+        "competition_score": 0.6216037269230776,
+        "ad_rate_low": 0.0996437089975583,
+        "ad_rate_high": 0.2102363220391884,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 17,
-        "ad_turns": 16,
-        "paid_units": 16,
-        "advertisers": 8,
-        "ad_rate": 0.9411764705882353,
-        "posterior_ad_rate": 0.8095238095238095,
-        "competition_score": 2.6891798863373886,
-        "ad_rate_low": 0.730174547964372,
-        "ad_rate_high": 0.9895398693548358,
+        "turns": 18,
+        "ad_turns": 17,
+        "paid_units": 17,
+        "advertisers": 9,
+        "ad_rate": 0.9444444444444444,
+        "posterior_ad_rate": 0.8181818181818182,
+        "competition_score": 2.8304440516123344,
+        "ad_rate_low": 0.7424220019799247,
+        "ad_rate_high": 0.9901250641690756,
         "evidence_strength": "directional"
       },
       {
@@ -2668,6 +2681,170 @@
     ]
   },
   "ads": [
+    {
+      "id": "ca1383aa462f9cc927a9d3d5",
+      "turn_id": "7afc3df6594a370d0efb42a2",
+      "advertiser": "Leela Diamonds",
+      "advertiser_key": "68e7bac99d7ab7fbc3b2c7b8",
+      "brand": "Leela Diamonds",
+      "brand_key": "68e7bac99d7ab7fbc3b2c7b8",
+      "creative_id": "2f11eeaca27fc5731cb9566d",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser: Leela Diamonds.",
+      "reviewed_at": 1790130040.382835,
+      "captured_at": "2026-09-23T02:14:59.436Z",
+      "prompt": "Go deeper on the total cost of buying a luxury perfume gift for an anniversary in India under ₹15,000. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For an anniversary gift, I’d compare landed cost + return protection, not just sticker price. Current India listings:\n\nOption\tProduct cost\tFees / return\tSupport & warranty\nSephora – Dior Sauvage EDP 100ml\t₹14,200\tFree shipping above ₹999. Cancellation before invoice; returns within 14 days, subject to sealed/original condition. \nSephora India\n+2\nSephora India\n+2\n\tDedicated customer support; manufacturer/seller warranty only where applicable.\nTira – Gucci Flora Gorgeous Gardenia Intense 50ml\t₹9,850; page shows ₹9,350 deal price\tTira lists the product as available; verify its product-specific return window and whether fragrance must remain sealed before ordering. \nTira\n\tTira support; warranty is generally not the key protection for perfume, so authenticity/seal matters most.\nTira – YSL Libre EDP 90ml\t₹13,200; page shows ₹12,700 deal price\tFree gifts shown; verify whether promotional gifts must also be returned if you cancel/return. \nTira\n\tTira support; verify sealed-product return eligibility.\n\nImportant cost point: Sephora explicitly says shipping, if charged, is generally non-refundable; above ₹999 its listed shipping charge is free. \nSephora India\n\nBefore paying: screenshot the final checkout price, confirm bottle size, seller/brand authenticity, delivery date, gift wrapping, and that the tamper seal is intact. Sephora specifically says accepting a tampered package can remove return protection. \nSephora India",
+      "industry": "Beauty and personal care",
+      "category": "Luxury perfume gifts",
+      "screenshot_sha256": "a2ebe3c50b2f49c4794c48027a573a56f3728859867cc8bd6f791a23de2edde1",
+      "screenshot_relpath": "evidence/a2ebe3c50b2f49c4794c48027a573a56f3728859867cc8bd6f791a23de2edde1.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Leela Diamonds",
+        "format": "product_card",
+        "headline": "1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds",
+        "description": null,
+        "copy": [
+          "Leela Diamonds",
+          "1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds",
+          null
+        ],
+        "image_urls": [
+          "https://images.openai.com/products/v1/20/87/208794d400661fe86f5fec578ad0fd43f656ecaab43aa31dd97ddb7d5439121b.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds"
+            ],
+            "text": "1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds\n\n$409.82\nLeela Diamonds",
+            "image_urls": [
+              "https://images.openai.com/products/v1/20/87/208794d400661fe86f5fec578ad0fd43f656ecaab43aa31dd97ddb7d5439121b.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "2650458eea948c252def3dfd",
+      "turn_id": "c8fcb0bec00c6c3f5a45733d",
+      "advertiser": "Yves Saint Laurent",
+      "advertiser_key": "8818ae92710f7995dc845d8d",
+      "brand": "Yves Saint Laurent",
+      "brand_key": "8818ae92710f7995dc845d8d",
+      "creative_id": "ed446579d3aae1b11ee2a58c",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+      "description": "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser: Yves Saint Laurent.",
+      "reviewed_at": 1790130040.406961,
+      "captured_at": "2026-09-23T02:13:28.705Z",
+      "prompt": "Make this more purchase-specific: for a luxury perfume gift for an anniversary in India under ₹15,000, name three currently available providers or products with prices and important limitations.",
+      "answer": "For an anniversary gift under ₹15,000, these are three currently listed India options:\n\nProduct / provider\tPrice\tImportant limitation\nYSL Libre EDP 50ml — Shoppers Stop\t₹10,700\t50ml; verify gift packaging and return eligibility before checkout.\nDior Sauvage EDP 100ml — Sephora India\t₹14,200\tNear the ₹15,000 ceiling; a masculine-leaning profile may not suit every recipient. Sephora currently lists it at ₹14,200. \nSephora India\n\nYSL Libre Intense EDP 50ml — TATA CLiQ Luxury\t₹10,500\tRicher/sweeter than original Libre; check seller-specific delivery and return terms.\n\nPurchase checks: confirm the exact bottle size, seller/brand authenticity, invoice, delivery date, and whether opened fragrance can be returned. Sephora lists Libre 50ml at ₹9,300 as another current benchmark. \nSephora India\n\nPrices and stock can change before checkout.",
+      "industry": "Beauty and personal care",
+      "category": "Luxury perfume gifts",
+      "screenshot_sha256": "a98fd1cffd4d4d3869f94629b791df5b958e77743bfdeeb69a518a46b2081a8c",
+      "screenshot_relpath": "evidence/a98fd1cffd4d4d3869f94629b791df5b958e77743bfdeeb69a518a46b2081a8c.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Yves Saint Laurent",
+        "format": "answer_card",
+        "headline": "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+        "description": "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",
+        "copy": [
+          "Yves Saint Laurent",
+          "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+          "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/827b5d4b7244554abb046585f33d0148.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Yves Saint Laurent",
+              "Iconic Libre Eau de Parfum by Yves Saint Laurent",
+              "Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman."
+            ],
+            "text": "Yves Saint Laurent\n\nIconic Libre Eau de Parfum by Yves Saint Laurent\n\nExperience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/827b5d4b7244554abb046585f33d0148.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "6f14372e162a3c4d0108d741",
+      "turn_id": "73db8d51a445551fc407141c",
+      "advertiser": "Palmonas",
+      "advertiser_key": "f987824c948e43cb48692a11",
+      "brand": "Palmonas",
+      "brand_key": "f987824c948e43cb48692a11",
+      "creative_id": "99d9e73d8064df5c2bcd984f",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "PALMONAS Multi Stone Q Clasp Bracelet - Rose Gold",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser: Palmonas.",
+      "reviewed_at": 1790130040.335893,
+      "captured_at": "2026-09-23T02:13:21.598Z",
+      "prompt": "Make this more purchase-specific: for a luxury perfume gift for an anniversary in India under ₹15,000, name three currently available providers or products with prices and important limitations.",
+      "answer": "Here’s a more purchase-ready shortlist, using prices currently visible in India:\n\nProduct\tCurrent price\tImportant limitation\nYSL Libre EDP 50ml\t₹10,700\tFloral/vanilla profile; better if they already enjoy sweeter fragrances.\nGucci Flora Gorgeous Gardenia Intense\t₹9,050\tFeminine floral profile; verify exact size because listings vary between 50ml/100ml.\nDior Sauvage EDP 100ml\t₹14,200\tNear your ₹15k ceiling; more masculine/fresh-spicy, so recipient preference matters. \nsephora.in\n\nBefore checkout: confirm the exact bottle size, seller/retailer, final delivered price, authenticity/batch details, and return policy. Fragrance returns can be restricted once opened. Sephora currently lists the Dior at ₹14,200 and Libre at ₹9,300, while Tira lists Libre at ₹10,000, so prices can move with promotions. \nsephora.in\n+1",
+      "industry": "Beauty and personal care",
+      "category": "Luxury perfume gifts",
+      "screenshot_sha256": "d1b491f3ef2bb3ddef9fbf7d356845acce82279d01158c8fde7a1f9b261ba929",
+      "screenshot_relpath": "evidence/d1b491f3ef2bb3ddef9fbf7d356845acce82279d01158c8fde7a1f9b261ba929.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Palmonas",
+        "format": "product_card",
+        "headline": "PALMONAS Multi Stone Q Clasp Bracelet - Rose Gold",
+        "description": null,
+        "copy": [
+          "Palmonas",
+          "PALMONAS Multi Stone Q Clasp Bracelet - Rose Gold",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000979082309cad80dbf378d53f&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f597dd972022457b25dc8e008fcffb5f4a1d14b815efceecd93488a1b031a2fd&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "PALMONAS Multi Stone Q Clasp Bracelet - Rose Gold"
+            ],
+            "text": "PALMONAS Multi Stone Q Clasp Bracelet - Rose Gold\n\n₹2,258.00\nPalmonas",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000979082309cad80dbf378d53f&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f597dd972022457b25dc8e008fcffb5f4a1d14b815efceecd93488a1b031a2fd&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "742b27e6187a6c482a403e74",
       "turn_id": "28aa2c1e91c7a7ac2ef57074",

@@ -1,4 +1,49 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+ca1383aa462f9cc927a9d3d5,7afc3df6594a370d0efb42a2,2026-09-23T02:14:59.436Z,Leela Diamonds,Leela Diamonds,Sponsored,product_card,1.75ct Cushion Brilliant Lab Grown Diamond E VS1 IGI Certified Report LG687519458 | Leela Diamonds,,Beauty and personal care,Luxury perfume gifts,complete_panel,True,human_visual,"Go deeper on the total cost of buying a luxury perfume gift for an anniversary in India under ₹15,000. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For an anniversary gift, I’d compare landed cost + return protection, not just sticker price. Current India listings:
+
+Option	Product cost	Fees / return	Support & warranty
+Sephora – Dior Sauvage EDP 100ml	₹14,200	Free shipping above ₹999. Cancellation before invoice; returns within 14 days, subject to sealed/original condition. 
+Sephora India
++2
+Sephora India
++2
+	Dedicated customer support; manufacturer/seller warranty only where applicable.
+Tira – Gucci Flora Gorgeous Gardenia Intense 50ml	₹9,850; page shows ₹9,350 deal price	Tira lists the product as available; verify its product-specific return window and whether fragrance must remain sealed before ordering. 
+Tira
+	Tira support; warranty is generally not the key protection for perfume, so authenticity/seal matters most.
+Tira – YSL Libre EDP 90ml	₹13,200; page shows ₹12,700 deal price	Free gifts shown; verify whether promotional gifts must also be returned if you cancel/return. 
+Tira
+	Tira support; verify sealed-product return eligibility.
+
+Important cost point: Sephora explicitly says shipping, if charged, is generally non-refundable; above ₹999 its listed shipping charge is free. 
+Sephora India
+
+Before paying: screenshot the final checkout price, confirm bottle size, seller/brand authenticity, delivery date, gift wrapping, and that the tamper seal is intact. Sephora specifically says accepting a tampered package can remove return protection. 
+Sephora India",2f11eeaca27fc5731cb9566d,evidence/a2ebe3c50b2f49c4794c48027a573a56f3728859867cc8bd6f791a23de2edde1.png,a2ebe3c50b2f49c4794c48027a573a56f3728859867cc8bd6f791a23de2edde1
+2650458eea948c252def3dfd,c8fcb0bec00c6c3f5a45733d,2026-09-23T02:13:28.705Z,Yves Saint Laurent,Yves Saint Laurent,Ad,answer_card,Iconic Libre Eau de Parfum by Yves Saint Laurent,"Experience YSL Libre Eau de Parfum - a bold, sensuous floral signature for the confident woman.",Beauty and personal care,Luxury perfume gifts,complete_panel,True,human_visual,"Make this more purchase-specific: for a luxury perfume gift for an anniversary in India under ₹15,000, name three currently available providers or products with prices and important limitations.","For an anniversary gift under ₹15,000, these are three currently listed India options:
+
+Product / provider	Price	Important limitation
+YSL Libre EDP 50ml — Shoppers Stop	₹10,700	50ml; verify gift packaging and return eligibility before checkout.
+Dior Sauvage EDP 100ml — Sephora India	₹14,200	Near the ₹15,000 ceiling; a masculine-leaning profile may not suit every recipient. Sephora currently lists it at ₹14,200. 
+Sephora India
+
+YSL Libre Intense EDP 50ml — TATA CLiQ Luxury	₹10,500	Richer/sweeter than original Libre; check seller-specific delivery and return terms.
+
+Purchase checks: confirm the exact bottle size, seller/brand authenticity, invoice, delivery date, and whether opened fragrance can be returned. Sephora lists Libre 50ml at ₹9,300 as another current benchmark. 
+Sephora India
+
+Prices and stock can change before checkout.",ed446579d3aae1b11ee2a58c,evidence/a98fd1cffd4d4d3869f94629b791df5b958e77743bfdeeb69a518a46b2081a8c.png,a98fd1cffd4d4d3869f94629b791df5b958e77743bfdeeb69a518a46b2081a8c
+6f14372e162a3c4d0108d741,73db8d51a445551fc407141c,2026-09-23T02:13:21.598Z,Palmonas,Palmonas,Sponsored,product_card,PALMONAS Multi Stone Q Clasp Bracelet - Rose Gold,,Beauty and personal care,Luxury perfume gifts,complete_panel,True,human_visual,"Make this more purchase-specific: for a luxury perfume gift for an anniversary in India under ₹15,000, name three currently available providers or products with prices and important limitations.","Here’s a more purchase-ready shortlist, using prices currently visible in India:
+
+Product	Current price	Important limitation
+YSL Libre EDP 50ml	₹10,700	Floral/vanilla profile; better if they already enjoy sweeter fragrances.
+Gucci Flora Gorgeous Gardenia Intense	₹9,050	Feminine floral profile; verify exact size because listings vary between 50ml/100ml.
+Dior Sauvage EDP 100ml	₹14,200	Near your ₹15k ceiling; more masculine/fresh-spicy, so recipient preference matters. 
+sephora.in
+
+Before checkout: confirm the exact bottle size, seller/retailer, final delivered price, authenticity/batch details, and return policy. Fragrance returns can be restricted once opened. Sephora currently lists the Dior at ₹14,200 and Libre at ₹9,300, while Tira lists Libre at ₹10,000, so prices can move with promotions. 
+sephora.in
++1",99d9e73d8064df5c2bcd984f,evidence/d1b491f3ef2bb3ddef9fbf7d356845acce82279d01158c8fde7a1f9b261ba929.png,d1b491f3ef2bb3ddef9fbf7d356845acce82279d01158c8fde7a1f9b261ba929
 742b27e6187a6c482a403e74,28aa2c1e91c7a7ac2ef57074,2026-09-23T02:10:01.547Z,Trip.com/flights,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, the main switching cost is implementation/admin effort, not a published subscription fee. Most providers quote pricing after assessing travel volume.
 
 Provider	Cost model	Switching difficulty
