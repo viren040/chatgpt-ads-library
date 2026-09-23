@@ -1,0 +1,108 @@
+category,industry,turns,ad_turns,ad_rate,ad_rate_low,ad_rate_high,advertisers,creatives,competition_score,evidence_strength
+Corporate travel,Travel and leisure,123,73,0.5934959349593496,0.5051369744531611,0.6761915486812049,19,38,2.5593030652411675,established
+Honeymoon packages,Travel and leisure,9,6,0.6666666666666666,0.35419734749908977,0.879418401317257,4,4,1.3919028850036994,directional
+Paint services,Home improvement,12,9,0.75,0.46768966087934005,0.9110599603710386,2,4,1.25,directional
+Intercity buses,Travel and leisure,29,13,0.4482758620689655,0.2841291114874579,0.6245233293193238,5,8,1.19099905784262,established
+Luxury perfume gifts,Beauty and personal care,9,4,0.4444444444444444,0.188775429471914,0.7333526542559703,4,4,0.9942163464312139,directional
+Citrus perfume,Beauty and personal care,11,4,0.36363636363636365,0.15166223614131383,0.6462032231083628,3,3,0.7739760316291207,directional
+Fragrance layering,Beauty and personal care,8,3,0.375,0.13684175946152105,0.6942621454161981,3,3,0.7739760316291207,directional
+Vacation rentals,Travel and leisure,120,23,0.19166666666666668,0.13124933052612614,0.2712131699583638,7,17,0.6135338712468991,established
+Fleet tracking,Logistics,8,2,0.25,0.07147768885802763,0.5907301208974108,2,2,0.5,directional
+Coworking,Real estate services,12,4,0.3333333333333333,0.13811783989736134,0.609382412602386,1,1,0.4953007814753613,directional
+Rose perfume,Beauty and personal care,14,3,0.21428571428571427,0.0757124833691637,0.4758972377320828,2,3,0.4444444444444444,directional
+Travel luggage,Travel and leisure,7,2,0.2857142857142857,0.0822171657090155,0.6410709098517873,1,1,0.4322625001966789,exploratory
+Payment gateways,Payments,12,2,0.16666666666666666,0.04696414761482223,0.44803635738467273,2,2,0.375,directional
+Tea subscriptions,Food and beverage,12,2,0.16666666666666666,0.04696414761482223,0.44803635738467273,2,2,0.375,directional
+Bathroom fittings,Home improvement,5,1,0.2,0.03622316096978745,0.6244717358814613,1,1,0.3522138890491458,exploratory
+Office leasing,Real estate services,5,1,0.2,0.03622316096978745,0.6244717358814613,1,1,0.3522138890491458,exploratory
+Domestic flights,Travel and leisure,6,1,0.16666666666666666,0.03005258587173032,0.563509436563646,1,1,0.31699250014423125,exploratory
+Perfume miniatures,Beauty and personal care,6,1,0.16666666666666666,0.03005258587173032,0.563509436563646,1,1,0.31699250014423125,exploratory
+Body mists,Beauty and personal care,7,1,0.14285714285714285,0.02567895594897479,0.51313450331903,1,1,0.2881750001311193,exploratory
+Business hotels,Travel and leisure,7,1,0.14285714285714285,0.02567895594897479,0.51313450331903,1,1,0.2881750001311193,exploratory
+Weekend resorts,Travel and leisure,7,1,0.14285714285714285,0.02567895594897479,0.51313450331903,1,1,0.2881750001311193,exploratory
+Card terminals,Payments,8,1,0.125,0.02241690886329617,0.4708948057698615,1,1,0.2641604167868593,directional
+Sensitive-skin fragrance,Beauty and personal care,8,1,0.125,0.02241690886329617,0.4708948057698615,1,1,0.2641604167868593,directional
+Monitors,Electronics,1,0,0.0,0,0.7934567085261071,0,0,0.2,exploratory
+Wi-Fi routers,Electronics,13,1,0.07692307692307693,0.013710066379696295,0.3331453392824736,1,1,0.18646617655543013,directional
+Water purifiers,Home improvement,2,0,0.0,0,0.6576280471103807,0,0,0.16666666666666666,exploratory
+Air conditioners,Home improvement,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Attar and alcohol-free fragrance,Beauty and personal care,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Badminton equipment,Sports and fitness,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Car accessories,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Car tyres,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Coffee beans,Food and beverage,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Commercial refrigeration,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Drip irrigation,Agriculture,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Electric scooters,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Farm tools,Agriculture,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Handbags,Fashion and accessories,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Healthy snacks,Food and beverage,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Home exercise equipment,Sports and fitness,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Home fragrance,Beauty and personal care,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Home inspection,Real estate services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Pest control,Home improvement,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Podcast equipment,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Power tools,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Printers,Electronics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Printing services,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Product photography,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Property management,Real estate services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Sports venue booking,Sports and fitness,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Tablets,Electronics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Trademark support,Business services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Train booking,Travel and leisure,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Vehicle servicing,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Warehouse fulfilment,Logistics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Water pumps,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
+Airport lounge access,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Airport transfers,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Attendance systems,Business services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Car fragrance,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Cold-chain delivery,Logistics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Company incorporation,Business services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Courier aggregation,Logistics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Cruise holidays,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+EV charging,Automotive,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Family hotels,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Fragrances,Fashion and accessories,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Greenhouse supplies,Agriculture,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Gym memberships,Sports and fitness,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Holiday packages,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+International eSIM,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+International flights,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+International holiday packages,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+International shipping,Logistics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Jewellery,Fashion and accessories,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Label printers,Industrial supplies,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Luxury resorts,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Men's perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Modular kitchens,Home improvement,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Niche perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Office catering,Food and beverage,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Oud fragrance,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Packaging materials,Industrial supplies,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Perfume discovery sets,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Premium deodorant,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Smartphones,Electronics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Soil testing,Agriculture,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Solid perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Subscription billing,Payments,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Translation services,Business services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Travel backpacks,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Travel forex cards,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Travel insurance,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Vanilla perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Wedding perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Women's perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Woody perfume,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Ethnic occasionwear,Fashion and accessories,6,0,0.0,0,0.3903430336530645,0,0,0.1,exploratory
+Hostels,Travel and leisure,6,0,0.0,0,0.3903430336530645,0,0,0.1,exploratory
+Car rentals,Travel and leisure,7,0,0.0,0,0.35433884297520657,0,0,0.09090909090909091,exploratory
+Inverters,Home improvement,7,0,0.0,0,0.35433884297520657,0,0,0.09090909090909091,exploratory
+Perfume gift sets,Beauty and personal care,7,0,0.0,0,0.35433884297520657,0,0,0.09090909090909091,exploratory
+Safety equipment,Industrial supplies,7,0,0.0,0,0.35433884297520657,0,0,0.09090909090909091,exploratory
+Unisex fragrance,Beauty and personal care,7,0,0.0,0,0.35433884297520657,0,0,0.09090909090909091,exploratory
+Weekend getaways,Travel and leisure,7,0,0.0,0,0.35433884297520657,0,0,0.09090909090909091,exploratory
+Pilgrimage travel,Travel and leisure,8,0,0.0,0,0.3244156195108769,0,0,0.08333333333333333,directional
+Scented candles,Beauty and personal care,8,0,0.0,0,0.3244156195108769,0,0,0.08333333333333333,directional
+Summer fragrance,Beauty and personal care,8,0,0.0,0,0.3244156195108769,0,0,0.08333333333333333,directional
