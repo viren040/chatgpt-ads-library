@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T01:35:40Z",
+  "generated_at": "2026-09-23T01:43:18Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 544,
-    "approved_paid_units": 244,
+    "valid_turns": 552,
+    "approved_paid_units": 242,
     "approved_advertisers": 98,
     "approved_brand_families": 98,
     "approved_advertiser_labels": 100,
     "approved_creatives": 190,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 131,
+    "complete_panel_paid_units": 129,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -91,19 +91,6 @@
       "categories": "Help desk software,Corporate travel"
     },
     {
-      "id": "7211144fa6d33a5359842018",
-      "advertiser": "abhibus",
-      "observed_advertiser_labels": "abhibus",
-      "advertiser_labels": 1,
-      "placements": 9,
-      "creatives": 6,
-      "panel_placements": 4,
-      "reviewed_snapshot_placements": 5,
-      "first_seen": "2026-09-12T05:50:13.798Z",
-      "last_seen": "2026-09-22T11:46:29.995Z",
-      "categories": "Commercial discovery,Travel and leisure,Logistics,Intercity buses"
-    },
-    {
       "id": "025aab1cc9385a7e85d0e57f",
       "advertiser": "trivago",
       "observed_advertiser_labels": "trivago",
@@ -167,6 +154,19 @@
       "first_seen": "2026-09-19T11:52:46.933Z",
       "last_seen": "2026-09-23T01:23:46.929Z",
       "categories": "Beauty and personal care,Rose perfume"
+    },
+    {
+      "id": "7211144fa6d33a5359842018",
+      "advertiser": "abhibus",
+      "observed_advertiser_labels": "abhibus",
+      "advertiser_labels": 1,
+      "placements": 7,
+      "creatives": 6,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 5,
+      "first_seen": "2026-09-12T05:50:13.798Z",
+      "last_seen": "2026-09-22T11:46:29.995Z",
+      "categories": "Commercial discovery,Travel and leisure,Logistics,Intercity buses"
     },
     {
       "id": "83d40ecd26a8ce9b174a1d9e",
@@ -1332,12 +1332,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 544,
-    "ad_turns": 131,
-    "ad_rate": 0.24080882352941177,
-    "ad_rate_low": 0.2067755104242802,
-    "ad_rate_high": 0.2784771611508613,
-    "paid_units": 131,
+    "turns": 552,
+    "ad_turns": 129,
+    "ad_rate": 0.23369565217391305,
+    "ad_rate_low": 0.20030719138271458,
+    "ad_rate_high": 0.27076514289381315,
+    "paid_units": 129,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1372,16 +1372,16 @@
       {
         "category": "Intercity buses",
         "industry": "Travel and leisure",
-        "turns": 32,
-        "ad_turns": 15,
-        "paid_units": 15,
+        "turns": 29,
+        "ad_turns": 13,
+        "paid_units": 13,
         "advertisers": 5,
         "creatives": 8,
-        "ad_rate": 0.46875,
-        "posterior_ad_rate": 0.4444444444444444,
-        "competition_score": 1.2477132986922685,
-        "ad_rate_low": 0.30869129901682335,
-        "ad_rate_high": 0.6355076206742619,
+        "ad_rate": 0.4482758620689655,
+        "posterior_ad_rate": 0.42424242424242425,
+        "competition_score": 1.19099905784262,
+        "ad_rate_low": 0.2841291114874579,
+        "ad_rate_high": 0.6245233293193238,
         "evidence_strength": "established"
       },
       {
@@ -1625,6 +1625,36 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Inverters",
+        "industry": "Home improvement",
+        "turns": 5,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.1111111111111111,
+        "competition_score": 0.1111111111111111,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.43449149475208104,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Tea subscriptions",
+        "industry": "Food and beverage",
+        "turns": 5,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.4,
+        "posterior_ad_rate": 0.3333333333333333,
+        "competition_score": 0.6666666666666666,
+        "ad_rate_low": 0.1176182311592533,
+        "ad_rate_high": 0.769280067791163,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Wi-Fi routers",
         "industry": "Electronics",
         "turns": 5,
@@ -1805,21 +1835,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Inverters",
-        "industry": "Home improvement",
-        "turns": 4,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.125,
-        "competition_score": 0.125,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.48990002040399916,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Luxury perfume gifts",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -1967,21 +1982,6 @@
         "competition_score": 0.125,
         "ad_rate_low": 0,
         "ad_rate_high": 0.48990002040399916,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Tea subscriptions",
-        "industry": "Food and beverage",
-        "turns": 4,
-        "ad_turns": 2,
-        "paid_units": 2,
-        "advertisers": 2,
-        "creatives": 2,
-        "ad_rate": 0.5,
-        "posterior_ad_rate": 0.375,
-        "competition_score": 0.75,
-        "ad_rate_low": 0.15003570882017148,
-        "ad_rate_high": 0.8499642911798285,
         "evidence_strength": "exploratory"
       },
       {
@@ -2165,6 +2165,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Farm tools",
+        "industry": "Agriculture",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Handbags",
         "industry": "Fashion and accessories",
         "turns": 3,
@@ -2212,6 +2227,21 @@
       {
         "category": "Home inspection",
         "industry": "Real estate services",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Payment gateways",
+        "industry": "Payments",
         "turns": 3,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2345,6 +2375,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Water pumps",
+        "industry": "Industrial supplies",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Electric scooters",
         "industry": "Automotive",
         "turns": 2,
@@ -2360,8 +2405,23 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Farm tools",
-        "industry": "Agriculture",
+        "category": "Podcast equipment",
+        "industry": "Creative services",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Power tools",
+        "industry": "Industrial supplies",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2377,21 +2437,6 @@
       {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Water pumps",
-        "industry": "Industrial supplies",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2424,15 +2469,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 198,
+        "turns": 203,
         "ad_turns": 55,
         "paid_units": 55,
         "advertisers": 25,
-        "ad_rate": 0.2777777777777778,
-        "posterior_ad_rate": 0.27722772277227725,
-        "competition_score": 1.3181866342631399,
-        "ad_rate_low": 0.22007032060513237,
-        "ad_rate_high": 0.34394423338175634,
+        "ad_rate": 0.270935960591133,
+        "posterior_ad_rate": 0.27053140096618356,
+        "competition_score": 1.2863463773968802,
+        "ad_rate_low": 0.21447166178226112,
+        "ad_rate_high": 0.3359089193000743,
         "evidence_strength": "established"
       },
       {
@@ -2452,43 +2497,43 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 132,
-        "ad_turns": 19,
-        "paid_units": 19,
+        "turns": 133,
+        "ad_turns": 18,
+        "paid_units": 18,
         "advertisers": 11,
-        "ad_rate": 0.14393939393939395,
-        "posterior_ad_rate": 0.14705882352941177,
-        "competition_score": 0.5441823114913371,
-        "ad_rate_low": 0.09412491779512139,
-        "ad_rate_high": 0.2138926556139079,
+        "ad_rate": 0.13533834586466165,
+        "posterior_ad_rate": 0.1386861313868613,
+        "competition_score": 0.5131996689392756,
+        "ad_rate_low": 0.08735194240933154,
+        "ad_rate_high": 0.20379928645674428,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 17,
-        "ad_turns": 16,
-        "paid_units": 16,
+        "turns": 16,
+        "ad_turns": 15,
+        "paid_units": 15,
         "advertisers": 8,
-        "ad_rate": 0.9411764705882353,
-        "posterior_ad_rate": 0.8095238095238095,
-        "competition_score": 2.6891798863373886,
-        "ad_rate_low": 0.730174547964372,
-        "ad_rate_high": 0.9895398693548358,
+        "ad_rate": 0.9375,
+        "posterior_ad_rate": 0.8,
+        "competition_score": 2.65754247590989,
+        "ad_rate_low": 0.7167073163197013,
+        "ad_rate_high": 0.9888809426916687,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 100,
+        "turns": 103,
         "ad_turns": 7,
         "paid_units": 7,
         "advertisers": 7,
-        "ad_rate": 0.07,
-        "posterior_ad_rate": 0.07692307692307693,
-        "competition_score": 0.2438403847263317,
-        "ad_rate_low": 0.034318824364064096,
-        "ad_rate_high": 0.13749671006529757,
+        "ad_rate": 0.06796116504854369,
+        "posterior_ad_rate": 0.07476635514018691,
+        "competition_score": 0.2370037384255934,
+        "ad_rate_low": 0.03330731523877016,
+        "ad_rate_high": 0.13368381930058532,
         "evidence_strength": "established"
       },
       {
@@ -10012,62 +10057,6 @@
       }
     },
     {
-      "id": "d6d9dc2e6a87001b27f6c24f",
-      "turn_id": "81bca21c6d983931852f7076",
-      "advertiser": "abhibus",
-      "advertiser_key": "7211144fa6d33a5359842018",
-      "brand": "abhibus",
-      "brand_key": "7211144fa6d33a5359842018",
-      "creative_id": "8d51efec85cfdc321691ba71",
-      "label": "Ad",
-      "format": "answer_card",
-      "headline": "Book RTC Buses With More Confidence",
-      "description": "Compare routes and seats with 24/7 AbhiBus booking support.",
-      "position_index": 1,
-      "review_state": "approved",
-      "review_note": "Screenshot visibly shows Ad disclosure, full abhibus identity, and matching booking-support creative.",
-      "reviewed_at": 1790106197.691303,
-      "captured_at": "2026-09-22T11:46:29.995Z",
-      "prompt": "Go deeper on the total cost of buying intercity bus booking options between Bengaluru and Chennai. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
-      "answer": "For a Bengaluru → Chennai booking, the real cost is not just the displayed fare. The main differences are cancellation add-ons, non-refundable platform fees, and what happens if the operator cancels.\n\nOption\tTotal-cost considerations\tCancellation / “warranty”\tSupport\nredBus\tBase fare + applicable booking/service/convenience fees. Exact fees appear at checkout.\tStandard cancellation follows the individual operator. Free Cancellation can give 100% fare refund if cancelled 6/12+ hours before departure, but add-ons/fees aren't refunded. \nredBus\n+1\n\t24/7 support; live tracking. \nredBus\n\nAbhiBus\tOperator fare + possible convenience/service/payment fees. It explicitly charges ₹15 cancellation fee in addition to operator charges under standard cancellation. \nAbhiBus\n\tFree Cancellation starts around ₹9, usually giving 100% base-fare refund if cancelled ≥6h before departure. Travel Guarantee starts around ₹9 and can provide 3× value if the operator cancels, but 2× is a future-use coupon valid 7 days. \nAbhiBus\n+1\n\t24/7 support; refunds generally go to the original method.\nIntrCity SmartBus\tCurrent Bengaluru–Chennai listings show roughly ₹599–₹749+ after displayed discounts, depending on service/seat. \nAbhiBus\n\tIts Flexi Cancellation reduces penalties; 5-Min Cancellation allows a full refund within 5 minutes of booking, subject to T&Cs. Standard IntrCity examples can charge 15%–100% depending on timing. \nIntrCity\n+1\n\t24/7 support; refunds generally take 3–7 business days. \nIntrCity\n\nWhat I'd check at checkout: final payable amount, whether convenience/payment fees are refundable, cancellation cutoff, refund amount, and whether any “guarantee” pays cash or only a coupon.\n\nFor this route, AbhiBus is particularly worth comparing when cancellation protection matters, because you can see the protection cost separately rather than assuming the headline fare tells you the total risk.",
-      "industry": "Travel and leisure",
-      "category": "Intercity buses",
-      "screenshot_sha256": "fb863b158fc315506cd366d990c14ec784edda99185b3014fdbfdcd75b29405e",
-      "screenshot_relpath": "evidence/fb863b158fc315506cd366d990c14ec784edda99185b3014fdbfdcd75b29405e.png",
-      "evidence_design": "complete_panel",
-      "rate_eligible": true,
-      "review_method": "human_visual",
-      "creative": {
-        "advertiser": "abhibus",
-        "format": "answer_card",
-        "headline": "Book RTC Buses With More Confidence",
-        "description": "Compare routes and seats with 24/7 AbhiBus booking support.",
-        "copy": [
-          "abhibus",
-          "Book RTC Buses With More Confidence",
-          "Compare routes and seats with 24/7 AbhiBus booking support."
-        ],
-        "image_urls": [
-          "https://bzrcdn.openai.com/tessera/9b6478c0cafb59068bfa0604f688acee.webp"
-        ],
-        "destination_url": null,
-        "items": [
-          {
-            "copy": [
-              "abhibus",
-              "Book RTC Buses With More Confidence",
-              "Compare routes and seats with 24/7 AbhiBus booking support."
-            ],
-            "text": "abhibus\n\nBook RTC Buses With More Confidence\n\nCompare routes and seats with 24/7 AbhiBus booking support.",
-            "image_urls": [
-              "https://bzrcdn.openai.com/tessera/9b6478c0cafb59068bfa0604f688acee.webp"
-            ],
-            "destination_url": null
-          }
-        ]
-      }
-    },
-    {
       "id": "d88d3b4817346d655d9d75c8",
       "turn_id": "51a168834a530283e2042375",
       "advertiser": "abhibus",
@@ -10083,62 +10072,6 @@
       "review_state": "approved",
       "review_note": "Visual review 2026-09-22: focused screenshot shows AbhiBus identity, logo, headline, description, and explicit Ad disclosure.",
       "reviewed_at": 1790077716.032222,
-      "captured_at": "2026-09-22T11:44:43.496Z",
-      "prompt": "Make this more purchase-specific: for intercity bus booking options between Bengaluru and Chennai, name three currently available providers or products with prices and important limitations.",
-      "answer": "For Bengaluru → Chennai, these are three currently bookable choices I’d compare:\n\nProvider / product\tCurrent fare*\tImportant limitation\nredBus marketplace\t₹313+\tHuge choice (338 buses), but cancellation/refund depends on the individual operator. \nredBus\n\nAbhiBus + IntrCity SmartBus\t₹649+\tDirect operator experience; current listings show ratings around 4.2–4.5/5. Fare varies by departure/seat. \nAbhiBus\n\nAbhiBus + KSRTC Airavat Club Class\t₹703+\tVolvo AC semi-sleeper; current listing shows ₹703–₹804+ depending on departure. Fewer private-bus amenities/flexibility. \nAbhiBus\n\n*Indicative fares currently displayed for available services; they can change with date, seat and demand.\n\nPurchase check: Compare the final checkout price, boarding point, cancellation deadline and refund amount. For the cheapest option, redBus gives the broadest choice; for a standardized bus, IntrCity is a distinct alternative. \nredBus\n+1",
-      "industry": "Travel and leisure",
-      "category": "Intercity buses",
-      "screenshot_sha256": "0802f298ccd988012185fc67c45461045b719f039238ec22ed01fe9918d9f08b",
-      "screenshot_relpath": "evidence/0802f298ccd988012185fc67c45461045b719f039238ec22ed01fe9918d9f08b.png",
-      "evidence_design": "complete_panel",
-      "rate_eligible": true,
-      "review_method": "human_visual",
-      "creative": {
-        "advertiser": "abhibus",
-        "format": "answer_card",
-        "headline": "Book RTC Buses With More Confidence",
-        "description": "Compare routes and seats with 24/7 AbhiBus booking support.",
-        "copy": [
-          "abhibus",
-          "Book RTC Buses With More Confidence",
-          "Compare routes and seats with 24/7 AbhiBus booking support."
-        ],
-        "image_urls": [
-          "https://bzrcdn.openai.com/tessera/9b6478c0cafb59068bfa0604f688acee.webp"
-        ],
-        "destination_url": null,
-        "items": [
-          {
-            "copy": [
-              "abhibus",
-              "Book RTC Buses With More Confidence",
-              "Compare routes and seats with 24/7 AbhiBus booking support."
-            ],
-            "text": "abhibus\n\nBook RTC Buses With More Confidence\n\nCompare routes and seats with 24/7 AbhiBus booking support.",
-            "image_urls": [
-              "https://bzrcdn.openai.com/tessera/9b6478c0cafb59068bfa0604f688acee.webp"
-            ],
-            "destination_url": null
-          }
-        ]
-      }
-    },
-    {
-      "id": "e8b42cab01298a1725370bab",
-      "turn_id": "6b7883388ea2209037c3b0aa",
-      "advertiser": "abhibus",
-      "advertiser_key": "7211144fa6d33a5359842018",
-      "brand": "abhibus",
-      "brand_key": "7211144fa6d33a5359842018",
-      "creative_id": "8d51efec85cfdc321691ba71",
-      "label": "Ad",
-      "format": "answer_card",
-      "headline": "Book RTC Buses With More Confidence",
-      "description": "Compare routes and seats with 24/7 AbhiBus booking support.",
-      "position_index": 1,
-      "review_state": "approved",
-      "review_note": "Screenshot visibly shows Ad disclosure, full abhibus identity, and matching booking-support creative.",
-      "reviewed_at": 1790106197.742986,
       "captured_at": "2026-09-22T11:44:43.496Z",
       "prompt": "Make this more purchase-specific: for intercity bus booking options between Bengaluru and Chennai, name three currently available providers or products with prices and important limitations.",
       "answer": "For Bengaluru → Chennai, these are three currently bookable choices I’d compare:\n\nProvider / product\tCurrent fare*\tImportant limitation\nredBus marketplace\t₹313+\tHuge choice (338 buses), but cancellation/refund depends on the individual operator. \nredBus\n\nAbhiBus + IntrCity SmartBus\t₹649+\tDirect operator experience; current listings show ratings around 4.2–4.5/5. Fare varies by departure/seat. \nAbhiBus\n\nAbhiBus + KSRTC Airavat Club Class\t₹703+\tVolvo AC semi-sleeper; current listing shows ₹703–₹804+ depending on departure. Fewer private-bus amenities/flexibility. \nAbhiBus\n\n*Indicative fares currently displayed for available services; they can change with date, seat and demand.\n\nPurchase check: Compare the final checkout price, boarding point, cancellation deadline and refund amount. For the cheapest option, redBus gives the broadest choice; for a standardized bus, IntrCity is a distinct alternative. \nredBus\n+1",
