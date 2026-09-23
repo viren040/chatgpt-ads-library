@@ -1,4 +1,19 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+d6b40cd0f4b17deb86a2c1a3,c407bc00271de01d30095a60,2026-09-23T02:30:18.416Z,Trip.com/flights,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three current India options. Exact managed-service pricing is generally quote-based, so don’t treat a public “₹X/month” number as reliable.
+
+Option	Indicative total cost	Best fit	Verify before paying
+MakeMyTrip myBiz	₹0 platform fee publicly listed; booking/service fees vary	Cost-conscious SME, mostly flights/hotels	Service fee per booking, 1.5% payment-gateway fee where applicable, cancellation/change fees, GST invoice, 24/7 escalation 
+MakeMyTrip
++1
+
+FCM Travel India	Custom quote; typically management/service fees + travel spend	Fully managed programme, approvals, support	Per-ticket/transaction fee, offline-agent fee, implementation fee, credit terms, SLA, cancellation handling 
+FCM Travel
++1
+
+BCD Travel India	Custom quote	Larger/complex corporate travel programme	Management fee vs transaction fee, after-hours charges, implementation, hotel/airline mark-ups, SLA and duty-of-care coverage 
+BCD Travel
+
+Practical next step: ask all three for a 12-month all-in quote based on your actual monthly flight/hotel volume, including every fee and GST. This makes the comparison meaningful rather than comparing headline pricing.",3ef4ecc7fb3e5cccf7573aa3,evidence/e7ad457707a526034fd3f049dd2c8fe2795765f96566e4eb69309c2fe326439c.png,e7ad457707a526034fd3f049dd2c8fe2795765f96566e4eb69309c2fe326439c
 d529eeb2aef10997fd9dd446,b90a2ff0bfb7c3cb19c70569,2026-09-23T02:23:41.908Z,Homerun Retail Private Limited,Homerun Retail Private Limited,Ad,answer_card,"All Your Plywood Needs, Sorted","Multiple brands, fast 60-minute delivery and 1% cashback on every purchase.",Home improvement,Bathroom fittings,complete_panel,True,human_visual,"I am comparing water-saving taps and shower fittings for a Mumbai apartment. Identify three credible choices and compare reviews, support, returns, and warranty or cancellation terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a Mumbai apartment, these are three credible India-available choices. Prices are current listings and can vary by seller.
 
 Choice	Indicative price	Reviews / support	Returns & warranty
