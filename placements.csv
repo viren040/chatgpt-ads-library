@@ -1,4 +1,24 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+0b594d8623a58f3226d5fbfe,0bfcd925ca9459093407b535,2026-09-23T03:35:24.810Z,Wikka Potions for Aromatherapy,Wikka Potions for Aromatherapy,Sponsored,product_card,Wikka Face Wash – 50 ml,,Beauty and personal care,Citrus perfume,complete_panel,True,deterministic_ocr,"I am comparing a fresh citrus fragrance for office and daytime use under ₹5,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a fresh citrus office/daytime fragrance under ₹5,000, these three stand out based on current India availability and pricing:
+
+Ajmal Blu Eau de Parfum
+₹1,950•Elegant woody scent, suitable for daily wear.
+Azzaro Chrome United EDT
+₹4,600•Fresh citrus and aquatic notes, versatile for all occasions.
+4.4
+Davidoff Cool Water Intense EDP
+₹3,849•Intense aquatic fragrance, ideal for warm weather and evening wear.
+5.0
+Give feedback
+Fragrance	Approx. price	What differentiates it
+Ajmal Blu	₹1,950	Light citrus-aquatic, watermelon and clean musk. Easy, unobtrusive office wear; particularly good for Indian heat. 
+FragFreak
++1
+
+Azzaro Chrome United	₹4,600	Cleaner, more polished citrus-aromatic profile. Feels more “formal office” than a typical summer freshie.
+Davidoff Cool Water Intense	₹3,849–₹4,950	Fresher but sweeter, with a stronger presence and longer-wearing EDP format. Better if you want something noticeable beyond the first few hours.
+
+Quick distinction: Ajmal Blu = lightest/easiest, Chrome United = crispest/polished, Cool Water Intense = strongest/sweeter.",0fbf2cb0f2821afd1d4817b6,evidence/cadea9245df82a87b249cf626b74bf0afc4f101f8ef7f1888f223ebf82272f07.png,cadea9245df82a87b249cf626b74bf0afc4f101f8ef7f1888f223ebf82272f07
 df7d7062eefefbf350d59cd5,526e464a89f842dbc2c8bcab,2026-09-23T03:12:07.899Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,deterministic_ocr,I am comparing interior painting services for a two-bedroom flat in Hyderabad. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"5.0
 Asian Paints Beautiful Homes Painting Service
 4.8
