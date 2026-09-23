@@ -1,4 +1,102 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+3436929c77cd6b2ae18fdaf3,477ec61cdd7835365367aadb,2026-09-23T00:42:04.176Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, I’d shortlist these three:
+
+Option	What differentiates it	Pricing
+MakeMyTrip myBiz	Easiest SME setup: self-booking, policy controls, GST invoices, expense management, corporate wallet and 24/7 support. 
+MakeMyTrip Biz
++1
+	No published subscription; transaction/corporate-fare pricing
+ITILITE	More T&E-focused: travel + expenses, approvals, analytics, dedicated account manager and up to 0.5% cashback on Growth. Suitable from 25 employees. 
+Itilite
+	₹0 platform start; usage-based travel fees
+Thomas Cook India	More hands-on managed service: dedicated travel experts, 24/7 emergency desk, visa/forex/MICE, GST reconciliation and optional on-site “implant” support. 
+Thomas Cook
+	Custom quote
+
+Practical split: myBiz for straightforward domestic travel; ITILITE for tech-heavy travel + expense management; Thomas Cook for higher-touch managed service and international/visa complexity.
+
+Pricing for all three should be quoted against your actual annual travel spend rather than employee count alone.",9fed04488eafe9d99ddb5fc4,evidence/f5f2bf3763b09285e97aaea64f9287bc0378ebb3cb53afdbb0693f3e12a1131e.png,f5f2bf3763b09285e97aaea64f9287bc0378ebb3cb53afdbb0693f3e12a1131e
+0bf182b1092157a8b428e785,236d6c33dd1f3d4dd63882b7,2026-09-23T00:40:30.814Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d take these three into the final procurement round. The key issue is that FCM and Thomas Cook are quote-based, so an apples-to-apples “total cost” requires a written commercial proposal.
+
+Provider	Cost / value structure	Cancellation & flexibility	Support	Key trade-off
+ITILITE	Travel plan starts ₹0/month, with no minimum commitment; one fixed trip fee covers booking, changes and support. 
+Itilite
+	Online cancellation/change; supplier fare rules still apply. ITILITE says modifications within the same trip have no extra service fee. 
+Itilite
+	24/7 human support; dedicated AM on higher tiers. 
+Itilite
+	Best cost transparency, but get the actual per-trip fee before signing.
+FCM Travel	Custom quote; value comes from negotiated corporate rates. FCM advertises up to 38% hotel savings and 80,000+ prepaid Indian hotels. 
+FCM Travel
+	Flexible cancellation available on selected corporate hotel rates; booking-specific rules apply. 
+FCM Travel
+	Dedicated consultant + 24/7 support. 
+FCM Travel
+	Strong managed service, but pricing/fees aren't public.
+Thomas Cook India	Custom quote; combines air, hotel, rail, car, visa, forex and MICE. 
+Thomas Cook
+	Supplier-specific; negotiate cancellation/refund handling in contract.	24/7 emergency desk, plus dedicated/implant servicing. 
+Thomas Cook
+	Broadest offline/managed-service coverage, but potentially heavier operational model.
+Before paying, demand these 7 numbers
+
+Domestic flight booking/service fee
+
+International booking fee
+
+Hotel booking fee/markup
+
+Cancellation/change service fee
+
+GST treatment + GST input-credit handling
+
+24/7 support SLA and escalation time
+
+Annual minimum commitment or implementation fee
+
+My purchase shortlist: get written quotes from ITILITE + FCM + Thomas Cook using the same expected annual spend and booking volume. Don't compare headline discounts alone; compare all-in cost per trip after cancellations, GST recovery and support fees.",9fed04488eafe9d99ddb5fc4,evidence/eba8e63eaa987e327ca4605502d991954c77203c6e94b4bc1cd29ade45de4e60.png,eba8e63eaa987e327ca4605502d991954c77203c6e94b4bc1cd29ade45de4e60
+55fea83e1f520480831814b3,6b7917fbfbdffe94f3b55cbf,2026-09-23T00:38:50.075Z,MoveinSync,Ad,answer_card,The Commute Automation Platform,Stop chasing vendors and checking invoices manually. Automate it all in one platform.,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.","For a 50-person Indian company, I’d narrow the purchase shortlist to these three:
+
+Provider	Total cost	Availability	Cancellation / returns	Support
+ITILITE	₹0 platform fee; pay per trip. No minimum commitment. 
+Itilite
++1
+	Flights, hotels, rail, bus, car; domestic + international	Refund follows airline/hotel rules; ITILITE says no extra fee for changes/support within the trip. 
+Itilite
+	24/7, phone/chat/email; live-agent response advertised within 30 sec. 
+Itilite
+
+FCM Travel	Quote-based; negotiated corporate programme	Broad air/hotel inventory; 80k+ prepaid hotels in India	Corporate hotel rates can include flexible cancellation; exact terms contract/supplier-specific. 
+FCM Travel
+	24/7 emergency assistance in India. 
+FCM Travel
+
+Thomas Cook India Business Travel	Quote-based	Air, hotel, rail, car, visa, forex, MICE	Booking-specific airline/hotel rules; cancellation terms supplied at booking. 
+Thomas Cook
++1
+	24/7 emergency desk; corporate servicing + dedicated/implant options. 
+Thomas Cook
+
+Purchase focus: ITILITE gives the clearest low-commitment cost structure. FCM and Thomas Cook are more traditional managed-TMC purchases, where you should demand a written per-ticket/service fee, SLA, cancellation handling and GST terms before comparing quotes.",9dc52a88b77a536474b6232b,evidence/a28c57af346249d01227540f2e05fd3c97451bcb3e1f11f16bb5e365491d80d0.png,a28c57af346249d01227540f2e05fd3c97451bcb3e1f11f16bb5e365491d80d0
+bd05e57a540b2bf5406146d9,54ae4b6cfff45bb10549b077,2026-09-23T00:36:52.451Z,Zoho Corporation,Ad,answer_card,AI-powered CRM to grow tour business,"AI agents, pipeline tracking, advanced analytics, integrations, workflows, and more. Explore Zoho.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare Zoho Corporation with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, Zoho is somewhat different from a traditional travel-management company: it combines travel booking/workflows with expense management.
+
+Provider	Current price	Key exclusions/limits	Best suited for
+Zoho Corporation / Zoho Expense	₹79/user/month Standard; ₹149 Premium, billed annually. 50 users ≈ ₹47,400–₹89,400/year. 
+Zoho
+	Subscription covers software; actual flights/hotels and potentially third-party travel services are extra. Some advanced integrations/features are add-ons. 
+Zoho
+	Companies wanting travel + expense automation in one system.
+Cleartrip for Business	₹0 setup/subscription fee publicly advertised; booking costs/fare prices apply. 
+Cleartrip
+	Not a fixed-price managed-service package; travel purchases remain variable.	Cost-conscious teams wanting self-booking + corporate fares.
+FCM Travel	Custom quotation; no public India-wide subscription price.	Programme/service fees and travel costs depend on contract.	Companies needing dedicated TMC support, negotiated inventory and 24/7 assistance. 
+FCM Travel
++1
+
+Thomas Cook India Corporate Travel	Custom quotation.	Bespoke servicing means costs depend on scope, travel volume and services selected.	Firms wanting human-managed travel plus technology, including visa, forex, rail, air and hotels. 
+Thomas Cook
+
+Key distinction: Zoho's published price is a software licence, not an all-in travel budget; the three TMC options generally require a negotiated commercial quote.",5e32167ad91e7638171e8abd,evidence/54d090fa3e0dac1b7c9f3192fd214eb0d907c495c339c1a7a04ec78d6efd746e.png,54d090fa3e0dac1b7c9f3192fd214eb0d907c495c339c1a7a04ec78d6efd746e
 3e5c8d82855b28530e17404c,e25b649bf73b7ab69a1d7571,2026-09-23T00:35:13.458Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, switching costs are mostly implementation, data migration, traveller retraining and contract exit costs rather than a published subscription price. All three below currently operate in India.
 
 Provider	Cost visibility	Switching effort	Main practical friction

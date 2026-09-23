@@ -1,6 +1,6 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-09-23T00:42:50Z",
+  "schema_version": 5,
+  "generated_at": "2026-09-23T00:43:20Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,12 +12,12 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 457,
-    "approved_paid_units": 223,
-    "approved_advertisers": 98,
-    "approved_creatives": 180,
+    "valid_turns": 463,
+    "approved_paid_units": 227,
+    "approved_advertisers": 99,
+    "approved_creatives": 182,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 110,
+    "complete_panel_paid_units": 114,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -42,6 +42,17 @@
       "first_seen": "2026-09-22T22:03:28.123Z",
       "last_seen": "2026-09-22T23:31:48.711Z",
       "categories": "Vacation rentals,Intercity buses,Corporate travel"
+    },
+    {
+      "id": "504ef25d14dd959439fe6a46",
+      "advertiser": "Zoho Corporation",
+      "placements": 11,
+      "creatives": 4,
+      "panel_placements": 10,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:27:39.421Z",
+      "last_seen": "2026-09-23T00:42:04.176Z",
+      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "ab56d48dc66e2f9280d61b1f",
@@ -108,17 +119,6 @@
       "first_seen": "2026-09-11T22:11:59.074Z",
       "last_seen": "2026-09-23T00:06:40.859Z",
       "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel"
-    },
-    {
-      "id": "504ef25d14dd959439fe6a46",
-      "advertiser": "Zoho Corporation",
-      "placements": 8,
-      "creatives": 3,
-      "panel_placements": 7,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:27:39.421Z",
-      "last_seen": "2026-09-23T00:35:13.458Z",
-      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "d11cd2bad34c540f1f5a7123",
@@ -715,6 +715,17 @@
       "categories": "Home improvement"
     },
     {
+      "id": "2a5e3c4bf924555fc7b9f447",
+      "advertiser": "MoveinSync",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T00:38:50.075Z",
+      "last_seen": "2026-09-23T00:38:50.075Z",
+      "categories": "Corporate travel"
+    },
+    {
       "id": "4a3ac47c5ffeff7778e11d11",
       "advertiser": "NEXXUS",
       "placements": 1,
@@ -1103,12 +1114,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 457,
-    "ad_turns": 110,
-    "ad_rate": 0.24070021881838075,
-    "ad_rate_low": 0.20376956332445162,
-    "ad_rate_high": 0.28195394774746546,
-    "paid_units": 110,
+    "turns": 463,
+    "ad_turns": 114,
+    "ad_rate": 0.24622030237580994,
+    "ad_rate_low": 0.20917279636793024,
+    "ad_rate_high": 0.2874444716733069,
+    "paid_units": 114,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1128,16 +1139,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 92,
-        "ad_turns": 56,
-        "paid_units": 56,
-        "advertisers": 17,
-        "creatives": 31,
-        "ad_rate": 0.6086956521739131,
-        "posterior_ad_rate": 0.59375,
-        "competition_score": 2.5222069611071287,
-        "ad_rate_low": 0.5065323092393207,
-        "ad_rate_high": 0.7021453422189189,
+        "turns": 96,
+        "ad_turns": 60,
+        "paid_units": 60,
+        "advertisers": 18,
+        "creatives": 33,
+        "ad_rate": 0.625,
+        "posterior_ad_rate": 0.61,
+        "competition_score": 2.636376137881291,
+        "ad_rate_low": 0.5251053301827543,
+        "ad_rate_high": 0.7152754329460417,
         "evidence_strength": "established"
       },
       {
@@ -1816,6 +1827,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Air conditioners",
+        "industry": "Home improvement",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1861,18 +1887,18 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Air conditioners",
-        "industry": "Home improvement",
-        "turns": 1,
+        "category": "Vehicle servicing",
+        "industry": "Automotive",
+        "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
         "advertisers": 0,
         "creatives": 0,
         "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
         "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
+        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -1921,21 +1947,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Vehicle servicing",
-        "industry": "Automotive",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Wi-Fi routers",
         "industry": "Electronics",
         "turns": 1,
@@ -1955,43 +1966,43 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 162,
-        "ad_turns": 46,
-        "paid_units": 46,
+        "turns": 163,
+        "ad_turns": 47,
+        "paid_units": 47,
         "advertisers": 22,
-        "ad_rate": 0.2839506172839506,
-        "posterior_ad_rate": 0.28313253012048195,
-        "competition_score": 1.298152033336713,
-        "ad_rate_low": 0.22014486785220827,
-        "ad_rate_high": 0.3577656202279839,
+        "ad_rate": 0.2883435582822086,
+        "posterior_ad_rate": 0.2874251497005988,
+        "competition_score": 1.3178335331414102,
+        "ad_rate_low": 0.2243069147876406,
+        "ad_rate_high": 0.36212716400326045,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 14,
-        "ad_turns": 14,
-        "paid_units": 14,
+        "turns": 15,
+        "ad_turns": 15,
+        "paid_units": 15,
         "advertisers": 8,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.8333333333333334,
-        "competition_score": 2.7682734124061352,
-        "ad_rate_low": 0.7846829880728186,
+        "posterior_ad_rate": 0.8421052631578947,
+        "competition_score": 2.7974131325367257,
+        "ad_rate_low": 0.7961107336956521,
         "ad_rate_high": 1,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 109,
+        "turns": 111,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.1743119266055046,
-        "posterior_ad_rate": 0.17699115044247787,
-        "competition_score": 0.6914850611696494,
-        "ad_rate_low": 0.11452781593206733,
-        "ad_rate_high": 0.2562716055578796,
+        "ad_rate": 0.17117117117117117,
+        "posterior_ad_rate": 0.17391304347826086,
+        "competition_score": 0.6794592340188728,
+        "ad_rate_low": 0.11240858853979098,
+        "ad_rate_high": 0.2519332527442037,
         "evidence_strength": "established"
       },
       {
@@ -2011,29 +2022,29 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 84,
-        "ad_turns": 6,
-        "paid_units": 6,
-        "advertisers": 6,
-        "ad_rate": 0.07142857142857142,
-        "posterior_ad_rate": 0.07954545454545454,
-        "competition_score": 0.23863636363636365,
-        "ad_rate_low": 0.03314535833064436,
-        "ad_rate_high": 0.14719744052547845,
+        "turns": 85,
+        "ad_turns": 7,
+        "paid_units": 7,
+        "advertisers": 7,
+        "ad_rate": 0.08235294117647059,
+        "posterior_ad_rate": 0.0898876404494382,
+        "competition_score": 0.2849370787813314,
+        "ad_rate_low": 0.04046320889853023,
+        "ad_rate_high": 0.16036162991571895,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 10,
-        "ad_turns": 9,
-        "paid_units": 9,
-        "advertisers": 7,
-        "ad_rate": 0.9,
-        "posterior_ad_rate": 0.7142857142857143,
-        "competition_score": 2.264232143887366,
-        "ad_rate_low": 0.5958436145024278,
-        "ad_rate_high": 0.9821242504842788,
+        "turns": 11,
+        "ad_turns": 10,
+        "paid_units": 10,
+        "advertisers": 8,
+        "ad_rate": 0.9090909090909091,
+        "posterior_ad_rate": 0.7333333333333333,
+        "competition_score": 2.4360806029173987,
+        "ad_rate_low": 0.6226353745137962,
+        "ad_rate_high": 0.9837682477371741,
         "evidence_strength": "directional"
       },
       {
@@ -2053,6 +2064,222 @@
     ]
   },
   "ads": [
+    {
+      "id": "3436929c77cd6b2ae18fdaf3",
+      "turn_id": "477ec61cdd7835365367aadb",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "9fed04488eafe9d99ddb5fc4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Zoho Desk - Better Alternative",
+      "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124177.715505,
+      "captured_at": "2026-09-23T00:42:04.176Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three:\n\nOption\tWhat differentiates it\tPricing\nMakeMyTrip myBiz\tEasiest SME setup: self-booking, policy controls, GST invoices, expense management, corporate wallet and 24/7 support. \nMakeMyTrip Biz\n+1\n\tNo published subscription; transaction/corporate-fare pricing\nITILITE\tMore T&E-focused: travel + expenses, approvals, analytics, dedicated account manager and up to 0.5% cashback on Growth. Suitable from 25 employees. \nItilite\n\t₹0 platform start; usage-based travel fees\nThomas Cook India\tMore hands-on managed service: dedicated travel experts, 24/7 emergency desk, visa/forex/MICE, GST reconciliation and optional on-site “implant” support. \nThomas Cook\n\tCustom quote\n\nPractical split: myBiz for straightforward domestic travel; ITILITE for tech-heavy travel + expense management; Thomas Cook for higher-touch managed service and international/visa complexity.\n\nPricing for all three should be quoted against your actual annual travel spend rather than employee count alone.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "f5f2bf3763b09285e97aaea64f9287bc0378ebb3cb53afdbb0693f3e12a1131e",
+      "screenshot_relpath": "evidence/f5f2bf3763b09285e97aaea64f9287bc0378ebb3cb53afdbb0693f3e12a1131e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Zoho Desk - Better Alternative",
+        "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+        "copy": [
+          "Zoho Corporation",
+          "Zoho Desk - Better Alternative",
+          "Compare Zoho Desk vs Zendesk - learn why you must switch"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Zoho Desk - Better Alternative",
+              "Compare Zoho Desk vs Zendesk - learn why you must switch"
+            ],
+            "text": "Zoho Corporation\n\nZoho Desk - Better Alternative\n\nCompare Zoho Desk vs Zendesk - learn why you must switch",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "0bf182b1092157a8b428e785",
+      "turn_id": "236d6c33dd1f3d4dd63882b7",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "9fed04488eafe9d99ddb5fc4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Zoho Desk - Better Alternative",
+      "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124177.715505,
+      "captured_at": "2026-09-23T00:40:30.814Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, I’d take these three into the final procurement round. The key issue is that FCM and Thomas Cook are quote-based, so an apples-to-apples “total cost” requires a written commercial proposal.\n\nProvider\tCost / value structure\tCancellation & flexibility\tSupport\tKey trade-off\nITILITE\tTravel plan starts ₹0/month, with no minimum commitment; one fixed trip fee covers booking, changes and support. \nItilite\n\tOnline cancellation/change; supplier fare rules still apply. ITILITE says modifications within the same trip have no extra service fee. \nItilite\n\t24/7 human support; dedicated AM on higher tiers. \nItilite\n\tBest cost transparency, but get the actual per-trip fee before signing.\nFCM Travel\tCustom quote; value comes from negotiated corporate rates. FCM advertises up to 38% hotel savings and 80,000+ prepaid Indian hotels. \nFCM Travel\n\tFlexible cancellation available on selected corporate hotel rates; booking-specific rules apply. \nFCM Travel\n\tDedicated consultant + 24/7 support. \nFCM Travel\n\tStrong managed service, but pricing/fees aren't public.\nThomas Cook India\tCustom quote; combines air, hotel, rail, car, visa, forex and MICE. \nThomas Cook\n\tSupplier-specific; negotiate cancellation/refund handling in contract.\t24/7 emergency desk, plus dedicated/implant servicing. \nThomas Cook\n\tBroadest offline/managed-service coverage, but potentially heavier operational model.\nBefore paying, demand these 7 numbers\n\nDomestic flight booking/service fee\n\nInternational booking fee\n\nHotel booking fee/markup\n\nCancellation/change service fee\n\nGST treatment + GST input-credit handling\n\n24/7 support SLA and escalation time\n\nAnnual minimum commitment or implementation fee\n\nMy purchase shortlist: get written quotes from ITILITE + FCM + Thomas Cook using the same expected annual spend and booking volume. Don't compare headline discounts alone; compare all-in cost per trip after cancellations, GST recovery and support fees.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "eba8e63eaa987e327ca4605502d991954c77203c6e94b4bc1cd29ade45de4e60",
+      "screenshot_relpath": "evidence/eba8e63eaa987e327ca4605502d991954c77203c6e94b4bc1cd29ade45de4e60.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Zoho Desk - Better Alternative",
+        "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+        "copy": [
+          "Zoho Corporation",
+          "Zoho Desk - Better Alternative",
+          "Compare Zoho Desk vs Zendesk - learn why you must switch"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Zoho Desk - Better Alternative",
+              "Compare Zoho Desk vs Zendesk - learn why you must switch"
+            ],
+            "text": "Zoho Corporation\n\nZoho Desk - Better Alternative\n\nCompare Zoho Desk vs Zendesk - learn why you must switch",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "55fea83e1f520480831814b3",
+      "turn_id": "6b7917fbfbdffe94f3b55cbf",
+      "advertiser": "MoveinSync",
+      "advertiser_key": "2a5e3c4bf924555fc7b9f447",
+      "creative_id": "9dc52a88b77a536474b6232b",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "The Commute Automation Platform",
+      "description": "Stop chasing vendors and checking invoices manually. Automate it all in one platform.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124177.715505,
+      "captured_at": "2026-09-23T00:38:50.075Z",
+      "prompt": "Narrow this to high-intent choices for a managed business-travel service for a 50-person Indian company. Compare named brands, total cost, availability, returns or cancellation, and support.",
+      "answer": "For a 50-person Indian company, I’d narrow the purchase shortlist to these three:\n\nProvider\tTotal cost\tAvailability\tCancellation / returns\tSupport\nITILITE\t₹0 platform fee; pay per trip. No minimum commitment. \nItilite\n+1\n\tFlights, hotels, rail, bus, car; domestic + international\tRefund follows airline/hotel rules; ITILITE says no extra fee for changes/support within the trip. \nItilite\n\t24/7, phone/chat/email; live-agent response advertised within 30 sec. \nItilite\n\nFCM Travel\tQuote-based; negotiated corporate programme\tBroad air/hotel inventory; 80k+ prepaid hotels in India\tCorporate hotel rates can include flexible cancellation; exact terms contract/supplier-specific. \nFCM Travel\n\t24/7 emergency assistance in India. \nFCM Travel\n\nThomas Cook India Business Travel\tQuote-based\tAir, hotel, rail, car, visa, forex, MICE\tBooking-specific airline/hotel rules; cancellation terms supplied at booking. \nThomas Cook\n+1\n\t24/7 emergency desk; corporate servicing + dedicated/implant options. \nThomas Cook\n\nPurchase focus: ITILITE gives the clearest low-commitment cost structure. FCM and Thomas Cook are more traditional managed-TMC purchases, where you should demand a written per-ticket/service fee, SLA, cancellation handling and GST terms before comparing quotes.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "a28c57af346249d01227540f2e05fd3c97451bcb3e1f11f16bb5e365491d80d0",
+      "screenshot_relpath": "evidence/a28c57af346249d01227540f2e05fd3c97451bcb3e1f11f16bb5e365491d80d0.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "MoveinSync",
+        "format": "answer_card",
+        "headline": "The Commute Automation Platform",
+        "description": "Stop chasing vendors and checking invoices manually. Automate it all in one platform.",
+        "copy": [
+          "MoveinSync",
+          "The Commute Automation Platform",
+          "Stop chasing vendors and checking invoices manually. Automate it all in one platform."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5fd256d2d8835c0997397e5312d60a05.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "MoveinSync",
+              "The Commute Automation Platform",
+              "Stop chasing vendors and checking invoices manually. Automate it all in one platform."
+            ],
+            "text": "MoveinSync\n\nThe Commute Automation Platform\n\nStop chasing vendors and checking invoices manually. Automate it all in one platform.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5fd256d2d8835c0997397e5312d60a05.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "bd05e57a540b2bf5406146d9",
+      "turn_id": "54ae4b6cfff45bb10549b077",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "5e32167ad91e7638171e8abd",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "AI-powered CRM to grow tour business",
+      "description": "AI agents, pipeline tracking, advanced analytics, integrations, workflows, and more. Explore Zoho.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124177.715505,
+      "captured_at": "2026-09-23T00:36:52.451Z",
+      "prompt": "Compare Zoho Corporation with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, Zoho is somewhat different from a traditional travel-management company: it combines travel booking/workflows with expense management.\n\nProvider\tCurrent price\tKey exclusions/limits\tBest suited for\nZoho Corporation / Zoho Expense\t₹79/user/month Standard; ₹149 Premium, billed annually. 50 users ≈ ₹47,400–₹89,400/year. \nZoho\n\tSubscription covers software; actual flights/hotels and potentially third-party travel services are extra. Some advanced integrations/features are add-ons. \nZoho\n\tCompanies wanting travel + expense automation in one system.\nCleartrip for Business\t₹0 setup/subscription fee publicly advertised; booking costs/fare prices apply. \nCleartrip\n\tNot a fixed-price managed-service package; travel purchases remain variable.\tCost-conscious teams wanting self-booking + corporate fares.\nFCM Travel\tCustom quotation; no public India-wide subscription price.\tProgramme/service fees and travel costs depend on contract.\tCompanies needing dedicated TMC support, negotiated inventory and 24/7 assistance. \nFCM Travel\n+1\n\nThomas Cook India Corporate Travel\tCustom quotation.\tBespoke servicing means costs depend on scope, travel volume and services selected.\tFirms wanting human-managed travel plus technology, including visa, forex, rail, air and hotels. \nThomas Cook\n\nKey distinction: Zoho's published price is a software licence, not an all-in travel budget; the three TMC options generally require a negotiated commercial quote.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "54d090fa3e0dac1b7c9f3192fd214eb0d907c495c339c1a7a04ec78d6efd746e",
+      "screenshot_relpath": "evidence/54d090fa3e0dac1b7c9f3192fd214eb0d907c495c339c1a7a04ec78d6efd746e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "AI-powered CRM to grow tour business",
+        "description": "AI agents, pipeline tracking, advanced analytics, integrations, workflows, and more. Explore Zoho.",
+        "copy": [
+          "Zoho Corporation",
+          "AI-powered CRM to grow tour business",
+          "AI agents, pipeline tracking, advanced analytics, integrations, workflows, and more. Explore Zoho."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/870b7f5da01b62aa.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "AI-powered CRM to grow tour business",
+              "AI agents, pipeline tracking, advanced analytics, integrations, workflows, and more. Explore Zoho."
+            ],
+            "text": "Zoho Corporation\n\nAI-powered CRM to grow tour business\n\nAI agents, pipeline tracking, advanced analytics, integrations, workflows, and more. Explore Zoho.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/870b7f5da01b62aa.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "3e5c8d82855b28530e17404c",
       "turn_id": "e25b649bf73b7ab69a1d7571",
