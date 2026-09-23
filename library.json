@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T02:31:26Z",
+  "generated_at": "2026-09-23T02:33:07Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,7 +14,7 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 626,
+    "valid_turns": 629,
     "approved_paid_units": 259,
     "approved_advertisers": 102,
     "approved_brand_families": 102,
@@ -1384,11 +1384,11 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 626,
+    "turns": 629,
     "ad_turns": 146,
-    "ad_rate": 0.23322683706070288,
-    "ad_rate_low": 0.20178736885060947,
-    "ad_rate_high": 0.2679205704153901,
+    "ad_rate": 0.23211446740858505,
+    "ad_rate_low": 0.20080713138043707,
+    "ad_rate_high": 0.26667414671506096,
     "paid_units": 146,
     "categories": [
       {
@@ -1409,16 +1409,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 115,
+        "turns": 116,
         "ad_turns": 72,
         "paid_units": 72,
         "advertisers": 19,
         "creatives": 38,
-        "ad_rate": 0.6260869565217392,
-        "posterior_ad_rate": 0.6134453781512605,
-        "competition_score": 2.694446822376887,
-        "ad_rate_low": 0.5349246898224094,
-        "ad_rate_high": 0.7090976054008122,
+        "ad_rate": 0.6206896551724138,
+        "posterior_ad_rate": 0.6083333333333333,
+        "competition_score": 2.671993098857079,
+        "ad_rate_low": 0.5298613573866044,
+        "ad_rate_high": 0.7037803830440974,
         "evidence_strength": "established"
       },
       {
@@ -2232,6 +2232,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Card terminals",
+        "industry": "Payments",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Coffee beans",
         "industry": "Food and beverage",
         "turns": 3,
@@ -2620,36 +2635,21 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Card terminals",
-        "industry": "Payments",
-        "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
-        "ad_rate_high": 1,
-        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 225,
+        "turns": 226,
         "ad_turns": 60,
         "paid_units": 60,
         "advertisers": 27,
-        "ad_rate": 0.26666666666666666,
-        "posterior_ad_rate": 0.2663755458515284,
-        "competition_score": 1.2940473393134582,
-        "ad_rate_low": 0.2131540188526345,
-        "ad_rate_high": 0.32801332135124445,
+        "ad_rate": 0.26548672566371684,
+        "posterior_ad_rate": 0.26521739130434785,
+        "competition_score": 1.2884210465338344,
+        "ad_rate_low": 0.21218162246550848,
+        "ad_rate_high": 0.3266311947094503,
         "evidence_strength": "established"
       },
       {
@@ -2669,15 +2669,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 159,
+        "turns": 160,
         "ad_turns": 23,
         "paid_units": 23,
         "advertisers": 16,
-        "ad_rate": 0.14465408805031446,
-        "posterior_ad_rate": 0.147239263803681,
-        "competition_score": 0.6139766873289294,
-        "ad_rate_low": 0.09836371673419139,
-        "ad_rate_high": 0.20771040683128575,
+        "ad_rate": 0.14375,
+        "posterior_ad_rate": 0.14634146341463414,
+        "competition_score": 0.6102329270403384,
+        "ad_rate_low": 0.09773598361809333,
+        "ad_rate_high": 0.20647002999505493,
         "evidence_strength": "established"
       },
       {
@@ -2725,15 +2725,15 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 68,
+        "turns": 69,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.04411764705882353,
-        "posterior_ad_rate": 0.05555555555555555,
-        "competition_score": 0.1289960052715201,
-        "ad_rate_low": 0.0151163456535321,
-        "ad_rate_high": 0.12187392182380694,
+        "ad_rate": 0.043478260869565216,
+        "posterior_ad_rate": 0.0547945205479452,
+        "competition_score": 0.12722893670615681,
+        "ad_rate_low": 0.014895633850267168,
+        "ad_rate_high": 0.1202139738464336,
         "evidence_strength": "established"
       }
     ]
