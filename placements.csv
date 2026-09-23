@@ -1,4 +1,35 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+055676cee9228fa1731485a5,196c92d8cc398d36fc4f3998,2026-09-23T00:09:58.341Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three and request a like-for-like 12-month quote. Public pricing is mostly quote-based, so don’t treat any “total cost” below as a published tariff.
+
+Provider	Indicative total cost*	What to verify
+MakeMyTrip myBiz	Travel spend + negotiated service fee; possible 1.5% payment-gateway fee 
+MakeMyTrip
+	Service fee/booking, GST invoices, cancellation/change fees, 24×7 support, credit terms
+Thomas Cook India Corporate Travel	Travel spend + quoted management/transaction fees	Dedicated account team, 24×7 SLA, offline booking fees, hotel/air markup, refunds, GST reconciliation
+FCM Travel India	Travel spend + management/transaction fees	Implementation fee, transaction schedule, 24×7 support, policy controls, traveller tracking, international coverage
+
+Why these: myBiz is simpler/self-serve; Thomas Cook offers a hybrid managed model with dedicated servicing and online tools; FCM is geared toward more structured corporate TMC programmes. 
+mybiz.makemytrip.com
++2
+thomascook.in
++2
+
+*For budgeting, ask each vendor to quote all-in annual cost on the same assumed ₹50 lakh travel spend, including every booking, cancellation, amendment, implementation and support charge. That makes the comparison meaningful.",3ef4ecc7fb3e5cccf7573aa3,evidence/45e3b93fc8d947edd2c7abfadef641c76e5502bab576178694b88c55dee4c7a1.png,45e3b93fc8d947edd2c7abfadef641c76e5502bab576178694b88c55dee4c7a1
+6a20b2fd9624c64c1c9a3cc7,1168b363c601349e2ff6d43a,2026-09-23T00:09:22.046Z,Lyft,Ad,answer_card,Affordable Rides to BGR,"Wallet-friendly rides to BGR. Book, track & pay in a few taps.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, three suitable options are:
+
+ITILITE — India-built, software-first travel + expense platform. Travel has no subscription/minimum commitment; you pay per booking. Includes 24/7 support, policy controls, approvals and GST reporting. Good for a self-service, tech-led programme. 
+Itilite
++1
+
+FCM Travel India — Full-service TMC with local teams, 24/7 emergency assistance and corporate air/hotel programmes. Its global hotel programme advertises up to 38% savings and 80,000+ prepaid Indian hotels. Better suited if travellers need substantial human support or international coverage. 
+FCM Travel
++1
+
+American Express Global Business Travel (Amex GBT) — Enterprise-oriented TMC combining booking, negotiated supplier programmes and duty-of-care infrastructure. Pricing is generally custom/contract-based, so request a transaction/management-fee quote. Amex also offers centralized corporate travel billing in India. 
+americanexpress.com
++1
+
+Key comparison: ITILITE emphasizes transparent, usage-based technology; FCM emphasizes locally delivered managed service; Amex GBT emphasizes enterprise-scale global programme management.",e5e09766aee4bf5a6019b7ee,evidence/32d0a975a7c324aa4afdbd8a824e4f007bd6b8749d942268bb06950d32bd1146.png,32d0a975a7c324aa4afdbd8a824e4f007bd6b8749d942268bb06950d32bd1146
 83131a0724057b762584ce56,13656d8fcf653eb093306ef1,2026-09-23T00:06:40.859Z,Homerun Retail Private Limited,Ad,answer_card,Build More. Save More.,"2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, Trip.com is better viewed as an OTA than a full managed TMC. Here’s the practical comparison:
 
 Provider	Current price	Key exclusions / limits	Best for

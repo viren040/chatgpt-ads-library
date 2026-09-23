@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-23T00:10:12Z",
+  "generated_at": "2026-09-23T00:11:56Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,12 +12,12 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 411,
-    "approved_paid_units": 209,
-    "approved_advertisers": 95,
-    "approved_creatives": 175,
+    "valid_turns": 414,
+    "approved_paid_units": 211,
+    "approved_advertisers": 96,
+    "approved_creatives": 176,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 96,
+    "complete_panel_paid_units": 98,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -101,12 +101,12 @@
     {
       "id": "ab56d48dc66e2f9280d61b1f",
       "advertiser": "Trip.com/flights",
-      "placements": 7,
+      "placements": 8,
       "creatives": 3,
-      "panel_placements": 7,
+      "panel_placements": 8,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-23T00:04:56.737Z",
+      "last_seen": "2026-09-23T00:09:58.341Z",
       "categories": "Corporate travel"
     },
     {
@@ -649,6 +649,17 @@
       "categories": "Commercial discovery"
     },
     {
+      "id": "92f3bb640fa3d06f07d1a2ed",
+      "advertiser": "Lyft",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T00:09:22.046Z",
+      "last_seen": "2026-09-23T00:09:22.046Z",
+      "categories": "Corporate travel"
+    },
+    {
       "id": "ff40120a8b25c1e9becd0810",
       "advertiser": "MMT DF",
       "placements": 1,
@@ -1070,12 +1081,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 411,
-    "ad_turns": 96,
-    "ad_rate": 0.23357664233576642,
-    "ad_rate_low": 0.19525325274385352,
-    "ad_rate_high": 0.27683440673870563,
-    "paid_units": 96,
+    "turns": 414,
+    "ad_turns": 98,
+    "ad_rate": 0.23671497584541062,
+    "ad_rate_low": 0.19830637773206639,
+    "ad_rate_high": 0.27996481403055373,
+    "paid_units": 98,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1095,16 +1106,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 68,
-        "ad_turns": 44,
-        "paid_units": 44,
-        "advertisers": 16,
-        "creatives": 28,
-        "ad_rate": 0.6470588235294118,
-        "posterior_ad_rate": 0.625,
-        "competition_score": 2.606203125901445,
-        "ad_rate_low": 0.5284083420991774,
-        "ad_rate_high": 0.7499818941984553,
+        "turns": 71,
+        "ad_turns": 46,
+        "paid_units": 46,
+        "advertisers": 17,
+        "creatives": 29,
+        "ad_rate": 0.647887323943662,
+        "posterior_ad_rate": 0.6266666666666667,
+        "competition_score": 2.6620345750913135,
+        "ad_rate_low": 0.5318184572117227,
+        "ad_rate_high": 0.7487741543839675,
         "evidence_strength": "established"
       },
       {
@@ -1832,15 +1843,15 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 141,
-        "ad_turns": 38,
-        "paid_units": 38,
-        "advertisers": 19,
-        "ad_rate": 0.2695035460992908,
-        "posterior_ad_rate": 0.2689655172413793,
-        "competition_score": 1.1813819275060113,
-        "ad_rate_low": 0.2030983483528588,
-        "ad_rate_high": 0.3481355513002795,
+        "turns": 144,
+        "ad_turns": 40,
+        "paid_units": 40,
+        "advertisers": 20,
+        "ad_rate": 0.2777777777777778,
+        "posterior_ad_rate": 0.27702702702702703,
+        "competition_score": 1.2353830835414135,
+        "ad_rate_low": 0.21112080405190403,
+        "ad_rate_high": 0.35598344806657956,
         "evidence_strength": "established"
       },
       {
@@ -1930,6 +1941,114 @@
     ]
   },
   "ads": [
+    {
+      "id": "055676cee9228fa1731485a5",
+      "turn_id": "196c92d8cc398d36fc4f3998",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122316.555277,
+      "captured_at": "2026-09-23T00:09:58.341Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three and request a like-for-like 12-month quote. Public pricing is mostly quote-based, so don’t treat any “total cost” below as a published tariff.\n\nProvider\tIndicative total cost*\tWhat to verify\nMakeMyTrip myBiz\tTravel spend + negotiated service fee; possible 1.5% payment-gateway fee \nMakeMyTrip\n\tService fee/booking, GST invoices, cancellation/change fees, 24×7 support, credit terms\nThomas Cook India Corporate Travel\tTravel spend + quoted management/transaction fees\tDedicated account team, 24×7 SLA, offline booking fees, hotel/air markup, refunds, GST reconciliation\nFCM Travel India\tTravel spend + management/transaction fees\tImplementation fee, transaction schedule, 24×7 support, policy controls, traveller tracking, international coverage\n\nWhy these: myBiz is simpler/self-serve; Thomas Cook offers a hybrid managed model with dedicated servicing and online tools; FCM is geared toward more structured corporate TMC programmes. \nmybiz.makemytrip.com\n+2\nthomascook.in\n+2\n\n*For budgeting, ask each vendor to quote all-in annual cost on the same assumed ₹50 lakh travel spend, including every booking, cancellation, amendment, implementation and support charge. That makes the comparison meaningful.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "45e3b93fc8d947edd2c7abfadef641c76e5502bab576178694b88c55dee4c7a1",
+      "screenshot_relpath": "evidence/45e3b93fc8d947edd2c7abfadef641c76e5502bab576178694b88c55dee4c7a1.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "6a20b2fd9624c64c1c9a3cc7",
+      "turn_id": "1168b363c601349e2ff6d43a",
+      "advertiser": "Lyft",
+      "advertiser_key": "92f3bb640fa3d06f07d1a2ed",
+      "creative_id": "e5e09766aee4bf5a6019b7ee",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Affordable Rides to BGR",
+      "description": "Wallet-friendly rides to BGR. Book, track & pay in a few taps.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122316.555277,
+      "captured_at": "2026-09-23T00:09:22.046Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, three suitable options are:\n\nITILITE — India-built, software-first travel + expense platform. Travel has no subscription/minimum commitment; you pay per booking. Includes 24/7 support, policy controls, approvals and GST reporting. Good for a self-service, tech-led programme. \nItilite\n+1\n\nFCM Travel India — Full-service TMC with local teams, 24/7 emergency assistance and corporate air/hotel programmes. Its global hotel programme advertises up to 38% savings and 80,000+ prepaid Indian hotels. Better suited if travellers need substantial human support or international coverage. \nFCM Travel\n+1\n\nAmerican Express Global Business Travel (Amex GBT) — Enterprise-oriented TMC combining booking, negotiated supplier programmes and duty-of-care infrastructure. Pricing is generally custom/contract-based, so request a transaction/management-fee quote. Amex also offers centralized corporate travel billing in India. \namericanexpress.com\n+1\n\nKey comparison: ITILITE emphasizes transparent, usage-based technology; FCM emphasizes locally delivered managed service; Amex GBT emphasizes enterprise-scale global programme management.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "32d0a975a7c324aa4afdbd8a824e4f007bd6b8749d942268bb06950d32bd1146",
+      "screenshot_relpath": "evidence/32d0a975a7c324aa4afdbd8a824e4f007bd6b8749d942268bb06950d32bd1146.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Lyft",
+        "format": "answer_card",
+        "headline": "Affordable Rides to BGR",
+        "description": "Wallet-friendly rides to BGR. Book, track & pay in a few taps.",
+        "copy": [
+          "Lyft",
+          "Affordable Rides to BGR",
+          "Wallet-friendly rides to BGR. Book, track & pay in a few taps."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/7b384e3a7006a8d6.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Lyft",
+              "Affordable Rides to BGR",
+              "Wallet-friendly rides to BGR. Book, track & pay in a few taps."
+            ],
+            "text": "Lyft\n\nAffordable Rides to BGR\n\nWallet-friendly rides to BGR. Book, track & pay in a few taps.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/7b384e3a7006a8d6.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "83131a0724057b762584ce56",
       "turn_id": "13656d8fcf653eb093306ef1",
