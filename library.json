@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-22T23:57:14Z",
+  "generated_at": "2026-09-23T00:10:12Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,24 +12,24 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 389,
-    "approved_paid_units": 194,
-    "approved_advertisers": 93,
-    "approved_creatives": 167,
+    "valid_turns": 411,
+    "approved_paid_units": 209,
+    "approved_advertisers": 95,
+    "approved_creatives": 175,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 81,
+    "complete_panel_paid_units": 96,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 15,
-      "creatives": 11,
-      "panel_placements": 11,
+      "placements": 17,
+      "creatives": 12,
+      "panel_placements": 13,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-22T23:40:08.054Z",
+      "last_seen": "2026-09-22T23:51:39.680Z",
       "categories": "Travel and leisure,Corporate travel,Honeymoon packages"
     },
     {
@@ -68,35 +68,46 @@
     {
       "id": "a222e2ba55abec4f9b12de68",
       "advertiser": "Agoda Company Pte. Ltd.",
-      "placements": 7,
-      "creatives": 6,
-      "panel_placements": 5,
+      "placements": 8,
+      "creatives": 7,
+      "panel_placements": 6,
       "reviewed_snapshot_placements": 2,
       "first_seen": "2026-09-21T06:24:21.524Z",
-      "last_seen": "2026-09-22T22:41:57.117Z",
+      "last_seen": "2026-09-23T00:06:07.565Z",
       "categories": "Commercial discovery,Travel and leisure,Vacation rentals,Weekend resorts"
     },
     {
       "id": "ca82b10559cc43464054b038",
       "advertiser": "HSBC - Credit Cards",
-      "placements": 7,
+      "placements": 8,
       "creatives": 4,
-      "panel_placements": 7,
+      "panel_placements": 8,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T21:41:50.076Z",
-      "last_seen": "2026-09-22T22:08:11.218Z",
+      "last_seen": "2026-09-22T23:53:43.925Z",
       "categories": "Vacation rentals,Corporate travel"
     },
     {
       "id": "2e81afd45de21f0c44616576",
       "advertiser": "Homerun Retail Private Limited",
-      "placements": 6,
+      "placements": 8,
       "creatives": 5,
-      "panel_placements": 3,
+      "panel_placements": 5,
       "reviewed_snapshot_placements": 3,
       "first_seen": "2026-09-11T22:11:59.074Z",
-      "last_seen": "2026-09-22T21:43:41.987Z",
-      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals"
+      "last_seen": "2026-09-23T00:06:40.859Z",
+      "categories": "Commercial discovery,Electronics,Trade delivery,Travel luggage,Vacation rentals,Corporate travel"
+    },
+    {
+      "id": "ab56d48dc66e2f9280d61b1f",
+      "advertiser": "Trip.com/flights",
+      "placements": 7,
+      "creatives": 3,
+      "panel_placements": 7,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:15:54.873Z",
+      "last_seen": "2026-09-23T00:04:56.737Z",
+      "categories": "Corporate travel"
     },
     {
       "id": "d11cd2bad34c540f1f5a7123",
@@ -110,15 +121,15 @@
       "categories": "Beauty and personal care,Rose perfume"
     },
     {
-      "id": "ab56d48dc66e2f9280d61b1f",
-      "advertiser": "Trip.com/flights",
+      "id": "504ef25d14dd959439fe6a46",
+      "advertiser": "Zoho Corporation",
       "placements": 5,
-      "creatives": 2,
-      "panel_placements": 5,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-22T23:43:31.785Z",
-      "categories": "Corporate travel"
+      "creatives": 3,
+      "panel_placements": 4,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-11T21:27:39.421Z",
+      "last_seen": "2026-09-22T23:46:41.715Z",
+      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "83d40ecd26a8ce9b174a1d9e",
@@ -163,17 +174,6 @@
       "first_seen": "2026-09-20T21:14:24.165Z",
       "last_seen": "2026-09-22T19:57:15.997Z",
       "categories": "Beauty and personal care,Body mists,Citrus perfume"
-    },
-    {
-      "id": "504ef25d14dd959439fe6a46",
-      "advertiser": "Zoho Corporation",
-      "placements": 4,
-      "creatives": 3,
-      "panel_placements": 3,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-11T21:27:39.421Z",
-      "last_seen": "2026-09-22T23:35:29.446Z",
-      "categories": "Help desk software,Corporate travel"
     },
     {
       "id": "ae8f6ead5aa2987dff5d08de",
@@ -229,6 +229,17 @@
       "first_seen": "2026-09-11T20:37:59.783Z",
       "last_seen": "2026-09-15T07:48:36.482Z",
       "categories": "Sports and fitness,Support footwear"
+    },
+    {
+      "id": "41805db8eb323d5199cb8ae2",
+      "advertiser": "Atlassian",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:27:23.985Z",
+      "last_seen": "2026-09-22T23:45:02.476Z",
+      "categories": "Corporate travel"
     },
     {
       "id": "d5982a03495f5fcda2bb5a52",
@@ -297,6 +308,17 @@
       "categories": "Beauty and personal care,Perfume miniatures"
     },
     {
+      "id": "8b81ad04e70a5eee412cdec2",
+      "advertiser": "MMT IF",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T22:16:05.071Z",
+      "last_seen": "2026-09-22T23:49:56.028Z",
+      "categories": "Vacation rentals,Corporate travel"
+    },
+    {
       "id": "3484b7bc2f90ad9af021999e",
       "advertiser": "MakeMyTrip Hotels",
       "placements": 2,
@@ -330,6 +352,28 @@
       "categories": "Home improvement,Automotive"
     },
     {
+      "id": "76833d0b5fca68bedf0ced48",
+      "advertiser": "Superworks",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:56:31.304Z",
+      "last_seen": "2026-09-22T23:58:29.502Z",
+      "categories": "Corporate travel"
+    },
+    {
+      "id": "59d736a35fa0e8d41185a2bf",
+      "advertiser": "pacific data integrators",
+      "placements": 2,
+      "creatives": 1,
+      "panel_placements": 2,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:25:28.848Z",
+      "last_seen": "2026-09-22T23:53:21.531Z",
+      "categories": "Corporate travel"
+    },
+    {
       "id": "94dfcae9ea9e7cae63574ffd",
       "advertiser": "50Hertz Tingly Foods",
       "placements": 1,
@@ -350,17 +394,6 @@
       "first_seen": "2026-09-11T22:12:48.437Z",
       "last_seen": "2026-09-11T22:12:48.437Z",
       "categories": "Online degrees"
-    },
-    {
-      "id": "41805db8eb323d5199cb8ae2",
-      "advertiser": "Atlassian",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T23:27:23.985Z",
-      "last_seen": "2026-09-22T23:27:23.985Z",
-      "categories": "Corporate travel"
     },
     {
       "id": "5facf1c8f3a87caaa73bf9c2",
@@ -627,15 +660,15 @@
       "categories": "Vacation rentals"
     },
     {
-      "id": "8b81ad04e70a5eee412cdec2",
-      "advertiser": "MMT IF",
+      "id": "b0930538dd0a40c2433cf3a7",
+      "advertiser": "Masters India IT Solutions Private Limited",
       "placements": 1,
       "creatives": 1,
       "panel_placements": 1,
       "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T22:16:05.071Z",
-      "last_seen": "2026-09-22T22:16:05.071Z",
-      "categories": "Vacation rentals"
+      "first_seen": "2026-09-22T23:55:03.302Z",
+      "last_seen": "2026-09-22T23:55:03.302Z",
+      "categories": "Corporate travel"
     },
     {
       "id": "ea9efd36d31d614ae1c8912f",
@@ -1032,57 +1065,46 @@
       "first_seen": "2026-09-14T11:57:45.373Z",
       "last_seen": "2026-09-14T11:57:45.373Z",
       "categories": "Fashion and accessories"
-    },
-    {
-      "id": "59d736a35fa0e8d41185a2bf",
-      "advertiser": "pacific data integrators",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T23:25:28.848Z",
-      "last_seen": "2026-09-22T23:25:28.848Z",
-      "categories": "Corporate travel"
     }
   ],
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 389,
-    "ad_turns": 81,
-    "ad_rate": 0.20822622107969152,
-    "ad_rate_low": 0.17082545132413338,
-    "ad_rate_high": 0.2513335053647713,
-    "paid_units": 81,
+    "turns": 411,
+    "ad_turns": 96,
+    "ad_rate": 0.23357664233576642,
+    "ad_rate_low": 0.19525325274385352,
+    "ad_rate_high": 0.27683440673870563,
+    "paid_units": 96,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 113,
-        "ad_turns": 21,
-        "paid_units": 21,
+        "turns": 116,
+        "ad_turns": 23,
+        "paid_units": 23,
         "advertisers": 9,
-        "creatives": 16,
-        "ad_rate": 0.18584070796460178,
-        "posterior_ad_rate": 0.18803418803418803,
-        "competition_score": 0.650491415470261,
-        "ad_rate_low": 0.12488614062641964,
-        "ad_rate_high": 0.26745357399576974,
+        "creatives": 17,
+        "ad_rate": 0.19827586206896552,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.6918863237274595,
+        "ad_rate_low": 0.13591176378176467,
+        "ad_rate_high": 0.27998388514148065,
         "evidence_strength": "established"
       },
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 55,
-        "ad_turns": 31,
-        "paid_units": 31,
-        "advertisers": 12,
-        "creatives": 20,
-        "ad_rate": 0.5636363636363636,
-        "posterior_ad_rate": 0.5423728813559322,
-        "competition_score": 2.0650060594210733,
-        "ad_rate_low": 0.43269584078681317,
-        "ad_rate_high": 0.686267613639987,
+        "turns": 68,
+        "ad_turns": 44,
+        "paid_units": 44,
+        "advertisers": 16,
+        "creatives": 28,
+        "ad_rate": 0.6470588235294118,
+        "posterior_ad_rate": 0.625,
+        "competition_score": 2.606203125901445,
+        "ad_rate_low": 0.5284083420991774,
+        "ad_rate_high": 0.7499818941984553,
         "evidence_strength": "established"
       },
       {
@@ -1326,6 +1348,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Family hotels",
+        "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Fragrances",
         "industry": "Fashion and accessories",
         "turns": 4,
@@ -1403,6 +1440,21 @@
       {
         "category": "Luxury resorts",
         "industry": "Travel and leisure",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Men's perfume",
+        "industry": "Beauty and personal care",
         "turns": 4,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1686,21 +1738,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Men's perfume",
-        "industry": "Beauty and personal care",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1795,104 +1832,908 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 136,
-        "ad_turns": 35,
-        "paid_units": 35,
-        "advertisers": 17,
-        "ad_rate": 0.25735294117647056,
-        "posterior_ad_rate": 0.2571428571428571,
-        "competition_score": 1.092324217742636,
-        "ad_rate_low": 0.1912535360043331,
-        "ad_rate_high": 0.3367839006382682,
+        "turns": 141,
+        "ad_turns": 38,
+        "paid_units": 38,
+        "advertisers": 19,
+        "ad_rate": 0.2695035460992908,
+        "posterior_ad_rate": 0.2689655172413793,
+        "competition_score": 1.1813819275060113,
+        "ad_rate_low": 0.2030983483528588,
+        "ad_rate_high": 0.3481355513002795,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 8,
-        "ad_turns": 8,
-        "paid_units": 8,
-        "advertisers": 6,
+        "turns": 12,
+        "ad_turns": 12,
+        "paid_units": 12,
+        "advertisers": 8,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.75,
-        "competition_score": 2.25,
-        "ad_rate_low": 0.6755843804891231,
+        "posterior_ad_rate": 0.8125,
+        "competition_score": 2.699066577095982,
+        "ad_rate_low": 0.7574992425007574,
         "ad_rate_high": 1,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 95,
-        "ad_turns": 14,
-        "paid_units": 14,
-        "advertisers": 11,
-        "ad_rate": 0.14736842105263157,
-        "posterior_ad_rate": 0.15151515151515152,
-        "competition_score": 0.5606726845668322,
-        "ad_rate_low": 0.08985998634105129,
-        "ad_rate_high": 0.23228777330670836,
+        "turns": 100,
+        "ad_turns": 18,
+        "paid_units": 18,
+        "advertisers": 12,
+        "ad_rate": 0.18,
+        "posterior_ad_rate": 0.18269230769230768,
+        "competition_score": 0.6955744569143699,
+        "ad_rate_low": 0.11700131654251038,
+        "ad_rate_high": 0.26667536024213084,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 10,
-        "ad_turns": 9,
-        "paid_units": 9,
-        "advertisers": 5,
-        "ad_rate": 0.9,
-        "posterior_ad_rate": 0.7142857142857143,
-        "competition_score": 2.0052535157554314,
-        "ad_rate_low": 0.5958436145024278,
-        "ad_rate_high": 0.9821242504842788,
+        "turns": 12,
+        "ad_turns": 11,
+        "paid_units": 11,
+        "advertisers": 6,
+        "ad_rate": 0.9166666666666666,
+        "posterior_ad_rate": 0.75,
+        "competition_score": 2.25,
+        "ad_rate_low": 0.6461140782014047,
+        "ad_rate_high": 0.9851352905492264,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 76,
+        "turns": 78,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 6,
-        "ad_rate": 0.07894736842105263,
-        "posterior_ad_rate": 0.0875,
-        "competition_score": 0.26249999999999996,
-        "ad_rate_low": 0.03668350552145426,
-        "ad_rate_high": 0.1617293519363121,
+        "ad_rate": 0.07692307692307693,
+        "posterior_ad_rate": 0.08536585365853659,
+        "competition_score": 0.25609756097560976,
+        "ad_rate_low": 0.03572997725324493,
+        "ad_rate_high": 0.15783417594024104,
         "evidence_strength": "established"
       },
       {
         "turn_index": 4,
         "branch": "ad_deepen",
-        "turns": 7,
-        "ad_turns": 6,
-        "paid_units": 6,
-        "advertisers": 6,
-        "ad_rate": 0.8571428571428571,
-        "posterior_ad_rate": 0.6363636363636364,
-        "competition_score": 1.9090909090909092,
-        "ad_rate_low": 0.48686549668097007,
-        "ad_rate_high": 0.9743210440510253,
-        "evidence_strength": "exploratory"
+        "turns": 9,
+        "ad_turns": 8,
+        "paid_units": 8,
+        "advertisers": 7,
+        "ad_rate": 0.8888888888888888,
+        "posterior_ad_rate": 0.6923076923076923,
+        "competition_score": 2.194563462536985,
+        "ad_rate_low": 0.5649937852319399,
+        "ad_rate_high": 0.9801096286728695,
+        "evidence_strength": "directional"
       },
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 57,
+        "turns": 59,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.05263157894736842,
-        "posterior_ad_rate": 0.06557377049180328,
-        "competition_score": 0.1522575799926139,
-        "ad_rate_low": 0.018059968096281007,
-        "ad_rate_high": 0.14369777660471306,
+        "ad_rate": 0.05084745762711865,
+        "posterior_ad_rate": 0.06349206349206349,
+        "competition_score": 0.1474240060245944,
+        "ad_rate_low": 0.017442401159453308,
+        "ad_rate_high": 0.1391672332228667,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "83131a0724057b762584ce56",
+      "turn_id": "13656d8fcf653eb093306ef1",
+      "advertiser": "Homerun Retail Private Limited",
+      "advertiser_key": "2e81afd45de21f0c44616576",
+      "creative_id": "e288376feb0d8259ab6887d7",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Build More. Save More.",
+      "description": "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-23T00:06:40.859Z",
+      "prompt": "Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, Trip.com is better viewed as an OTA than a full managed TMC. Here’s the practical comparison:\n\nProvider\tCurrent price\tKey exclusions / limits\tBest for\nTrip.com Flights\t₹0 booking fee on eligible domestic flights; fare + airline charges apply \nTrip.com\n\tNot designed for commercial/business use under its India terms; no corporate policy/approval stack \nTrip.com\n\tOccasional employee bookings / price shopping\nmyBiz by MakeMyTrip\tNo published platform fee; corporate fares are quote/booking-based\tSome benefits apply only to myBiz fares/hotels; cancellation rules vary by fare \nMakeMyTrip Biz\n+1\n\tIndian SMEs needing GST invoices, policies and approvals\nITILITE\t$10 (~₹830) per trip, or $7 with wallet; no subscription/support fee \nItilite\n\tAirline/hotel penalties and fare differences remain payable; complex integrations may cost extra\tTech/startup teams wanting automation + policy control\nFCM Travel\tCustom quote; no public fixed fee\tMore implementation/account-management overhead\tCompanies wanting a full managed TMC, negotiated rates and 24/7 support \nFCM Travel\n+1\n\nFor 50 employees: Trip.com is the least “managed”; myBiz is more India-native; ITILITE has the clearest published per-trip model; FCM is the most traditional managed-service approach.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "0d67b40fa65f0dbf6ea081d12f883bf9900fee744fb9aac99d0080ce721b72b7",
+      "screenshot_relpath": "evidence/0d67b40fa65f0dbf6ea081d12f883bf9900fee744fb9aac99d0080ce721b72b7.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Homerun Retail Private Limited",
+        "format": "answer_card",
+        "headline": "Build More. Save More.",
+        "description": "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+        "copy": [
+          "Homerun Retail Private Limited",
+          "Build More. Save More.",
+          "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/990309cb85d05e7ba84c19f34aaef050.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Homerun Retail Private Limited",
+              "Build More. Save More.",
+              "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF"
+            ],
+            "text": "Homerun Retail Private Limited\n\nBuild More. Save More.\n\n2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/990309cb85d05e7ba84c19f34aaef050.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5aa86df644ce07e17cdb2b7",
+      "turn_id": "55d062211bff9e2c76147705",
+      "advertiser": "Agoda Company Pte. Ltd.",
+      "advertiser_key": "a222e2ba55abec4f9b12de68",
+      "creative_id": "1ed549e212825153b3cef5b8",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Considering a stay at W Goa?",
+      "description": "Check available rooms and updated prices for W Goa.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-23T00:06:07.565Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "5.0\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\n4.9\nSerene 2BHK with Pool | 5 mins to Candolim Beach\nExpand\nUse two fingers to move the map\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\n5.0\n•\nVilla\nSerene 2BHK with Pool | 5 mins to Candolim Beach\n4.9\n•\nApartment\nGive feedback\n\nFor a 2-bedroom serviced rental for 4 adults, these are three purchase-ready options with current listed pricing:\n\nProperty\tCurrent price\tImportant limitations\nStayCationer Holiday Apartment Sun Stay | 2BHK with Pool in Assagao\tPrice varies by dates\tPool access; confirm breakfast, cleaning fees and cancellation terms before payment.\nSerene 2BHK with Pool | 5 mins to Candolim Beach\tPrice varies by dates\tEntire 2BHK, shared pool; verify refundable rate and security deposit.\nCalanguteBaga2BHK/Pool/Beach/Parking/Kitchen/N0-9\t₹4,378/night incl. listed taxes\t~₹17,512 for 4 nights; free cancellation on one rate, but another rate has a different deadline. Meals cost extra. \ngoibibo.com\n\nBefore paying: enter the exact 4-adult dates and confirm the final total, breakfast, GST/taxes, cancellation deadline/refund, security deposit, pool access, housekeeping frequency and whether the entire apartment—not individual bedrooms—is included. Prices are date-sensitive.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "screenshot_sha256": "3ab573ebe1989e9169cec77b7e8e618c5ca4df866a1ae0dbb9bc8746a3766a39",
+      "screenshot_relpath": "evidence/3ab573ebe1989e9169cec77b7e8e618c5ca4df866a1ae0dbb9bc8746a3766a39.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Agoda Company Pte. Ltd.",
+        "format": "answer_card",
+        "headline": "Considering a stay at W Goa?",
+        "description": "Check available rooms and updated prices for W Goa.",
+        "copy": [
+          "Agoda Company Pte. Ltd.",
+          "Considering a stay at W Goa?",
+          "Check available rooms and updated prices for W Goa."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/82e67e8b41095d8bbbe491f3a715c54d.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Agoda Company Pte. Ltd.",
+              "Considering a stay at W Goa?",
+              "Check available rooms and updated prices for W Goa."
+            ],
+            "text": "Agoda Company Pte. Ltd.\n\nConsidering a stay at W Goa?\n\nCheck available rooms and updated prices for W Goa.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/82e67e8b41095d8bbbe491f3a715c54d.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "98ed720eb5ae49225bfb3b4a",
+      "turn_id": "893f7ce123ddf12d4ed96e3a",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "ac00ef923c95c575b6396f08",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "New Delhi to Wenzhou flight tickets",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-23T00:04:56.737Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, the main switching cost is usually implementation + employee adoption, not a large exit fee. Public pricing is limited, so treat these as quoted/custom-cost models rather than exact totals.\n\nProvider\tCost model\tSwitching difficulty\nITILITE\t₹0 platform fee; travel charged per trip/usage; no minimum commitment \nItilite\n\tLow — self-serve platform, policies and approvals can be configured quickly\nFCM Travel\tCustom TMC/transaction pricing; corporate rates and negotiated inventory\tMedium–High — more onboarding, traveller profiles, policy setup and account integration \nFCM Travel\n\nAmerican Express GBT\tCustom TMC pricing; centralized billing can consolidate air spend\tHigh — deeper TMC/billing integration; particularly relevant if using Amex's Business Travel Account \namericanexpress.com\n\nPractical switching cost: budget roughly 2–6 weeks for a 50-person migration, mainly for traveller data, approval rules, GST/billing workflows, integrations and employee training.\n\nFor minimizing lock-in, check notice/termination period, implementation fees, minimum transaction commitments, data-export rights and whether unused credits are refundable before signing.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "ace2fe6c1fe02f048a5cfb3db9141f7973b7ad8cffa1635afdc6d5c523bf3f93",
+      "screenshot_relpath": "evidence/ace2fe6c1fe02f048a5cfb3db9141f7973b7ad8cffa1635afdc6d5c523bf3f93.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "product_card",
+        "headline": "New Delhi to Wenzhou flight tickets",
+        "description": null,
+        "copy": [
+          "Trip.com/flights",
+          "New Delhi to Wenzhou flight tickets",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000005bd081f58a9812d49ae98ab9&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cf9cdcc4e6f1830f7a937e02ae81bdeb887576b0a843fa1ee315526c865bb5e6&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "New Delhi to Wenzhou flight tickets"
+            ],
+            "text": "New Delhi to Wenzhou flight tickets\n\n₹23,646.00\n₹30,030.42\nTrip.com/flights",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000005bd081f58a9812d49ae98ab9&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cf9cdcc4e6f1830f7a937e02ae81bdeb887576b0a843fa1ee315526c865bb5e6&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c7184644ca7e3d0c611184ab",
+      "turn_id": "4bd2a1cf82b4e535f0c02882",
+      "advertiser": "Homerun Retail Private Limited",
+      "advertiser_key": "2e81afd45de21f0c44616576",
+      "creative_id": "e288376feb0d8259ab6887d7",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Build More. Save More.",
+      "description": "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:59:16.569Z",
+      "prompt": "Make this more purchase-specific: for a managed business-travel service for a 50-person Indian company, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a 50-person Indian company, published prices are uncommon, so the most purchase-specific benchmark is the typical Indian TMC fee range: roughly ₹200–₹600 per domestic air booking and ₹500–₹1,500 international, plus 18% GST on TMC fees; larger programmes can negotiate bespoke pricing. \nGuavaTrips.com\n\nProvider / product\tIndicative price\tImportant limitations\nFCM Travel – FCM Platform\t~₹200–₹600 domestic booking; quote required\tStrong India functionality, 24/7 support, approvals and reporting; final transaction/implementation fees are negotiated. \nFCM Travel\n+1\n\nBCD Travel – Tripsource\t~₹200–₹600 domestic booking; quote required\tEnterprise-grade platform and 24/7 care; confirm minimum spend, implementation and offline-service fees. \nBCD Travel\n+1\n\nAmex GBT\t~₹200–₹600 domestic booking; quote required\tGlobal-scale programme; confirm India pricing, implementation charges and contractual arrangements amid its announced acquisition. \ninvestors.amexglobalbusinesstravel.com\n\nBefore paying: demand a written quote covering booking fees, hotel/rail/car fees, GST, after-hours support, cancellation/reissue charges, implementation, credit terms, SLA, minimum spend and termination/exit fees.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "3f2ba41f1d3557e4c70d49271409c37a69a9170e8b17f64cee4af818e4e39a14",
+      "screenshot_relpath": "evidence/3f2ba41f1d3557e4c70d49271409c37a69a9170e8b17f64cee4af818e4e39a14.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Homerun Retail Private Limited",
+        "format": "answer_card",
+        "headline": "Build More. Save More.",
+        "description": "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+        "copy": [
+          "Homerun Retail Private Limited",
+          "Build More. Save More.",
+          "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/990309cb85d05e7ba84c19f34aaef050.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Homerun Retail Private Limited",
+              "Build More. Save More.",
+              "2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF"
+            ],
+            "text": "Homerun Retail Private Limited\n\nBuild More. Save More.\n\n2% cashback | Bulk pricing | Multiple coupons up to ₹5,000 OFF",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/990309cb85d05e7ba84c19f34aaef050.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0e8daf3625eff73e443c1e2",
+      "turn_id": "e1c1f0c02d518d83bef514b8",
+      "advertiser": "Superworks",
+      "advertiser_key": "76833d0b5fca68bedf0ced48",
+      "creative_id": "d90c64d2d63e1861aa406b4d",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Looking for Better Payroll?",
+      "description": "Replace manual work with smarter payroll software.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:58:29.502Z",
+      "prompt": "Compare Superworks with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "One important correction: Superworks is an HRMS/payroll platform, not a managed corporate-travel provider. Its current product covers HR, payroll, recruitment, projects and performance management. \nSuperworks\n\nProvider\tCurrent price\tKey exclusions / caveats\tBest fit\nSuperworks\tCustom quote\tNo corporate-travel booking/management product\tHR/payroll, not travel\nMakeMyTrip myBiz\tFree account; booking rates vary\tPrimarily self-service; dedicated human servicing is more limited\t50-person SME wanting low-friction booking + GST/expense tools\nThomas Cook India\tCustom quote\tFees/service model negotiated; potentially more expensive than self-service\tCompanies needing human travel support, visas, forex, MICE and offline servicing\nFCM Travel\tCustom quote\tEnterprise implementation/program terms need negotiation\tCompanies wanting a formal TMC, negotiated corporate rates and managed travel\n\nmyBiz offers corporate fares, GST invoices, expense management, HRMS integrations and travel-request APIs. \nmybiz.makemytrip.com\n Thomas Cook provides air, hotel, rail, car, visa, forex, insurance and MICE, with dedicated corporate-travel technology. \nthomascook.in\n+1\n FCM advertises corporate hotel rates and flexible cancellation options. \nfcmtravel.com\n\nFor a 50-person company, don't shortlist Superworks as the travel vendor. Get actual quotes from the other three and compare transaction fees, cancellation handling, GST reconciliation and after-hours support.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "a4fe14a50e38991268c0c1c372aff701a47ca32b526e0df79e6daf5a0557135f",
+      "screenshot_relpath": "evidence/a4fe14a50e38991268c0c1c372aff701a47ca32b526e0df79e6daf5a0557135f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Superworks",
+        "format": "answer_card",
+        "headline": "Looking for Better Payroll?",
+        "description": "Replace manual work with smarter payroll software.",
+        "copy": [
+          "Superworks",
+          "Looking for Better Payroll?",
+          "Replace manual work with smarter payroll software."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/68e347dfbcbb57fe89b0329e07ce58d7.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Superworks",
+              "Looking for Better Payroll?",
+              "Replace manual work with smarter payroll software."
+            ],
+            "text": "Superworks\n\nLooking for Better Payroll?\n\nReplace manual work with smarter payroll software.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/68e347dfbcbb57fe89b0329e07ce58d7.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "f42ff44961e343120bd8f776",
+      "turn_id": "d45767eb5c0353a434c721f7",
+      "advertiser": "Superworks",
+      "advertiser_key": "76833d0b5fca68bedf0ced48",
+      "creative_id": "0eec1193ed2cc0c1393ef71f",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HRMS for 100+ Employees",
+      "description": "Attendance, leave and payroll in one HRMS.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:56:31.304Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, switching is mainly an implementation/admin problem rather than a large upfront cost. Public enterprise pricing is limited, so treat the ranges below as indicative, not quotes.\n\nProvider\tIndicative cost\tSwitching difficulty\tMain friction\nFCM Travel\tCustom quote; typically transaction/program based\tMedium–High\tPolicy setup, traveller profiles, negotiated rates, integrations\nMakeMyTrip for Business\tOften low/transaction-based; custom corporate pricing\tLow–Medium\tMigrating traveller data, approval rules and GST setup\nAmex Business Travel Account + TMC\tCustom pricing; account/TMC fees may apply\tHigh\tTMC transition plus centralized billing/reconciliation\n\nFCM supports customized corporate inventory, policy controls and implementation support. \nFCM Travel\n Amex's model involves working with a TMC and centralized billing, making the migration more process-heavy. \nAmerican Express\n\nPractical switching budget: I’d provision roughly ₹25,000–₹1 lakh of internal/admin effort, plus any vendor implementation or integration fees explicitly quoted.\n\nBefore switching: require written confirmation on implementation fee, transaction fee, cancellation/refund handling, GST invoicing, traveller-data migration, API/expense integration, and exit/data-export terms.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "cb7435d937e698d8e273dcf11c1cbfdb343aa02a42e0c799093f30cad10b170c",
+      "screenshot_relpath": "evidence/cb7435d937e698d8e273dcf11c1cbfdb343aa02a42e0c799093f30cad10b170c.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Superworks",
+        "format": "answer_card",
+        "headline": "HRMS for 100+ Employees",
+        "description": "Attendance, leave and payroll in one HRMS.",
+        "copy": [
+          "Superworks",
+          "HRMS for 100+ Employees",
+          "Attendance, leave and payroll in one HRMS."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/fa4e04944b5053b489f9b3de5531ee5d.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Superworks",
+              "HRMS for 100+ Employees",
+              "Attendance, leave and payroll in one HRMS."
+            ],
+            "text": "Superworks\n\nHRMS for 100+ Employees\n\nAttendance, leave and payroll in one HRMS.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/fa4e04944b5053b489f9b3de5531ee5d.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "4ce81d71768757482071ec12",
+      "turn_id": "8122ebb0c24c8424415bf565",
+      "advertiser": "Masters India IT Solutions Private Limited",
+      "advertiser_key": "b0930538dd0a40c2433cf3a7",
+      "creative_id": "bd1e6ae3a51b07ca07bd258c",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Your ERP. Your E-Invoice Workflow",
+      "description": "Bring e-invoicing into your existing workflow. Generate IRNs directly from your ERP with Masters Ind",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:55:03.302Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, the strongest purchase-ready shortlist today is:\n\nOption\tCost model\tTrade-off\tBest fit\nITILITE\t₹0 platform fee; $10/trip, or $7 with prepaid wallet\tMost transparent pricing; airline/hotel penalties still apply. 24/7 human support included. \nItilite\n+1\n\tBest if predictable TMC cost matters\nMMT myBiz\tCustom service fee + GST; 1.5% payment-gateway fee can apply\tStrong Indian inventory, GST invoices and special fares; cancellation ultimately depends on fare/provider. \nMakeMyTrip\n+1\n\tBest for India-heavy travel\nFCM Travel India\tCustom quote\tStrongest managed-TMC structure: dedicated account management, 24/7 support, travel governance and negotiated supplier programmes. \nFCM Travel\n+1\n\tBest for high-touch managed travel\nWhat I'd put in the PO/RFP\n\nBefore paying, require the vendor to state in writing:\n\nAll-in booking/service fee, including GST and payment fees\n\nCancellation/reissue fees separate from airline/hotel penalties\n\nRefund processing timeline\n\n24/7 support response and resolution SLA\n\nNamed account manager\n\nCredit period and deposit/prepaid requirements\n\nUnused-ticket/credit management\n\nNo minimum-spend or termination penalty\n\nImplementation/integration fees\n\nValue decision: I’d take ITILITE's commercial proposal as the benchmark, then ask MMT and FCM to beat it on total annual cost + service SLA, rather than comparing headline booking prices alone. ITILITE explicitly states no minimum commitment, no extra modification/support fees and free onboarding. \nItilite\n+1",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "a1b4da65243ae118caba4d7438a34316a8ea779d20358ab11730c8b206495bc0",
+      "screenshot_relpath": "evidence/a1b4da65243ae118caba4d7438a34316a8ea779d20358ab11730c8b206495bc0.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Masters India IT Solutions Private Limited",
+        "format": "answer_card",
+        "headline": "Your ERP. Your E-Invoice Workflow",
+        "description": "Bring e-invoicing into your existing workflow. Generate IRNs directly from your ERP with Masters Ind",
+        "copy": [
+          "Masters India IT Solutions Private Limited",
+          "Your ERP. Your E-Invoice Workflow",
+          "Bring e-invoicing into your existing workflow. Generate IRNs directly from your ERP with Masters Ind"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/1fde70d3a2d75129aacb33dfbcd405cc.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Masters India IT Solutions Private Limited",
+              "Your ERP. Your E-Invoice Workflow",
+              "Bring e-invoicing into your existing workflow. Generate IRNs directly from your ERP with Masters Ind"
+            ],
+            "text": "Masters India IT Solutions Private Limited\n\nYour ERP. Your E-Invoice Workflow\n\nBring e-invoicing into your existing workflow. Generate IRNs directly from your ERP with Masters Ind",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/1fde70d3a2d75129aacb33dfbcd405cc.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c1698f68c695c82c48d3f3b5",
+      "turn_id": "9f583f72c9fd118e86b5e416",
+      "advertiser": "HSBC - Credit Cards",
+      "advertiser_key": "ca82b10559cc43464054b038",
+      "creative_id": "f5c244015f730d6641372e64",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "HSBC Taj Credit Card",
+      "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:53:43.925Z",
+      "prompt": "Make this more purchase-specific: for a serviced two-bedroom vacation rental in Goa for four adults, name three currently available providers or products with prices and important limitations.",
+      "answer": "5.0\nAlaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa\n4.7\nEl Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season\n3.9\nMarsierra by Jaglax Homes - GOA\nExpand\nUse two fingers to move the map\nAlaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa\n5.0\n•\nVilla\nEl Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season\n4.7\n•\nHoliday apartment rental\nMarsierra by Jaglax Homes - GOA\n3.9\n•\nLodging\nGive feedback\n\nFor a four-adult, two-bedroom serviced rental in Goa, these are three purchase-ready options I’d put on the shortlist:\n\nProperty\tCurrent price*\tKey limitation\nAlaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa\t₹6,761 + ₹1,651 taxes/night\tCandolim; verify the exact 2BHK and four-adult occupancy before paying. MMT lists free cancellation. \nMakeMyTrip\n\nEl Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season\tLive quote required\t2BHK, pool, kitchen, laundry and daily housekeeping; pricing varies by dates.\nMarsierra by Jaglax Homes - GOA\tLive quote required\tPremium Siolim option with serviced 2-bedroom apartments; not beachfront.\n\n*Prices are listing snapshots and can change by date/occupancy. For the first option, the displayed total is ₹8,412/night before any additional booking-specific charges. \nMakeMyTrip\n\nBefore paying: confirm four-adult occupancy, cleaning/utility fees, security deposit, cancellation deadline, and whether housekeeping is daily or on-request.",
+      "industry": "Travel and leisure",
+      "category": "Vacation rentals",
+      "screenshot_sha256": "c89f8dbb3f8288975580892b1652c6830574238ed7bbdcf3712825f64edd6f86",
+      "screenshot_relpath": "evidence/c89f8dbb3f8288975580892b1652c6830574238ed7bbdcf3712825f64edd6f86.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "HSBC - Credit Cards",
+        "format": "answer_card",
+        "headline": "HSBC Taj Credit Card",
+        "description": "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+        "copy": [
+          "HSBC - Credit Cards",
+          "HSBC Taj Credit Card",
+          "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "HSBC - Credit Cards",
+              "HSBC Taj Credit Card",
+              "Get Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more"
+            ],
+            "text": "HSBC - Credit Cards\n\nHSBC Taj Credit Card\n\nGet Taj Club Lounge Access 12 Times a Year, 15% off Duty-Free Purchases on AdaniOne App & much more",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/24036bc88bd75a7bb7a26c27f94e4dc3.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "9579ce1d72550e73927dc1dc",
+      "turn_id": "2a4720ac7879e82070919116",
+      "advertiser": "pacific data integrators",
+      "advertiser_key": "59d736a35fa0e8d41185a2bf",
+      "creative_id": "38b346fa74d1ef2d7b83d516",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Can You Prove DPDP Now?",
+      "description": "Find your control-evidence gaps before they become urgent.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:53:21.531Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, I’d compare the commercial model rather than just headline ticket prices:\n\n\tMMT myBiz\tITILITE\tFCM Travel\nPlatform/service fee\tNegotiated service fee; 1.5% payment-gateway fee can apply\tPay-per-trip; no minimum monthly fee or platform fee\tCustom TMC quote\nChanges/cancellations\tSupplier/airline rules apply; selected myBiz fares offer free changes/cancellation\tNo extra fee for support/modifications within same trip; supplier deductions still apply\tSupplier charges can apply, potentially up to 100%; reissue fees may apply\nRefunds\tDepends on supplier fare; MMT facilitates refund\tBooking cost refunded less airline/hotel deductions\tRefund after FCM receives supplier funds\nSupport\t24×7\t24×7, human support\t24×7 emergency assistance + dedicated consultant\nWarranty/SLA\tNo blanket service warranty; contractual terms/order form govern\tNo travel “warranty”; transparent service model\tNo blanket warranty; negotiated programme/SLA\nBest suited\tIndian SME wanting broad inventory + GST/expense controls\t50-person company wanting predictable transaction costs\tCompany wanting a genuinely managed TMC\n\nMMT explicitly says it is an intermediary/aggregator, so the airline/hotel's cancellation terms remain critical. \nMakeMyTrip\n+1\n\nITILITE is unusually transparent: its India pricing says there are no hidden costs, no minimum commitment, and changes/support don't add another fee. \nItilite\n+1\n\nFCM is more traditional managed travel: dedicated consultants, account management, negotiated corporate inventory and 24/7 assistance, but pricing is quote-based. \nFCM Travel\n+1\n\nFor procurement, get each vendor to quote the same 12-month scenario: 50 employees, expected monthly trips, domestic + international, and separately specify booking fee, cancellation/reissue fee, credit terms, GST, dedicated-agent SLA, after-hours SLA and implementation fee.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "295860108c332873237ade1540caa67db1f6975ed86d6faaece326c34487f9ce",
+      "screenshot_relpath": "evidence/295860108c332873237ade1540caa67db1f6975ed86d6faaece326c34487f9ce.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "pacific data integrators",
+        "format": "answer_card",
+        "headline": "Can You Prove DPDP Now?",
+        "description": "Find your control-evidence gaps before they become urgent.",
+        "copy": [
+          "pacific data integrators",
+          "Can You Prove DPDP Now?",
+          "Find your control-evidence gaps before they become urgent."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/f3315aa4ef36581a9af2af5a52636c55.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "pacific data integrators",
+              "Can You Prove DPDP Now?",
+              "Find your control-evidence gaps before they become urgent."
+            ],
+            "text": "pacific data integrators\n\nCan You Prove DPDP Now?\n\nFind your control-evidence gaps before they become urgent.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/f3315aa4ef36581a9af2af5a52636c55.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "b043d8643d229b17178d1330",
+      "turn_id": "9ea3d36f815cb1b5ab11d09a",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:51:39.680Z",
+      "prompt": "Compare MMT IF with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "Assuming MMT IF = MakeMyTrip/myBiz corporate travel, here’s a purchase-oriented comparison for a 50-person Indian company:\n\nOption\tCurrent price\tExclusions / limitations\tBest fit\nMMT myBiz\tCustom service fee; booking price + GST. 1.5% payment-gateway fee can apply. \nMakeMyTrip\n+1\n\tAirline/hotel cancellation rules still apply; exact service fees negotiated.\tSMEs wanting broad inventory + self-serve controls\nITILITE\t$10/trip (~₹840), no setup/annual fee; support included. \nItilite\n\tPublished pricing is USD; confirm India billing/GST and supplier coverage.\tTech-forward companies wanting transparent pricing\nFCM Travel India\tCustom quote\tNo public fee card; implementation and service fees need negotiation.\tCompanies wanting a genuinely managed TMC, 24/7 assistance and policy support \nFCM Travel\n\nYatra Corporate\tCustom quote\tFees/service SLAs aren't publicly posted; obtain commercial proposal.\tIndian companies wanting an established corporate TMC\n\nKey MMT advantage: special corporate fares, GST invoices, expense management, policy controls and 24×7 support. \nMakeMyTrip Biz\n\nFor procurement, ask all four for the same quote: 50 travellers, expected monthly bookings, domestic + international, service fee per booking, cancellation/change fee, credit period, dedicated manager and 24/7 response SLA.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "e33352b42c881f94b71a0f1d03ad58f440588950d319db9b3f3304570bc0923e",
+      "screenshot_relpath": "evidence/e33352b42c881f94b71a0f1d03ad58f440588950d319db9b3f3304570bc0923e.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "071b2dfa8a48a5ca0f00adef",
+      "turn_id": "84e3c29d4c1178d0fa8dae29",
+      "advertiser": "MMT IF",
+      "advertiser_key": "8b81ad04e70a5eee412cdec2",
+      "creative_id": "6d3057adf4b40a63f7ec7363",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Delhi to Bangkok Flight",
+      "description": "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 OFF",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:49:56.028Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, three credible current options are:\n\nService\tPrice\tReliability / support\tKey limitation\nMakeMyTrip myBiz\tNo published platform fee; corporate fares\t24×7 support, GST invoices, policy controls, expense management \nMakeMyTrip Biz\n+1\n\tMore self-serve than fully managed; exact corporate discounts vary\nEaseMyTrip EMTDesk\tCustom quote\t4,000+ businesses; 24×7 support, centralised booking & expense controls \nEaseMyTrip\n\tPricing/service SLA isn't publicly disclosed\nFCM Travel India\tCustom TMC quote\tFull managed programme, corporate rates, global inventory; hotel programme claims savings up to 38% \nFCM Travel\n+1\n\tMore enterprise-oriented; likely higher service cost and onboarding effort\n\nPurchase terms to verify: implementation/setup fee, per-booking/service fee, minimum annual spend, cancellation/change handling fees, credit terms, dedicated account manager, 24×7 escalation SLA, GST invoicing, and whether international support is included.\n\nFor a 50-person company, myBiz and EMTDesk are the easier low-friction quotes to obtain; FCM is the more traditional managed-TMC model.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "dae5087e2816c47575766e4450ccd4ef6a6aaa1688897d070e56f7878310f2e6",
+      "screenshot_relpath": "evidence/dae5087e2816c47575766e4450ccd4ef6a6aaa1688897d070e56f7878310f2e6.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "MMT IF",
+        "format": "answer_card",
+        "headline": "Delhi to Bangkok Flight",
+        "description": "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 OFF",
+        "copy": [
+          "MMT IF",
+          "Delhi to Bangkok Flight",
+          "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 OFF"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/748bd822be24567a8fea2edde4b58d4e.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "MMT IF",
+              "Delhi to Bangkok Flight",
+              "Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 OFF"
+            ],
+            "text": "MMT IF\n\nDelhi to Bangkok Flight\n\nBook Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 OFF",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/748bd822be24567a8fea2edde4b58d4e.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "e0667fae3ebfe3bc26c20b6e",
+      "turn_id": "6e373219fa0dcd3aeb6ee91f",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:48:39.384Z",
+      "prompt": "Make this more purchase-specific: for a managed business-travel service for a 50-person Indian company, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a 50-person Indian company, these are three purchase-ready options currently offered:\n\nProvider\tPublished price\tImportant limitation\nMakeMyTrip myBiz\t₹0 platform signup; booking fares/fees vary\tCorporate fares and cancellation benefits are fare-specific; integrations such as SSO/HRMS may require setup. \nMakeMyTrip Business\n\nYatra for Business – Travel Lite\t₹0 signup; booking costs vary\tIntended for <1,000 trips or <₹1 crore annual travel; no corporate credit; cancellation refunds follow airline rules. \nYatra.com\n+1\n\nEaseMyTrip EMTDesk\tQuote-based; no public subscription price\tRequires a demo/quotation to establish commercial terms; verify transaction/convenience fees, credit terms and integration costs. \nEaseMyTrip\n\nPractical buying view: For 50 employees, request written quotes from all three using the same projected annual spend and trip volume. Specifically compare per-booking fees, cancellation/change charges, GST invoicing, credit/payment terms, 24×7 support, unused-ticket handling and implementation/integration fees.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "90dc4c2bd1d934ce0d59c7cf023ee35363f366eb54ee9284fcbc3aec64ee7a07",
+      "screenshot_relpath": "evidence/90dc4c2bd1d934ce0d59c7cf023ee35363f366eb54ee9284fcbc3aec64ee7a07.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "cf8a5dec2d65300032a163cf",
+      "turn_id": "beda57d76e8cfd54155ec917",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "9cf7c5aa999390b0270780dc",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - eSIM, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India [eSIM]",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:48:31.514Z",
+      "prompt": "Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.",
+      "answer": "For a 50-person Indian company, the purchase-ready shortlist is:\n\nOption\tCost structure\tKey trade-off\tVerify before signing\nFCM Travel India\tCustom TMC/transaction fee + actual travel spend\tMore hands-on management and 24/7 support; potentially higher service fees\tPer-ticket fee, hotel mark-up, after-hours fee, refund handling, SLA, minimum annual spend\nMakeMyTrip myBiz\tCustom service fee + travel spend; payment fees may apply\tSimpler/self-service, potentially lower management overhead, but less bespoke support\tExact booking/service fee, payment fee, cancellation/refund treatment, dedicated account manager, credit terms\nAmex GBT\tCustom TMC fee + travel spend\tStrong central billing/reporting and global programme capabilities; potentially more enterprise-oriented\tIndia transaction fee, implementation cost, minimum volume, support SLA, billing/credit terms\n\nFor FCM specifically, its current India offering includes 24/7 emergency assistance, policy advice, payment solutions and traveller-safety services. Its hotel programme advertises negotiated rates and savings of up to 38%, but that is not a guaranteed saving for your company. \nFCM Travel\n+2\nFCM Travel\n+2\n\nPurchase checklist\n\nBefore paying, require a written 12-month all-in quote showing:\n\nEvery booking/amendment/cancellation fee\n\nGST and payment charges\n\nHotel/airline mark-ups\n\nRefund timeline\n\n24/7 support SLA\n\nImplementation/setup fee\n\nMinimum-spend or lock-in clause\n\nExit/termination terms\n\nFor a 50-person company, I would run the same 20 representative trips through all three quotes and compare final payable amounts rather than comparing advertised discounts.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "61a94325948517d0d557974f61f215ae4418b645009f5bfc7c7728b8d96aef49",
+      "screenshot_relpath": "evidence/61a94325948517d0d557974f61f215ae4418b645009f5bfc7c7728b8d96aef49.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - eSIM, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India [eSIM]",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - eSIM, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India [eSIM]",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - eSIM, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India [eSIM]"
+            ],
+            "text": "Unlimited Europe SIM Card - eSIM, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India [eSIM]\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "47b7d80643100c4b35dd9199",
+      "turn_id": "d0fab757609e68b1cb0dd3cd",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "9fed04488eafe9d99ddb5fc4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Zoho Desk - Better Alternative",
+      "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:46:41.715Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, I’d compare the strongest practical options as a managed TMC/platform rather than looking for a fixed “subscription price.” Most providers quote after seeing annual travel volume.\n\nOption\tFee / total-cost structure\tCancellation / exclusions\tSupport\tBest fit\nFCM Travel India\tCustom TMC/transaction quote + actual airfare/hotel. Corporate hotel programme advertises savings of up to 38%+. \nFCM Travel\n\tSupplier/fare rules apply. FCM says cancellation charges can reach 100%, plus amendment/reissue fees. Refunds wait on supplier funds. \nFCM Travel\n\t24/7, dedicated account management, disruption/risk support. \nFCM Travel\n+1\n\tCompanies wanting full-service managed travel\nAmex GBT + Business Travel Account\tCustom TMC fees + travel spend. BTA consolidates air spend into one bill; payment period can extend to 51 days. \nAmerican Express\n\tAir/hotel supplier fare rules; insurance has policy exclusions/limits. BTA is primarily a payment/control layer, so confirm the TMC bundled with it. \nAmerican Express\n\t24/7 Global Assist; central reconciliation/reporting. \nAmerican Express\n\tFinance teams prioritising central billing + control\nMakeMyTrip myBiz\tService fee mutually agreed + travel price/GST; 1.5% payment-gateway fee can apply. \nMakeMyTrip\n\tAirline/hotel rules govern refunds; MMT convenience fee is non-refundable. 30-day termination notice where no other term is specified. \nMakeMyTrip\n+1\n\tCorporate platform + support; less bespoke than a traditional TMC\tSMEs wanting simpler/self-service booking\nWhat I’d demand in the quote\n\nAsk each for a 12-month all-in TCO, separating: booking fees, amendments, cancellations, GST, hotel mark-ups, payment fees, after-hours support, implementation, credit/payment terms and refund timelines.\n\nImportant: don't treat “corporate discount” as the net saving. Ask for the same 20–30 representative routes/hotels priced simultaneously and compare final payable amounts.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "acb6a30beba073423148207bfbd944791d3e0e72743e2f8a788f730d8e915117",
+      "screenshot_relpath": "evidence/acb6a30beba073423148207bfbd944791d3e0e72743e2f8a788f730d8e915117.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Zoho Desk - Better Alternative",
+        "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+        "copy": [
+          "Zoho Corporation",
+          "Zoho Desk - Better Alternative",
+          "Compare Zoho Desk vs Zendesk - learn why you must switch"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Zoho Desk - Better Alternative",
+              "Compare Zoho Desk vs Zendesk - learn why you must switch"
+            ],
+            "text": "Zoho Corporation\n\nZoho Desk - Better Alternative\n\nCompare Zoho Desk vs Zendesk - learn why you must switch",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "849b2fc4df988ad23197217f",
+      "turn_id": "1f3f40b7b8aa777544bc2170",
+      "advertiser": "Atlassian",
+      "advertiser_key": "41805db8eb323d5199cb8ae2",
+      "creative_id": "8d1aeeef14bc0b4ad916cef9",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Make the switch to JSM",
+      "description": "Choose modern IT service management, powered by AI.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790122196.160349,
+      "captured_at": "2026-09-22T23:45:02.476Z",
+      "prompt": "Compare ZENITHZEPHYR WELLNESS PRIVATE LIMITED with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "The key finding: ZENITHZEPHYR WELLNESS PRIVATE LIMITED is not a business-travel provider. It is the legal entity behind NeoSapien, an AI wearable; its public offer is ₹12,999, not a travel-management service. \nNeoSapien\n+1\n\nProvider\tCurrent price\tExclusions / caveats\tBest for\nZENITHZEPHYR / NeoSapien\t₹12,999 device\tNot a TMC; no flights/hotels/expense management\tNot suitable for this requirement\nFCM Travel India\tCustom quote\tManagement/transaction fees need quotation; travel spend extra\t50-person firms wanting full managed travel + policy + 24/7 support \nFCM Travel\n+1\n\nAmex GBT\tCustom quote\tTMC fees and travel spend separately negotiated\tCompanies prioritising central billing, reconciliation and expense control \nAmerican Express\n\nMakeMyTrip myBiz\tNo annual subscription; service fee mutually agreed\tBooking/service fee + GST; 1.5% payment-gateway fee can apply\tCost-conscious SMEs wanting quick self-service corporate booking \nMakeMyTrip\n+1\n\nBefore signing: get a 12-month TCO covering transaction fees, GST, cancellations, amendments, refunds, after-hours support, credit terms and implementation.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "b0a4e71048508f3a3c846da985c775bea2284eed7d87e679893dcda75529f883",
+      "screenshot_relpath": "evidence/b0a4e71048508f3a3c846da985c775bea2284eed7d87e679893dcda75529f883.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Atlassian",
+        "format": "answer_card",
+        "headline": "Make the switch to JSM",
+        "description": "Choose modern IT service management, powered by AI.",
+        "copy": [
+          "Atlassian",
+          "Make the switch to JSM",
+          "Choose modern IT service management, powered by AI."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/b69d39880e31599ba0cbcdd732adc015.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Atlassian",
+              "Make the switch to JSM",
+              "Choose modern IT service management, powered by AI."
+            ],
+            "text": "Atlassian\n\nMake the switch to JSM\n\nChoose modern IT service management, powered by AI.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/b69d39880e31599ba0cbcdd732adc015.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "f46d31f6efac2fe906fe47e5",
       "turn_id": "242f66dc7d8f9955e011f81a",
