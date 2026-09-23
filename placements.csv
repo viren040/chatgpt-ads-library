@@ -1,4 +1,84 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+e0efd02e3f696e0ba34a5819,69685a757d63c26bb89057cd,2026-09-23T00:48:33.806Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d compare these four on total cost of ownership, not just airfare. Public corporate pricing is limited, so where providers quote individually, I’ve marked it as custom rather than inventing a number.
+
+Provider	Fees / total cost	Cancellation & refunds	“Warranty” / protection	Support
+Trip.Biz / Trip.com	Custom corporate quote; consumer Trip.com fares may have booking/payment costs depending on itinerary	Supplier/airline rules generally apply; refunds go to original payment method	24/7 support; Trip.Biz advertises emergency assistance and special-circumstance change/cancellation support 
+Trip.biz
++1
+	24/7 human support 
+Trip.biz
+
+MakeMyTrip myBiz	Custom service fee + GST; 1.5% payment-gateway fee can apply to wallet/credit repayment 
+MakeMyTrip
+	Airline/hotel policy determines refund; MMT is intermediary, not supplier 
+MakeMyTrip
+	No blanket travel warranty; negotiated terms need to be in contract	Corporate platform + support
+Yatra for Business	Custom / transaction-based; no published standard corporate fee	Free rescheduling available on eligible bookings; cancellations subject to airline policy 
+Yatra.com
+	Corporate fares, GST compliance and eCash benefits; no universal refund guarantee	SME support; domestic/international support channels 
+Yatra.com
++1
+
+EaseMyTrip EMTDesk	Custom quote	Airline charges + EMT cancellation/service charges; convenience fees generally non-refundable 
+EaseMyTrip
+	24/7 corporate support, negotiated rates and expense controls 
+EaseMyTrip
+	24/7 support 
+EaseMyTrip
+What matters financially
+
+For 50 employees, the biggest hidden costs are usually change/cancellation fees, payment fees, service fees and employee time, rather than subscription pricing.
+
+Trip.Biz is worth getting a quote from if you have significant international travel. myBiz makes the fee structure particularly transparent, but its 1.5% payment charge can become meaningful at scale. Yatra has useful free-rescheduling benefits, while EMTDesk emphasises managed support and expense controls.
+
+Before signing, ask each provider for a sample ₹10 lakh annual travel-spend invoice showing every fee, GST treatment, cancellation deduction and refund timeline.",00a75d12f8f027f7cfc9f0c3,evidence/147a44968121008d0dbcfcbddc9268129bc32beaaeeb6f3868416042aee80aa7.png,147a44968121008d0dbcfcbddc9268129bc32beaaeeb6f3868416042aee80aa7
+fc80f9d38306ed7b23fb7c3a,7f02b911650172fc6a07aab1,2026-09-23T00:48:02.229Z,Pond's,Ad,answer_card,Pond's Super Light Gel 100ml,"100 hr hydration for soft, bouncy skin",Beauty and personal care,Fragrance layering,complete_panel,True,human_visual,"I am comparing a fragrance-layering set with perfume and matching body products under ₹7,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently available India options under ₹7,000:
+
+Bath & Body Works Into the Night Gift Set — ₹5,624. A more premium layering-style set, suited to a richer evening fragrance profile.
+
+Victoria's Secret Mini Fragrance Mist And Lotion Gift Set — ₹4,049. Focuses on matching mist + lotion, making layering straightforward; compact sizes are convenient for travel.
+
+Plum BodyLovin' Vanilla Vibes Bath & Body Gift Set — ₹1,498. A much lower-cost option with a coordinated vanilla body-care routine; better suited to everyday layering than premium perfume use.
+
+For a true perfume + matching body-product pairing, AJIO currently lists Cacharel Noa EDT + Body Lotion at ₹4,600 and Amor Amor EDT + Body Lotion at ₹3,240. 
+luxe.ajio.com
+
+Prices can change with sales and seller availability.",bb29110d89343eb0d436372f,evidence/382b9ea1c784a8d561bc4734941e56e218dc75b36337f4b642de19a11746095f.png,382b9ea1c784a8d561bc4734941e56e218dc75b36337f4b642de19a11746095f
+0624fdaa6394e14c7b7aeeea,1346c6abbd6bed4a86937c69,2026-09-23T00:46:56.841Z,Trip.com/flights,Sponsored,product_card,Coimbatore to Hong Kong flight tickets,,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, Trip.com is closer to an OTA than a fully managed Indian corporate-travel programme. The closest alternatives are:
+
+Option	Current cost	Key exclusions / limitations	Best for
+Trip.com / Trip.Biz	₹0 booking fee on domestic flights currently advertised; fare/taxes extra 
+Trip.com
+	No publicly stated India-specific corporate service fee; airline cancellation/change rules still apply 
+Trip.com
+	Teams prioritising international inventory and low upfront booking fees
+MakeMyTrip myBiz	Custom service fee; shown separately on booking; 1.5% payment-gateway fee can apply 
+MakeMyTrip
+	GST invoices aren't assured for some airlines/international LCCs 
+MakeMyTrip
+	Indian SMBs wanting policy controls, GST and expense management
+Yatra for Business	Custom quote	Exact service/transaction fees negotiated; enterprise features generally require onboarding	Companies wanting a managed travel desk and corporate support
+EaseMyTrip EMTDesk	Custom quote	Pricing isn't publicly standardised	Companies wanting a dedicated travel manager, policy/expense controls and 24×7 support 
+Travel Trade Journal
++1
+
+Bottom line: For 50 employees, compare total booking fee + cancellation/change handling + credit terms, rather than headline airfare. myBiz and EMTDesk are more purpose-built for Indian corporate administration; Trip.com is more compelling if global flight inventory and low booking fees matter most.",2234c558491c4e0568c6ec11,evidence/08bc6d7e653403ca1b3b23f99ca4d08e9cf5414bb07be3270be9ca6ee90dda95.png,08bc6d7e653403ca1b3b23f99ca4d08e9cf5414bb07be3270be9ca6ee90dda95
+139d6b3c62ee2e02639c90b5,61eaca0e864ad146e6b84d44,2026-09-23T00:45:12.854Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, switching is relatively easy if you use a self-serve platform, but harder when migrating approvals, employee profiles, GST details and negotiated fares.
+
+Provider	Cost structure	Switching difficulty	Key trade-off
+MakeMyTrip myBiz	No annual subscription; booking costs/fare-specific charges apply	Low	Fast setup; employee invite + policy configuration. GST invoices, corporate fares and expense tools included. 
+MakeMyTrip Biz
++1
+
+Yatra for Business	Custom/transaction pricing; no public standard rate	Low–Medium	Stronger managed-service tiers; Travel Pro targets companies under ₹5 crore annual travel spend. 
+Yatra.com
+
+EaseMyTrip EMTDesk	Custom/transaction pricing	Low–Medium	Centralised bookings, negotiated rates, expense management and 24/7 support; setup involves company/account configuration. 
+EaseMyTrip
+
+Practical switching cost: budget 1–3 weeks for a 50-person rollout, mainly for employee onboarding, travel-policy setup, GST configuration and testing.
+
+What to compare before switching: booking/service fees, cancellation markup, credit period, GST-credit handling, 24×7 human support, negotiated corporate fares, and whether existing traveller data can be imported.",3ef4ecc7fb3e5cccf7573aa3,evidence/b3c9824e76e625f99689ba19d121f6a40f3e87fc93e96b575c4714e808d8fdfd.png,b3c9824e76e625f99689ba19d121f6a40f3e87fc93e96b575c4714e808d8fdfd
 3436929c77cd6b2ae18fdaf3,477ec61cdd7835365367aadb,2026-09-23T00:42:04.176Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, I’d shortlist these three:
 
 Option	What differentiates it	Pricing

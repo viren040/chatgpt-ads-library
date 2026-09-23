@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-23T00:43:20Z",
+  "generated_at": "2026-09-23T00:53:09Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,24 +12,24 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 463,
-    "approved_paid_units": 227,
+    "valid_turns": 478,
+    "approved_paid_units": 231,
     "approved_advertisers": 99,
-    "approved_creatives": 182,
+    "approved_creatives": 184,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 114,
+    "complete_panel_paid_units": 118,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 21,
+      "placements": 22,
       "creatives": 14,
-      "panel_placements": 17,
+      "panel_placements": 18,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-23T00:22:39.875Z",
+      "last_seen": "2026-09-23T00:48:33.806Z",
       "categories": "Travel and leisure,Corporate travel,Honeymoon packages"
     },
     {
@@ -44,6 +44,17 @@
       "categories": "Vacation rentals,Intercity buses,Corporate travel"
     },
     {
+      "id": "ab56d48dc66e2f9280d61b1f",
+      "advertiser": "Trip.com/flights",
+      "placements": 11,
+      "creatives": 4,
+      "panel_placements": 11,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-22T23:15:54.873Z",
+      "last_seen": "2026-09-23T00:46:56.841Z",
+      "categories": "Corporate travel"
+    },
+    {
       "id": "504ef25d14dd959439fe6a46",
       "advertiser": "Zoho Corporation",
       "placements": 11,
@@ -53,17 +64,6 @@
       "first_seen": "2026-09-11T21:27:39.421Z",
       "last_seen": "2026-09-23T00:42:04.176Z",
       "categories": "Help desk software,Corporate travel"
-    },
-    {
-      "id": "ab56d48dc66e2f9280d61b1f",
-      "advertiser": "Trip.com/flights",
-      "placements": 9,
-      "creatives": 3,
-      "panel_placements": 9,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-23T00:24:19.221Z",
-      "categories": "Corporate travel"
     },
     {
       "id": "7211144fa6d33a5359842018",
@@ -350,6 +350,17 @@
       "first_seen": "2026-09-13T17:51:18.619Z",
       "last_seen": "2026-09-15T05:51:43.742Z",
       "categories": "Home improvement,Automotive"
+    },
+    {
+      "id": "a84075540463adc27e2e38f5",
+      "advertiser": "Pond's",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-22T12:42:29.823Z",
+      "last_seen": "2026-09-23T00:48:02.229Z",
+      "categories": "Beauty and personal care,Fragrance layering"
     },
     {
       "id": "76833d0b5fca68bedf0ced48",
@@ -825,17 +836,6 @@
       "categories": "Beauty and personal care"
     },
     {
-      "id": "a84075540463adc27e2e38f5",
-      "advertiser": "Pond's",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-22T12:42:29.823Z",
-      "last_seen": "2026-09-22T12:42:29.823Z",
-      "categories": "Beauty and personal care"
-    },
-    {
       "id": "441fa03d289a4ac860fe27c4",
       "advertiser": "PureFlowTape",
       "placements": 1,
@@ -1114,12 +1114,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 463,
-    "ad_turns": 114,
-    "ad_rate": 0.24622030237580994,
-    "ad_rate_low": 0.20917279636793024,
-    "ad_rate_high": 0.2874444716733069,
-    "paid_units": 114,
+    "turns": 478,
+    "ad_turns": 118,
+    "ad_rate": 0.24686192468619247,
+    "ad_rate_low": 0.21032659944106555,
+    "ad_rate_high": 0.2874336603621561,
+    "paid_units": 118,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1139,16 +1139,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 96,
-        "ad_turns": 60,
-        "paid_units": 60,
+        "turns": 99,
+        "ad_turns": 63,
+        "paid_units": 63,
         "advertisers": 18,
-        "creatives": 33,
-        "ad_rate": 0.625,
-        "posterior_ad_rate": 0.61,
-        "competition_score": 2.636376137881291,
-        "ad_rate_low": 0.5251053301827543,
-        "ad_rate_high": 0.7152754329460417,
+        "creatives": 34,
+        "ad_rate": 0.6363636363636364,
+        "posterior_ad_rate": 0.6213592233009708,
+        "competition_score": 2.685469884201856,
+        "ad_rate_low": 0.5381571567598795,
+        "ad_rate_high": 0.7243825159017672,
         "evidence_strength": "established"
       },
       {
@@ -1722,6 +1722,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Air conditioners",
+        "industry": "Home improvement",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Attar and alcohol-free fragrance",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1737,8 +1752,38 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Fragrance layering",
+        "industry": "Beauty and personal care",
+        "turns": 3,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.6666666666666666,
+        "posterior_ad_rate": 0.42857142857142855,
+        "competition_score": 0.8571428571428571,
+        "ad_rate_low": 0.2076549551264879,
+        "ad_rate_high": 0.9385096847238394,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Home fragrance",
         "industry": "Beauty and personal care",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Home inspection",
+        "industry": "Real estate services",
         "turns": 3,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1797,8 +1842,38 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Sports venue booking",
+        "industry": "Sports and fitness",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Train booking",
         "industry": "Travel and leisure",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Vehicle servicing",
+        "industry": "Automotive",
         "turns": 3,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1824,21 +1899,6 @@
         "competition_score": 0.45284642877747316,
         "ad_rate_low": 0.0614903152761605,
         "ad_rate_high": 0.7923450448735121,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Air conditioners",
-        "industry": "Home improvement",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -1872,8 +1932,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Premium deodorant",
-        "industry": "Beauty and personal care",
+        "category": "Electric scooters",
+        "industry": "Automotive",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1887,8 +1947,8 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Vehicle servicing",
-        "industry": "Automotive",
+        "category": "Premium deodorant",
+        "industry": "Beauty and personal care",
         "turns": 2,
         "ad_turns": 0,
         "paid_units": 0,
@@ -1914,21 +1974,6 @@
         "competition_score": 0.2,
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Fragrance layering",
-        "industry": "Beauty and personal care",
-        "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
-        "ad_rate_high": 1,
         "evidence_strength": "exploratory"
       },
       {
@@ -1966,71 +2011,71 @@
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 163,
-        "ad_turns": 47,
-        "paid_units": 47,
-        "advertisers": 22,
-        "ad_rate": 0.2883435582822086,
-        "posterior_ad_rate": 0.2874251497005988,
-        "competition_score": 1.3178335331414102,
-        "ad_rate_low": 0.2243069147876406,
-        "ad_rate_high": 0.36212716400326045,
+        "turns": 169,
+        "ad_turns": 49,
+        "paid_units": 49,
+        "advertisers": 23,
+        "ad_rate": 0.28994082840236685,
+        "posterior_ad_rate": 0.28901734104046245,
+        "competition_score": 1.342154968142984,
+        "ad_rate_low": 0.22680398526679724,
+        "ad_rate_high": 0.3624152767627141,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 15,
-        "ad_turns": 15,
-        "paid_units": 15,
+        "turns": 16,
+        "ad_turns": 16,
+        "paid_units": 16,
         "advertisers": 8,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.8421052631578947,
-        "competition_score": 2.7974131325367257,
-        "ad_rate_low": 0.7961107336956521,
+        "posterior_ad_rate": 0.85,
+        "competition_score": 2.823638880654258,
+        "ad_rate_low": 0.8063865817272802,
         "ad_rate_high": 1,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 111,
+        "turns": 114,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.17117117117117117,
-        "posterior_ad_rate": 0.17391304347826086,
-        "competition_score": 0.6794592340188728,
-        "ad_rate_low": 0.11240858853979098,
-        "ad_rate_high": 0.2519332527442037,
+        "ad_rate": 0.16666666666666666,
+        "posterior_ad_rate": 0.1694915254237288,
+        "competition_score": 0.6621848467133082,
+        "ad_rate_low": 0.1093729979154317,
+        "ad_rate_high": 0.24569346418284255,
         "evidence_strength": "established"
       },
       {
         "turn_index": 3,
         "branch": "ad_deepen",
-        "turns": 14,
-        "ad_turns": 13,
-        "paid_units": 13,
+        "turns": 15,
+        "ad_turns": 14,
+        "paid_units": 14,
         "advertisers": 7,
-        "ad_rate": 0.9285714285714286,
-        "posterior_ad_rate": 0.7777777777777778,
-        "competition_score": 2.4654972233440207,
-        "ad_rate_low": 0.685307304460422,
-        "ad_rate_high": 0.9872781138877084,
+        "ad_rate": 0.9333333333333333,
+        "posterior_ad_rate": 0.7894736842105263,
+        "competition_score": 2.50257236955972,
+        "ad_rate_low": 0.7018292244757601,
+        "ad_rate_high": 0.9881334113938051,
         "evidence_strength": "directional"
       },
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 85,
+        "turns": 89,
         "ad_turns": 7,
         "paid_units": 7,
         "advertisers": 7,
-        "ad_rate": 0.08235294117647059,
-        "posterior_ad_rate": 0.0898876404494382,
-        "competition_score": 0.2849370787813314,
-        "ad_rate_low": 0.04046320889853023,
-        "ad_rate_high": 0.16036162991571895,
+        "ad_rate": 0.07865168539325842,
+        "posterior_ad_rate": 0.08602150537634409,
+        "competition_score": 0.2726817205541774,
+        "ad_rate_low": 0.03861933093175789,
+        "ad_rate_high": 0.15355314347626609,
         "evidence_strength": "established"
       },
       {
@@ -2064,6 +2109,218 @@
     ]
   },
   "ads": [
+    {
+      "id": "e0efd02e3f696e0ba34a5819",
+      "turn_id": "69685a757d63c26bb89057cd",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "00a75d12f8f027f7cfc9f0c3",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124765.964216,
+      "captured_at": "2026-09-23T00:48:33.806Z",
+      "prompt": "Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.",
+      "answer": "For a 50-person Indian company, I’d compare these four on total cost of ownership, not just airfare. Public corporate pricing is limited, so where providers quote individually, I’ve marked it as custom rather than inventing a number.\n\nProvider\tFees / total cost\tCancellation & refunds\t“Warranty” / protection\tSupport\nTrip.Biz / Trip.com\tCustom corporate quote; consumer Trip.com fares may have booking/payment costs depending on itinerary\tSupplier/airline rules generally apply; refunds go to original payment method\t24/7 support; Trip.Biz advertises emergency assistance and special-circumstance change/cancellation support \nTrip.biz\n+1\n\t24/7 human support \nTrip.biz\n\nMakeMyTrip myBiz\tCustom service fee + GST; 1.5% payment-gateway fee can apply to wallet/credit repayment \nMakeMyTrip\n\tAirline/hotel policy determines refund; MMT is intermediary, not supplier \nMakeMyTrip\n\tNo blanket travel warranty; negotiated terms need to be in contract\tCorporate platform + support\nYatra for Business\tCustom / transaction-based; no published standard corporate fee\tFree rescheduling available on eligible bookings; cancellations subject to airline policy \nYatra.com\n\tCorporate fares, GST compliance and eCash benefits; no universal refund guarantee\tSME support; domestic/international support channels \nYatra.com\n+1\n\nEaseMyTrip EMTDesk\tCustom quote\tAirline charges + EMT cancellation/service charges; convenience fees generally non-refundable \nEaseMyTrip\n\t24/7 corporate support, negotiated rates and expense controls \nEaseMyTrip\n\t24/7 support \nEaseMyTrip\nWhat matters financially\n\nFor 50 employees, the biggest hidden costs are usually change/cancellation fees, payment fees, service fees and employee time, rather than subscription pricing.\n\nTrip.Biz is worth getting a quote from if you have significant international travel. myBiz makes the fee structure particularly transparent, but its 1.5% payment charge can become meaningful at scale. Yatra has useful free-rescheduling benefits, while EMTDesk emphasises managed support and expense controls.\n\nBefore signing, ask each provider for a sample ₹10 lakh annual travel-spend invoice showing every fee, GST treatment, cancellation deduction and refund timeline.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "147a44968121008d0dbcfcbddc9268129bc32beaaeeb6f3868416042aee80aa7",
+      "screenshot_relpath": "evidence/147a44968121008d0dbcfcbddc9268129bc32beaaeeb6f3868416042aee80aa7.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]"
+            ],
+            "text": "Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]\n\n₹2,480.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000007514820ca11d2320e08d2364&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=cb53ec9aa7d23a684016693099268429ca2c7c0add005e3b56df7f31d67e58c0&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fc80f9d38306ed7b23fb7c3a",
+      "turn_id": "7f02b911650172fc6a07aab1",
+      "advertiser": "Pond's",
+      "advertiser_key": "a84075540463adc27e2e38f5",
+      "creative_id": "bb29110d89343eb0d436372f",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Pond's Super Light Gel 100ml",
+      "description": "100 hr hydration for soft, bouncy skin",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124765.964216,
+      "captured_at": "2026-09-23T00:48:02.229Z",
+      "prompt": "I am comparing a fragrance-layering set with perfume and matching body products under ₹7,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "Here are three currently available India options under ₹7,000:\n\nBath & Body Works Into the Night Gift Set — ₹5,624. A more premium layering-style set, suited to a richer evening fragrance profile.\n\nVictoria's Secret Mini Fragrance Mist And Lotion Gift Set — ₹4,049. Focuses on matching mist + lotion, making layering straightforward; compact sizes are convenient for travel.\n\nPlum BodyLovin' Vanilla Vibes Bath & Body Gift Set — ₹1,498. A much lower-cost option with a coordinated vanilla body-care routine; better suited to everyday layering than premium perfume use.\n\nFor a true perfume + matching body-product pairing, AJIO currently lists Cacharel Noa EDT + Body Lotion at ₹4,600 and Amor Amor EDT + Body Lotion at ₹3,240. \nluxe.ajio.com\n\nPrices can change with sales and seller availability.",
+      "industry": "Beauty and personal care",
+      "category": "Fragrance layering",
+      "screenshot_sha256": "382b9ea1c784a8d561bc4734941e56e218dc75b36337f4b642de19a11746095f",
+      "screenshot_relpath": "evidence/382b9ea1c784a8d561bc4734941e56e218dc75b36337f4b642de19a11746095f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Pond's",
+        "format": "answer_card",
+        "headline": "Pond's Super Light Gel 100ml",
+        "description": "100 hr hydration for soft, bouncy skin",
+        "copy": [
+          "Pond's",
+          "Pond's Super Light Gel 100ml",
+          "100 hr hydration for soft, bouncy skin"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/d1c928191adb5f23809b558a76365063.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Pond's",
+              "Pond's Super Light Gel 100ml",
+              "100 hr hydration for soft, bouncy skin"
+            ],
+            "text": "Pond's\n\nPond's Super Light Gel 100ml\n\n100 hr hydration for soft, bouncy skin",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/d1c928191adb5f23809b558a76365063.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "0624fdaa6394e14c7b7aeeea",
+      "turn_id": "1346c6abbd6bed4a86937c69",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "2234c558491c4e0568c6ec11",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Coimbatore to Hong Kong flight tickets",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124765.964216,
+      "captured_at": "2026-09-23T00:46:56.841Z",
+      "prompt": "Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, Trip.com is closer to an OTA than a fully managed Indian corporate-travel programme. The closest alternatives are:\n\nOption\tCurrent cost\tKey exclusions / limitations\tBest for\nTrip.com / Trip.Biz\t₹0 booking fee on domestic flights currently advertised; fare/taxes extra \nTrip.com\n\tNo publicly stated India-specific corporate service fee; airline cancellation/change rules still apply \nTrip.com\n\tTeams prioritising international inventory and low upfront booking fees\nMakeMyTrip myBiz\tCustom service fee; shown separately on booking; 1.5% payment-gateway fee can apply \nMakeMyTrip\n\tGST invoices aren't assured for some airlines/international LCCs \nMakeMyTrip\n\tIndian SMBs wanting policy controls, GST and expense management\nYatra for Business\tCustom quote\tExact service/transaction fees negotiated; enterprise features generally require onboarding\tCompanies wanting a managed travel desk and corporate support\nEaseMyTrip EMTDesk\tCustom quote\tPricing isn't publicly standardised\tCompanies wanting a dedicated travel manager, policy/expense controls and 24×7 support \nTravel Trade Journal\n+1\n\nBottom line: For 50 employees, compare total booking fee + cancellation/change handling + credit terms, rather than headline airfare. myBiz and EMTDesk are more purpose-built for Indian corporate administration; Trip.com is more compelling if global flight inventory and low booking fees matter most.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "08bc6d7e653403ca1b3b23f99ca4d08e9cf5414bb07be3270be9ca6ee90dda95",
+      "screenshot_relpath": "evidence/08bc6d7e653403ca1b3b23f99ca4d08e9cf5414bb07be3270be9ca6ee90dda95.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "product_card",
+        "headline": "Coimbatore to Hong Kong flight tickets",
+        "description": null,
+        "copy": [
+          "Trip.com/flights",
+          "Coimbatore to Hong Kong flight tickets",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_000000001484820cbc3997c3a74cb7d2&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f0a042bc51d79aae3256ed2388e512a54708ed5f8628ccace41dd9ffa16817e8&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Coimbatore to Hong Kong flight tickets"
+            ],
+            "text": "Coimbatore to Hong Kong flight tickets\n\n₹26,994.00\n₹33,742.50\nTrip.com/flights",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_000000001484820cbc3997c3a74cb7d2&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f0a042bc51d79aae3256ed2388e512a54708ed5f8628ccace41dd9ffa16817e8&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "139d6b3c62ee2e02639c90b5",
+      "turn_id": "61eaca0e864ad146e6b84d44",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "3ef4ecc7fb3e5cccf7573aa3",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Great Deals to Xiamen with Trip.com",
+      "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790124765.964216,
+      "captured_at": "2026-09-23T00:45:12.854Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, switching is relatively easy if you use a self-serve platform, but harder when migrating approvals, employee profiles, GST details and negotiated fares.\n\nProvider\tCost structure\tSwitching difficulty\tKey trade-off\nMakeMyTrip myBiz\tNo annual subscription; booking costs/fare-specific charges apply\tLow\tFast setup; employee invite + policy configuration. GST invoices, corporate fares and expense tools included. \nMakeMyTrip Biz\n+1\n\nYatra for Business\tCustom/transaction pricing; no public standard rate\tLow–Medium\tStronger managed-service tiers; Travel Pro targets companies under ₹5 crore annual travel spend. \nYatra.com\n\nEaseMyTrip EMTDesk\tCustom/transaction pricing\tLow–Medium\tCentralised bookings, negotiated rates, expense management and 24/7 support; setup involves company/account configuration. \nEaseMyTrip\n\nPractical switching cost: budget 1–3 weeks for a 50-person rollout, mainly for employee onboarding, travel-policy setup, GST configuration and testing.\n\nWhat to compare before switching: booking/service fees, cancellation markup, credit period, GST-credit handling, 24×7 human support, negotiated corporate fares, and whether existing traveller data can be imported.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "b3c9824e76e625f99689ba19d121f6a40f3e87fc93e96b575c4714e808d8fdfd",
+      "screenshot_relpath": "evidence/b3c9824e76e625f99689ba19d121f6a40f3e87fc93e96b575c4714e808d8fdfd.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "answer_card",
+        "headline": "Great Deals to Xiamen with Trip.com",
+        "description": "More airlines, more choices, great fares. Book your Xiamen flight today.",
+        "copy": [
+          "Trip.com/flights",
+          "Great Deals to Xiamen with Trip.com",
+          "More airlines, more choices, great fares. Book your Xiamen flight today."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Trip.com/flights",
+              "Great Deals to Xiamen with Trip.com",
+              "More airlines, more choices, great fares. Book your Xiamen flight today."
+            ],
+            "text": "Trip.com/flights\n\nGreat Deals to Xiamen with Trip.com\n\nMore airlines, more choices, great fares. Book your Xiamen flight today.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/5e286fb7b1c45b35956fb353cd06edbe.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "3436929c77cd6b2ae18fdaf3",
       "turn_id": "477ec61cdd7835365367aadb",
