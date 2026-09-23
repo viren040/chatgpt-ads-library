@@ -1,6 +1,6 @@
 {
-  "schema_version": 6,
-  "generated_at": "2026-09-23T02:33:07Z",
+  "schema_version": 7,
+  "generated_at": "2026-09-23T02:41:12Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,14 +14,14 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 629,
-    "approved_paid_units": 259,
+    "valid_turns": 640,
+    "approved_paid_units": 263,
     "approved_advertisers": 102,
     "approved_brand_families": 102,
     "approved_advertiser_labels": 104,
-    "approved_creatives": 199,
+    "approved_creatives": 201,
     "inherited_review_paid_units": 1,
-    "complete_panel_paid_units": 146,
+    "complete_panel_paid_units": 150,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -43,12 +43,12 @@
       "advertiser": "Trip.com/flights",
       "observed_advertiser_labels": "Trip.com/flights",
       "advertiser_labels": 1,
-      "placements": 16,
+      "placements": 17,
       "creatives": 5,
-      "panel_placements": 16,
+      "panel_placements": 17,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T23:15:54.873Z",
-      "last_seen": "2026-09-23T02:30:18.416Z",
+      "last_seen": "2026-09-23T02:32:00.333Z",
       "categories": "Corporate travel,Honeymoon packages"
     },
     {
@@ -56,13 +56,13 @@
       "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
       "observed_advertiser_labels": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
       "advertiser_labels": 1,
-      "placements": 12,
-      "creatives": 5,
-      "panel_placements": 12,
+      "placements": 13,
+      "creatives": 6,
+      "panel_placements": 13,
       "reviewed_snapshot_placements": 0,
       "first_seen": "2026-09-22T22:03:28.123Z",
-      "last_seen": "2026-09-23T01:09:27.819Z",
-      "categories": "Vacation rentals,Intercity buses,Corporate travel"
+      "last_seen": "2026-09-23T02:33:26.851Z",
+      "categories": "Vacation rentals,Intercity buses,Corporate travel,Fleet tracking"
     },
     {
       "id": "2e81afd45de21f0c44616576",
@@ -284,6 +284,19 @@
       "first_seen": "2026-09-22T09:31:40.058Z",
       "last_seen": "2026-09-23T02:14:59.436Z",
       "categories": "Commercial discovery,Honeymoon packages,Luxury perfume gifts"
+    },
+    {
+      "id": "91b41cfcf6003b71b669d4e3",
+      "advertiser": "Nestle Professional",
+      "observed_advertiser_labels": "Nestle Professional",
+      "advertiser_labels": 1,
+      "placements": 3,
+      "creatives": 2,
+      "panel_placements": 3,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T02:23:23.868Z",
+      "last_seen": "2026-09-23T02:36:55.409Z",
+      "categories": "Card terminals,Office leasing,Coworking"
     },
     {
       "id": "8848574dfbc6f190fb67e0a3",
@@ -910,19 +923,6 @@
       "categories": "Beauty and personal care"
     },
     {
-      "id": "91b41cfcf6003b71b669d4e3",
-      "advertiser": "Nestle Professional",
-      "observed_advertiser_labels": "Nestle Professional",
-      "advertiser_labels": 1,
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 1,
-      "reviewed_snapshot_placements": 0,
-      "first_seen": "2026-09-23T02:23:23.868Z",
-      "last_seen": "2026-09-23T02:23:23.868Z",
-      "categories": "Card terminals"
-    },
-    {
       "id": "c41f3c8bb00a61cb2402bb52",
       "advertiser": "Nutrabox",
       "observed_advertiser_labels": "Nutrabox",
@@ -1352,6 +1352,279 @@
       "categories": "Fashion and accessories"
     }
   ],
+  "advertiser_discovery": {
+    "at": 1790131272.563117,
+    "target_advertisers": 1000,
+    "approved_advertisers": 102,
+    "approved_advertiser_labels": 104,
+    "remaining_advertisers": 898,
+    "progress": 0.102,
+    "new_advertisers_last_hour": 4,
+    "new_advertisers_last_24h": 102,
+    "eta_days_at_last_24h_rate": 8.8,
+    "approved_placements_per_advertiser": 2.58,
+    "target_brand_families": 1000,
+    "observed_brand_families": 102,
+    "remaining_brand_families": 898,
+    "progress_percent": 10.2,
+    "new_brand_families_last_7d": 56,
+    "new_brand_families_last_30d": 102,
+    "timeline": [
+      {
+        "date": "2026-09-11",
+        "new_brand_families": 19,
+        "cumulative_brand_families": 19
+      },
+      {
+        "date": "2026-09-12",
+        "new_brand_families": 8,
+        "cumulative_brand_families": 27
+      },
+      {
+        "date": "2026-09-13",
+        "new_brand_families": 1,
+        "cumulative_brand_families": 28
+      },
+      {
+        "date": "2026-09-14",
+        "new_brand_families": 4,
+        "cumulative_brand_families": 32
+      },
+      {
+        "date": "2026-09-15",
+        "new_brand_families": 14,
+        "cumulative_brand_families": 46
+      },
+      {
+        "date": "2026-09-19",
+        "new_brand_families": 3,
+        "cumulative_brand_families": 49
+      },
+      {
+        "date": "2026-09-20",
+        "new_brand_families": 5,
+        "cumulative_brand_families": 54
+      },
+      {
+        "date": "2026-09-21",
+        "new_brand_families": 11,
+        "cumulative_brand_families": 65
+      },
+      {
+        "date": "2026-09-22",
+        "new_brand_families": 28,
+        "cumulative_brand_families": 93
+      },
+      {
+        "date": "2026-09-23",
+        "new_brand_families": 9,
+        "cumulative_brand_families": 102
+      }
+    ],
+    "recent_brand_families": [
+      {
+        "id": "91b41cfcf6003b71b669d4e3",
+        "brand_family": "Nestle Professional",
+        "observed_advertiser_labels": "Nestle Professional",
+        "first_seen": "2026-09-23T02:23:23.868Z",
+        "last_seen": "2026-09-23T02:36:55.409Z",
+        "placements": 3,
+        "creatives": 2,
+        "categories": "Card terminals,Office leasing,Coworking"
+      },
+      {
+        "id": "f987824c948e43cb48692a11",
+        "brand_family": "Palmonas",
+        "observed_advertiser_labels": "Palmonas",
+        "first_seen": "2026-09-23T02:13:21.598Z",
+        "last_seen": "2026-09-23T02:13:21.598Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Luxury perfume gifts"
+      },
+      {
+        "id": "d745b16ea0fe2d6d5e299fa4",
+        "brand_family": "Shiprocket",
+        "observed_advertiser_labels": "Shiprocket",
+        "first_seen": "2026-09-23T01:50:06.797Z",
+        "last_seen": "2026-09-23T01:50:06.797Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Payment gateways"
+      },
+      {
+        "id": "da7bc7bad3da0abb03b60f6f",
+        "brand_family": "Take App (MX)",
+        "observed_advertiser_labels": "Take App (MX)",
+        "first_seen": "2026-09-23T01:40:11.550Z",
+        "last_seen": "2026-09-23T01:40:11.550Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Payment gateways"
+      },
+      {
+        "id": "650dd4b7a6b9b1b65b11e845",
+        "brand_family": "Birla Opus",
+        "observed_advertiser_labels": "Birla Opus",
+        "first_seen": "2026-09-23T01:22:39.763Z",
+        "last_seen": "2026-09-23T01:37:15.872Z",
+        "placements": 3,
+        "creatives": 1,
+        "categories": "Paint services"
+      },
+      {
+        "id": "2a5e3c4bf924555fc7b9f447",
+        "brand_family": "MoveinSync",
+        "observed_advertiser_labels": "MoveinSync",
+        "first_seen": "2026-09-23T00:38:50.075Z",
+        "last_seen": "2026-09-23T00:38:50.075Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "ba418e2115d11495d2b2f265",
+        "brand_family": "COWBERRY Industries Pvt Ltd",
+        "observed_advertiser_labels": "COWBERRY Industries Pvt Ltd",
+        "first_seen": "2026-09-23T00:33:59.033Z",
+        "last_seen": "2026-09-23T00:33:59.033Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Tea subscriptions"
+      },
+      {
+        "id": "8f601d48517c6f00575021b0",
+        "brand_family": "Sony LIV",
+        "observed_advertiser_labels": "Sony LIV",
+        "first_seen": "2026-09-23T00:16:16.816Z",
+        "last_seen": "2026-09-23T00:16:16.816Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Wi-Fi routers"
+      },
+      {
+        "id": "92f3bb640fa3d06f07d1a2ed",
+        "brand_family": "Lyft",
+        "observed_advertiser_labels": "Lyft",
+        "first_seen": "2026-09-23T00:09:22.046Z",
+        "last_seen": "2026-09-23T00:09:22.046Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "76833d0b5fca68bedf0ced48",
+        "brand_family": "Superworks",
+        "observed_advertiser_labels": "Superworks",
+        "first_seen": "2026-09-22T23:56:31.304Z",
+        "last_seen": "2026-09-22T23:58:29.502Z",
+        "placements": 2,
+        "creatives": 2,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "b0930538dd0a40c2433cf3a7",
+        "brand_family": "Masters India IT Solutions Private Limited",
+        "observed_advertiser_labels": "Masters India IT Solutions Private Limited",
+        "first_seen": "2026-09-22T23:55:03.302Z",
+        "last_seen": "2026-09-22T23:55:03.302Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "c4eee08d8414dd197fd04a30",
+        "brand_family": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+        "observed_advertiser_labels": "ZENITHZEPHYR WELLNESS PRIVATE LIMITED",
+        "first_seen": "2026-09-22T23:43:19.006Z",
+        "last_seen": "2026-09-23T00:13:12.255Z",
+        "placements": 2,
+        "creatives": 1,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "41805db8eb323d5199cb8ae2",
+        "brand_family": "Atlassian",
+        "observed_advertiser_labels": "Atlassian",
+        "first_seen": "2026-09-22T23:27:23.985Z",
+        "last_seen": "2026-09-22T23:45:02.476Z",
+        "placements": 2,
+        "creatives": 2,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "59d736a35fa0e8d41185a2bf",
+        "brand_family": "pacific data integrators",
+        "observed_advertiser_labels": "pacific data integrators",
+        "first_seen": "2026-09-22T23:25:28.848Z",
+        "last_seen": "2026-09-22T23:53:21.531Z",
+        "placements": 2,
+        "creatives": 1,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "ab56d48dc66e2f9280d61b1f",
+        "brand_family": "Trip.com/flights",
+        "observed_advertiser_labels": "Trip.com/flights",
+        "first_seen": "2026-09-22T23:15:54.873Z",
+        "last_seen": "2026-09-23T02:32:00.333Z",
+        "placements": 17,
+        "creatives": 5,
+        "categories": "Corporate travel,Honeymoon packages"
+      },
+      {
+        "id": "d5982a03495f5fcda2bb5a52",
+        "brand_family": "Call.com Telecom Limited",
+        "observed_advertiser_labels": "Call.com Telecom Limited",
+        "first_seen": "2026-09-22T23:07:56.890Z",
+        "last_seen": "2026-09-22T23:09:30.783Z",
+        "placements": 2,
+        "creatives": 2,
+        "categories": "Corporate travel"
+      },
+      {
+        "id": "ab6d568beea529e0dccafd61",
+        "brand_family": "Hero MotoCorp",
+        "observed_advertiser_labels": "Hero MotoCorp",
+        "first_seen": "2026-09-22T22:38:33.929Z",
+        "last_seen": "2026-09-22T22:38:33.929Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Intercity buses"
+      },
+      {
+        "id": "c329e8e590b0a10eaab8ec7b",
+        "brand_family": "UJ PALLAZZIO - Business Class Luxury Hotel",
+        "observed_advertiser_labels": "UJ PALLAZZIO - Business Class Luxury Hotel",
+        "first_seen": "2026-09-22T22:35:21.436Z",
+        "last_seen": "2026-09-22T23:38:43.630Z",
+        "placements": 4,
+        "creatives": 2,
+        "categories": "Intercity buses,Corporate travel"
+      },
+      {
+        "id": "4318fa9ceb761a2082f628c6",
+        "brand_family": "Zestpics",
+        "observed_advertiser_labels": "Zestpics",
+        "first_seen": "2026-09-22T22:11:20.567Z",
+        "last_seen": "2026-09-22T22:11:20.567Z",
+        "placements": 1,
+        "creatives": 1,
+        "categories": "Luxury perfume gifts"
+      },
+      {
+        "id": "d11acd0c3697436b74d704d0",
+        "brand_family": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "observed_advertiser_labels": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "first_seen": "2026-09-22T22:03:28.123Z",
+        "last_seen": "2026-09-23T02:33:26.851Z",
+        "placements": 13,
+        "creatives": 6,
+        "categories": "Vacation rentals,Intercity buses,Corporate travel,Fleet tracking"
+      }
+    ],
+    "timeline_basis": "first_observed_at_in_approved_first_party_evidence"
+  },
   "brand_aliases": [
     {
       "observed_advertiser_key": "ff40120a8b25c1e9becd0810",
@@ -1384,12 +1657,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 629,
-    "ad_turns": 146,
-    "ad_rate": 0.23211446740858505,
-    "ad_rate_low": 0.20080713138043707,
-    "ad_rate_high": 0.26667414671506096,
-    "paid_units": 146,
+    "turns": 640,
+    "ad_turns": 150,
+    "ad_rate": 0.234375,
+    "ad_rate_low": 0.2032002623252954,
+    "ad_rate_high": 0.26871953906684837,
+    "paid_units": 150,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1409,16 +1682,16 @@
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 116,
-        "ad_turns": 72,
-        "paid_units": 72,
+        "turns": 117,
+        "ad_turns": 73,
+        "paid_units": 73,
         "advertisers": 19,
         "creatives": 38,
-        "ad_rate": 0.6206896551724138,
-        "posterior_ad_rate": 0.6083333333333333,
-        "competition_score": 2.671993098857079,
-        "ad_rate_low": 0.5298613573866044,
-        "ad_rate_high": 0.7037803830440974,
+        "ad_rate": 0.6239316239316239,
+        "posterior_ad_rate": 0.6115702479338843,
+        "competition_score": 2.6862106552531264,
+        "ad_rate_low": 0.5335345958015532,
+        "ad_rate_high": 0.7064489860113325,
         "evidence_strength": "established"
       },
       {
@@ -2217,6 +2490,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Bathroom fittings",
+        "industry": "Home improvement",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Car tyres",
         "industry": "Automotive",
         "turns": 3,
@@ -2397,6 +2685,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Office leasing",
+        "industry": "Real estate services",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Pest control",
         "industry": "Home improvement",
         "turns": 3,
@@ -2532,6 +2835,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Translation services",
+        "industry": "Business services",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Vehicle servicing",
         "industry": "Automotive",
         "turns": 3,
@@ -2607,21 +2925,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Bathroom fittings",
-        "industry": "Home improvement",
-        "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
-        "ad_rate_high": 1,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Car rentals",
         "industry": "Travel and leisure",
         "turns": 1,
@@ -2635,49 +2938,79 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Coworking",
+        "industry": "Real estate services",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Fleet tracking",
+        "industry": "Logistics",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 226,
-        "ad_turns": 60,
-        "paid_units": 60,
+        "turns": 232,
+        "ad_turns": 63,
+        "paid_units": 63,
         "advertisers": 27,
-        "ad_rate": 0.26548672566371684,
-        "posterior_ad_rate": 0.26521739130434785,
-        "competition_score": 1.2884210465338344,
-        "ad_rate_low": 0.21218162246550848,
-        "ad_rate_high": 0.3266311947094503,
+        "ad_rate": 0.27155172413793105,
+        "posterior_ad_rate": 0.2711864406779661,
+        "competition_score": 1.31741857494985,
+        "ad_rate_low": 0.21838724845281535,
+        "ad_rate_high": 0.3321585416028831,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "ad_deepen",
-        "turns": 20,
-        "ad_turns": 20,
-        "paid_units": 20,
+        "turns": 21,
+        "ad_turns": 21,
+        "paid_units": 21,
         "advertisers": 11,
         "ad_rate": 1.0,
-        "posterior_ad_rate": 0.875,
-        "competition_score": 3.237884753373456,
-        "ad_rate_low": 0.8388698745050668,
+        "posterior_ad_rate": 0.88,
+        "competition_score": 3.2563869519641613,
+        "ad_rate_low": 0.8453561767357979,
         "ad_rate_high": 0.9999999999999999,
         "evidence_strength": "established"
       },
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 160,
+        "turns": 163,
         "ad_turns": 23,
         "paid_units": 23,
         "advertisers": 16,
-        "ad_rate": 0.14375,
-        "posterior_ad_rate": 0.14634146341463414,
-        "competition_score": 0.6102329270403384,
-        "ad_rate_low": 0.09773598361809333,
-        "ad_rate_high": 0.20647002999505493,
+        "ad_rate": 0.1411042944785276,
+        "posterior_ad_rate": 0.1437125748502994,
+        "competition_score": 0.5992706588899132,
+        "ad_rate_low": 0.0958999903764261,
+        "ad_rate_high": 0.20283605626901485,
         "evidence_strength": "established"
       },
       {
@@ -2697,15 +3030,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 122,
+        "turns": 123,
         "ad_turns": 10,
         "paid_units": 10,
         "advertisers": 10,
-        "ad_rate": 0.08196721311475409,
-        "posterior_ad_rate": 0.0873015873015873,
-        "competition_score": 0.31297291672962474,
-        "ad_rate_low": 0.04513035540797247,
-        "ad_rate_high": 0.1443268670049657,
+        "ad_rate": 0.08130081300813008,
+        "posterior_ad_rate": 0.08661417322834646,
+        "competition_score": 0.3105085630545883,
+        "ad_rate_low": 0.04475838884502017,
+        "ad_rate_high": 0.1432051814662972,
         "evidence_strength": "established"
       },
       {
@@ -2739,6 +3072,228 @@
     ]
   },
   "ads": [
+    {
+      "id": "25cfba7be446bbc0fab21e76",
+      "turn_id": "d4783c9fc389887f5e43d061",
+      "advertiser": "Nestle Professional",
+      "advertiser_key": "91b41cfcf6003b71b669d4e3",
+      "brand": "Nestle Professional",
+      "brand_key": "91b41cfcf6003b71b669d4e3",
+      "creative_id": "cc5aba94fa7c73fe9c830e88",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Office Coffee Vending Machines",
+      "description": "Explore Nescafe machines designed for coffee lovers",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser.",
+      "reviewed_at": 1790131263.1295948,
+      "captured_at": "2026-09-23T02:36:55.409Z",
+      "prompt": "I am comparing coworking desks for a five-person team in Gurugram. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.4\n91Springboard 90B Udyog Vihar, Gurugarm\n4.9\nAwfis Woco One\n4.7\nWeWork Two Horizon Centre\nExpand\nUse two fingers to move the map\n91Springboard 90B Udyog Vihar, Gurugarm\n4.4\n•\nCoworking space\nOpen\nAwfis Woco One\n4.9\n•\nCoworking space\nClosed\nWeWork Two Horizon Centre\n4.7\n•\nCoworking space\nGive feedback\n\nFor a 5-person team in Gurugram, these are three purchase-ready options to shortlist:\n\nOffer\tMonthly cost for 5\tKey terms to verify\n91Springboard 90B Udyog Vihar\t₹54,280 incl. 18% GST (5 × ₹9,200)\tDedicated-seat availability; deposit; notice period; meeting-room charges. \n91Springboard\n\nAwfis Woco One\t₹22,000/month shown online\tConfirm whether ₹22,000 is for the required 5-seat configuration; page says price includes first-month billing + security deposit; verify GST and cancellation. \nawfis.com\n\nWeWork Two Horizon Centre\t₹75,000/month for 5 All Access memberships\tConfirm whether individual memberships meet your team's dedicated-desk requirement; private-office pricing is quote-based. \nwework.co.in\n+1\n\nBefore paying: get written confirmation of seat allocation, GST-inclusive total, security deposit/refund timing, minimum commitment, notice/early-exit fees, meeting-room credits, parking, 24×7 access, and guest policy.",
+      "industry": "Real estate services",
+      "category": "Coworking",
+      "screenshot_sha256": "5c3dcbcc7df3490b3e905e51f6e27a23390531de3005480e39002774a6fe7104",
+      "screenshot_relpath": "evidence/5c3dcbcc7df3490b3e905e51f6e27a23390531de3005480e39002774a6fe7104.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Nestle Professional",
+        "format": "answer_card",
+        "headline": "Office Coffee Vending Machines",
+        "description": "Explore Nescafe machines designed for coffee lovers",
+        "copy": [
+          "Nestle Professional",
+          "Office Coffee Vending Machines",
+          "Explore Nescafe machines designed for coffee lovers"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/e40bdd71a5ede067.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Nestle Professional",
+              "Office Coffee Vending Machines",
+              "Explore Nescafe machines designed for coffee lovers"
+            ],
+            "text": "Nestle Professional\n\nOffice Coffee Vending Machines\n\nExplore Nescafe machines designed for coffee lovers",
+            "image_urls": [
+              "https://bzrcdn.openai.com/e40bdd71a5ede067.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "40d5196707e3fd413cf68ddb",
+      "turn_id": "002893332c4a72cf51fff285",
+      "advertiser": "Nestle Professional",
+      "advertiser_key": "91b41cfcf6003b71b669d4e3",
+      "brand": "Nestle Professional",
+      "brand_key": "91b41cfcf6003b71b669d4e3",
+      "creative_id": "cc5aba94fa7c73fe9c830e88",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Office Coffee Vending Machines",
+      "description": "Explore Nescafe machines designed for coffee lovers",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser.",
+      "reviewed_at": 1790131263.1295948,
+      "captured_at": "2026-09-23T02:36:39.952Z",
+      "prompt": "I am comparing a small furnished office for a startup in Noida. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "4.5\nNukleus Coworking & Managed Offices\n4.8\nWorkspaces by Innova\nExpand\nUse two fingers to move the map\nNukleus Coworking & Managed Offices\n4.5\n•\nCoworking space\nClosed\nWorkspaces by Innova\n4.8\n•\nCoworking space\nOpen\nGive feedback\n\nFor a small startup, these are three practical Noida options currently offering furnished/private-office formats:\n\nOption\tIndicative cost\tWhat differentiates it\nNukleus Coworking & Managed Offices\tQuote-based\tManaged-office focus; good if you want a more conventional dedicated office rather than just coworking. Sector 142.\nWorkspaces by Innova\tQuote-based\tSector 63 location and 24×7 access; potentially practical for a cost-conscious early-stage team.\nWeWork Galaxy Business Park\t₹14,000/desk/month\tFully furnished private offices, meeting rooms, Wi-Fi, support and coffee included. Sector 62. \nWeWork India\n+1\n\nMy shortlist logic: For a 4–8 person startup, compare total monthly rent + GST + deposit + meeting-room credits + electricity/maintenance + lock-in rather than headline seat price. WeWork has the clearest published pricing; Awfis also offers plug-and-play 2–9-person cabins, with monthly-to-yearly terms. \nawfis.com",
+      "industry": "Real estate services",
+      "category": "Office leasing",
+      "screenshot_sha256": "4175e1db6b88efaa824bbc93123bde9257159da02c4085a7716e8a3bfc0eeb9c",
+      "screenshot_relpath": "evidence/4175e1db6b88efaa824bbc93123bde9257159da02c4085a7716e8a3bfc0eeb9c.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Nestle Professional",
+        "format": "answer_card",
+        "headline": "Office Coffee Vending Machines",
+        "description": "Explore Nescafe machines designed for coffee lovers",
+        "copy": [
+          "Nestle Professional",
+          "Office Coffee Vending Machines",
+          "Explore Nescafe machines designed for coffee lovers"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/e40bdd71a5ede067.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Nestle Professional",
+              "Office Coffee Vending Machines",
+              "Explore Nescafe machines designed for coffee lovers"
+            ],
+            "text": "Nestle Professional\n\nOffice Coffee Vending Machines\n\nExplore Nescafe machines designed for coffee lovers",
+            "image_urls": [
+              "https://bzrcdn.openai.com/e40bdd71a5ede067.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "f48da59d1069439cc0fe31b3",
+      "turn_id": "079da750b5fc40d86b111274",
+      "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "advertiser_key": "d11acd0c3697436b74d704d0",
+      "brand": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+      "brand_key": "d11acd0c3697436b74d704d0",
+      "creative_id": "854b7e266a94e88f47ea8bd1",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Coach At Your DoorStep",
+      "description": "From parking to city traffic, get doorstep coaching designed around your time and in your car.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser.",
+      "reviewed_at": 1790131262.9915159,
+      "captured_at": "2026-09-23T02:33:26.851Z",
+      "prompt": "I am comparing GPS fleet tracking for 20 delivery vehicles in Ahmedabad. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For 20 delivery vehicles in Ahmedabad, these are three practical India-available offers. Prices are indicative/current published rates; hardware, GST and installation can change the final quote.\n\nOption\tPrice for 20 vehicles\tReliability / limitations\tPurchase terms\nLocoNav\t~₹8,000–16,000/month\tMature fleet platform, GPS + fuel/driver monitoring; exact hardware/support package varies\tUsually quote-based; verify device warranty, installation and lock-in\nFleetx\t~₹8,000+/month software starting point\tStrong route, geofence, ETA and fleet analytics; hardware may be separate\tDemo/quote; verify hardware, SIM, installation and add-on charges\nTrackOlap\tQuote-based; published plans support 20+ vehicles\tLive tracking, alerts, trips, driver behaviour; basic plans have fewer features\t7-day trial, quarterly billing; GST extra; upgrades allowed anytime, downgrades only after term \nTrackOlap\n\nMarket benchmark: basic GPS hardware is roughly ₹3,000–₹7,000/vehicle, with ₹200–₹600/vehicle/month typical for hardware + subscription. \nFleetx\n+1\n\nBefore paying: confirm Ahmedabad installation coverage, 4G/2G fallback, SIM/data ownership, 12/24/36-month total cost, replacement SLA, cancellation/early-exit fees, and whether hardware is AIS-140 certified if required.",
+      "industry": "Logistics",
+      "category": "Fleet tracking",
+      "screenshot_sha256": "d4fc736c771d6f616130e3cf56484d08ab2f76db23c9b2150cedd1b6c876578a",
+      "screenshot_relpath": "evidence/d4fc736c771d6f616130e3cf56484d08ab2f76db23c9b2150cedd1b6c876578a.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+        "format": "answer_card",
+        "headline": "Coach At Your DoorStep",
+        "description": "From parking to city traffic, get doorstep coaching designed around your time and in your car.",
+        "copy": [
+          "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+          "Coach At Your DoorStep",
+          "From parking to city traffic, get doorstep coaching designed around your time and in your car."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/6942f0915c5d52cdac07c167ae47c8c5.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED",
+              "Coach At Your DoorStep",
+              "From parking to city traffic, get doorstep coaching designed around your time and in your car."
+            ],
+            "text": "DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED\n\nCoach At Your DoorStep\n\nFrom parking to city traffic, get doorstep coaching designed around your time and in your car.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/6942f0915c5d52cdac07c167ae47c8c5.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "fb9cda1437a061e2de2cfa0e",
+      "turn_id": "66a279a697f61e35e659c521",
+      "advertiser": "Trip.com/flights",
+      "advertiser_key": "ab56d48dc66e2f9280d61b1f",
+      "brand": "Trip.com/flights",
+      "brand_key": "ab56d48dc66e2f9280d61b1f",
+      "creative_id": "d922963a10af4f5da6dd66a3",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Kochi to Taipei flight tickets",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Human visual review: screenshot visibly shows the paid disclosure and displayed advertiser.",
+      "reviewed_at": 1790131263.169476,
+      "captured_at": "2026-09-23T02:32:00.333Z",
+      "prompt": "Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.",
+      "answer": "For a 50-person Indian company, the key difference is that Trip.com is primarily an OTA, while the alternatives provide a more structured corporate-travel programme.\n\nProvider\tCurrent price\tExclusions / watch-outs\tBest for\nTrip.com\tNo fixed corporate fee; flight fare + any applicable service fee at checkout\tAirline fare rules still govern changes/refunds; corporate approvals, GST workflows and account-level management are less comprehensive than a TMC. \nTrip.com\n+1\n\tTeams mainly wanting cheap/quick flight booking\nMakeMyTrip myBiz\tCustom service fee agreed in contract + 1.5% payment-gateway fee on certain card/wallet payments\tService fee, GST and gateway charges; special fares have their own conditions. \nMakeMyTrip\n\tIndian SME, GST invoices, domestic travel and simple employee booking\nFCM Travel\tCustom quote\tManagement/transaction fees, implementation and any offline/after-hours charges must be quoted\tCompanies wanting managed travel, policy, approvals and 24/7 human support. \nFCM Travel\n+1\n\nCorporate Traveller\tCustom quote\tConfirm transaction fees, after-hours support, implementation and credit terms\tSME-focused managed travel, particularly if you want more human assistance than an OTA\n\nFor a 50-person company, get all four to quote the same 12-month travel volume. Ask for the all-in cost including service fees, GST, cancellations, amendments, offline-agent support and implementation.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "c302c81b62983d9e8183b075a53eed9bab763e5ec1a7986043c698ff09ec146d",
+      "screenshot_relpath": "evidence/c302c81b62983d9e8183b075a53eed9bab763e5ec1a7986043c698ff09ec146d.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Trip.com/flights",
+        "format": "product_card",
+        "headline": "Kochi to Taipei flight tickets",
+        "description": null,
+        "copy": [
+          "Trip.com/flights",
+          "Kochi to Taipei flight tickets",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000acdc8230b364024a3c685e55&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=427f9eae6c3c91af0bdaccbb062ca796b7ddf2d79d666871a71129ce2093ae5a&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Kochi to Taipei flight tickets"
+            ],
+            "text": "Kochi to Taipei flight tickets\n\n₹23,618.00\n₹27,869.24\nTrip.com/flights",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000acdc8230b364024a3c685e55&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=427f9eae6c3c91af0bdaccbb062ca796b7ddf2d79d666871a71129ce2093ae5a&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "d6b40cd0f4b17deb86a2c1a3",
       "turn_id": "c407bc00271de01d30095a60",

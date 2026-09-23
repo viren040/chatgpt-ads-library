@@ -1,4 +1,101 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+25cfba7be446bbc0fab21e76,d4783c9fc389887f5e43d061,2026-09-23T02:36:55.409Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,human_visual,"I am comparing coworking desks for a five-person team in Gurugram. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","4.4
+91Springboard 90B Udyog Vihar, Gurugarm
+4.9
+Awfis Woco One
+4.7
+WeWork Two Horizon Centre
+Expand
+Use two fingers to move the map
+91Springboard 90B Udyog Vihar, Gurugarm
+4.4
+•
+Coworking space
+Open
+Awfis Woco One
+4.9
+•
+Coworking space
+Closed
+WeWork Two Horizon Centre
+4.7
+•
+Coworking space
+Give feedback
+
+For a 5-person team in Gurugram, these are three purchase-ready options to shortlist:
+
+Offer	Monthly cost for 5	Key terms to verify
+91Springboard 90B Udyog Vihar	₹54,280 incl. 18% GST (5 × ₹9,200)	Dedicated-seat availability; deposit; notice period; meeting-room charges. 
+91Springboard
+
+Awfis Woco One	₹22,000/month shown online	Confirm whether ₹22,000 is for the required 5-seat configuration; page says price includes first-month billing + security deposit; verify GST and cancellation. 
+awfis.com
+
+WeWork Two Horizon Centre	₹75,000/month for 5 All Access memberships	Confirm whether individual memberships meet your team's dedicated-desk requirement; private-office pricing is quote-based. 
+wework.co.in
++1
+
+Before paying: get written confirmation of seat allocation, GST-inclusive total, security deposit/refund timing, minimum commitment, notice/early-exit fees, meeting-room credits, parking, 24×7 access, and guest policy.",cc5aba94fa7c73fe9c830e88,evidence/5c3dcbcc7df3490b3e905e51f6e27a23390531de3005480e39002774a6fe7104.png,5c3dcbcc7df3490b3e905e51f6e27a23390531de3005480e39002774a6fe7104
+40d5196707e3fd413cf68ddb,002893332c4a72cf51fff285,2026-09-23T02:36:39.952Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Office leasing,complete_panel,True,human_visual,I am comparing a small furnished office for a startup in Noida. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.5
+Nukleus Coworking & Managed Offices
+4.8
+Workspaces by Innova
+Expand
+Use two fingers to move the map
+Nukleus Coworking & Managed Offices
+4.5
+•
+Coworking space
+Closed
+Workspaces by Innova
+4.8
+•
+Coworking space
+Open
+Give feedback
+
+For a small startup, these are three practical Noida options currently offering furnished/private-office formats:
+
+Option	Indicative cost	What differentiates it
+Nukleus Coworking & Managed Offices	Quote-based	Managed-office focus; good if you want a more conventional dedicated office rather than just coworking. Sector 142.
+Workspaces by Innova	Quote-based	Sector 63 location and 24×7 access; potentially practical for a cost-conscious early-stage team.
+WeWork Galaxy Business Park	₹14,000/desk/month	Fully furnished private offices, meeting rooms, Wi-Fi, support and coffee included. Sector 62. 
+WeWork India
++1
+
+My shortlist logic: For a 4–8 person startup, compare total monthly rent + GST + deposit + meeting-room credits + electricity/maintenance + lock-in rather than headline seat price. WeWork has the clearest published pricing; Awfis also offers plug-and-play 2–9-person cabins, with monthly-to-yearly terms. 
+awfis.com",cc5aba94fa7c73fe9c830e88,evidence/4175e1db6b88efaa824bbc93123bde9257159da02c4085a7716e8a3bfc0eeb9c.png,4175e1db6b88efaa824bbc93123bde9257159da02c4085a7716e8a3bfc0eeb9c
+f48da59d1069439cc0fe31b3,079da750b5fc40d86b111274,2026-09-23T02:33:26.851Z,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,DRIVEU MOBILITY SOLUTIONS PRIVATE LIMITED,Ad,answer_card,Coach At Your DoorStep,"From parking to city traffic, get doorstep coaching designed around your time and in your car.",Logistics,Fleet tracking,complete_panel,True,human_visual,"I am comparing GPS fleet tracking for 20 delivery vehicles in Ahmedabad. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For 20 delivery vehicles in Ahmedabad, these are three practical India-available offers. Prices are indicative/current published rates; hardware, GST and installation can change the final quote.
+
+Option	Price for 20 vehicles	Reliability / limitations	Purchase terms
+LocoNav	~₹8,000–16,000/month	Mature fleet platform, GPS + fuel/driver monitoring; exact hardware/support package varies	Usually quote-based; verify device warranty, installation and lock-in
+Fleetx	~₹8,000+/month software starting point	Strong route, geofence, ETA and fleet analytics; hardware may be separate	Demo/quote; verify hardware, SIM, installation and add-on charges
+TrackOlap	Quote-based; published plans support 20+ vehicles	Live tracking, alerts, trips, driver behaviour; basic plans have fewer features	7-day trial, quarterly billing; GST extra; upgrades allowed anytime, downgrades only after term 
+TrackOlap
+
+Market benchmark: basic GPS hardware is roughly ₹3,000–₹7,000/vehicle, with ₹200–₹600/vehicle/month typical for hardware + subscription. 
+Fleetx
++1
+
+Before paying: confirm Ahmedabad installation coverage, 4G/2G fallback, SIM/data ownership, 12/24/36-month total cost, replacement SLA, cancellation/early-exit fees, and whether hardware is AIS-140 certified if required.",854b7e266a94e88f47ea8bd1,evidence/d4fc736c771d6f616130e3cf56484d08ab2f76db23c9b2150cedd1b6c876578a.png,d4fc736c771d6f616130e3cf56484d08ab2f76db23c9b2150cedd1b6c876578a
+fb9cda1437a061e2de2cfa0e,66a279a697f61e35e659c521,2026-09-23T02:32:00.333Z,Trip.com/flights,Trip.com/flights,Sponsored,product_card,Kochi to Taipei flight tickets,,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare Trip.com/flights with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, the key difference is that Trip.com is primarily an OTA, while the alternatives provide a more structured corporate-travel programme.
+
+Provider	Current price	Exclusions / watch-outs	Best for
+Trip.com	No fixed corporate fee; flight fare + any applicable service fee at checkout	Airline fare rules still govern changes/refunds; corporate approvals, GST workflows and account-level management are less comprehensive than a TMC. 
+Trip.com
++1
+	Teams mainly wanting cheap/quick flight booking
+MakeMyTrip myBiz	Custom service fee agreed in contract + 1.5% payment-gateway fee on certain card/wallet payments	Service fee, GST and gateway charges; special fares have their own conditions. 
+MakeMyTrip
+	Indian SME, GST invoices, domestic travel and simple employee booking
+FCM Travel	Custom quote	Management/transaction fees, implementation and any offline/after-hours charges must be quoted	Companies wanting managed travel, policy, approvals and 24/7 human support. 
+FCM Travel
++1
+
+Corporate Traveller	Custom quote	Confirm transaction fees, after-hours support, implementation and credit terms	SME-focused managed travel, particularly if you want more human assistance than an OTA
+
+For a 50-person company, get all four to quote the same 12-month travel volume. Ask for the all-in cost including service fees, GST, cancellations, amendments, offline-agent support and implementation.",d922963a10af4f5da6dd66a3,evidence/c302c81b62983d9e8183b075a53eed9bab763e5ec1a7986043c698ff09ec146d.png,c302c81b62983d9e8183b075a53eed9bab763e5ec1a7986043c698ff09ec146d
 d6b40cd0f4b17deb86a2c1a3,c407bc00271de01d30095a60,2026-09-23T02:30:18.416Z,Trip.com/flights,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three current India options. Exact managed-service pricing is generally quote-based, so don’t treat a public “₹X/month” number as reliable.
 
 Option	Indicative total cost	Best fit	Verify before paying

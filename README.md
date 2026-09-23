@@ -65,6 +65,12 @@ stages. Filters expose sample strength, zero-ad categories, uncertainty, adverti
 competition score. Suggested next experiments remain tied to the visible sample size and 95%
 interval; they do not claim campaign spend, targeting, or market share.
 
+The Brand discovery view measures progress toward the library's 1,000-family research target. Its
+timeline uses the earliest observation timestamp among approved first-party placements. The view
+also reports 7-day and 30-day additions and lists the twenty most recently observed families.
+Reviewed aliases count once; displayed advertiser labels remain available for audit. The target and
+progress describe this evidence library, not the total number of active ChatGPT advertisers.
+
 `advertiser` is the exact displayed label captured in the paid card. `brand` is the reviewed
 canonical family. `brand_aliases` publishes every manual mapping, its observed advertiser key, and
 the review note. Brand-family counts are deduplicated; displayed-label counts remain available for
