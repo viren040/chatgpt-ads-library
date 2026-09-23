@@ -1,4 +1,20 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+72426b9ca5c8c0ce15a90e39,675a7ac1916edbd59d4fcd32,2026-09-23T03:09:08.405Z,Wikka Potions for Aromatherapy,Wikka Potions for Aromatherapy,Sponsored,product_card,Wikka Face Wash – 50 ml,,Beauty and personal care,Fragrance layering,complete_panel,True,deterministic_ocr,"I am comparing a fragrance-layering set with perfume and matching body products under ₹7,000. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently available India options under ₹7,000. 
+Nykaa
++1
+
+Option	Approx. cost	Switching difficulty	Practical trade-off
+Sol de Janeiro Bom Dia Jet Set	₹2,720	Low	Shower gel + body cream + fragrance mist; easiest true layering switch, but no full-size perfume. 
+Nykaa
+
+Nykaa Wanderlust French Lavender set	₹1,699	Low	Shower gel + lotion + mist + hand cream; inexpensive complete routine, but lighter fragrance performance. 
+Nykaa
+
+The Body Shop Black Musk Night Bloom Gift Box	₹4,095	Medium	More premium fragrance-led option; switching costs more and availability can vary. The Body Shop Black Musk Night Bloom Gift Box
+
+What makes switching difficult: all three are relatively easy because you replace the whole scent family rather than hunting for separately matching products. The main friction is re-buying multiple products when one runs out, especially if you prefer a particular perfume concentration.
+
+For lowest switching cost, Nykaa is the simplest. For a more substantial layering experience, Sol de Janeiro gives you the clearest ready-made system.",0fbf2cb0f2821afd1d4817b6,evidence/c263e85d8e5fbbf4531df879f4095fb1d642b3607b9c8606de4c6db0ab68e035.png,c263e85d8e5fbbf4531df879f4095fb1d642b3607b9c8606de4c6db0ab68e035
 e84d915a8bd2b9ffdc2d80ce,a7378f66ae5e3f6a984d6950,2026-09-23T02:56:17.872Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,deterministic_ocr,I am comparing coworking desks for a five-person team in Gurugram. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.5
 WeWork
 4.9
