@@ -89,6 +89,8 @@ the review note. Brand-family counts are deduplicated; displayed-label counts re
 audit and no captured advertiser text is rewritten.
 
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
+`traffic_lane` records the scheduler's breadth, promising, or adaptive assignment; legacy turns
+captured before lane provenance was introduced are labeled `unassigned`.
 It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,
 conversation branch, reviewed ad outcome, paid-unit count, creative count, and advertisers. It does
 not contain account slots, conversation URLs, answers, browser profiles, or credentials.

@@ -1,4 +1,19 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+177feb1e0d476b589a2acf1c,1020dda250a000a125d60dc7,2026-09-23T03:41:00.843Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,deterministic_ocr,"Make this more purchase-specific: for interior painting services for a two-bedroom flat in Hyderabad, name three currently available providers or products with prices and important limitations.","For a 2BHK interior repaint in Hyderabad, these are the most purchase-ready options I found:
+
+Provider	Current price	Important limitation
+Urban Company	₹22,499 furnished / ₹17,999 unfurnished	Furnished package covers 2 bedrooms, living room, kitchen + 2 bathrooms; 4-day estimate. 
+Urban Company
+
+Asian Paints Beautiful Homes	₹25,000–₹40,000 typical 2BHK repaint	Final quote requires site evaluation; wall condition, paint tier and preparation can materially change price. 
+Asian Paints
++1
+
+Berger Express Painting	Roughly ₹25,000–₹40,000 for a typical Hyderabad 2BHK	Exact price is quote-based; preparation, number of coats and wall repairs can add cost. Urban Company currently lists Berger interior paints from ₹12–₹17/sq ft. 
+Urban Company
+
+Purchase check: Get the quote to explicitly include putty, primer, number of coats, labour, furniture protection, cleanup, GST and touch-ups. Asian Paints' Hyderabad benchmark puts interior painting at ₹18–₹45/sq ft. 
+Asian Paints",6ddd29ff9464de2bdd360543,evidence/e9d96c6654d408d519e52c2b6e5341b7b58c7218e6a2206350e89f89c4146578.png,e9d96c6654d408d519e52c2b6e5341b7b58c7218e6a2206350e89f89c4146578
 0b594d8623a58f3226d5fbfe,0bfcd925ca9459093407b535,2026-09-23T03:35:24.810Z,Wikka Potions for Aromatherapy,Wikka Potions for Aromatherapy,Sponsored,product_card,Wikka Face Wash – 50 ml,,Beauty and personal care,Citrus perfume,complete_panel,True,deterministic_ocr,"I am comparing a fresh citrus fragrance for office and daytime use under ₹5,000. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a fresh citrus office/daytime fragrance under ₹5,000, these three stand out based on current India availability and pricing:
 
 Ajmal Blu Eau de Parfum
