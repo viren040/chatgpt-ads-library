@@ -1,4 +1,44 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+38f75e42af791be6e8cd598a,4ff384d9a480438dc59fdf22,2026-09-23T03:52:14.078Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,deterministic_ocr,"I am comparing interior painting services for a two-bedroom flat in Hyderabad. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","5.0
+Asian Paints Beautiful Homes Painting Service
+4.8
+AapkaPainter
+5.0
+PAINTING SERVICE HYDERABAD
+Expand
+Use two fingers to move the map
+Asian Paints Beautiful Homes Painting Service
+5.0
+•
+Painter
+Closed
+AapkaPainter
+4.8
+•
+Painter
+Open
+PAINTING SERVICE HYDERABAD
+5.0
+•
+Painter
+Open
+Give feedback
+
+For a 2BHK in Hyderabad, these are three offers worth pricing now. Exact totals depend on carpet/wall area and surface condition.
+
+Offer	Indicative total	Key terms to verify
+Asian Paints Beautiful Homes Painting Service	~₹35,000–₹50,000	Get itemised quote for putty, primer, coats, paint variant, masking and cleanup. Platinum includes a 1-year service warranty in Hyderabad. 
+Asian Paints
++1
+
+AapkaPainter	~₹25,000–₹45,000	Confirm brand/paint grade, number of coats, wall repairs, furniture protection, GST and final-price guarantee after inspection.
+PAINTING SERVICE HYDERABAD	~₹20,000–₹35,000	Confirm written scope, materials, prep work, drying time, completion date and defect touch-ups before paying.
+
+Benchmark: NoBroker currently quotes Hyderabad interiors at roughly ₹18–₹42/sq ft, while Urban Company lists a furnished 2BHK from ₹22,499 and an unfurnished 2BHK from ₹17,999. 
+NoBroker
++1
+
+Before paying: insist on a site-measured, itemised quote and milestone payments—not a large upfront amount.",6ddd29ff9464de2bdd360543,evidence/89538602d200697edce15df938039bbf9f67baff2e4cfe17111f616660c67044.png,89538602d200697edce15df938039bbf9f67baff2e4cfe17111f616660c67044
 177feb1e0d476b589a2acf1c,1020dda250a000a125d60dc7,2026-09-23T03:41:00.843Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,deterministic_ocr,"Make this more purchase-specific: for interior painting services for a two-bedroom flat in Hyderabad, name three currently available providers or products with prices and important limitations.","For a 2BHK interior repaint in Hyderabad, these are the most purchase-ready options I found:
 
 Provider	Current price	Important limitation
