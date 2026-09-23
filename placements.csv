@@ -1,4 +1,68 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+044c241a0dceb593b54c8cf2,cc9ce12847e5584b7da0e02d,2026-09-23T00:22:39.875Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three current options. Public pricing is limited, so treat the totals below as expected commercial cost, not quoted prices.
+
+Offer	Expected total cost	What to verify before paying
+MakeMyTrip myBiz	Booking cost + negotiated service fee; 1.5% extra if using its payment gateway	Service fee per booking, cancellation/reissue fees, credit terms, GST invoices, 24/7 escalation. 
+MakeMyTrip
++1
+
+EaseMyTrip EMTDesk	Custom quote; typically booking cost + negotiated fees	Dedicated account manager, after-hours support, amendment/cancellation charges, credit limit, employee-policy controls. 
+EaseMyTrip
+
+Thomas Cook India Corporate Travel	Custom quote; usually management/service fees + travel spend	Dedicated servicing team, SLA for emergencies, offline booking charges, credit terms, reporting/reconciliation, international support. 
+thomascook.in
+
+Purchase checklist: get a written all-in fee sheet, 30/60-day payment terms, cancellation/reissue tariff, SLA, GST treatment, and confirmation that all 50 employees can book under company policy.
+
+For a 50-person company, I’d request identical 12-month quotes from all three before choosing, because actual travel volume will dominate the headline service fee.",72292d55e9c327a435ee7df6,evidence/1010d5678a00cdec22bd1a03dc5c619c1a5ce9dc356258c418307d59232f08a3.png,1010d5678a00cdec22bd1a03dc5c619c1a5ce9dc356258c418307d59232f08a3
+f12396d12a09bf14a09bd592,d95070d52f1beeb7b3cab4fa,2026-09-23T00:20:44.553Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Make this more purchase-specific: for a managed business-travel service for a 50-person Indian company, name three currently available providers or products with prices and important limitations.","For a 50-person Indian company, I’d put these three into an RFP/quote round now. Public list pricing is limited, so where the provider does not publish a fixed fee, I’ve marked it quote-required rather than inventing a number.
+
+Provider / product	Price to budget	Important limitations
+MakeMyTrip myBiz	₹0 annual subscription; booking/service fees are contract-specific. A 1.5% payment-gateway fee applies to certain wallet/card repayments. 
+MakeMyTrip
++1
+	Airline/hotel cancellation rules still apply; GST-invoice availability varies by supplier. 
+MakeMyTrip
+
+FCM Travel India	Quote required; no public India tariff.	More comprehensive managed service, with 24/7 support, policy controls, reporting and duty-of-care tools. 
+FCM Travel
++1
+
+FCM Booking	Quote required as part of an FCM programme.	Designed for managed programmes; exact implementation, transaction and after-hours fees need contractual confirmation. 
+FCM Travel
++1
+
+Before signing: demand an all-in quote showing per-booking fee, annual/platform fee, GST, cancellation/reissue charges, after-hours support, credit terms and implementation cost.",9fed04488eafe9d99ddb5fc4,evidence/6a4f0157320ef327bf6383a159e8039f21a2fb0469621df09ee30824de47c5ba.png,6a4f0157320ef327bf6383a159e8039f21a2fb0469621df09ee30824de47c5ba
+c0504851462e7572826a76cb,c5542cc0a39f62f47909b7ae,2026-09-23T00:19:27.776Z,TwixAir LLC,Sponsored,product_card,Europe eSIM 36 Country - 30 Day 30GB,,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, these are three currently available options worth comparing:
+
+Service	Price	Reliability / strengths	Key limitations
+ITILITE	₹99/user/month Growth → ~₹4,950/month for 50 users	India-focused workflows, approvals, expense + travel, GST reconciliation at Enterprise	Dedicated support/account manager starts at higher tier; Enterprise pricing is custom 
+Itilite
+
+Offistrip	₹7,999/month Growth	Central booking, policies, approvals, dashboards and GST invoicing; no long-term lock-in	Smaller provider; confirm 24×7 human support and international coverage before signing 
+Offistrip
+
+FCM Travel	Custom quote	Large global TMC, 24×7 support, negotiated hotel/air rates, dedicated consultants and duty-of-care tooling	Pricing isn't public; likely more procurement/implementation effort than a lightweight platform 
+FCM Travel
++1
+
+Purchase terms to verify: per-booking/service fees, GST treatment, cancellation/change handling fees, after-hours support SLA, hotel/airline inventory, credit terms, implementation fees, and minimum contract period.
+
+For a 50-person company, ITILITE and Offistrip are the transparent-price options; FCM requires an RFP/quote.",fbfb9874c4c23b7557f74848,evidence/c9d469a79b06b235cee7fadf9c3469898858b4a3f76c90f924977d92e4fbbaa7.png,c9d469a79b06b235cee7fadf9c3469898858b4a3f76c90f924977d92e4fbbaa7
+d5a9311a1b501f437af8ba6b,de8a2544691fb04111936d1e,2026-09-23T00:16:16.816Z,Sony LIV,Ad,answer_card,Biggest Entertainment Debut,Watch Family Full House with Rohit Sharma on Sony LIV,Electronics,Wi-Fi routers,complete_panel,True,human_visual,I am comparing a mesh Wi-Fi system for a two-floor home in Pune. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a typical two-floor Pune home, I’d shortlist these three:
+
+System	Current price*	What differentiates it
+TP-Link Deco X55	~₹16,000 (2-pack)	Wi-Fi 6 AX3000, strong coverage, easy setup. Supports Ethernet backhaul. 
+TP-Link
+
+TP-Link Deco X50	~₹14,000 (2-pack)	Similar AX3000 performance for less; good balance for 500 Mbps–1 Gbps connections.
+ASUS ZenWiFi XD5	~₹20,000	Wi-Fi 6 AX3000 with ASUS AiMesh; more networking controls and customization.
+
+For two floors: start with a 2-pack, placing one node on each floor. If the floors are large or concrete walls are thick, consider a 3-pack.
+
+*Prices are current marketplace indications and can change. Indian availability/pricing varies by seller.
+
+Key distinction: X55 is the straightforward all-rounder; X50 is the value option; ASUS is more attractive if you want advanced network controls.",b0a348a7b88fca020f47f559,evidence/1a739c972aaac05c47774c0164d8a3fe0b753c4664a11809e8a73123e351483f.png,1a739c972aaac05c47774c0164d8a3fe0b753c4664a11809e8a73123e351483f
 4702c8583c5eb01f0d978e2c,05c1ee801537b1073a720694,2026-09-23T00:14:47.223Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",,Travel and leisure,Corporate travel,complete_panel,True,human_visual,Which option for a managed business-travel service for a 50-person Indian company offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"For a 50-person Indian company, I’d shortlist myBiz, Trip.Biz and Yatra Travel Pro, but the right choice depends heavily on how much travel is actually managed offline.
 
 Purchase-ready shortlist

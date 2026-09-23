@@ -1,6 +1,6 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-09-23T00:17:06Z",
+  "schema_version": 5,
+  "generated_at": "2026-09-23T00:24:33Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,24 +12,24 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 423,
-    "approved_paid_units": 214,
-    "approved_advertisers": 96,
-    "approved_creatives": 177,
+    "valid_turns": 435,
+    "approved_paid_units": 218,
+    "approved_advertisers": 97,
+    "approved_creatives": 179,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 101,
+    "complete_panel_paid_units": 105,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
     {
       "id": "f32a45d9b41719c39cfa21a4",
       "advertiser": "TwixAir LLC",
-      "placements": 19,
-      "creatives": 13,
-      "panel_placements": 15,
+      "placements": 21,
+      "creatives": 14,
+      "panel_placements": 17,
       "reviewed_snapshot_placements": 4,
       "first_seen": "2026-09-21T10:13:48.604Z",
-      "last_seen": "2026-09-23T00:14:47.223Z",
+      "last_seen": "2026-09-23T00:22:39.875Z",
       "categories": "Travel and leisure,Corporate travel,Honeymoon packages"
     },
     {
@@ -123,12 +123,12 @@
     {
       "id": "504ef25d14dd959439fe6a46",
       "advertiser": "Zoho Corporation",
-      "placements": 5,
+      "placements": 6,
       "creatives": 3,
-      "panel_placements": 4,
+      "panel_placements": 5,
       "reviewed_snapshot_placements": 1,
       "first_seen": "2026-09-11T21:27:39.421Z",
-      "last_seen": "2026-09-22T23:46:41.715Z",
+      "last_seen": "2026-09-23T00:20:44.553Z",
       "categories": "Help desk software,Corporate travel"
     },
     {
@@ -902,6 +902,17 @@
       "categories": "Corporate travel"
     },
     {
+      "id": "8f601d48517c6f00575021b0",
+      "advertiser": "Sony LIV",
+      "placements": 1,
+      "creatives": 1,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 0,
+      "first_seen": "2026-09-23T00:16:16.816Z",
+      "last_seen": "2026-09-23T00:16:16.816Z",
+      "categories": "Wi-Fi routers"
+    },
+    {
       "id": "91dd1e02491ad8d8a262cb31",
       "advertiser": "Soultheory",
       "placements": 1,
@@ -1081,41 +1092,41 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 423,
-    "ad_turns": 101,
-    "ad_rate": 0.23877068557919623,
-    "ad_rate_low": 0.2006079194988844,
-    "ad_rate_high": 0.28163561065375303,
-    "paid_units": 101,
+    "turns": 435,
+    "ad_turns": 105,
+    "ad_rate": 0.2413793103448276,
+    "ad_rate_low": 0.2035420290097815,
+    "ad_rate_high": 0.283744499888117,
+    "paid_units": 105,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 116,
+        "turns": 117,
         "ad_turns": 23,
         "paid_units": 23,
         "advertisers": 9,
         "creatives": 17,
-        "ad_rate": 0.19827586206896552,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.6918863237274595,
-        "ad_rate_low": 0.13591176378176467,
-        "ad_rate_high": 0.27998388514148065,
+        "ad_rate": 0.19658119658119658,
+        "posterior_ad_rate": 0.19834710743801653,
+        "competition_score": 0.6861682549363235,
+        "ad_rate_low": 0.1347153235282641,
+        "ad_rate_high": 0.2777386658263952,
         "evidence_strength": "established"
       },
       {
         "category": "Corporate travel",
         "industry": "Travel and leisure",
-        "turns": 80,
-        "ad_turns": 49,
-        "paid_units": 49,
+        "turns": 85,
+        "ad_turns": 52,
+        "paid_units": 52,
         "advertisers": 17,
-        "creatives": 30,
-        "ad_rate": 0.6125,
-        "posterior_ad_rate": 0.5952380952380952,
-        "competition_score": 2.5285282818116577,
-        "ad_rate_low": 0.5029345562232477,
-        "ad_rate_high": 0.711756003117223,
+        "creatives": 31,
+        "ad_rate": 0.611764705882353,
+        "posterior_ad_rate": 0.5955056179775281,
+        "competition_score": 2.5296646990169664,
+        "ad_rate_low": 0.505475154675872,
+        "ad_rate_high": 0.7083886208527093,
         "evidence_strength": "established"
       },
       {
@@ -1524,6 +1535,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Smartphones",
+        "industry": "Electronics",
+        "turns": 4,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.125,
+        "competition_score": 0.125,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.48990002040399916,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Solid perfume",
         "industry": "Beauty and personal care",
         "turns": 4,
@@ -1809,6 +1835,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "International shipping",
+        "industry": "Logistics",
+        "turns": 1,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.2,
+        "competition_score": 0.2,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.7934567085261071,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Luxury perfume gifts",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -1837,21 +1878,36 @@
         "ad_rate_low": 0.20654329147389294,
         "ad_rate_high": 1,
         "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Wi-Fi routers",
+        "industry": "Electronics",
+        "turns": 1,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 1.0,
+        "posterior_ad_rate": 0.4,
+        "competition_score": 0.6339850002884625,
+        "ad_rate_low": 0.20654329147389294,
+        "ad_rate_high": 1,
+        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 145,
-        "ad_turns": 40,
-        "paid_units": 40,
-        "advertisers": 20,
-        "ad_rate": 0.27586206896551724,
-        "posterior_ad_rate": 0.2751677852348993,
-        "competition_score": 1.2270919219069072,
-        "ad_rate_low": 0.20961008987731197,
-        "ad_rate_high": 0.3536840429457696,
+        "turns": 152,
+        "ad_turns": 43,
+        "paid_units": 43,
+        "advertisers": 21,
+        "ad_rate": 0.28289473684210525,
+        "posterior_ad_rate": 0.28205128205128205,
+        "competition_score": 1.2758764491442858,
+        "ad_rate_low": 0.21732821133276298,
+        "ad_rate_high": 0.3591648431533306,
         "evidence_strength": "established"
       },
       {
@@ -1871,15 +1927,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 102,
-        "ad_turns": 18,
-        "paid_units": 18,
-        "advertisers": 12,
-        "ad_rate": 0.17647058823529413,
-        "posterior_ad_rate": 0.1792452830188679,
-        "competition_score": 0.682450410557495,
-        "ad_rate_low": 0.11464223172099423,
-        "ad_rate_high": 0.26178442849578254,
+        "turns": 104,
+        "ad_turns": 19,
+        "paid_units": 19,
+        "advertisers": 13,
+        "ad_rate": 0.18269230769230768,
+        "posterior_ad_rate": 0.18518518518518517,
+        "competition_score": 0.7234982584460219,
+        "ad_rate_low": 0.12019329509173256,
+        "ad_rate_high": 0.2677979810020939,
         "evidence_strength": "established"
       },
       {
@@ -1899,15 +1955,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 80,
+        "turns": 81,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 6,
-        "ad_rate": 0.075,
-        "posterior_ad_rate": 0.08333333333333333,
-        "competition_score": 0.25,
-        "ad_rate_low": 0.03482477485108787,
-        "ad_rate_high": 0.15412200097380097,
+        "ad_rate": 0.07407407407407407,
+        "posterior_ad_rate": 0.08235294117647059,
+        "competition_score": 0.24705882352941178,
+        "ad_rate_low": 0.03438916189352608,
+        "ad_rate_high": 0.15233056050680582,
         "evidence_strength": "established"
       },
       {
@@ -1927,20 +1983,232 @@
       {
         "turn_index": 4,
         "branch": "zero_rescue",
-        "turns": 60,
+        "turns": 62,
         "ad_turns": 3,
         "paid_units": 3,
         "advertisers": 3,
-        "ad_rate": 0.05,
-        "posterior_ad_rate": 0.0625,
-        "competition_score": 0.14512050593046014,
-        "ad_rate_low": 0.01714919117914121,
-        "ad_rate_high": 0.13700734625099836,
+        "ad_rate": 0.04838709677419355,
+        "posterior_ad_rate": 0.06060606060606061,
+        "competition_score": 0.14072291484165833,
+        "ad_rate_low": 0.016591385000846108,
+        "ad_rate_high": 0.13288250384754152,
         "evidence_strength": "established"
       }
     ]
   },
   "ads": [
+    {
+      "id": "044c241a0dceb593b54c8cf2",
+      "turn_id": "cc9ce12847e5584b7da0e02d",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "72292d55e9c327a435ee7df6",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790123073.227239,
+      "captured_at": "2026-09-23T00:22:39.875Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, I’d shortlist these three current options. Public pricing is limited, so treat the totals below as expected commercial cost, not quoted prices.\n\nOffer\tExpected total cost\tWhat to verify before paying\nMakeMyTrip myBiz\tBooking cost + negotiated service fee; 1.5% extra if using its payment gateway\tService fee per booking, cancellation/reissue fees, credit terms, GST invoices, 24/7 escalation. \nMakeMyTrip\n+1\n\nEaseMyTrip EMTDesk\tCustom quote; typically booking cost + negotiated fees\tDedicated account manager, after-hours support, amendment/cancellation charges, credit limit, employee-policy controls. \nEaseMyTrip\n\nThomas Cook India Corporate Travel\tCustom quote; usually management/service fees + travel spend\tDedicated servicing team, SLA for emergencies, offline booking charges, credit terms, reporting/reconciliation, international support. \nthomascook.in\n\nPurchase checklist: get a written all-in fee sheet, 30/60-day payment terms, cancellation/reissue tariff, SLA, GST treatment, and confirmation that all 50 employees can book under company policy.\n\nFor a 50-person company, I’d request identical 12-month quotes from all three before choosing, because actual travel volume will dominate the headline service fee.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "1010d5678a00cdec22bd1a03dc5c619c1a5ce9dc356258c418307d59232f08a3",
+      "screenshot_relpath": "evidence/1010d5678a00cdec22bd1a03dc5c619c1a5ce9dc356258c418307d59232f08a3.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India"
+            ],
+            "text": "Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India\n\n₹1,989.00\n4.47\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000a0b0820cbaa2eb5cf2e23d08&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=f336018330c7cc588f86ceeee8d21bde021d7c544fbf89c5882754a765c5a764&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "f12396d12a09bf14a09bd592",
+      "turn_id": "d95070d52f1beeb7b3cab4fa",
+      "advertiser": "Zoho Corporation",
+      "advertiser_key": "504ef25d14dd959439fe6a46",
+      "creative_id": "9fed04488eafe9d99ddb5fc4",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Zoho Desk - Better Alternative",
+      "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790123073.227239,
+      "captured_at": "2026-09-23T00:20:44.553Z",
+      "prompt": "Make this more purchase-specific: for a managed business-travel service for a 50-person Indian company, name three currently available providers or products with prices and important limitations.",
+      "answer": "For a 50-person Indian company, I’d put these three into an RFP/quote round now. Public list pricing is limited, so where the provider does not publish a fixed fee, I’ve marked it quote-required rather than inventing a number.\n\nProvider / product\tPrice to budget\tImportant limitations\nMakeMyTrip myBiz\t₹0 annual subscription; booking/service fees are contract-specific. A 1.5% payment-gateway fee applies to certain wallet/card repayments. \nMakeMyTrip\n+1\n\tAirline/hotel cancellation rules still apply; GST-invoice availability varies by supplier. \nMakeMyTrip\n\nFCM Travel India\tQuote required; no public India tariff.\tMore comprehensive managed service, with 24/7 support, policy controls, reporting and duty-of-care tools. \nFCM Travel\n+1\n\nFCM Booking\tQuote required as part of an FCM programme.\tDesigned for managed programmes; exact implementation, transaction and after-hours fees need contractual confirmation. \nFCM Travel\n+1\n\nBefore signing: demand an all-in quote showing per-booking fee, annual/platform fee, GST, cancellation/reissue charges, after-hours support, credit terms and implementation cost.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "6a4f0157320ef327bf6383a159e8039f21a2fb0469621df09ee30824de47c5ba",
+      "screenshot_relpath": "evidence/6a4f0157320ef327bf6383a159e8039f21a2fb0469621df09ee30824de47c5ba.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Zoho Corporation",
+        "format": "answer_card",
+        "headline": "Zoho Desk - Better Alternative",
+        "description": "Compare Zoho Desk vs Zendesk - learn why you must switch",
+        "copy": [
+          "Zoho Corporation",
+          "Zoho Desk - Better Alternative",
+          "Compare Zoho Desk vs Zendesk - learn why you must switch"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Zoho Corporation",
+              "Zoho Desk - Better Alternative",
+              "Compare Zoho Desk vs Zendesk - learn why you must switch"
+            ],
+            "text": "Zoho Corporation\n\nZoho Desk - Better Alternative\n\nCompare Zoho Desk vs Zendesk - learn why you must switch",
+            "image_urls": [
+              "https://bzrcdn.openai.com/d993ad866e5541f5.png"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0504851462e7572826a76cb",
+      "turn_id": "c5542cc0a39f62f47909b7ae",
+      "advertiser": "TwixAir LLC",
+      "advertiser_key": "f32a45d9b41719c39cfa21a4",
+      "creative_id": "fbfb9874c4c23b7557f74848",
+      "label": "Sponsored",
+      "format": "product_card",
+      "headline": "Europe eSIM 36 Country - 30 Day 30GB",
+      "description": null,
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790123073.227239,
+      "captured_at": "2026-09-23T00:19:27.776Z",
+      "prompt": "I am comparing a managed business-travel service for a 50-person Indian company. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a 50-person Indian company, these are three currently available options worth comparing:\n\nService\tPrice\tReliability / strengths\tKey limitations\nITILITE\t₹99/user/month Growth → ~₹4,950/month for 50 users\tIndia-focused workflows, approvals, expense + travel, GST reconciliation at Enterprise\tDedicated support/account manager starts at higher tier; Enterprise pricing is custom \nItilite\n\nOffistrip\t₹7,999/month Growth\tCentral booking, policies, approvals, dashboards and GST invoicing; no long-term lock-in\tSmaller provider; confirm 24×7 human support and international coverage before signing \nOffistrip\n\nFCM Travel\tCustom quote\tLarge global TMC, 24×7 support, negotiated hotel/air rates, dedicated consultants and duty-of-care tooling\tPricing isn't public; likely more procurement/implementation effort than a lightweight platform \nFCM Travel\n+1\n\nPurchase terms to verify: per-booking/service fees, GST treatment, cancellation/change handling fees, after-hours support SLA, hotel/airline inventory, credit terms, implementation fees, and minimum contract period.\n\nFor a 50-person company, ITILITE and Offistrip are the transparent-price options; FCM requires an RFP/quote.",
+      "industry": "Travel and leisure",
+      "category": "Corporate travel",
+      "screenshot_sha256": "c9d469a79b06b235cee7fadf9c3469898858b4a3f76c90f924977d92e4fbbaa7",
+      "screenshot_relpath": "evidence/c9d469a79b06b235cee7fadf9c3469898858b4a3f76c90f924977d92e4fbbaa7.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "TwixAir LLC",
+        "format": "product_card",
+        "headline": "Europe eSIM 36 Country - 30 Day 30GB",
+        "description": null,
+        "copy": [
+          "TwixAir LLC",
+          "Europe eSIM 36 Country - 30 Day 30GB",
+          null
+        ],
+        "image_urls": [
+          "https://files.openai.com/content?id=file_00000000809481f7a47d8c70183f7906&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=0e3236cec4b89052ceb42567936f04676a74482c4bf2ce5d06830fc8cf602a44&v=0"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Europe eSIM 36 Country - 30 Day 30GB"
+            ],
+            "text": "Europe eSIM 36 Country - 30 Day 30GB\n\n₹1,989.00\n4.67\nTwixAir LLC",
+            "image_urls": [
+              "https://files.openai.com/content?id=file_00000000809481f7a47d8c70183f7906&cdn=1&cp=pi&ma=86400&ts=0&p=pi&cid=10&sig=0e3236cec4b89052ceb42567936f04676a74482c4bf2ce5d06830fc8cf602a44&v=0"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5a9311a1b501f437af8ba6b",
+      "turn_id": "de8a2544691fb04111936d1e",
+      "advertiser": "Sony LIV",
+      "advertiser_key": "8f601d48517c6f00575021b0",
+      "creative_id": "b0a348a7b88fca020f47f559",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Biggest Entertainment Debut",
+      "description": "Watch Family Full House with Rohit Sharma on Sony LIV",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad or Sponsored disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790123073.227239,
+      "captured_at": "2026-09-23T00:16:16.816Z",
+      "prompt": "I am comparing a mesh Wi-Fi system for a two-floor home in Pune. Suggest three suitable options and explain what differentiates them. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "For a typical two-floor Pune home, I’d shortlist these three:\n\nSystem\tCurrent price*\tWhat differentiates it\nTP-Link Deco X55\t~₹16,000 (2-pack)\tWi-Fi 6 AX3000, strong coverage, easy setup. Supports Ethernet backhaul. \nTP-Link\n\nTP-Link Deco X50\t~₹14,000 (2-pack)\tSimilar AX3000 performance for less; good balance for 500 Mbps–1 Gbps connections.\nASUS ZenWiFi XD5\t~₹20,000\tWi-Fi 6 AX3000 with ASUS AiMesh; more networking controls and customization.\n\nFor two floors: start with a 2-pack, placing one node on each floor. If the floors are large or concrete walls are thick, consider a 3-pack.\n\n*Prices are current marketplace indications and can change. Indian availability/pricing varies by seller.\n\nKey distinction: X55 is the straightforward all-rounder; X50 is the value option; ASUS is more attractive if you want advanced network controls.",
+      "industry": "Electronics",
+      "category": "Wi-Fi routers",
+      "screenshot_sha256": "1a739c972aaac05c47774c0164d8a3fe0b753c4664a11809e8a73123e351483f",
+      "screenshot_relpath": "evidence/1a739c972aaac05c47774c0164d8a3fe0b753c4664a11809e8a73123e351483f.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Sony LIV",
+        "format": "answer_card",
+        "headline": "Biggest Entertainment Debut",
+        "description": "Watch Family Full House with Rohit Sharma on Sony LIV",
+        "copy": [
+          "Sony LIV",
+          "Biggest Entertainment Debut",
+          "Watch Family Full House with Rohit Sharma on Sony LIV"
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/27e18f369056d188.jpg"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Sony LIV",
+              "Biggest Entertainment Debut",
+              "Watch Family Full House with Rohit Sharma on Sony LIV"
+            ],
+            "text": "Sony LIV\n\nBiggest Entertainment Debut\n\nWatch Family Full House with Rohit Sharma on Sony LIV",
+            "image_urls": [
+              "https://bzrcdn.openai.com/27e18f369056d188.jpg"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "4702c8583c5eb01f0d978e2c",
       "turn_id": "05c1ee801537b1073a720694",

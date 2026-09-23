@@ -42,9 +42,10 @@ not preserve the corresponding zero-ad turns. It remains searchable and is exclu
 denominator-based rate.
 
 Every placement also carries `review_method`. `human_visual` means a reviewer inspected that
-observation. `exact_screenshot_inheritance` means its screenshot bytes, advertiser, creative ID,
-disclosure, and format exactly matched a previously approved placement. Its review note identifies
-that source. Any changed pixel or metadata remains pending for human review.
+observation. `exact_visual_inheritance` means its screenshot bytes or decoded RGBA pixels,
+advertiser, creative ID, disclosure, and format exactly matched a previously approved placement.
+Its review note identifies that source. Lossless metadata or compression may differ; any changed
+decoded pixel or creative field remains pending for human review.
 
 The `category` and `industry` fields describe the prompt context in which the placement appeared.
 They do not classify the advertiser or creative. This meaning is also recorded in the
