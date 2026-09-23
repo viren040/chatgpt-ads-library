@@ -1,4 +1,72 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+64d1044b590975d51c39da5d,02814b4bfee956f273f92255,2026-09-23T08:44:05.211Z,MakeMyTrip Hotels,MakeMyTrip,Ad,answer_card,Top Rated Hotels In Delhi,"Find stays across Delhi on MakeMyTrip. Compare by price, ratings and location. Book now.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, these are three currently available managed-TMC options. Exact programme fees are quote-based, so I would not treat any published fare as the total programme cost.
+
+Provider	Current commercial offer	Cost to budget	Verify before paying
+MakeMyTrip myBiz
+	Corporate fares, GST invoices, expense tools; service fee negotiated in contract	Quote + GST; potentially 1.5% payment-gateway fee 
+MakeMyTrip
+	Service/transaction fees, cancellation/change charges, credit terms, GST-invoice coverage
+EaseMyTrip EMTDesk
+	Corporate fares, policy/approvals, expense management, dedicated 24/7 support 
+EaseMyTrip
+	Quote	Per-booking/management fees, refund timelines, credit limit, out-of-hours support
+Thomas Cook India Corporate Travel
+	Managed travel, self-booking, dedicated servicing/implant options, 24/7 emergency desk 
+Thomas Cook
+	Quote	Implementation/implant fee, transaction fees, SLA, cancellation/refund rules, minimum spend
+
+Before signing: request a 12-month all-in quote showing airfare/hotel + TMC fees + GST + amendment/refund fees + payment charges, plus SLA and credit terms.",003ea43c99413f7c358aa530,evidence/60e6fd25da6a5e8e6e86e923ee5b3518750c1485e45f81cca185cbd3714c253a.png,60e6fd25da6a5e8e6e86e923ee5b3518750c1485e45f81cca185cbd3714c253a
+a17e7a37a00573dade284383,4a2afee1eca1169dcf37a62a,2026-09-23T08:24:35.825Z,MakeMyTrip Hotels,MakeMyTrip,Ad,answer_card,Top Rated Hotels In Goa,Find beach resorts and hotels in Goa on MakeMyTrip.,Travel and leisure,Vacation rentals,complete_panel,True,human_visual,I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 2-bedroom serviced stay for 4 adults in Goa, these are practical current choices:
+
+Option	Indicative cost/night*	Switching difficulty	Key limitation
+Alaya Stays Veera Marina, Candolim	~₹6,598 incl. taxes	Low	2 queen beds; cancellation window varies
+Sol Stays Duplex 2BHK, Siolim	~₹5,925 incl. taxes	Low–medium	Plunge-pool property; farther from central beaches
+Expedia serviced-apartment inventory	~₹2,600–₹5,100+	Low	Property quality and cancellation terms vary significantly
+
+Alaya and Sol are bookable as entire 2-bedroom serviced apartments sleeping four; current listed rates are from Goibibo and can change by date. 
+Goibibo
++1
+ Expedia currently shows several Goa serviced-apartment options, including 2-bedroom inventory. 
+expedia
+
+Switching: moving between platform-listed properties is usually straightforward: cancel subject to the property's policy, then rebook. Direct villa operators can require more coordination and deposits, making switching harder.
+
+*Rates shown are current indicative listings, not guaranteed for your dates.",fcb53b83368e0d7ca5114eb4,evidence/ac3354dc34186d7a1db4d6719e3d198931c698ed5608984cb1c485523c4bebe2.png,ac3354dc34186d7a1db4d6719e3d198931c698ed5608984cb1c485523c4bebe2
+d82ece1c8160c368f21a2a65,d5416a0bd0cc1a0cfedb1376,2026-09-23T08:13:11.472Z,trivago,trivago,Ad,answer_card,Cheap Hotels in Goa,"Good Goa rates, save up to 55%",Travel and leisure,Vacation rentals,complete_panel,True,human_visual,"I am comparing a serviced two-bedroom vacation rental in Goa for four adults. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","5.0
+Alaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa
+4.7
+El Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season
+4.8
+Hireavilla - Luxury villas in Goa
+Expand
+Use two fingers to move the map
+Alaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa
+5.0
+•
+Villa
+El Rocio by The Blue Kite | Stay in Luxury Apartment in Assagao to Plan Your Perfect Staycation this Holiday Season
+4.7
+•
+Holiday apartment rental
+Hireavilla - Luxury villas in Goa
+4.8
+•
+Villa
+Open
+Give feedback
+
+Here are three currently listed Goa 2-bedroom serviced-rental options. Prices are indicative because your dates weren’t specified.
+
+Option	Indicative price	Reliability / limitations	Purchase terms
+Alaya Stays by ELIVAAS Veera Marina - Pool Apartment in Goa	₹5,816/night + ₹782 taxes	4.69/5 on Goibibo; sleeps 4; ~1.9 km from Candolim Beach. 
+Goibibo
+	Free cancellation shown until the stated deadline; verify final taxes/deposit.
+El Rocio by The Blue Kite	Quote required	4.7/5 from 82 reviews; serviced 2BHK with pool, kitchen and housekeeping.	Confirm cancellation, security deposit and meal/housekeeping inclusions before paying.
+Hireavilla - Luxury villas in Goa	Example: Venus 2BHK ₹11,930/night; ₹21,039 total shown	2 bedrooms, sleeps 5; private/communal-pool configuration varies. 
+expedia
+	Selected rates offer free cancellation; check exact property's policy and fees.
+
+Practical shortlist: verify the exact dates, total after taxes, security deposit, housekeeping frequency, and cancellation deadline before payment.",b4f61f3183c564c5ab0ed0d4,evidence/039ccc708141a2aad7301e187d0490e4de30eee95b2211113088d03781f31346.png,039ccc708141a2aad7301e187d0490e4de30eee95b2211113088d03781f31346
 166d71bcfab383482c86d86a,9fd35f344a9a786b559b4e69,2026-09-23T04:30:15.723Z,Duke & D’Or,Duke & D’Or,Ad,answer_card,Try It Zero Risk. Full Price Back.,Try all 3 scents for ₹599. Love one? Get the full price back on your full-size bottle.,Beauty and personal care,Citrus perfume,complete_panel,True,deterministic_ocr,"I am comparing a fresh citrus fragrance for office and daytime use under ₹5,000. Compare three available offers on price, reliability, important limitations, and purchase terms. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently listed India options under ₹5,000. Prices can move with sales.
 
 Fragrance	Current price	Reliability	Important limitation
