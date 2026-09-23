@@ -65,6 +65,13 @@ stages. Filters expose sample strength, zero-ad categories, uncertainty, adverti
 competition score. Suggested next experiments remain tied to the visible sample size and 95%
 interval; they do not claim campaign spend, targeting, or market share.
 
+`prompt_allocation` turns those observations into an exact next-run plan: 20% breadth, 20%
+promising-signal validation, and 60% adaptive conversation work. Its per-category integer counts
+sum to 50,000. Travel, hotel, flight, perfume, fragrance, and beauty retain a 3× focus multiplier.
+Categories with at least 20 complete-panel turns and no approved paid placement receive zero new
+volume and appear in `eliminated_categories`. The Prompt Lab displays the 30 largest allocations;
+the JSON download contains the complete plan.
+
 The Brand discovery view measures progress toward the library's 1,000-family research target. Its
 timeline uses the earliest observation timestamp among approved first-party placements. The view
 also reports 7-day and 30-day additions and lists the twenty most recently observed families.
