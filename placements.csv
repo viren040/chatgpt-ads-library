@@ -1,4 +1,27 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+08660e18377c9b6e64c92a4f,2c40278d6a2b89bd64b858a9,2026-09-23T01:53:32.635Z,Trip.com/flights,Trip.com/flights,Sponsored,product_card,Bengaluru to Qingdao flight tickets,,Travel and leisure,Honeymoon packages,complete_panel,True,human_visual,Which option for a seven-day honeymoon package from India to Bali with flights and transfers offers the best value today? Give a purchase-ready shortlist with exact trade-offs and terms to verify before paying.,"Based on currently published September 2026 prices, I’d use Desh Pardesh as the price benchmark, but not book it blindly because its ₹58,999/person price excludes flights. A realistic 7-day honeymoon including flights is roughly ₹1.6–2.5 lakh for two. 
+Desh Pardesh Holidays
++1
+
+Purchase-ready shortlist
+Option	Approx. total for 2	Trade-off	Verify before paying
+Desh Pardesh Honeymoon Special	₹1.73–2.03L	₹1,17,998 land package + ~₹55–85k flights. Private transfers, pool villa, Nusa Penida, floating breakfast & romantic dinner. 
+Desh Pardesh Holidays
++1
+	Airfare/baggage, GST/TCS, entry fees, meal exclusions. Cancellation: full refund minus ₹2,000 ≥30 days; 50% at 15–29 days; 25% at 7–14; none <7 days. 
+Desh Pardesh Holidays
+
+Thrillophilia	~₹1.6–2.4L	Broad choice of honeymoon itineraries; flights + airport transfers available. 
+Thrillophilia
++1
+	Exact hotel, flight/baggage, private vs shared transfers, cancellation/refund schedule.
+Veena World	Quote required	More structured/customized option; multiple Indian departure cities. 
+Veena World
+	Whether airfare, insurance, GST/TCS and transfers are included in the specific quote.
+
+My purchase benchmark: target ≤₹2 lakh for two, with return flights, 6 nights, private transfers, breakfast and at least one genuinely honeymoon-specific experience included.
+
+Before paying, get the final invoice—not just the headline package price—showing flights, baggage, hotel names/room category, transfers, taxes/TCS, visa/levy, cancellation penalties and emergency support.",31c5769a3ad226420bd0712d,evidence/6a2abb4fb825275a96922a4b28e1a153988a69cad07d5415086832566c9e1b17.png,6a2abb4fb825275a96922a4b28e1a153988a69cad07d5415086832566c9e1b17
 8081753de36824b5971d2e73,520bcefb50fdfb96f26fa2af,2026-09-23T01:53:12.897Z,Leela Diamonds,Leela Diamonds,Sponsored,product_card,0.5ct Kite Lab Grown Diamond F VS1 Report B5802EFB13 | Leela Diamonds,,Travel and leisure,Honeymoon packages,complete_panel,True,human_visual,"Make this more purchase-specific: for a seven-day honeymoon package from India to Bali with flights and transfers, name three currently available providers or products with prices and important limitations.","Here are three currently listed India-market choices. Prices are advertised starting rates, so confirm the exact departure city/date and flight inventory before paying.
 
 Provider / package	Advertised price	Important limitations
