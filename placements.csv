@@ -1,4 +1,13 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+c25bc27967b5fb8c622ed357,0aeeb7b5476f6731ba6a78fe,2026-09-23T00:56:05.308Z,Sing Tehus,Ad,answer_card,Premium tea gifts - giftboxes and kits,Tea gifts from Sing Tehus - explore the curated selection.,Food and beverage,Tea subscriptions,complete_panel,True,human_visual,"I am comparing an Indian loose-leaf tea subscription delivered to Delhi. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","I couldn’t verify three currently active subscription offers with reliable live pricing from the available results, so I’d avoid inventing totals. The closest current loose-leaf options I could verify are:
+
+Karma Kettle Discover India Tea Gift Box — ₹2,700. Check whether repeat delivery/subscription is actually offered; verify Delhi shipping and cancellation.
+
+Golden Tips Darjeeling/Earl Grey/Green Tea Combo — ₹1,625. Verify whether it can be converted to recurring delivery, shipping charges, and replacement/refund policy.
+
+Octavius Combo of 3 Whole Leaf Indian Teas — ₹1,099. Verify subscription availability, delivery frequency, Delhi shipping, and cancellation terms.
+
+Before paying: confirm GST/shipping in the final cart, renewal frequency and price, whether cancellation is self-serve, refund eligibility for unopened tea, delivery SLA to Delhi, and customer-support contact details.",0d5b0c7bf98a332e4f47e431,evidence/8283df5b3ef8a973e5c0867098fc9dff69b83bf41a399c64361836352db05936.png,8283df5b3ef8a973e5c0867098fc9dff69b83bf41a399c64361836352db05936
 e0efd02e3f696e0ba34a5819,69685a757d63c26bb89057cd,2026-09-23T00:48:33.806Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - eSIM, 28 Days, 28GB Data, 150 minutes Local + India Calls, Direct Dial to India [eSIM]",,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d compare these four on total cost of ownership, not just airfare. Public corporate pricing is limited, so where providers quote individually, I’ve marked it as custom rather than inventing a number.
 
 Provider	Fees / total cost	Cancellation & refunds	“Warranty” / protection	Support

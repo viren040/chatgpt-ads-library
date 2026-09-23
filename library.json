@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-23T00:53:09Z",
+  "generated_at": "2026-09-23T00:57:21Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,12 +12,12 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 478,
-    "approved_paid_units": 231,
+    "valid_turns": 486,
+    "approved_paid_units": 232,
     "approved_advertisers": 99,
-    "approved_creatives": 184,
+    "approved_creatives": 185,
     "inherited_review_paid_units": 0,
-    "complete_panel_paid_units": 118,
+    "complete_panel_paid_units": 119,
     "reviewed_positive_only_paid_units": 113
   },
   "advertisers": [
@@ -361,6 +361,17 @@
       "first_seen": "2026-09-22T12:42:29.823Z",
       "last_seen": "2026-09-23T00:48:02.229Z",
       "categories": "Beauty and personal care,Fragrance layering"
+    },
+    {
+      "id": "01ced6b4e04aee735b3e426e",
+      "advertiser": "Sing Tehus",
+      "placements": 2,
+      "creatives": 2,
+      "panel_placements": 1,
+      "reviewed_snapshot_placements": 1,
+      "first_seen": "2026-09-22T08:09:52.994Z",
+      "last_seen": "2026-09-23T00:56:05.308Z",
+      "categories": "Beauty and personal care,Tea subscriptions"
     },
     {
       "id": "76833d0b5fca68bedf0ced48",
@@ -902,17 +913,6 @@
       "categories": "Fashion and accessories"
     },
     {
-      "id": "01ced6b4e04aee735b3e426e",
-      "advertiser": "Sing Tehus",
-      "placements": 1,
-      "creatives": 1,
-      "panel_placements": 0,
-      "reviewed_snapshot_placements": 1,
-      "first_seen": "2026-09-22T08:09:52.994Z",
-      "last_seen": "2026-09-22T08:09:52.994Z",
-      "categories": "Beauty and personal care"
-    },
-    {
       "id": "27d076bebb847ad0d0623c1f",
       "advertiser": "Sonetel AB",
       "placements": 1,
@@ -1114,12 +1114,12 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 478,
-    "ad_turns": 118,
-    "ad_rate": 0.24686192468619247,
-    "ad_rate_low": 0.21032659944106555,
-    "ad_rate_high": 0.2874336603621561,
-    "paid_units": 118,
+    "turns": 486,
+    "ad_turns": 119,
+    "ad_rate": 0.2448559670781893,
+    "ad_rate_low": 0.20872427201537197,
+    "ad_rate_high": 0.2849896142695005,
+    "paid_units": 119,
     "categories": [
       {
         "category": "Vacation rentals",
@@ -1857,6 +1857,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Tea subscriptions",
+        "industry": "Food and beverage",
+        "turns": 3,
+        "ad_turns": 2,
+        "paid_units": 2,
+        "advertisers": 2,
+        "creatives": 2,
+        "ad_rate": 0.6666666666666666,
+        "posterior_ad_rate": 0.42857142857142855,
+        "competition_score": 0.8571428571428571,
+        "ad_rate_low": 0.2076549551264879,
+        "ad_rate_high": 0.9385096847238394,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Train booking",
         "industry": "Travel and leisure",
         "turns": 3,
@@ -1902,6 +1917,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Wi-Fi routers",
+        "industry": "Electronics",
+        "turns": 3,
+        "ad_turns": 1,
+        "paid_units": 1,
+        "advertisers": 1,
+        "creatives": 1,
+        "ad_rate": 0.3333333333333333,
+        "posterior_ad_rate": 0.2857142857142857,
+        "competition_score": 0.45284642877747316,
+        "ad_rate_low": 0.0614903152761605,
+        "ad_rate_high": 0.7923450448735121,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Body mists",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -1929,6 +1959,21 @@
         "competition_score": 0.5283208335737186,
         "ad_rate_low": 0.09452865480086614,
         "ad_rate_high": 0.9054713451991339,
+        "evidence_strength": "exploratory"
+      },
+      {
+        "category": "Drip irrigation",
+        "industry": "Agriculture",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
         "evidence_strength": "exploratory"
       },
       {
@@ -1962,6 +2007,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Tablets",
+        "industry": "Electronics",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Car rentals",
         "industry": "Travel and leisure",
         "turns": 1,
@@ -1975,51 +2035,21 @@
         "ad_rate_low": 0,
         "ad_rate_high": 0.7934567085261071,
         "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Tea subscriptions",
-        "industry": "Food and beverage",
-        "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
-        "ad_rate_high": 1,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Wi-Fi routers",
-        "industry": "Electronics",
-        "turns": 1,
-        "ad_turns": 1,
-        "paid_units": 1,
-        "advertisers": 1,
-        "creatives": 1,
-        "ad_rate": 1.0,
-        "posterior_ad_rate": 0.4,
-        "competition_score": 0.6339850002884625,
-        "ad_rate_low": 0.20654329147389294,
-        "ad_rate_high": 1,
-        "evidence_strength": "exploratory"
       }
     ],
     "stages": [
       {
         "turn_index": 1,
         "branch": "seed",
-        "turns": 169,
-        "ad_turns": 49,
-        "paid_units": 49,
-        "advertisers": 23,
-        "ad_rate": 0.28994082840236685,
-        "posterior_ad_rate": 0.28901734104046245,
-        "competition_score": 1.342154968142984,
-        "ad_rate_low": 0.22680398526679724,
-        "ad_rate_high": 0.3624152767627141,
+        "turns": 174,
+        "ad_turns": 50,
+        "paid_units": 50,
+        "advertisers": 24,
+        "ad_rate": 0.28735632183908044,
+        "posterior_ad_rate": 0.28651685393258425,
+        "competition_score": 1.3467552001415486,
+        "ad_rate_low": 0.22528140970277455,
+        "ad_rate_high": 0.3586179704197614,
         "evidence_strength": "established"
       },
       {
@@ -2039,15 +2069,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 114,
+        "turns": 117,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.16666666666666666,
-        "posterior_ad_rate": 0.1694915254237288,
-        "competition_score": 0.6621848467133082,
-        "ad_rate_low": 0.1093729979154317,
-        "ad_rate_high": 0.24569346418284255,
+        "ad_rate": 0.1623931623931624,
+        "posterior_ad_rate": 0.1652892561983471,
+        "competition_score": 0.6457670405964494,
+        "ad_rate_low": 0.10649722549629985,
+        "ad_rate_high": 0.23975439646170138,
         "evidence_strength": "established"
       },
       {
@@ -2109,6 +2139,60 @@
     ]
   },
   "ads": [
+    {
+      "id": "c25bc27967b5fb8c622ed357",
+      "turn_id": "0aeeb7b5476f6731ba6a78fe",
+      "advertiser": "Sing Tehus",
+      "advertiser_key": "01ced6b4e04aee735b3e426e",
+      "creative_id": "0d5b0c7bf98a332e4f47e431",
+      "label": "Ad",
+      "format": "answer_card",
+      "headline": "Premium tea gifts - giftboxes and kits",
+      "description": "Tea gifts from Sing Tehus - explore the curated selection.",
+      "position_index": 1,
+      "review_state": "approved",
+      "review_note": "Visual review: current paid card clearly shows Ad disclosure and matching displayed advertiser.",
+      "reviewed_at": 1790125041.476583,
+      "captured_at": "2026-09-23T00:56:05.308Z",
+      "prompt": "I am comparing an Indian loose-leaf tea subscription delivered to Delhi. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.",
+      "answer": "I couldn’t verify three currently active subscription offers with reliable live pricing from the available results, so I’d avoid inventing totals. The closest current loose-leaf options I could verify are:\n\nKarma Kettle Discover India Tea Gift Box — ₹2,700. Check whether repeat delivery/subscription is actually offered; verify Delhi shipping and cancellation.\n\nGolden Tips Darjeeling/Earl Grey/Green Tea Combo — ₹1,625. Verify whether it can be converted to recurring delivery, shipping charges, and replacement/refund policy.\n\nOctavius Combo of 3 Whole Leaf Indian Teas — ₹1,099. Verify subscription availability, delivery frequency, Delhi shipping, and cancellation terms.\n\nBefore paying: confirm GST/shipping in the final cart, renewal frequency and price, whether cancellation is self-serve, refund eligibility for unopened tea, delivery SLA to Delhi, and customer-support contact details.",
+      "industry": "Food and beverage",
+      "category": "Tea subscriptions",
+      "screenshot_sha256": "8283df5b3ef8a973e5c0867098fc9dff69b83bf41a399c64361836352db05936",
+      "screenshot_relpath": "evidence/8283df5b3ef8a973e5c0867098fc9dff69b83bf41a399c64361836352db05936.png",
+      "evidence_design": "complete_panel",
+      "rate_eligible": true,
+      "review_method": "human_visual",
+      "creative": {
+        "advertiser": "Sing Tehus",
+        "format": "answer_card",
+        "headline": "Premium tea gifts - giftboxes and kits",
+        "description": "Tea gifts from Sing Tehus - explore the curated selection.",
+        "copy": [
+          "Sing Tehus",
+          "Premium tea gifts - giftboxes and kits",
+          "Tea gifts from Sing Tehus - explore the curated selection."
+        ],
+        "image_urls": [
+          "https://bzrcdn.openai.com/tessera/885a46266808595282c05d0a278a0102.webp"
+        ],
+        "destination_url": null,
+        "items": [
+          {
+            "copy": [
+              "Sing Tehus",
+              "Premium tea gifts - giftboxes and kits",
+              "Tea gifts from Sing Tehus - explore the curated selection."
+            ],
+            "text": "Sing Tehus\n\nPremium tea gifts - giftboxes and kits\n\nTea gifts from Sing Tehus - explore the curated selection.",
+            "image_urls": [
+              "https://bzrcdn.openai.com/tessera/885a46266808595282c05d0a278a0102.webp"
+            ],
+            "destination_url": null
+          }
+        ]
+      }
+    },
     {
       "id": "e0efd02e3f696e0ba34a5819",
       "turn_id": "69685a757d63c26bb89057cd",
