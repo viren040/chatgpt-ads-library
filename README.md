@@ -65,6 +65,11 @@ stages. Filters expose sample strength, zero-ad categories, uncertainty, adverti
 competition score. Suggested next experiments remain tied to the visible sample size and 95%
 interval; they do not claim campaign spend, targeting, or market share.
 
+`advertiser` is the exact displayed label captured in the paid card. `brand` is the reviewed
+canonical family. `brand_aliases` publishes every manual mapping, its observed advertiser key, and
+the review note. Brand-family counts are deduplicated; displayed-label counts remain available for
+audit and no captured advertiser text is rewritten.
+
 `prompt-observations.csv` contains one row per settled complete-panel turn, including zero-ad turns.
 It records the generated prompt, prompt category, cohort, pseudonymous conversation ID, turn index,
 conversation branch, reviewed ad outcome, paid-unit count, creative count, and advertisers. It does
