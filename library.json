@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-09-23T00:57:21Z",
+  "schema_version": 4,
+  "generated_at": "2026-09-23T00:58:00Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
