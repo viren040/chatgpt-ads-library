@@ -1,6 +1,6 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-09-23T00:24:33Z",
+  "schema_version": 4,
+  "generated_at": "2026-09-23T00:27:37Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -12,7 +12,7 @@
     "ads.review_method": "visual_review_provenance"
   },
   "stats": {
-    "valid_turns": 435,
+    "valid_turns": 438,
     "approved_paid_units": 218,
     "approved_advertisers": 97,
     "approved_creatives": 179,
@@ -1092,26 +1092,26 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 435,
+    "turns": 438,
     "ad_turns": 105,
-    "ad_rate": 0.2413793103448276,
-    "ad_rate_low": 0.2035420290097815,
-    "ad_rate_high": 0.283744499888117,
+    "ad_rate": 0.23972602739726026,
+    "ad_rate_low": 0.20211716668585133,
+    "ad_rate_high": 0.2818608018893123,
     "paid_units": 105,
     "categories": [
       {
         "category": "Vacation rentals",
         "industry": "Travel and leisure",
-        "turns": 117,
+        "turns": 118,
         "ad_turns": 23,
         "paid_units": 23,
         "advertisers": 9,
         "creatives": 17,
-        "ad_rate": 0.19658119658119658,
-        "posterior_ad_rate": 0.19834710743801653,
-        "competition_score": 0.6861682549363235,
-        "ad_rate_low": 0.1347153235282641,
-        "ad_rate_high": 0.2777386658263952,
+        "ad_rate": 0.19491525423728814,
+        "posterior_ad_rate": 0.19672131147540983,
+        "competition_score": 0.680543924977829,
+        "ad_rate_low": 0.13353979782234554,
+        "ad_rate_high": 0.27552902596197765,
         "evidence_strength": "established"
       },
       {
@@ -1715,6 +1715,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "International shipping",
+        "industry": "Logistics",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Rose perfume",
         "industry": "Beauty and personal care",
         "turns": 3,
@@ -1835,21 +1850,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "International shipping",
-        "industry": "Logistics",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Luxury perfume gifts",
         "industry": "Beauty and personal care",
         "turns": 1,
@@ -1927,15 +1927,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 104,
+        "turns": 106,
         "ad_turns": 19,
         "paid_units": 19,
         "advertisers": 13,
-        "ad_rate": 0.18269230769230768,
-        "posterior_ad_rate": 0.18518518518518517,
-        "competition_score": 0.7234982584460219,
-        "ad_rate_low": 0.12019329509173256,
-        "ad_rate_high": 0.2677979810020939,
+        "ad_rate": 0.1792452830188679,
+        "posterior_ad_rate": 0.18181818181818182,
+        "competition_score": 0.7103437446560943,
+        "ad_rate_low": 0.11786105495852325,
+        "ad_rate_high": 0.26306566133111564,
         "evidence_strength": "established"
       },
       {
@@ -1955,15 +1955,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 81,
+        "turns": 82,
         "ad_turns": 6,
         "paid_units": 6,
         "advertisers": 6,
-        "ad_rate": 0.07407407407407407,
-        "posterior_ad_rate": 0.08235294117647059,
-        "competition_score": 0.24705882352941178,
-        "ad_rate_low": 0.03438916189352608,
-        "ad_rate_high": 0.15233056050680582,
+        "ad_rate": 0.07317073170731707,
+        "posterior_ad_rate": 0.08139534883720931,
+        "competition_score": 0.24418604651162792,
+        "ad_rate_low": 0.03396431451476119,
+        "ad_rate_high": 0.15058024197067243,
         "evidence_strength": "established"
       },
       {
