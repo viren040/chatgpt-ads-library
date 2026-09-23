@@ -1,4 +1,43 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+df7d7062eefefbf350d59cd5,526e464a89f842dbc2c8bcab,2026-09-23T03:12:07.899Z,Birla Opus,Birla Opus,Ad,answer_card,Upgrade Your Walls with PaintCraft,Home Painting Done Right,Home improvement,Paint services,complete_panel,True,deterministic_ocr,I am comparing interior painting services for a two-bedroom flat in Hyderabad. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"5.0
+Asian Paints Beautiful Homes Painting Service
+4.8
+AapkaPainter
+5.0
+PAINTING SERVICE HYDERABAD
+Expand
+Use two fingers to move the map
+Asian Paints Beautiful Homes Painting Service
+5.0
+•
+Painter
+Closed
+AapkaPainter
+4.8
+•
+Painter
+Closed
+PAINTING SERVICE HYDERABAD
+5.0
+•
+Painter
+Open
+Give feedback
+
+For a typical 2BHK interior repaint in Hyderabad, exact quotes depend heavily on carpet area, wall condition, paint grade and prep work. These three currently available options illustrate different switching costs:
+
+Provider	Cost position*	Switching difficulty
+Asian Paints Beautiful Homes Painting Service	Quote-based; includes labour + materials. ₹250 refundable inspection fee. 
+Asian Paints
++1
+	Low–medium: managed inspection, supervision and colour consultation make handover straightforward.
+AapkaPainter	Quote-based; typically bundles prep/application rather than selling labour alone.	Medium: changing provider mainly means another site inspection and reconfirming prep/material specifications.
+PAINTING SERVICE HYDERABAD	Local-contractor pricing; request a written 2BHK quote.	Medium–high: potentially cheaper/flexible, but you must verify paint brand, coats, putty/primer, masking and cleanup yourself.
+
+*Public sources do not provide comparable fixed 2BHK prices, so avoid treating online “per-sq-ft” figures as final quotes. Berger Express Painting is another organized alternative, offering supervised work, accurate quotations and protective covering. 
+bergerpaints.com
+
+Switching tip: get all three quotes using the same scope—surface preparation, number of coats, paint SKU, labour, furniture protection, cleanup and timeline—so switching is essentially a price comparison rather than a scope renegotiation.",6ddd29ff9464de2bdd360543,evidence/33062b5868738b2390e519f067f1bc79ee3586e2eda8296e571c35adc9a3708d.png,33062b5868738b2390e519f067f1bc79ee3586e2eda8296e571c35adc9a3708d
 72426b9ca5c8c0ce15a90e39,675a7ac1916edbd59d4fcd32,2026-09-23T03:09:08.405Z,Wikka Potions for Aromatherapy,Wikka Potions for Aromatherapy,Sponsored,product_card,Wikka Face Wash – 50 ml,,Beauty and personal care,Fragrance layering,complete_panel,True,deterministic_ocr,"I am comparing a fragrance-layering set with perfume and matching body products under ₹7,000. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","Here are three currently available India options under ₹7,000. 
 Nykaa
 +1
