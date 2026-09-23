@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-09-23T01:55:25Z",
+  "generated_at": "2026-09-23T01:58:31Z",
   "evidence_scope": "visually_reviewed_first_party_observations",
   "field_semantics": {
     "ads.category": "prompt_category",
@@ -14,7 +14,7 @@
     "ads.brand": "reviewed_canonical_brand_family"
   },
   "stats": {
-    "valid_turns": 573,
+    "valid_turns": 576,
     "approved_paid_units": 248,
     "approved_advertisers": 100,
     "approved_brand_families": 100,
@@ -1358,11 +1358,11 @@
   "experiment": {
     "scope": "complete_shard_observations_only",
     "excludes": "positive_only_reviewed_library_migration",
-    "turns": 573,
+    "turns": 576,
     "ad_turns": 135,
-    "ad_rate": 0.2356020942408377,
-    "ad_rate_low": 0.20268621194429876,
-    "ad_rate_high": 0.2720396053337894,
+    "ad_rate": 0.234375,
+    "ad_rate_low": 0.20161012542676413,
+    "ad_rate_high": 0.27065954270329073,
     "paid_units": 135,
     "categories": [
       {
@@ -1456,6 +1456,21 @@
         "evidence_strength": "directional"
       },
       {
+        "category": "Rose perfume",
+        "industry": "Beauty and personal care",
+        "turns": 8,
+        "ad_turns": 3,
+        "paid_units": 3,
+        "advertisers": 2,
+        "creatives": 3,
+        "ad_rate": 0.375,
+        "posterior_ad_rate": 0.3333333333333333,
+        "competition_score": 0.6666666666666666,
+        "ad_rate_low": 0.13684175946152105,
+        "ad_rate_high": 0.6942621454161981,
+        "evidence_strength": "directional"
+      },
+      {
         "category": "Scented candles",
         "industry": "Beauty and personal care",
         "turns": 8,
@@ -1513,21 +1528,6 @@
         "competition_score": 0.09090909090909091,
         "ad_rate_low": 0,
         "ad_rate_high": 0.35433884297520657,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Rose perfume",
-        "industry": "Beauty and personal care",
-        "turns": 7,
-        "ad_turns": 3,
-        "paid_units": 3,
-        "advertisers": 2,
-        "creatives": 3,
-        "ad_rate": 0.42857142857142855,
-        "posterior_ad_rate": 0.36363636363636365,
-        "competition_score": 0.7272727272727273,
-        "ad_rate_low": 0.15821692226262685,
-        "ad_rate_high": 0.7495457695909742,
         "evidence_strength": "exploratory"
       },
       {
@@ -2191,6 +2191,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Coffee beans",
+        "industry": "Food and beverage",
+        "turns": 3,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.14285714285714285,
+        "competition_score": 0.14285714285714285,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.5615060804490177,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Drip irrigation",
         "industry": "Agriculture",
         "turns": 3,
@@ -2446,21 +2461,6 @@
         "evidence_strength": "exploratory"
       },
       {
-        "category": "Coffee beans",
-        "industry": "Food and beverage",
-        "turns": 2,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.16666666666666666,
-        "competition_score": 0.16666666666666666,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.6576280471103807,
-        "evidence_strength": "exploratory"
-      },
-      {
         "category": "Commercial refrigeration",
         "industry": "Industrial supplies",
         "turns": 2,
@@ -2491,6 +2491,21 @@
         "evidence_strength": "exploratory"
       },
       {
+        "category": "Healthy snacks",
+        "industry": "Food and beverage",
+        "turns": 2,
+        "ad_turns": 0,
+        "paid_units": 0,
+        "advertisers": 0,
+        "creatives": 0,
+        "ad_rate": 0.0,
+        "posterior_ad_rate": 0.16666666666666666,
+        "competition_score": 0.16666666666666666,
+        "ad_rate_low": 0,
+        "ad_rate_high": 0.6576280471103807,
+        "evidence_strength": "exploratory"
+      },
+      {
         "category": "Premium deodorant",
         "industry": "Beauty and personal care",
         "turns": 2,
@@ -2508,21 +2523,6 @@
       {
         "category": "Car rentals",
         "industry": "Travel and leisure",
-        "turns": 1,
-        "ad_turns": 0,
-        "paid_units": 0,
-        "advertisers": 0,
-        "creatives": 0,
-        "ad_rate": 0.0,
-        "posterior_ad_rate": 0.2,
-        "competition_score": 0.2,
-        "ad_rate_low": 0,
-        "ad_rate_high": 0.7934567085261071,
-        "evidence_strength": "exploratory"
-      },
-      {
-        "category": "Healthy snacks",
-        "industry": "Food and beverage",
         "turns": 1,
         "ad_turns": 0,
         "paid_units": 0,
@@ -2568,15 +2568,15 @@
       {
         "turn_index": 2,
         "branch": "zero_rescue",
-        "turns": 141,
+        "turns": 142,
         "ad_turns": 21,
         "paid_units": 21,
         "advertisers": 14,
-        "ad_rate": 0.14893617021276595,
-        "posterior_ad_rate": 0.15172413793103448,
-        "competition_score": 0.6068965517241379,
-        "ad_rate_low": 0.09952282862708753,
-        "ad_rate_high": 0.21697188007538468,
+        "ad_rate": 0.14788732394366197,
+        "posterior_ad_rate": 0.1506849315068493,
+        "competition_score": 0.6027397260273972,
+        "ad_rate_low": 0.09880632994575239,
+        "ad_rate_high": 0.21551825234078315,
         "evidence_strength": "established"
       },
       {
@@ -2596,15 +2596,15 @@
       {
         "turn_index": 3,
         "branch": "zero_rescue",
-        "turns": 109,
+        "turns": 111,
         "ad_turns": 8,
         "paid_units": 8,
         "advertisers": 8,
-        "ad_rate": 0.07339449541284404,
-        "posterior_ad_rate": 0.07964601769911504,
-        "competition_score": 0.26457834384058637,
-        "ad_rate_low": 0.03765663179125689,
-        "ad_rate_high": 0.1381792301603638,
+        "ad_rate": 0.07207207207207207,
+        "posterior_ad_rate": 0.0782608695652174,
+        "competition_score": 0.259976981339011,
+        "ad_rate_low": 0.036969641416109034,
+        "ad_rate_high": 0.1358039876521032,
         "evidence_strength": "established"
       },
       {
