@@ -45,7 +45,10 @@ Every placement also carries `review_method`. `human_visual` means a reviewer in
 observation. `exact_visual_inheritance` means its screenshot bytes or decoded RGBA pixels,
 advertiser, creative ID, disclosure, and format exactly matched a previously approved placement.
 Its review note identifies that source. Lossless metadata or compression may differ; any changed
-decoded pixel or creative field remains pending for human review.
+decoded pixel or creative field prevents exact inheritance. `deterministic_ocr` means a known
+advertiser's immutable screenshot passed positioned paid-disclosure checks plus advertiser and
+headline thresholds. New advertisers, ambiguous formats, and low-confidence OCR remain pending for
+human review. OCR verification never rejects evidence.
 
 The `category` and `industry` fields describe the prompt context in which the placement appeared.
 They do not classify the advertiser or creative. This meaning is also recorded in the

@@ -1,4 +1,63 @@
 placement_id,turn_id,captured_at,advertiser,brand,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+e84d915a8bd2b9ffdc2d80ce,a7378f66ae5e3f6a984d6950,2026-09-23T02:56:17.872Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,human_visual,I am comparing coworking desks for a five-person team in Gurugram. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.5
+WeWork
+4.9
+Awfis Woco One
+4.4
+Smartworks RK Four Square
+Expand
+Use two fingers to move the map
+WeWork
+4.5
+•
+Coworking space
+Closed
+Awfis Woco One
+4.9
+•
+Coworking space
+Closed
+Smartworks RK Four Square
+4.4
+•
+Coworking space
+Give feedback
+
+For a 5-person team in Gurugram, these are three practical options currently available:
+
+Provider	Indicative cost	5-person monthly cost	Switching difficulty
+WeWork BlueOne Square	₹20,000/desk	₹1.0L	Low
+Awfis Woco One	₹22,000/desk	₹1.1L	Low–medium
+Smartworks RK Four Square	Quote required	TBD	Medium
+
+WeWork's ₹20,000 rate is a current promotional private-office rate; Awfis lists ₹22,000/month and says the displayed amount includes first-month billing + security deposit. 
+WeWork India
++1
+
+Switching practicality: all three are plug-and-play, so physical relocation is straightforward. The friction is mainly deposit lock-in, notice period, GST/invoicing, seat allocation, IT/network setup and moving monitors/storage.
+
+For a 5-person startup, I'd get written quotes from all three with 12-month vs monthly pricing, deposit, notice period and meeting-room credits before deciding.",cc5aba94fa7c73fe9c830e88,evidence/71f4dc97be9761044f1f88a3acfe97fa146038f07f6a3f01f78d1e35609eeb14.png,71f4dc97be9761044f1f88a3acfe97fa146038f07f6a3f01f78d1e35609eeb14
+529e0983a8ed2d3a59ab55ac,e99a4a9d471edcc060aa5519,2026-09-23T02:51:41.619Z,Nexxbase Marketing Pvt. Ltd,Nexxbase Marketing Pvt. Ltd,Ad,answer_card,Noise Jr. Explorer 2 Kids Smartwatch,Your kid's safety guranteed with location tracking and video calling in Noise Explorer 2,Logistics,Fleet tracking,complete_panel,True,human_visual,"Narrow this to high-intent choices for GPS fleet tracking for 20 delivery vehicles in Ahmedabad. Compare named brands, total cost, availability, returns or cancellation, and support.","For 20 delivery vehicles in Ahmedabad, I’d narrow the purchase shortlist to these three:
+
+Provider	Indicative 20-vehicle cost	Availability & support	Key limitation
+LocoNav	₹45,680 for 20 Ride devices at ₹2,284 each*	Pan-India installation/support; AIS-140 options available. 
+LocoNav
++1
+	Fleet-management pricing is quote-based; confirm whether subscription is included.
+WheelsEye	₹75,520 for 20 wired units at ₹3,776 each	Pan-India technician network; 24/7 assistance; 1-year app/data plan included. 
+Wheelseye Shop
++1
+	Some online products currently show out-of-stock; confirm 20-unit Ahmedabad deployment. 
+Wheelseye Shop
+
+iTriangle	~₹70k–₹140k hardware + service, based on published market range	Established telematics provider; AIS-140 hardware. 
+Traxium
+	Exact commercial quote required; 12-month hardware warranty, with transport/service-centre costs potentially yours. 
+wiki.itriangle.in
+
+*LocoNav's published product price; verify current fleet quote.
+
+Before paying: get written installation cost, annual subscription/data fees, replacement SLA, cancellation/refund terms and Ahmedabad on-site support.",0b73410fdc5b0d5d3a3a8593,evidence/9dd2f05984749fc0d3de344dab2ab9636a593f50abcb0c0477d0365e402df104.png,9dd2f05984749fc0d3de344dab2ab9636a593f50abcb0c0477d0365e402df104
 0f08a3b3d10973a9ff0597c7,42de934437c4bd847e644bab,2026-09-23T02:45:09.589Z,Nestle Professional,Nestle Professional,Ad,answer_card,Office Coffee Vending Machines,Explore Nescafe machines designed for coffee lovers,Real estate services,Coworking,complete_panel,True,human_visual,I am comparing coworking desks for a five-person team in Gurugram. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"4.4
 Awfis Unitech Cyber Park
 4.1
