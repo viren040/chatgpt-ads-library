@@ -1,4 +1,115 @@
 placement_id,turn_id,captured_at,advertiser,label,format,headline,description,industry,category,evidence_design,rate_eligible,review_method,prompt,answer,creative_id,screenshot_relpath,screenshot_sha256
+3e5c8d82855b28530e17404c,e25b649bf73b7ab69a1d7571,2026-09-23T00:35:13.458Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, switching costs are mostly implementation, data migration, traveller retraining and contract exit costs rather than a published subscription price. All three below currently operate in India.
+
+Provider	Cost visibility	Switching effort	Main practical friction
+Cleartrip OOO
+	No subscription/extra platform fee publicly stated; booking costs are quote/transaction dependent. 
+OOO by Cleartrip
+	Low–medium	Reconfigure policies, approvals, GST/reporting and employee profiles.
+Thomas Cook India Corporate Travel
+	Custom quotation	Medium	More service-model configuration; dedicated staff, booking tools and 24/7 support may require implementation work. 
+Thomas Cook
+
+FCM Travel India
+	Custom enterprise quotation	Medium–high	Integrations, policy configuration, reporting and expense-system connections can make migration more involved. 
+FCM Travel
+
+Bottom line: Cleartrip presents the simplest publicly documented commercial model; Thomas Cook and FCM are more bespoke. Before switching, obtain each provider's implementation fee, per-booking/service fees in ₹, minimum contract term, termination notice, data-export rights and migration support—these aren't publicly standardized.",9fed04488eafe9d99ddb5fc4,evidence/af49b460b77bac7202a23b617b0ccb2cbb0ac797f0a6e88c0087ea7226d7101d.png,af49b460b77bac7202a23b617b0ccb2cbb0ac797f0a6e88c0087ea7226d7101d
+eb0a9f47a39f9b7ae5ff8909,f42206108f6c1a8c00f499ca,2026-09-23T00:33:59.033Z,COWBERRY Industries Pvt Ltd,Sponsored,product_card,Organic CTC Black Tea - 500 gm,,Food and beverage,Tea subscriptions,complete_panel,True,human_visual,I am comparing an Indian loose-leaf tea subscription delivered to Delhi. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For Delhi delivery, switching is relatively easy because these are generally month-to-month or recurring online orders rather than long contracts. Current India options I could verify:
+
+Provider	Typical cost	Switching difficulty	Key difference
+Dorje Teas	~₹399/100g	Low	Monthly or quarterly subscriptions; easy to change tea/plan. 
+Dorje Teas
+
+Makaibari	Varies by box	Low–Medium	3/6/12-month delivery options; pause/cancel by email. 
+Makaibari Tea
+
+Kadambri	₹150–₹175/100g	Very low	Loose-leaf Assam/Darjeeling; more economical, but less subscription-focused. 
+Kadambri Teas
+
+Practical switching cost: usually ₹0 in cancellation fees, but check whether a prepaid plan is refundable and whether the next shipment has already been processed.
+
+For someone in Delhi, the main switching friction is finding an equivalent tea/quantity, not logistics. Dorje is the clearest subscription-style option; Kadambri is easiest if you want maximum flexibility rather than a formal subscription.",803aba0bfb6858dccfadf32e,evidence/7f81f7334cd9d58749ec6c4c7d0aa4a09ceb84b890113d69bd26a77a2281a79c.png,7f81f7334cd9d58749ec6c4c7d0aa4a09ceb84b890113d69bd26a77a2281a79c
+04b7350ec3fae8bafaa600c9,6d0d9e950f75655dff530069,2026-09-23T00:29:13.685Z,MMT IF,Ad,answer_card,Delhi to Bangkok Flight,"Book Delhi to Bangkok Flight Ticket. Upto ₹ 5,000 OFF",Travel and leisure,Corporate travel,complete_panel,True,human_visual,I am comparing a managed business-travel service for a 50-person Indian company. Compare the cost and practical difficulty of switching between three providers or products. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.,"For a 50-person Indian company, switching difficulty depends more on implementation and support model than headline pricing. Public enterprise pricing is mostly quote-based, so treat fees below as commercial terms to negotiate, not published tariffs.
+
+Provider	Cost model	Switching difficulty
+MakeMyTrip myBiz	Custom service fee; potentially 1.5% payment-gateway fee in some payment flows	Low — self-serve setup, employee upload, policies and dashboard; migration can be relatively quick. 
+MakeMyTrip
++1
+
+Thomas Cook India Corporate Travel	Quote-based TMC/transaction pricing	Medium–High — implementation, approval workflows, reporting and dedicated servicing create more migration work, but it supports end-to-end travel. 
+Thomas Cook
+
+FCM Travel India	Bespoke enterprise programme/transaction pricing	High — more programme configuration and integration, but broader managed-service capabilities and 24/7 assistance. 
+FCM Travel
++1
+
+Practical switching cost: budget 1–4 weeks for a 50-person migration, mainly for employee data, travel-policy configuration, payment/GST setup, approvals and traveller onboarding.
+
+For a smaller company, the key negotiation point is zero/low implementation fee + no lock-in + export of traveller/booking data on exit.",6d3057adf4b40a63f7ec7363,evidence/ca5d01c0daa7dbbeaf1dc00b42cec5a25123b9e11f950b3397e615adbcc2415b.png,ca5d01c0daa7dbbeaf1dc00b42cec5a25123b9e11f950b3397e615adbcc2415b
+b4aae047f70f2f4549691098,d9e39e41d310fef927b04551,2026-09-23T00:26:00.925Z,Zoho Corporation,Ad,answer_card,Zoho Desk - Better Alternative,Compare Zoho Desk vs Zendesk - learn why you must switch,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Go deeper on the total cost of buying a managed business-travel service for a 50-person Indian company. Compare fees, cancellation or return terms, warranty, and support across the strongest options.","For a 50-person Indian company, I’d separate managed business travel from ordinary online travel booking. On that basis, TwixAir is not really comparable: its current public offering is primarily travel eSIM/connectivity, not a documented corporate travel-management platform. 
+TwixAir
++1
+
+Provider	Total cost structure	Cancellation / refund	Warranty / SLA	Support
+TwixAir LLC	No published corporate-TMC fee; public eSIM prices roughly $10–$140	Product-specific; not a corporate travel cancellation framework	No published corporate warranty/SLA	24×6, Mon–Sat 
+TwixAir
+
+MakeMyTrip myBiz	Travel spend + negotiated service fee; 1.5% gateway fee can apply to certain wallet/card payments	Airline/hotel rules apply; MMT service/convenience fees can be non-refundable	Contract-specific; platform is provided largely “as-is” 
+MakeMyTrip
++1
+	Corporate platform + modifications; special fares can include free cancellation/date changes 
+MakeMyTrip Biz
+
+EaseMyTrip EMTDesk	Custom corporate pricing; no public fixed fee	Supplier/airline cancellation charges + EMT service/convenience fees; convenience fee generally non-refundable	No publicly stated corporate warranty; 24/7 support	Admin controls, expense management, 24/7 support 
+EaseMyTrip
++1
+
+Thomas Cook India Corporate Travel	Custom contract/service fee + travel spend	Contract + airline/hotel supplier rules	Strongest published enterprise-style service framework; dedicated emergency desk	24×7 emergency desk, GST reconciliation, expense tools, dedicated servicing 
+Thomas Cook
+What I'd put into the RFP
+
+For a 50-person company, don't compare only the booking fee. Ask each provider for an all-in 12-month quote covering:
+
+Booking/service fee per domestic flight, international flight and hotel.
+
+Cancellation + reissue fee on top of airline charges.
+
+Emergency/night/weekend assistance charges.
+
+Credit period and security deposit.
+
+GST invoice/reconciliation.
+
+Employee travel-policy enforcement.
+
+SLA for urgent cancellation/rebooking.
+
+Refund turnaround.
+
+Exit/termination fees.
+
+Important: I would not pay TwixAir as a managed-TMC provider until it supplies a corporate proposal demonstrating those capabilities. Its publicly visible offering doesn't currently establish that it competes with myBiz, EMTDesk or Thomas Cook's corporate-travel operations. 
+TwixAir
++1",9fed04488eafe9d99ddb5fc4,evidence/0dd542dae9a827fd8fa180fd5823aa7a1086c5e62ebdc1d14a0ae21932d7474c.png,0dd542dae9a827fd8fa180fd5823aa7a1086c5e62ebdc1d14a0ae21932d7474c
+0842750154bd446d99895593,92711104dda9cb299999a18f,2026-09-23T00:24:19.221Z,Trip.com/flights,Ad,answer_card,Great Deals to Xiamen with Trip.com,"More airlines, more choices, great fares. Book your Xiamen flight today.",Travel and leisure,Corporate travel,complete_panel,True,human_visual,"Compare TwixAir LLC with three direct alternatives for a managed business-travel service for a 50-person Indian company. Include current price, exclusions, and who each is best for.","For a 50-person Indian company, the main issue is that TwixAir does not appear to publish a corporate managed-travel price or a clearly documented India-focused TMC offering. Its public site currently highlights leisure travel/eSIM products, while its contact page lists US/UK numbers and 24×6 support. 
+TwixAir
++1
+
+Provider	Current price	Exclusions / caveats	Best fit
+TwixAir LLC	Custom quote	No public corporate fee card; India servicing, GST, SLAs and credit terms need confirmation	Only if its quote includes strong dedicated servicing
+MakeMyTrip myBiz	Custom service fee; additional 1.5% payment-gateway fee in specified payment flows	Supplier cancellation rules still apply; GST-invoice coverage varies	50-person company wanting self-serve + expense controls 
+MakeMyTrip Biz
++1
+
+EaseMyTrip EMTDesk	Custom quote	Fees and credit terms aren't publicly posted	SME needing 24/7 support, policy controls and centralised booking 
+EaseMyTrip
+
+Thomas Cook India	Custom contract	Pricing/servicing fees negotiated	Company wanting a traditional TMC, offline support, visas/forex/MICE and 24×7 emergency desk 
+Thomas Cook
++1
+
+Before paying: demand an all-in 12-month quote covering booking fees, cancellation/reissue, GST, credit terms, SLA, emergency support and after-hours charges.",3ef4ecc7fb3e5cccf7573aa3,evidence/bc96aa0a5ca186a3e4366ad3182a4fc4dedd49fd6bca7492fc7fdb858147abc7.png,bc96aa0a5ca186a3e4366ad3182a4fc4dedd49fd6bca7492fc7fdb858147abc7
 044c241a0dceb593b54c8cf2,cc9ce12847e5584b7da0e02d,2026-09-23T00:22:39.875Z,TwixAir LLC,Sponsored,product_card,"Unlimited Europe SIM Card - Physical, 30 Days, 20GB Data, Unlimited Local Calls, 30 minutes Direct Dial to India",,Travel and leisure,Corporate travel,complete_panel,True,human_visual,"I am comparing a managed business-travel service for a 50-person Indian company. Recommend three offers to shortlist now, including total cost and the terms to verify before paying. Focus on options currently available in India. Keep the answer under 180 words; use Indian rupees where relevant.","For a 50-person Indian company, I’d shortlist these three current options. Public pricing is limited, so treat the totals below as expected commercial cost, not quoted prices.
 
 Offer	Expected total cost	What to verify before paying
