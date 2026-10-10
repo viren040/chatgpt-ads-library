@@ -1,5 +1,5 @@
 category,industry,turns,ad_turns,ad_rate,ad_rate_low,ad_rate_high,advertisers,creatives,competition_score,evidence_strength
-Corporate travel,Travel and leisure,156,74,0.47435897435897434,0.397560583326565,0.5523898676198717,19,39,2.058898791927544,established
+Corporate travel,Travel and leisure,157,74,0.4713375796178344,0.39487335343585284,0.5491709734049646,19,39,2.0461106006733356,established
 Honeymoon packages,Travel and leisure,9,6,0.6666666666666666,0.35419734749908977,0.879418401317257,4,4,1.3919028850036994,directional
 Intercity buses,Travel and leisure,29,13,0.4482758620689655,0.2841291114874579,0.6245233293193238,5,8,1.19099905784262,established
 Luxury perfume gifts,Beauty and personal care,9,4,0.4444444444444444,0.188775429471914,0.7333526542559703,4,4,0.9942163464312139,directional
@@ -35,7 +35,6 @@ Home inspection,Real estate services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714
 Pest control,Home improvement,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Podcast equipment,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Printers,Electronics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
-Printing services,Creative services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Tablets,Electronics,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Trademark support,Business services,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Water pumps,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
@@ -78,6 +77,7 @@ Packaging materials,Industrial supplies,4,0,0.0,0,0.48990002040399916,0,0,0.125,
 Perfume discovery sets,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Power tools,Industrial supplies,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Premium deodorant,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Printing services,Creative services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Product photography,Creative services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Smartphones,Electronics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Soil testing,Agriculture,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
