@@ -1,11 +1,11 @@
 category,industry,turns,ad_turns,ad_rate,ad_rate_low,ad_rate_high,advertisers,creatives,competition_score,evidence_strength
-Corporate travel,Travel and leisure,155,74,0.4774193548387097,0.40028508869414914,0.5556458513114916,19,39,2.0718478409333776,established
+Corporate travel,Travel and leisure,156,74,0.47435897435897434,0.397560583326565,0.5523898676198717,19,39,2.058898791927544,established
 Honeymoon packages,Travel and leisure,9,6,0.6666666666666666,0.35419734749908977,0.879418401317257,4,4,1.3919028850036994,directional
 Intercity buses,Travel and leisure,29,13,0.4482758620689655,0.2841291114874579,0.6245233293193238,5,8,1.19099905784262,established
 Luxury perfume gifts,Beauty and personal care,9,4,0.4444444444444444,0.188775429471914,0.7333526542559703,4,4,0.9942163464312139,directional
 Citrus perfume,Beauty and personal care,11,4,0.36363636363636365,0.15166223614131383,0.6462032231083628,3,3,0.7739760316291207,directional
 Fragrance layering,Beauty and personal care,8,3,0.375,0.13684175946152105,0.6942621454161981,3,3,0.7739760316291207,directional
-Vacation rentals,Travel and leisure,141,26,0.18439716312056736,0.12905789113836175,0.25647775607901224,7,18,0.5902618968202926,established
+Vacation rentals,Travel and leisure,144,26,0.18055555555555555,0.1262985801362023,0.2514137822841178,7,18,0.5782971286415028,established
 Paint services,Home improvement,33,9,0.2727272727272727,0.15067272656322814,0.44217883254386814,2,4,0.5405405405405406,established
 Fleet tracking,Logistics,8,2,0.25,0.07147768885802763,0.5907301208974108,2,2,0.5,directional
 Coworking,Real estate services,12,4,0.3333333333333333,0.13811783989736134,0.609382412602386,1,1,0.4953007814753613,directional
@@ -27,7 +27,6 @@ Sensitive-skin fragrance,Beauty and personal care,8,1,0.125,0.02241690886329617,
 Wi-Fi routers,Electronics,13,1,0.07692307692307693,0.013710066379696295,0.3331453392824736,1,1,0.18646617655543013,directional
 Air conditioners,Home improvement,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Car accessories,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
-Commercial refrigeration,Industrial supplies,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Drip irrigation,Agriculture,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Electric scooters,Automotive,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
 Farm tools,Agriculture,3,0,0.0,0,0.5615060804490177,0,0,0.14285714285714285,exploratory
@@ -49,6 +48,7 @@ Car fragrance,Beauty and personal care,4,0,0.0,0,0.48990002040399916,0,0,0.125,e
 Car tyres,Automotive,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Coffee beans,Food and beverage,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Cold-chain delivery,Logistics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
+Commercial refrigeration,Industrial supplies,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Company incorporation,Business services,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Courier aggregation,Logistics,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory
 Cruise holidays,Travel and leisure,4,0,0.0,0,0.48990002040399916,0,0,0.125,exploratory

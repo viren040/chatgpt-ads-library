@@ -1,25 +1,25 @@
 # ChatGPT Ads research report
 
-Generated from the verified first-party library at 2026-09-23T09:25:00Z. Rates use complete-panel observations, including both ad and zero-ad outcomes. Positive-only reviewed migrations contribute to the advertiser directory but not appearance rates.
+Generated from the verified first-party library at 2026-10-10T14:55:37Z. Rates use complete-panel observations, including both ad and zero-ad outcomes. Positive-only reviewed migrations contribute to the advertiser directory but not appearance rates.
 
 ## Current evidence
 
 - **104** approved advertiser families and **106** displayed advertiser labels
 - **279** approved paid placements across **206** creative variants
-- **166 of 896** complete-panel turns contained an approved paid placement (18.5%)
+- **166 of 901** complete-panel turns contained an approved paid placement (18.4%)
 - **166** rate-eligible placements and **113** reviewed positive-only placements
 
 ## What worked
 
 | Prompt category | Turns | Ad turns | Rate | Advertisers | Evidence |
 |---|---:|---:|---:|---:|---|
-| Corporate travel | 155 | 74 | 47.7% | 19 | established |
+| Corporate travel | 156 | 74 | 47.4% | 19 | established |
 | Honeymoon packages | 9 | 6 | 66.7% | 4 | directional |
 | Intercity buses | 29 | 13 | 44.8% | 5 | established |
 | Luxury perfume gifts | 9 | 4 | 44.4% | 4 | directional |
 | Citrus perfume | 11 | 4 | 36.4% | 3 | directional |
 | Fragrance layering | 8 | 3 | 37.5% | 3 | directional |
-| Vacation rentals | 141 | 26 | 18.4% | 7 | established |
+| Vacation rentals | 144 | 26 | 18.1% | 7 | established |
 | Paint services | 33 | 9 | 27.3% | 2 | established |
 | Fleet tracking | 8 | 2 | 25.0% | 2 | directional |
 | Coworking | 12 | 4 | 33.3% | 1 | directional |
@@ -30,7 +30,7 @@ After a paid placement appeared, deeper turns retained a placement in 51 of 53 t
 
 ## What did not work
 
-A more purchase-specific follow-up rescued 38 of 485 prior zero-ad turns (7.8%). The yield fell with depth, so zero-ad conversations should receive one follow-up before capacity returns to breadth.
+A more purchase-specific follow-up rescued 38 of 487 prior zero-ad turns (7.8%). The yield fell with depth, so zero-ad conversations should receive one follow-up before capacity returns to breadth.
 
 Mature zero-signal categories currently excluded from the next evidence-led allocation: **None yet**.
 
